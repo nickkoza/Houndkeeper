@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_rug_in_baseline.py",
+  "entries": [
+    {
+      "name": "_nights",
+      "witness": "88b819867cd62588",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_rug_appearing_is_still_available_as_its_own_test",
+      "witness": "04a41f625aa363ab",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_rug_is_in_the_baseline",
+      "witness": "c5dd95abb2e5ba64",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

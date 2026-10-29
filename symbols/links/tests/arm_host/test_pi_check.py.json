@@ -1,0 +1,403 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_pi_check.py",
+  "entries": [
+    {
+      "name": "_entry",
+      "witness": "d6424c916bc9cefd",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_release",
+      "witness": "6d9d140e9a2ad614",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_report",
+      "witness": "0cf70176fd6dcd35",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ok",
+      "witness": "a0f6f46b49b9d601",
+      "links": [
+        {
+          "id": "Uyb",
+          "kind": "asserted",
+          "artifact": "83107db048fef84c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_killed_service_is_back_as_a_new_process",
+      "witness": "7d761a24f66ecb02",
+      "links": [
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_password_login_is_refused_before_any_password_is_asked",
+      "witness": "62ed79e91a36c460",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_after_a_cut_the_host_runs_a_whole_known_good_release",
+      "witness": "7523dd8f39955f96",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_each_profile_service_runs_as_the_service_user",
+      "witness": "401848a99d47990d",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_profile_service_is_enabled_and_running",
+      "witness": "68bca70caaed10b8",
+      "links": [
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_from_the_laptop_only_ssh_and_the_api_answer",
+      "witness": "fa0728ed29de30cf",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_installed_packages_are_the_locked_versions",
+      "witness": "f490b1aeb1b45942",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_no_account_can_log_in_with_a_password",
+      "witness": "8a3d97cb5f355c0b",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_no_default_account_is_left",
+      "witness": "815d115c0b6a99fc",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_one_command_runs_both_halves_and_keeps_the_record_out_of_the_repository",
+      "witness": "45182cd873960819",
+      "links": [
+        {
+          "id": "Uyb",
+          "kind": "asserted",
+          "artifact": "83107db048fef84c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_only_ssh_and_the_hosts_api_listen",
+      "witness": "cceffd59d06f1e66",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_reports_arrive_from_the_pi_at_least_once_a_second",
+      "witness": "02a83907613824f5",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_ssh_takes_keys_only",
+      "witness": "c1e15a9d72864ef4",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_is_reported_disarmed_or_not_yet_built",
+      "witness": "8b72cf2f7499c3e5",
+      "links": [
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_clock_is_synchronised_to_the_set_source",
+      "witness": "4aa911d4248c8687",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_host_keeps_no_footage",
+      "witness": "6a0b65ab3c7adad8",
+      "links": [
+        {
+          "id": "Ot6",
+          "kind": "asserted",
+          "artifact": "f6ff56d661583076",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_host_talks_only_to_the_laptop_and_its_time_source",
+      "witness": "b06b12291d5caa5a",
+      "links": [
+        {
+          "id": "Ot6",
+          "kind": "asserted",
+          "artifact": "f6ff56d661583076",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_offset_to_the_laptop_is_judged_on_the_quickest_exchange",
+      "witness": "b4d0252717d34b30",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_overall_verdict_fails_on_any_failure_and_says_what_is_left",
+      "witness": "65dc6fba4b45a5b8",
+      "links": [
+        {
+          "id": "Uyb",
+          "kind": "asserted",
+          "artifact": "83107db048fef84c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_release_tree_and_settings_are_roots_and_not_writable_by_the_service_user",
+      "witness": "3d7bcff9b0dcb851",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_root_file_system_is_repaired_at_boot",
+      "witness": "64f9505e2c3b2d10",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_service_user_has_no_sudo_no_login_and_no_key",
+      "witness": "ed82babb68ee0447",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_wrist_stream_is_said_to_be_not_built",
+      "witness": "067fd3cbc3dfa301",
+      "links": [
+        {
+          "id": "Ot6",
+          "kind": "asserted",
+          "artifact": "f6ff56d661583076",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_two_hosts_from_one_commit_have_one_fingerprint",
+      "witness": "e2772d18d1f61055",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

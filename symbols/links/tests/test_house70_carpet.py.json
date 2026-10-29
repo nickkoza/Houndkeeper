@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_house70_carpet.py",
+  "entries": [
+    {
+      "name": "test_house_70_lays_its_carpet_in_its_hue",
+      "witness": "e71c93f56b7b670a",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

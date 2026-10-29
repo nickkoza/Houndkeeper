@@ -1,0 +1,205 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_fidelity.py",
+  "entries": [
+    {
+      "name": "error_of",
+      "witness": "a82b36ad0f69b6b5",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "frame_from_path",
+      "witness": "2fd2b027214d4c29",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "lay_on",
+      "witness": "ee585dc0d87940bc",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "61db4268c4fd498a",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "map_error",
+      "witness": "880a77eb0db70cb4",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "placement",
+      "witness": "8c3ac84559298441",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "placement_of",
+      "witness": "0d98a5822a60218f",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "placement_summary",
+      "witness": "43b3e3f8e256d0c9",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "575b123359165d03",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "structure",
+      "witness": "96b5262916b48734",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "to_true_frame",
+      "witness": "feb4e25c25887cf7",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth",
+      "witness": "cb17ad25d585a420",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "truth_structures",
+      "witness": "22838e8dbedb0ddb",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

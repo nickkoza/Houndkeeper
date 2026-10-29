@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/arm_bringup.py",
+  "entries": [
+    {
+      "name": "say",
+      "witness": "9946be54980ebada",
+      "links": [
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "z",
+      "witness": "b29f865b2111ac83",
+      "links": [
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

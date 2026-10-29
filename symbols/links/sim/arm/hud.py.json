@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/hud.py",
+  "entries": [
+    {
+      "name": "Hud",
+      "witness": "b4d5a88dff2c09dd",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Hud.__init__",
+      "witness": "9a3555da5bd61a5a",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Hud.extra_W",
+      "witness": "5e080b6582053f50",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Hud.figures",
+      "witness": "f81e859cea00d213",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Hud.texts",
+      "witness": "b3a8eaf5b82d4e1a",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Hud.tick",
+      "witness": "c51453d7beb9acb4",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "EkS",
+          "kind": "asserted",
+          "artifact": "1909eabc6663d9ee",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

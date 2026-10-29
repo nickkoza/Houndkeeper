@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/subsystem_health.py",
+  "entries": [
+    {
+      "name": "health",
+      "witness": "9af0a6797fe9a4c8",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "html",
+      "witness": "1f54e42cab50dfac",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "latest_map_errors",
+      "witness": "0c1b1b745709b4cf",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "b7f1924f04b9ba28",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "path_error_cm",
+      "witness": "7a3af0d47946e016",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "stage",
+      "witness": "9d1999936a009df6",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/candidate_check.py",
+  "entries": [
+    {
+      "name": "annotate",
+      "witness": "dcede8336dda82b6",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck",
+      "witness": "dcf2dce93f44bc0a",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck.__init__",
+      "witness": "696d261026f21ef2",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck._crop",
+      "witness": "4cff9d68d89eed30",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck._fill",
+      "witness": "2b2558330a0dcabe",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck._image",
+      "witness": "46cb0d5a468df6e0",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck._score",
+      "witness": "a1ca8d9f5bb7d9b1",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck.candidate",
+      "witness": "9803505a7012f20d",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck.finish",
+      "witness": "1ab007e14a0ce345",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck.frame",
+      "witness": "e695f413825e7ec7",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CandidateCheck.settle",
+      "witness": "2b5d5548995b4eeb",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "choose",
+      "witness": "e5d794995544e2f6",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "crop_box",
+      "witness": "8f8313e5c3a7d8e1",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "cut",
+      "witness": "4a7d20962756989b",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "device",
+      "witness": "cdb2fca514782cde",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "holds",
+      "witness": "139420d9cfd00369",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "is_candidate",
+      "witness": "d3119feb0f8a6e82",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "key",
+      "witness": "78969a8d4fa3225c",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "project",
+      "witness": "c27549eb3b4c38e7",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sees",
+      "witness": "ca4ddf51f35ee620",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "structural",
+      "witness": "d5408b4f870ef7b1",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe",
+      "witness": "e51149ac7fb08e2a",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe.__init__",
+      "witness": "b2f9d546ccb5f1e3",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe._cpu_threads",
+      "witness": "4e49ca67cb611dd4",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe._wrapper",
+      "witness": "93110c7e6e49690c",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe.detect",
+      "witness": "1b6cb7ced5ddae30",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe.load",
+      "witness": "62388d33886d6df2",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Yoloe.score",
+      "witness": "ae77963f749edd4a",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/record_demos.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "730fb7ad416101d9",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "jlr",
+          "kind": "asserted",
+          "artifact": "60d678b9331a4943",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.park_it",
+      "witness": "8b0666771e4bcc06",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.rec",
+      "witness": "e5645996a5ca8d0c",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.reset_robot",
+      "witness": "0ccb5e2e3cc926be",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.state",
+      "witness": "17a657f760912245",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

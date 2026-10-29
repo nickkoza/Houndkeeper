@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "real/tests/deadman.py",
+  "entries": [
+    {
+      "name": "analyse",
+      "witness": "f41b8cd701bce852",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "analyse.settled_from",
+      "witness": "9711c0ee62691366",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "bridge_zeros",
+      "witness": "0c6fd229f83b1dec",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "witness": "7c9bb9c8e7ec77f7",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "load_odom",
+      "witness": "581cfaa148d95884",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "log",
+      "witness": "d3598fa4906becfc",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "log.cb",
+      "witness": "2967d90c0af1b3ce",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "6cc8c6961a72874d",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "window_rates",
+      "witness": "c454ac08abe153cc",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

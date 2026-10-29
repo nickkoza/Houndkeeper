@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/score_tidy.py",
+  "entries": [
+    {
+      "name": "_in_bin",
+      "witness": "e6e463bad5ac547a",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

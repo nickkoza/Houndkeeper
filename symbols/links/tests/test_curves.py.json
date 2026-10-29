@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_curves.py",
+  "entries": [
+    {
+      "name": "_arm",
+      "witness": "0c6ca5ae69b8aee1",
+      "links": [
+        {
+          "id": "HGT",
+          "kind": "asserted",
+          "artifact": "e593eac6150627dd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_ctx",
+      "witness": "a993d3a527769f7d",
+      "links": [
+        {
+          "id": "HGT",
+          "kind": "asserted",
+          "artifact": "e593eac6150627dd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_average_precision_is_one_for_a_perfect_ranking_and_less_when_a_false_one_ranks_first",
+      "witness": "49d1df9f1a0794b5",
+      "links": [
+        {
+          "id": "HGT",
+          "kind": "asserted",
+          "artifact": "e593eac6150627dd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_sweep_walks_recall_up_and_false_positives_up_as_the_threshold_falls",
+      "witness": "603b4841151a3079",
+      "links": [
+        {
+          "id": "HGT",
+          "kind": "asserted",
+          "artifact": "e593eac6150627dd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_holdout_plans.py",
+  "entries": [
+    {
+      "name": "_tuning",
+      "witness": "74dc81010160ec0a",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_chairs_follow_a_holdout_plans_own_table_and_rooms",
+      "witness": "b27ef978c1a4d929",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_own_plan_is_valid_and_reachable",
+      "witness": "3d26992e6d4c02bf",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_existing_plans_stay_unchanged",
+      "witness": "d9139ef2a56550ff",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_own_plans_are_deterministic",
+      "witness": "f5a85fc0ed738e7e",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_own_plans_are_unlike_every_tuning_plan_and_80_81_are_not",
+      "witness": "368c3195d683b64b",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_registry_keeps_holdouts_apart_from_tuning",
+      "witness": "4f5f8db01591e905",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

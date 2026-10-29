@@ -1,0 +1,74 @@
+Filament keeps released frame-graph textures 60 frames (MUJOFIL_TEXTURE_CACHE_FRAMES), not its default 1: two cameras
+through one renderer whose shadow atlases differ by a layer re-created a 512-554 MiB atlas every frame, and the sim
+aborted on a failed allocation (18 Oct). Applied by tools/build_mujofil.sh.
+
+--- a/native/renderer_warp.cpp
++++ b/native/renderer_warp.cpp
+@@ -15,6 +15,7 @@
+ #include <cuda_runtime.h>
+ 
+ #include <chrono>
++#include <cstdlib>
+ #include <cstring>
+ #include <stdexcept>
+ #include <vector>
+@@ -23,6 +24,18 @@
+ using namespace filament::backend;
+ using namespace bluevk;
+ 
++// How many frames Filament keeps a released frame-graph texture for reuse (Engine::Config::resourceAllocatorCacheMaxAge,
++// Filament's default 1). Views whose textures differ frame to frame, e.g. two cameras through one renderer where a
++// shadow-casting light is in one's view and not the other's (the shadow atlas then has one layer more or fewer), would
++// otherwise re-create those textures every frame: a 2048 x 2048 x 13 VSM atlas is 554 MiB, allocated anew each frame
++// and freed a frame later, so GPU memory swings by gigabytes and an allocation fails as soon as another process holds
++// the rest. Kept longer, each variant is made once and reused. MUJOFIL_TEXTURE_CACHE_FRAMES overrides it.
++static uint32_t texture_cache_frames() {
++    const char* s = std::getenv("MUJOFIL_TEXTURE_CACHE_FRAMES");
++    long v = s ? std::strtol(s, nullptr, 10) : 0;
++    return v > 0 ? uint32_t(v) : 60u;
++}
++
+ namespace vf_mujoco {
+ 
+ namespace {
+@@ -237,8 +250,10 @@
+     VulkanPlatform::VulkanSharedContext ctx{};
+     ctx.instance = v.instance; ctx.physicalDevice = v.phys; ctx.logicalDevice = v.device;
+     ctx.graphicsQueueFamilyIndex = v.qfi; ctx.graphicsQueueIndex = v.filQueueIdx;
++    Engine::Config ecfg{};
++    ecfg.resourceAllocatorCacheMaxAge = texture_cache_frames();
+     engine_ = Engine::Builder()
+-            .backend(Backend::VULKAN).platform(&v.platform).sharedContext(&ctx)
++            .backend(Backend::VULKAN).platform(&v.platform).sharedContext(&ctx).config(&ecfg)
+             .featureLevel(Engine::FeatureLevel::FEATURE_LEVEL_1).build();
+     if (!engine_) throw std::runtime_error("Filament engine build failed");
+ 
+--- a/native/renderer_gl.cpp
++++ b/native/renderer_gl.cpp
+@@ -45,6 +45,18 @@
+ 
+ using namespace filament;
+ 
++// How many frames Filament keeps a released frame-graph texture for reuse (Engine::Config::resourceAllocatorCacheMaxAge,
++// Filament's default 1). Views whose textures differ frame to frame, e.g. two cameras through one renderer where a
++// shadow-casting light is in one's view and not the other's (the shadow atlas then has one layer more or fewer), would
++// otherwise re-create those textures every frame: a 2048 x 2048 x 13 VSM atlas is 554 MiB, allocated anew each frame
++// and freed a frame later, so GPU memory swings by gigabytes and an allocation fails as soon as another process holds
++// the rest. Kept longer, each variant is made once and reused. MUJOFIL_TEXTURE_CACHE_FRAMES overrides it.
++static uint32_t texture_cache_frames() {
++    const char* s = std::getenv("MUJOFIL_TEXTURE_CACHE_FRAMES");
++    long v = s ? std::strtol(s, nullptr, 10) : 0;
++    return v > 0 ? uint32_t(v) : 60u;
++}
++
+ #ifndef GL_RGBA8
+ #define GL_RGBA8 0x8058
+ #endif
+@@ -306,6 +318,7 @@
+     // main driver thread (which has the API bound) and is a one-time startup cost.
+     Engine::Config ecfg{};
+     ecfg.disableParallelShaderCompile = true;
++    ecfg.resourceAllocatorCacheMaxAge = texture_cache_frames();   // see texture_cache_frames()
+     engine_ = Engine::Builder()
+         .backend(Engine::Backend::OPENGL)
+         .sharedContext((void*)v.ectx)

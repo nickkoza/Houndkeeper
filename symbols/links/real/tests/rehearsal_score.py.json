@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "real/tests/rehearsal_score.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "310e6ab429231291",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "marks_from_truth",
+      "witness": "cc73a26eebff8fd2",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "rigid_fit",
+      "witness": "ff519bdde06ade62",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sim_score",
+      "witness": "90038dc1fdb7380c",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

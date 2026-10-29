@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_loaded_postures.py",
+  "entries": [
+    {
+      "name": "_cycle",
+      "witness": "607c30dd6b054c56",
+      "links": [
+        {
+          "id": "FQ3",
+          "kind": "asserted",
+          "artifact": "a3241ebf51983c46",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_cycle.tilt",
+      "witness": "21e9d128ec3fccb9",
+      "links": [
+        {
+          "id": "FQ3",
+          "kind": "asserted",
+          "artifact": "a3241ebf51983c46",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_lie_down_and_stand_up_loaded_without_tipping",
+      "witness": "cccb1f5fb0d6c4d7",
+      "links": [
+        {
+          "id": "FQ3",
+          "kind": "asserted",
+          "artifact": "a3241ebf51983c46",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

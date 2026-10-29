@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/width_bench.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "745cfeb220ca23ad",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

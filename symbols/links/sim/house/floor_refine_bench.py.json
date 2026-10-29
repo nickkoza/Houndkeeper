@@ -1,0 +1,157 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_refine_bench.py",
+  "entries": [
+    {
+      "name": "bench",
+      "witness": "c1191d05677f0ccb",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "bench.mosaic",
+      "witness": "c3f90fa52cd7cdbb",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "bench.views",
+      "witness": "585d617e2fab15ce",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "camera",
+      "witness": "676fcde6f9f481a3",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fresh",
+      "witness": "a5409283103b77e2",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "87369c922637c275",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "parse_plant",
+      "witness": "96247468d27a8ef7",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "plant",
+      "witness": "7cab8475c5fe2e77",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "plant_dir",
+      "witness": "b247abec464f7fe7",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "recordings",
+      "witness": "9791e42f889e31c9",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "run_dir",
+      "witness": "a5f6511c8120a707",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sh",
+      "witness": "fa144a90d042f907",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

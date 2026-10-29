@@ -1,0 +1,26 @@
+mujofil's pins moved to MuJoCo 3.10.x, the version DimOS's venv runs, and mujoco-warp dropped (GPU physics only).
+Applied by tools/build_mujofil.sh.
+
+diff --git a/pyproject.toml b/pyproject.toml
+index f62d41e..9c0d40f 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@ build-backend = "scikit_build_core.build"
+ 
+ [project]
+ name = "mujofil"
+-version = "0.2.6"
++version = "0.2.6+mujoco310"
+ description = "Photoreal Filament PBR rendering for GPU-resident MuJoCo, zero-copy to PyTorch"
+ readme = "README.md"
+ requires-python = ">=3.10"
+@@ -26,8 +26,7 @@ dependencies = [
+     # wrong offset and SEGFAULTS. Pin to the vendored minor; mujoco-warp must
+     # match the same mujoco minor. Bump these together when the headers are
+     # re-vendored and the native modules rebuilt.
+-    "mujoco>=3.9,<3.10",
+-    "mujoco-warp>=3.9,<3.10",
++    "mujoco>=3.10,<3.11",   # re-vendored: third_party/mujoco/include = 3.10.0 (houndkeeper, 25 Sep 2026)
+     "warp-lang",
+     # numpy is used only at the Python level (np.asarray / point transforms); the
+     # native modules do NOT use the NumPy C-API (no PyArray/import_array), so

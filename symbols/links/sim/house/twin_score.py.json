@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/twin_score.py",
+  "entries": [
+    {
+      "name": "as_picture",
+      "witness": "4e41d73b35294046",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "floor",
+      "witness": "7ca74608534b8aad",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "footprint",
+      "witness": "9984ca8d7e892103",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "geometry",
+      "witness": "37cd9c36945acc6c",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "c99f6d906c19ddd8",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "not_in_plan",
+      "witness": "6d50c09ab9d4635a",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_truth_boundary.py",
+  "entries": [
+    {
+      "name": "_docstrings",
+      "witness": "f0a393a37b78ad19",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_refusals",
+      "witness": "01f8a20d06a3b646",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_resolve",
+      "witness": "a7f5a2056409bd49",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_robot_files",
+      "witness": "07deb945f55a7c36",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_scan",
+      "witness": "bed378e8c2dc8385",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "findings",
+      "witness": "cb764b2b6180b532",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "injections",
+      "witness": "d6af0313be95dc23",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "robot_files",
+      "witness": "87ea02ad13c540ec",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "scan",
+      "witness": "a0b3156e95b64eb6",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_allowed_reads_are_still_there",
+      "witness": "d974fb61ba8cacd1",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_module_is_placed",
+      "witness": "2d909c7d29c18bae",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_known_breaches_are_still_there",
+      "witness": "4c50f55416728522",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_no_known_breach_is_left",
+      "witness": "f4cbe7424db57635",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_robot_code_never_injects_the_truth",
+      "witness": "9fa66d266e0404fb",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_robot_code_reads_no_truth",
+      "witness": "34fd2be0642bd824",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_generator_is_never_reached",
+      "witness": "81bf1e1757a8eb19",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_guard_catches_a_breach",
+      "witness": "772ad0890f335387",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_injection_guard_catches_one",
+      "witness": "dab8e4992879c7ca",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

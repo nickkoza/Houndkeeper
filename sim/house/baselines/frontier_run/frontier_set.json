@@ -1,0 +1,1327 @@
+{
+ "manifest": "~/.claude/jobs/a53e8952/tmp/baselines/frames/manifest.json",
+ "frames": [
+  {
+   "id": "s70_t1/1790924507.596",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924507.596.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924507.596.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5"
+   ],
+   "why": [
+    "dark or patterned floor"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924530.189",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924530.189.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924530.189.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5"
+   ],
+   "why": [
+    "dark or patterned floor"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924545.061",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924545.061.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924545.061.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s70_t1/1790924550.869",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924550.869.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924550.869.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924556.473",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924556.473.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924556.473.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924561.775",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924561.775.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924561.775.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "figure_2",
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [
+    "at the edge",
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s70_t1/1790924602.532",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924602.532.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924602.532.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "melissa_doug_cart_turtle_blo_1",
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s70_t1/1790924620.187",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924620.187.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924620.187.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "melissa_doug_cart_turtle_blo_1"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924636.642",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924636.642.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924636.642.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [
+    "at the edge",
+    "dark or patterned floor"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924647.094",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924647.094.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924647.094.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "melissa_doug_cart_turtle_blo_1",
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s70_t1/1790924652.713",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924652.713.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924652.713.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "melissa_doug_cart_turtle_blo_1"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924658.278",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924658.278.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924658.278.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lacing_sheep_3"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s70_t1/1790924717.702",
+   "night": "s70_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s70_t1/1790924717.702.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s70_t1/1790924717.702.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s71_t2/1790928485.317",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928485.317.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928485.317.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lego_1x1_1",
+    "threshold_bead_cereal_bowl_w_6"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928490.753",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928490.753.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928490.753.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lego_1x1_1",
+    "threshold_bead_cereal_bowl_w_6"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928534.324",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928534.324.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928534.324.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "ballet_flat_0"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928540.811",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928540.811.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928540.811.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "ballet_flat_0",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928554.367",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928554.367.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928554.367.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s71_t2/1790928568.605",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928568.605.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928568.605.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "schleich_lion_action_figure_3",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s71_t2/1790928603.912",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928603.912.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928603.912.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "threshold_bead_cereal_bowl_w_6"
+   ],
+   "why": [
+    "dark or patterned floor"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928626.262",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928626.262.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928626.262.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "schleich_lion_action_figure_3",
+    "triceratops_2",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928682.474",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928682.474.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928682.474.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "schleich_lion_action_figure_3",
+    "triceratops_2"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928740.187",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928740.187.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928740.187.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s71_t2/1790928746.628",
+   "night": "s71_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s71_t2/1790928746.628.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s71_t2/1790928746.628.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s73_t1/1790934166.677",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934166.677.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934166.677.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934183.038",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934183.038.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934183.038.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934188.538",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934188.538.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934188.538.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "figure_2",
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934240.477",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934240.477.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934240.477.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934246.445",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934246.445.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934246.445.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s73_t1/1790934252.396",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934252.396.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934252.396.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "melissa_doug_cart_turtle_blo_1",
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934257.899",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934257.899.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934257.899.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7",
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s73_t1/1790934263.379",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934263.379.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934263.379.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934274.413",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934274.413.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934274.413.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lacing_sheep_3",
+    "mattel_skip_bo_card_game_4"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934304.167",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934304.167.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934304.167.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s73_t1/1790934335.137",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934335.137.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934335.137.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lacing_sheep_3",
+    "mattel_skip_bo_card_game_4"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s73_t1/1790934341.068",
+   "night": "s73_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s73_t1/1790934341.068.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s73_t1/1790934341.068.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "mattel_skip_bo_card_game_4"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938596.385",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938596.385.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938596.385.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "dino_5_4",
+    "schleich_lion_action_figure_3",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938629.217",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938629.217.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938629.217.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "dino_5_4",
+    "schleich_lion_action_figure_3",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938640.152",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938640.152.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938640.152.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "threshold_bead_cereal_bowl_w_6"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s76_t2/1790938661.466",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938661.466.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938661.466.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938696.034",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938696.034.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938696.034.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "dino_5_4",
+    "schleich_lion_action_figure_3",
+    "womens_bluefish_2eye_boat_sh_7"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938701.513",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938701.513.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938701.513.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "schleich_lion_action_figure_3"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938707.470",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938707.470.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938707.470.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "nintendo_mario_action_figure_5"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s76_t2/1790938713.055",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938713.055.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938713.055.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "ballet_flat_0"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938719.028",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938719.028.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938719.028.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lego_1x1_1",
+    "triceratops_2"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938724.274",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938724.274.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938724.274.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lego_1x1_1"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938740.571",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938740.571.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938740.571.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "nintendo_mario_action_figure_5",
+    "triceratops_2"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s76_t2/1790938756.871",
+   "night": "s76_t2",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s76_t2/1790938756.871.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938756.871.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s77_t1/1790940952.839",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790940952.839.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940952.839.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790940962.579",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790940962.579.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940962.579.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790940973.549",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790940973.549.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940973.549.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "brick_5"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941000.187",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941000.187.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941000.187.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941007.687",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941007.687.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941007.687.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s77_t1/1790941031.672",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941031.672.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941031.672.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "melissa_doug_cart_turtle_blo_1",
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941055.399",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941055.399.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941055.399.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "figure_2"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s77_t1/1790941058.958",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941058.958.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941058.958.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "figure_2",
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [
+    "at the edge",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941071.094",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941071.094.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941071.094.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lacing_sheep_3",
+    "mattel_skip_bo_card_game_4"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941074.829",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941074.829.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941074.829.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "mattel_skip_bo_card_game_4"
+   ],
+   "why": [
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s77_t1/1790941078.791",
+   "night": "s77_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s77_t1/1790941078.791.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941078.791.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s96_t1/1791083322.843",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083322.843.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083322.843.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7"
+   ],
+   "why": [],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083430.643",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083430.643.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083430.643.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083481.743",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083481.743.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083481.743.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "melissa_doug_cart_turtle_blo_1"
+   ],
+   "why": [
+    "dark or patterned floor"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083490.213",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083490.213.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083490.213.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "mens_gold_cup_asv_capetown_p_7",
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083498.543",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083498.543.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083498.543.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s96_t1/1791083506.663",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083506.663.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083506.663.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2",
+    "melissa_doug_cart_turtle_blo_1"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": true
+  },
+  {
+   "id": "s96_t1/1791083556.923",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083556.923.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083556.923.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "brick_5",
+    "figure_2",
+    "melissa_doug_cart_turtle_blo_1"
+   ],
+   "why": [
+    "dark or patterned floor",
+    "hard tier"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083573.863",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083573.863.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083573.863.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "empty",
+   "toys_in_view": [],
+   "why": [],
+   "pilot": true
+  },
+  {
+   "id": "s96_t1/1791083599.273",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083599.273.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083599.273.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "turboprop_airplane_with_pilo_0"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083607.323",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083607.323.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083607.323.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "hard",
+   "toys_in_view": [
+    "lacing_sheep_3"
+   ],
+   "why": [
+    "at the edge"
+   ],
+   "pilot": false
+  },
+  {
+   "id": "s96_t1/1791083616.983",
+   "night": "s96_t1",
+   "png": "~/.claude/jobs/a53e8952/tmp/baselines/frames/s96_t1/1791083616.983.png",
+   "jpg": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083616.983.jpg",
+   "scale": 1.0,
+   "sent_size": [
+    640,
+    360
+   ],
+   "stratum": "easy",
+   "toys_in_view": [
+    "room_essentials_mug_white_ye_6"
+   ],
+   "why": [],
+   "pilot": false
+  }
+ ],
+ "batches": [
+  "~/.claude/jobs/a53e8952/tmp/baselines/frontier/batch_00.txt",
+  "~/.claude/jobs/a53e8952/tmp/baselines/frontier/batch_01.txt",
+  "~/.claude/jobs/a53e8952/tmp/baselines/frontier/batch_02.txt",
+  "~/.claude/jobs/a53e8952/tmp/baselines/frontier/batch_03.txt"
+ ],
+ "pilot_batch": "~/.claude/jobs/a53e8952/tmp/baselines/frontier/batch_00.txt",
+ "strata": {
+  "hard": 42,
+  "easy": 18,
+  "empty": 10
+ }
+}

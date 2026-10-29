@@ -1,0 +1,757 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/arm_guard.py",
+  "entries": [
+    {
+      "name": "ArmGuard",
+      "witness": "65ba2dc2f45e5084",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.__init__",
+      "witness": "4c3bcdf216bdfbce",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.base_alarm",
+      "witness": "356e05576f6f0a70",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.check",
+      "witness": "cb765c24e73ab64d",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.check_path",
+      "witness": "a1c6a2ce79e516ef",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.load_kinematics",
+      "witness": "37ce3b7662addd8d",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.on_odom",
+      "witness": "9afb456a337f7e6a",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.reach_m",
+      "witness": "87ce8e4373b9c5fd",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.refuses",
+      "witness": "cedda14efd57486a",
+      "links": [
+        {
+          "id": "BuG",
+          "kind": "asserted",
+          "artifact": "22422afb0a5a1f61",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "QDc",
+          "kind": "asserted",
+          "artifact": "cfb5822c24d4d8b7",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.stowed",
+      "witness": "4bca6a84b075a953",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmGuard.vmax",
+      "witness": "f979bfcc8a0f2c8a",
+      "links": [
+        {
+          "id": "BuG",
+          "kind": "asserted",
+          "artifact": "22422afb0a5a1f61",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmKinematics",
+      "witness": "3831570118f9db51",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmKinematics.__init__",
+      "witness": "ee07466b547034c6",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmKinematics.reach_m",
+      "witness": "00822dad5a2de2c8",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "ArmRefused",
+      "witness": "3745319a63e3dfd3",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "BaseWatch",
+      "witness": "589ecc08a514f4d1",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "BaseWatch.__init__",
+      "witness": "2c56fc49160a6899",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "BaseWatch.moving",
+      "witness": "28bd29fab9871a6b",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "BaseWatch.on_odom",
+      "witness": "d0221ac0607f4a0b",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "Envelope",
+      "witness": "1cedb8d91a5ed2c9",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "YGD",
+          "kind": "asserted",
+          "artifact": "8e34f7450ff1dcd3",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "Envelope.__init__",
+      "witness": "ad2017f98932d07e",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "Envelope._bracket",
+      "witness": "92ffb5e06097d0fd",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "Envelope.reach_m",
+      "witness": "10fa5818fb47ccc4",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "Envelope.speed",
+      "witness": "0db837127aabb544",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMP",
+          "kind": "asserted",
+          "artifact": "7396256580fe1e3e",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm",
+      "witness": "0eafbe1f7b00cfe6",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm.__getattr__",
+      "witness": "673c8b0007ec20e2",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm.__getattr__.refused",
+      "witness": "82f0760744fa9467",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm.__init__",
+      "witness": "6789119f3848bd1b",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm.set_payload",
+      "witness": "678d3f8b6768a615",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedArm.write_joint_positions",
+      "witness": "539f79923b2093b5",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture",
+      "witness": "5dc4462fe7302ece",
+      "links": [
+        {
+          "id": "FQ3",
+          "kind": "asserted",
+          "artifact": "a3241ebf51983c46",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture.__getattr__",
+      "witness": "c99786f0294b50cc",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture.__init__",
+      "witness": "b6db511c0294eb03",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture._to",
+      "witness": "9676f9c55d9eb726",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture.crouch",
+      "witness": "b320371d54af6aff",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture.liedown",
+      "witness": "81ee535747ea65df",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "GuardedPosture.standup",
+      "witness": "93f8d1966f29f4ad",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

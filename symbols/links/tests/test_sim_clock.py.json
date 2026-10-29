@@ -1,0 +1,211 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_sim_clock.py",
+  "entries": [
+    {
+      "name": "_night",
+      "witness": "4816289ce4f0890e",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_night.Shm",
+      "witness": "f5bbd91ee46f6769",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_night.Shm.read_command",
+      "witness": "5b597377c92804ef",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fake_wall",
+      "witness": "43c9dbc785e89ec1",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_command_takes_effect_after_its_delay_on_the_sim_clock",
+      "witness": "b675cd859998511d",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_command_takes_effect_after_its_delay_on_the_sim_clock.Shm",
+      "witness": "558ddf8d6b19cf79",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_command_takes_effect_after_its_delay_on_the_sim_clock.Shm.read_command",
+      "witness": "ccde974a36f63f7f",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_message_is_held_until_the_sim_clock_reaches_capture_plus_delay",
+      "witness": "226ca6c697df9d8d",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stall_delivers_its_held_frames_late_in_a_burst",
+      "witness": "347996e99fdb09d3",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_odometry_is_held_on_the_clock_it_is_given",
+      "witness": "c16d9af1a976d78c",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_on_the_wall_clock_the_outcome_depended_on_speed",
+      "witness": "646a2a6c3d5aca30",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_stamps_follow_sim_time_at_any_speed",
+      "witness": "1e11fe8c65c4b59b",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_same_night_at_two_speeds_gives_the_same_outcome",
+      "witness": "3c6bc3f82a7837c5",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_a_sim_clock_it_is_the_wall_clock",
+      "witness": "a9d6a932d2694526",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Wall",
+      "witness": "130e8dfed61307d0",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Wall.__call__",
+      "witness": "0a7a2d931a7a4c71",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Wall.__init__",
+      "witness": "22a760846d72b66d",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

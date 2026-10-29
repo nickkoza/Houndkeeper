@@ -1,0 +1,121 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_grasp_proposers.py",
+  "entries": [
+    {
+      "name": "_bar_look",
+      "witness": "617ef0098c5b5162",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_tall_item_is_gripped_higher_with_grip_lift",
+      "witness": "ba3d7ddbe1a74c7b",
+      "links": [
+        {
+          "id": "GU5",
+          "kind": "asserted",
+          "artifact": "da77f1ff0693ca96",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_dimos_heuristic_comes_through_the_cloud_adapter",
+      "witness": "dc2c606acbea6d60",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_graspgenx_offers_only_grasps_from_above",
+      "witness": "7a0024dae034e32d",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_graspgenx_offers_only_grasps_from_above.Fake",
+      "witness": "70988bcbd994d8b9",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_graspgenx_offers_only_grasps_from_above.Fake.ask",
+      "witness": "284f6edbe06efb72",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_no_cloud_is_a_reason_not_a_grasp",
+      "witness": "f82003e45e1fa06a",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_ours_offers_the_looks_own_grip_options_unchanged",
+      "witness": "9c6047d5a94ea93d",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_wrist_turns_to_the_grasp_frame",
+      "witness": "cd44bf8fc6850c01",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_dimos_options.py",
+  "entries": [
+    {
+      "name": "_probe",
+      "witness": "d71d3bcb22f462f5",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "ours",
+      "witness": "041de0d605ccbd89",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_dimos_sim_variable_reaches_its_typed_option",
+      "witness": "81e7550335281ed6",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_our_runs_get_what_the_fork_hard_wired",
+      "witness": "2d2f585253124dac",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_stock_dimos_keeps_its_own_defaults",
+      "witness": "22d942ff36883958",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_sweep_route.py",
+  "entries": [
+    {
+      "name": "_hall",
+      "witness": "086d51cf8202d86f",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "_room",
+      "witness": "4e1e0af986f13118",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_first_night_without_a_map_plans_nothing",
+      "witness": "b4d8cf76d90ae0bf",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_mark_on_both_nights_still_blocks",
+      "witness": "4657cbaff0facb67",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_a_one_night_line_across_the_dock_s_bay_does_not_cut_it_off",
+      "witness": "5fd2768bc807c5ae",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_a_one_night_map_keeps_its_tall_marks",
+      "witness": "7a5c6b358bba433a",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recorded_house_route_keeps_off_its_true_walls_and_furniture",
+      "witness": "d11003a06594278c",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_planned_says_why_and_exits_non_zero",
+      "witness": "358e0919c852ab08",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_rows_start_at_the_dock_and_end_along_the_far_wall",
+      "witness": "e54953e555aa95c9",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_route_reads_no_house_plan",
+      "witness": "ef8b81906137f190",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_route_stays_on_floor_the_dock_reaches",
+      "witness": "ed83194bc07544a2",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_waypoints_stand_clear_of_what_the_map_holds",
+      "witness": "7a643bc1e05e05fc",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

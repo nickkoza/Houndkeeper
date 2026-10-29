@@ -1,0 +1,25 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/graspgenx_server.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "2d19944389cdbb42",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_health.py",
+  "entries": [
+    {
+      "name": "test_clear",
+      "witness": "daab2f45ab7cca30",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_core_clock_fixed_only_when_min_equals_max",
+      "witness": "154acd6f707c927a",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_report_has_what_the_spec_asks",
+      "witness": "5b8e09459d25ea84",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_under_voltage_now_and_since_boot",
+      "witness": "ef3df68dfea5fb81",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    }
+  ]
+}

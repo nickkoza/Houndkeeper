@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/warm_tiers.py",
+  "entries": [
+    {
+      "name": "measure",
+      "witness": "52f1411b34c443a6",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "names",
+      "witness": "3ca70558bfc1f135",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

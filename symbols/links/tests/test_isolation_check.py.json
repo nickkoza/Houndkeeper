@@ -1,0 +1,331 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_isolation_check.py",
+  "entries": [
+    {
+      "name": "_env_kh",
+      "witness": "75a5a25c5533472e",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_failed",
+      "witness": "7f06fe134d15e50d",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_move_below",
+      "witness": "3b649fa46e9a0caf",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_out",
+      "witness": "c78674082f558e9a",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_sub",
+      "witness": "c9f0b3fef60de5cc",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_router",
+      "witness": "451131033a2de303",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_router.serve",
+      "witness": "442b494cc88b3523",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_router.Server",
+      "witness": "4b026071d5ccdab3",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_router.Server.check_auth_password",
+      "witness": "80df3c9a6301e433",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_router.Server.get_allowed_auths",
+      "witness": "b0b3d37a26bf3f69",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_different_host_key_is_refused_and_the_password_never_sent",
+      "witness": "a16c155aac1874c1",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_disabled_drop_fails",
+      "witness": "25676c015c76ed42",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_drop_narrowed_by_a_matcher_fails",
+      "witness": "9c9692e5f00663ff",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_host_not_recorded_is_refused_and_the_password_never_sent",
+      "witness": "832ce584cadf3dc1",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_missing_rule_fails",
+      "witness": "aa932a1df9bf70da",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_range_in_the_operators_list_fails",
+      "witness": "0e86fde56e4f2030",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_robot_rule_below_another_rule_fails_with_its_position",
+      "witness": "fef9c3560964c6c9",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_second_interface_in_the_robot_list_fails",
+      "witness": "208fa74cb7ac9467",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_service_left_on_or_open_to_all_fails",
+      "witness": "8f66eac1c5ba1df3",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_an_ipv6_drop_not_at_the_top_fails",
+      "witness": "2614f36c157f3d1f",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_an_open_online_window_is_named",
+      "witness": "71428ab263bdc8a7",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_every_command_sent_only_reads",
+      "witness": "38457990180fcd4b",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_guest_in_the_lan_list_fails_by_setting_and_by_name",
+      "witness": "f8b2e7eb7db40f4b",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_no_recorded_host_key_refuses_before_connecting",
+      "witness": "fff863134ce69371",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_router_as_designed_passes_and_counts_the_drops",
+      "witness": "683b8639d5828e0f",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_routers_own_dynamic_rule_above_does_not_count",
+      "witness": "9198885fccd16a88",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_two_robot_rules_swapped_fail",
+      "witness": "35ba4be767ea928c",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

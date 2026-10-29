@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_module_names.py",
+  "entries": [
+    {
+      "name": "dimos_instance_names",
+      "witness": "b6b1170266eb6df2",
+      "links": [
+        {
+          "id": "gB6",
+          "kind": "asserted",
+          "artifact": "02f511fcf8133e93",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "our_module_classes",
+      "witness": "30be3e775119842e",
+      "links": [
+        {
+          "id": "gB6",
+          "kind": "asserted",
+          "artifact": "02f511fcf8133e93",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_dimos_names_are_read",
+      "witness": "7ddc15dca3c23267",
+      "links": [
+        {
+          "id": "gB6",
+          "kind": "asserted",
+          "artifact": "02f511fcf8133e93",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_no_module_of_ours_defines_a_name_dimos_sets_on_its_instances",
+      "witness": "f785f82d15e7d5b3",
+      "links": [
+        {
+          "id": "gB6",
+          "kind": "asserted",
+          "artifact": "02f511fcf8133e93",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

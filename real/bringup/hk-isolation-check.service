@@ -1,0 +1,14 @@
+# The robot network's isolation check ([VVJ], robot-network.md section 3): read-only over SSH, writes
+# real/local/isolation.json for the phone cockpit's Status page. A systemd user unit, run by hk-isolation-check.timer.
+# A template: @REPO@ is this checkout, @PYTHON@ a Python with paramiko (e.g. a venv in real/local/). No sudo needed.
+[Unit]
+Description=Houndkeeper robot network: isolation check (read-only)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=@REPO@
+ExecStart=@PYTHON@ @REPO@/real/bringup/isolation_check.py
+# a failed check is a result, written to isolation.json, not a unit failure to retry
+SuccessExitStatus=1
+TimeoutStartSec=60

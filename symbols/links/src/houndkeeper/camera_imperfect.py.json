@@ -1,0 +1,199 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/camera_imperfect.py",
+  "entries": [
+    {
+      "name": "_rotate",
+      "witness": "7c74d2417bc1f5eb",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_rotvec",
+      "witness": "100725e120f3edbf",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade",
+      "witness": "037f711542fbae6c",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade.__call__",
+      "witness": "bd55c9f7c4cfbc03",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade.__call__.where",
+      "witness": "0a35145581765bbc",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade.__init__",
+      "witness": "68ddbcdd0c08408f",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade._project",
+      "witness": "66b6ea46e003268f",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade._rays",
+      "witness": "0abb8330073c0652",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Degrade.exposure",
+      "witness": "6f0f1dcbb91a9efa",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "lens_roundtrip",
+      "witness": "6bdb19e29eac6104",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "witness": "c0d356ae78d6ee5f",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

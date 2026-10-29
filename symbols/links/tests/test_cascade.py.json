@@ -1,0 +1,97 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_cascade.py",
+  "entries": [
+    {
+      "name": "replay_dir",
+      "witness": "92835b836b60d0e5",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_candidates_and_their_scores",
+      "witness": "1ef8a1d6d69f899a",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_choose_is_the_strictest_threshold_keeping_found",
+      "witness": "0cad22615dd37f6f",
+      "links": [
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Btx",
+          "kind": "asserted",
+          "artifact": "c6afe2e9f487a283",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_contrast_sees_a_patch_not_a_plain_floor",
+      "witness": "9cdd1ec54c3363c1",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_votes_read_the_candidates_own_layer",
+      "witness": "c8adf33b9f5f0181",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

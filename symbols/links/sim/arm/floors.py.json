@@ -1,0 +1,445 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/floors.py",
+  "entries": [
+    {
+      "name": "_base_colour",
+      "witness": "8c9dad670e9c9486",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_dihedral",
+      "witness": "e2e9a14087016161",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_encode",
+      "witness": "4e731125a3256c7e",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_fit",
+      "witness": "72cab7c5e4b4c158",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_hsv",
+      "witness": "c9918e61dd71781c",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_noise",
+      "witness": "16bc119f65d34a2f",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_octaves",
+      "witness": "720204e69f6ddb19",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_pbr_layers",
+      "witness": "5b60a0ff8dfd538a",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_photo_maps",
+      "witness": "086509a89f74991c",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_photo_maps.img",
+      "witness": "46edc49ff2d22ea6",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_photo_patch",
+      "witness": "e1de52cc061a6b8b",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_photo_patch_cached",
+      "witness": "24c5f7e9bc4e9aee",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_photo_patch.lay",
+      "witness": "e8048498aaaa0b6c",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_pile",
+      "witness": "0ad1f8dd2b1d73db",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_rug",
+      "witness": "ab97c56976e1bcec",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_surround",
+      "witness": "253eb5580e540765",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_upload",
+      "witness": "7ece73e00cda86ab",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_upload_pbr",
+      "witness": "434edcd1df1f33c8",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_wblur",
+      "witness": "9511e4cde466873b",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_wrap",
+      "witness": "ede88547f5107b5a",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "add_to_spec",
+      "witness": "e1aecb916c279401",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "apply",
+      "witness": "64acb6da796c57c7",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "generate",
+      "witness": "bcd4eebe532cb5c2",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "photos",
+      "witness": "d51ec74b1e547fa8",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "shade",
+      "witness": "1930675efe81222d",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "view_from",
+      "witness": "d67ec142699f5b9d",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

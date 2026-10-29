@@ -1,0 +1,49 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/jaws.py",
+  "entries": [
+    {
+      "name": "max_m",
+      "witness": "0def2a4a41cb6041",
+      "links": [
+        {
+          "id": "2L1",
+          "kind": "asserted",
+          "artifact": "b636a025d010884b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pad_file",
+      "witness": "ff75712017045323",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pad_m",
+      "witness": "9147335d8f39f139",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/browser/last_night_390.mjs",
+  "entries": [
+    {
+      "name": "audit",
+      "witness": "63f896c5eb435ff0",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "shot",
+      "witness": "c8e550f60f33190e",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "step",
+      "witness": "ff4cffd4eaba620c",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/dirfloor.py",
+  "entries": [
+    {
+      "name": "azimuth_bin",
+      "witness": "8c68670a04007089",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor",
+      "witness": "a24f608530a4d6e7",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.__init__",
+      "witness": "0d8e1c660a28da15",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor._sd",
+      "witness": "e268c8437bdfdffb",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.bias",
+      "witness": "b3511f8c3129c0fd",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.build",
+      "witness": "53eecdc9ea298023",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.decompose",
+      "witness": "70ea2abe54ddfa2f",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.displacements",
+      "witness": "470525b2bee024f4",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.mean_grey",
+      "witness": "2c550656ded60cb1",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.mean_rgb",
+      "witness": "c6c6e8247cc8efbf",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.radial",
+      "witness": "4fa27e2e142fb33a",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.spread",
+      "witness": "fd2967549810801d",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DirFloor.tables",
+      "witness": "d41e7690940ecb7c",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

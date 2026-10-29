@@ -1,0 +1,121 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_orientation.py",
+  "entries": [
+    {
+      "name": "_centre",
+      "witness": "8af75ec9d2d6c7ce",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_classes",
+      "witness": "d1850e3ccfa3173e",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_plane_scene",
+      "witness": "a362e095ac061a44",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fixed_exposure",
+      "witness": "78ad22c0b67b3d8e",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_filament_follows_a_texture_change",
+      "witness": "f3a1a37e683e8b5c",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_filament_frame_is_upright",
+      "witness": "60b352bd699cea21",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_filament_plane_texture_matches_classic",
+      "witness": "fd505e82e486fd51",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

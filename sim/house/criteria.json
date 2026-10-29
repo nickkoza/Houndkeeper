@@ -1,0 +1,53 @@
+{
+ "written_at": "2026-09-22T13:15:21-07:00",
+ "note": "Success criteria fixed before any detection results existed. The floor baseline is learned from previous nights' sweeps (per-cell median of up to 3 nights); nothing is trained.",
+ "criteria": [
+  {
+   "id": "toys",
+   "text": "Toys found, of those the sweep observed",
+   "kinds": [
+    "toy"
+   ],
+   "min_rate": 0.9
+  },
+  {
+   "id": "small",
+   "text": "Small flat items found (Lego, tissue, string, sock, paper)",
+   "kinds": [
+    "lego",
+    "tissue",
+    "string",
+    "sock",
+    "paper"
+   ],
+   "min_rate": 0.5
+  },
+  {
+   "id": "false_alarms",
+   "text": "False alarms per night",
+   "max": 2
+  },
+  {
+   "id": "stains",
+   "text": "Known stains flagged as new clutter",
+   "max": 0
+  },
+  {
+   "id": "removed",
+   "text": "Removed items flagged as still there",
+   "max": 0
+  },
+  {
+   "id": "rug",
+   "text": "Night 3 rug flagged as a floor change, not clutter",
+   "night": 3
+  }
+ ],
+ "amended_at": "2026-09-22T13:21:27-07:00",
+ "amendment": "Added sock and paper to the small-flat-items group; held-out evaluation = nights 5-8 of the same house, detector frozen after tuning on nights 1-4. Still before any detection results.",
+ "difficulty": {
+  "defined_at": "2026-09-22T13:22:03-07:00",
+  "rule": "easy: >= 100 cm2 footprint and colour contrast with the floor under it >= 0.25; hard: < 15 cm2, string thinner than 3 mm, or contrast < 0.10; medium: everything else. Computed from each item's own properties, before any results.",
+  "report": "Found rate per tier, per night, and pooled over held-out nights 5-8."
+ }
+}

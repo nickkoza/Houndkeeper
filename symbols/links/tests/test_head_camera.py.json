@@ -1,0 +1,181 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_head_camera.py",
+  "entries": [
+    {
+      "name": "_pinhole",
+      "witness": "27e11321ffd502ca",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "_view",
+      "witness": "c400f275fa64ddc5",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_a_camera_placed_unlike_its_published_mount_refuses_to_start",
+      "witness": "89d85216e30b06bc",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_a_camera_rendered_unlike_its_published_lens_refuses_to_start",
+      "witness": "9f9bfc15dadc4956",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_a_fisheye_frame_straightened_matches_a_pinhole_at_its_focal_length",
+      "witness": "89f0cb4c43fd6b5c",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_measured_pitch_points_it_down",
+      "witness": "d9939d293c167020",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_at_the_real_frame_size_the_sim_renders_the_real_calibration_unscaled",
+      "witness": "f322e366241d31c4",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_dimos_publishes_the_mount_it_is_given",
+      "witness": "775306741e59a7d8",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_env_renders_the_real_cameras_size_unless_overridden",
+      "witness": "dc57895b28590044",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "bFx",
+          "kind": "asserted",
+          "artifact": "a625848b3c993848",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_consumer_takes_the_head_lens_from_one_place",
+      "witness": "521203e29db062c7",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_camera_truly_sits_off_where_dimos_publishes_it",
+      "witness": "22a346485392a84d",
+      "links": [
+        {
+          "id": "55b",
+          "kind": "asserted",
+          "artifact": "7abdac87efad11d7",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_the_head_camera_has_the_real_lens",
+      "witness": "88419797433e5be4",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_with_the_fisheye_the_sim_renders_wide_and_publishes_the_real_calibration",
+      "witness": "ddadec4e01942653",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

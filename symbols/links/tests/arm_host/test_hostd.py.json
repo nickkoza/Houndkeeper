@@ -1,0 +1,421 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_hostd.py",
+  "entries": [
+    {
+      "name": "api",
+      "witness": "59b0372c851d3cc0",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "api.start",
+      "witness": "b976337bbef1d781",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "call",
+      "witness": "8f980b3b6943ad06",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "raw",
+      "witness": "bd2583b634a389e6",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_good_eye_command_still_works",
+      "witness": "76d8e4c91ec81ae7",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_huge_clip_is_refused_before_it_is_read",
+      "witness": "19ec8d2de3b9371a",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "u9G",
+          "kind": "asserted",
+          "artifact": "10c756b757e86a71",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_negative_or_missing_length_is_refused_at_once",
+      "witness": "198986695b5e1254",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "u9G",
+          "kind": "asserted",
+          "artifact": "10c756b757e86a71",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_eyes_refused_while_blocked",
+      "witness": "3d9c80116d6c01b2",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_microphone_goes_only_to_the_laptop",
+      "witness": "717283df705fef8b",
+      "links": [
+        {
+          "id": "gFa",
+          "kind": "asserted",
+          "artifact": "60e9863bc917dfa3",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_nonsense_eye_commands_are_refused_and_change_nothing",
+      "witness": "e3ed9c316ee8905a",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_only_the_laptop_may_call",
+      "witness": "168d4aa6073d31ac",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_report_names_its_profile",
+      "witness": "44b82ff90712d44a",
+      "links": [
+        {
+          "id": "H9j",
+          "kind": "asserted",
+          "artifact": "2d3ec9853bdc49b4",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_report_with_no_arm",
+      "witness": "71087460f51ad96e",
+      "links": [
+        {
+          "id": "MA0",
+          "kind": "asserted",
+          "artifact": "af3268698f8c5184",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_speech_played_in_order",
+      "witness": "fda8d47a2999c8c5",
+      "links": [
+        {
+          "id": "u9G",
+          "kind": "asserted",
+          "artifact": "10c756b757e86a71",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_stopping_fades_the_eyes_to_dark_before_exit",
+      "witness": "f8f7d482c5cd14c8",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_stopping_fades_the_eyes_to_dark_before_exit.sleep",
+      "witness": "02d9b2ad3ecbccaf",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_eye_loop_survives_a_fault_and_fades_out",
+      "witness": "d44c39352a6f4671",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_eye_loop_survives_a_fault_and_fades_out.Flaky",
+      "witness": "012dd36d642acaa4",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_eye_loop_survives_a_fault_and_fades_out.Flaky.__init__",
+      "witness": "d095e22f4f66abc2",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_eye_loop_survives_a_fault_and_fades_out.Flaky.show",
+      "witness": "194fa0aad6d58412",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_eye_loop_survives_a_fault_and_fades_out.tick",
+      "witness": "913b029a19ff5efd",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_says_why_the_eyes_are_off",
+      "witness": "6620d08543c6cab5",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_speech_queue_is_bounded",
+      "witness": "a28dcb708f73c977",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "cPu",
+          "kind": "asserted",
+          "artifact": "e4bb4db865df2477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "u9G",
+          "kind": "asserted",
+          "artifact": "10c756b757e86a71",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

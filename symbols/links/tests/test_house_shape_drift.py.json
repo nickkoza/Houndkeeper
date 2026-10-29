@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_house_shape_drift.py",
+  "entries": [
+    {
+      "name": "_turn_about",
+      "witness": "93afdbfc4ef57cff",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_one_degree_turn_is_judged_alike_at_a_corner_and_near_the_centre",
+      "witness": "8fe7cf357d679f58",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_shift_beyond_the_gate_is_dropped_wherever_it_is",
+      "witness": "5c5a620193b9e6f4",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_shift_is_measured_at_the_keyframe",
+      "witness": "987c869f0e2692a6",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

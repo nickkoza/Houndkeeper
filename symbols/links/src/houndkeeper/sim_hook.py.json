@@ -1,0 +1,397 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/sim_hook.py",
+  "entries": [
+    {
+      "name": "_arm_path",
+      "witness": "2395d0b4ba478b5d",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_camera_insets",
+      "witness": "5b320bf6bcc342c2",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "_fixed_extent",
+      "witness": "e84679865e61d74b",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Xl1",
+          "kind": "asserted",
+          "artifact": "a56bb9072c719c39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_fixtures",
+      "witness": "f8fc53d68917f56d",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_head_camera",
+      "witness": "1ae1de943a3062bd",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_imperfections",
+      "witness": "a225a4463a112a2c",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nAH",
+          "kind": "asserted",
+          "artifact": "a71c78dc34b48fb8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_near_clip_m",
+      "witness": "d97bfcbc3b28ae87",
+      "links": [
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "add",
+      "witness": "535f867835a1f6d5",
+      "links": [
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "nTt",
+          "kind": "asserted",
+          "artifact": "b7aeb20ffb4aae36",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Udt",
+          "kind": "asserted",
+          "artifact": "92cd785da80fe141",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "X94",
+          "kind": "asserted",
+          "artifact": "382271c13357d111",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "add.post",
+      "witness": "cb4bad4177a82ebd",
+      "links": [
+        {
+          "id": "JwL",
+          "kind": "asserted",
+          "artifact": "11c41f3bd334dbef",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "nTt",
+          "kind": "asserted",
+          "artifact": "b7aeb20ffb4aae36",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Udt",
+          "kind": "asserted",
+          "artifact": "92cd785da80fe141",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "display_awake",
+      "witness": "d30942c1ffb1f189",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "draw_overlays",
+      "witness": "6f9f4324cb6e307d",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "frame_px",
+      "witness": "ca3e107692b79a29",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "monitor_on",
+      "witness": "4ae57615c357859d",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "render_settings",
+      "witness": "c0c37ec26e8478b1",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "nAH",
+          "kind": "asserted",
+          "artifact": "a71c78dc34b48fb8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "set_head_camera",
+      "witness": "fc3ca2f682b043b2",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "55b",
+          "kind": "asserted",
+          "artifact": "7abdac87efad11d7",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "viewer",
+      "witness": "3822dcc67062b9f1",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "viewer._View",
+      "witness": "e54156a68c514c09",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "viewer.hud",
+      "witness": "6339d4e24095203f",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "write_energy",
+      "witness": "4fb4e8a6447ae114",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

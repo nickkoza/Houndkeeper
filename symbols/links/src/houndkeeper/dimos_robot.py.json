@@ -1,0 +1,703 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/dimos_robot.py",
+  "entries": [
+    {
+      "name": "DimosRobot",
+      "witness": "be36650d1565857a",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.__init__",
+      "witness": "30d98ab7682b0679",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._guard",
+      "witness": "e7dc9d538a27ee42",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._hits",
+      "witness": "8535f922fd40da94",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._profile",
+      "witness": "9dd0c96cb3b67d13",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "zwe",
+          "kind": "asserted",
+          "artifact": "8b4f4cc41441cc26",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._read",
+      "witness": "b105f5c80733e6b6",
+      "links": [
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._samples",
+      "witness": "228c3427f76072dd",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._settled_image",
+      "witness": "b9bc478494bc1356",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot._write",
+      "witness": "b564ebbf4bec2bb9",
+      "links": [
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.arm_to",
+      "witness": "28828dcb81d6c28c",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        },
+        {
+          "id": "zwe",
+          "kind": "asserted",
+          "artifact": "8b4f4cc41441cc26",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.arm_to_safe",
+      "witness": "ccc5f34be61a5d6a",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.base_xy",
+      "witness": "a218edad6f01e7c7",
+      "links": [
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.bin_clear_z",
+      "witness": "da68f154525df7da",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.capture",
+      "witness": "6184616d40427c70",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.command",
+      "witness": "ab59743b8622481b",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.finger_low",
+      "witness": "a6504327b84d8b3d",
+      "links": [
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.floor_hit",
+      "witness": "8c0670abf7b93d89",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.grasp_point",
+      "witness": "eefcd2d1cc0d0830",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.grip_to",
+      "witness": "d09a61dbd83f7e57",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.gripper",
+      "witness": "41984fe75c86c21d",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.gripper_frame",
+      "witness": "97d7f299d3e12187",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.held_mass",
+      "witness": "28cec9df98fefcd6",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.ik",
+      "witness": "0437bb63645ad509",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.ik_lean",
+      "witness": "89ddafa9b4df0532",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.ik_pose",
+      "witness": "98cb20d1c55a05e8",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.joint_efforts",
+      "witness": "1e6d171b7a5fb2a9",
+      "links": [
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.joint_state",
+      "witness": "7d0510b598537da1",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.kin_model",
+      "witness": "0e1a91c875509cb9",
+      "links": [
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.look_down",
+      "witness": "8fdf761a0a70c4f2",
+      "links": [
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.over_bin",
+      "witness": "a48832d3af566cfb",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.ready_and_bin",
+      "witness": "b53f477517490bfd",
+      "links": [
+        {
+          "id": "Swf",
+          "kind": "asserted",
+          "artifact": "84f7d8fad9f6a330",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.refuses",
+      "witness": "5ffe79a6f8373560",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.set_payload",
+      "witness": "f4673beea951e362",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.settled_efforts",
+      "witness": "cbb809ca33794704",
+      "links": [
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KrW",
+          "kind": "asserted",
+          "artifact": "c614d4073132dbfe",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.small_image",
+      "witness": "2b16579768aa6e3d",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.state",
+      "witness": "7e58e91c8507e628",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.step",
+      "witness": "e7215f1ea026cde7",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.sync",
+      "witness": "b7c4944eaf97614f",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "DimosRobot.target",
+      "witness": "65e1042adfad8fae",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

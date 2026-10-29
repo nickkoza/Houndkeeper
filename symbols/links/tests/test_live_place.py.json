@@ -1,0 +1,295 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_live_place.py",
+  "entries": [
+    {
+      "name": "err",
+      "witness": "52e81016f63904e1",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "witness": "4d6818b1a16feb85",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "odometry",
+      "witness": "042df9329243f400",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "room",
+      "witness": "9f892dc8cbf10eed",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "room.seg",
+      "witness": "179af4d4060c6a11",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "witness": "a57bf1e75ac5557d",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "seen",
+      "witness": "63534975768a4311",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sweep",
+      "witness": "5fb735458370b4c1",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_floor_lock_pulls_the_pose_by_its_measurement_and_an_outlier_less",
+      "witness": "95d8cad35f07e87e",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_planted_heading_bend_is_taken_back_by_the_house_keyframes",
+      "witness": "64d343537598fe3a",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_planted_slip_is_taken_back",
+      "witness": "edf1463f7c83aa10",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_confirmers_lock_is_the_whole_track_step",
+      "witness": "7f18b01adf376c83",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_feed_reads_nothing_after_the_moment_asked",
+      "witness": "0d468a2a677b0f98",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_placer_takes_sweeps_in_a_worker_and_answers_the_newest",
+      "witness": "b974e96d7056d0a4",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_house_the_placement_is_odometry",
+      "witness": "85f54daa0ebf9900",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "walk",
+      "witness": "f1016d4a15d05038",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

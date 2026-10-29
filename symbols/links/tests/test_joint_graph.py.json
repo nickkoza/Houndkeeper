@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_joint_graph.py",
+  "entries": [
+    {
+      "name": "test_a_planted_odometry_bend_comes_out_where_the_other_constraints_hold_the_shape",
+      "witness": "bc61f27cbfcab754",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_world_move_becomes_the_between_factors_error_by_the_adjoint",
+      "witness": "1710fe4e2911ce68",
+      "links": [
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

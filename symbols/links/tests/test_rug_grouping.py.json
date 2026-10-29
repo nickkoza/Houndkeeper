@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_rug_grouping.py",
+  "entries": [
+    {
+      "name": "_confirmer",
+      "witness": "605af17d94290b78",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_confirmer.mark",
+      "witness": "17d9b254c8779a20",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_floor_sized",
+      "witness": "6f15bd2e8cd15eb0",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_rug_fragments_group_into_one_floor_change",
+      "witness": "867c242255d6e3ee",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_grouping_each_fragment_looks_like_a_toy",
+      "witness": "c71dc3a512e2eed2",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

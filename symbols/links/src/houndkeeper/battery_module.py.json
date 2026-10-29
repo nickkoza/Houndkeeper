@@ -1,0 +1,169 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/battery_module.py",
+  "entries": [
+    {
+      "name": "Battery",
+      "witness": "a7b61948704e2a88",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "battery_from_lowstate",
+      "witness": "eaeeb9c5d7c425f0",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Battery.__init__",
+      "witness": "49672ba4034de0e6",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Battery.__repr__",
+      "witness": "3512c8c9d16ce1c1",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Battery.lcm_decode",
+      "witness": "9da7037fcab625a1",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Battery.lcm_encode",
+      "witness": "bef101dee8d14522",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Battery.power",
+      "witness": "939bdc99247f437b",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "BatteryLog",
+      "witness": "df79b4c629b10f8d",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "BatteryLog._run",
+      "witness": "5c9b243f0ba55870",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "BatteryLog.start",
+      "witness": "cd052c5388688079",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "BatteryLog.stop",
+      "witness": "5919556520774eb0",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "LowStateSpec",
+      "witness": "29c4ea52aa978f80",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "LowStateSpec.lowstate",
+      "witness": "132c63465a4050c0",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

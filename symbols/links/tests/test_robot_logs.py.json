@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_robot_logs.py",
+  "entries": [
+    {
+      "name": "_env",
+      "witness": "77627258bc8edd64",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_env_reads_values_past_comments_and_quotes",
+      "witness": "bcded353689af087",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_loopback_all_or_no_address_refused",
+      "witness": "0b90a671a95a3e71",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_resolver_answers_nothing_and_listens_only_on_house_addresses",
+      "witness": "3c9cdae270780658",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_router_line_kept_whole_with_time_and_sender",
+      "witness": "62f963e32e811b98",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_syslog_binds_an_address_the_laptop_does_not_hold_yet",
+      "witness": "2ace48b5ceb731bf",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_window_resolver_answers_only_the_exact_allowed_names_from_the_router",
+      "witness": "5ebe956651e236c2",
+      "links": [
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_window_resolver_refuses_anything_wider_than_exact_names",
+      "witness": "848605995382c407",
+      "links": [
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

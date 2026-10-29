@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/metrics.py",
+  "entries": [
+    {
+      "name": "rows",
+      "witness": "f491b026cf63842d",
+      "links": [
+        {
+          "id": "D4v",
+          "kind": "asserted",
+          "artifact": "217a2d5302bf17ab",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "tier_rates",
+      "witness": "3dc4753784159a07",
+      "links": [
+        {
+          "id": "D4v",
+          "kind": "asserted",
+          "artifact": "217a2d5302bf17ab",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

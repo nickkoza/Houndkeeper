@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/morning_score.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "56b22f27a9ecee79",
+      "links": [
+        {
+          "id": "9X9",
+          "kind": "asserted",
+          "artifact": "2e71184699b954be",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "scored",
+      "witness": "d62fd2e616287808",
+      "links": [
+        {
+          "id": "9X9",
+          "kind": "asserted",
+          "artifact": "2e71184699b954be",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "scored_against_truth",
+      "witness": "94665d798c0207f3",
+      "links": [
+        {
+          "id": "9X9",
+          "kind": "asserted",
+          "artifact": "2e71184699b954be",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "section",
+      "witness": "4990213dfa16b3e7",
+      "links": [
+        {
+          "id": "9X9",
+          "kind": "asserted",
+          "artifact": "2e71184699b954be",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "write",
+      "witness": "588acb1466e0250d",
+      "links": [
+        {
+          "id": "9X9",
+          "kind": "asserted",
+          "artifact": "2e71184699b954be",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

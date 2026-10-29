@@ -1,0 +1,349 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_card.py",
+  "entries": [
+    {
+      "name": "disk",
+      "witness": "b32fe39e81d9a1e7",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "first_boot",
+      "witness": "cf1507f550fc186d",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "witness": "f4c0e48659c21f3a",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "lsblk",
+      "witness": "a974d3bc35985b1b",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_bad_country_is_refused",
+      "witness": "1998ef6b992f122b",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_card_for_another_network_sends_no_microphone",
+      "witness": "37fda7e01d6e4729",
+      "links": [
+        {
+          "id": "gFa",
+          "kind": "asserted",
+          "artifact": "60e9863bc917dfa3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_card_mounted_anywhere_but_the_desktop_mount_places_is_refused",
+      "witness": "f8b6600e3c27e6ef",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_mount_deeper_than_a_partition_is_seen",
+      "witness": "b95617b6efa56b03",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_usb_hard_drive_is_not_a_card",
+      "witness": "97a36ac77341f014",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_wifi_password_wpa_cannot_take_is_refused",
+      "witness": "2e34bb080eefe7be",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_an_opened_encrypted_or_lvm_volume_is_in_use_even_unmounted",
+      "witness": "496d31faa8dc69be",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_emmc_boot_areas_are_not_cards",
+      "witness": "532d3940cb0afaff",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_fixed_disk_refused",
+      "witness": "352556f5cbd2e510",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_host_settings_carry_the_profile",
+      "witness": "f4414990ac9cd645",
+      "links": [
+        {
+          "id": "H9j",
+          "kind": "asserted",
+          "artifact": "2d3ec9853bdc49b4",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_identity_is_reported_for_the_recheck",
+      "witness": "2ba99bb634d1d9e9",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_instance_id_new_each_card",
+      "witness": "333fbf562cdfb9da",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_mounted_system_partition_refused",
+      "witness": "e095d2e067ff8958",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_network_config_wifi",
+      "witness": "780c84ad5b9fdf50",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_offline_flag_reaches_first_boot",
+      "witness": "1f10e3a92183646c",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_profiles",
+      "witness": "e40c071af98eeb96",
+      "links": [
+        {
+          "id": "H9j",
+          "kind": "asserted",
+          "artifact": "2d3ec9853bdc49b4",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_removable_card_accepted",
+      "witness": "2a3d54212efd84a9",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_system_disk_refused",
+      "witness": "41ddc5de259ec111",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_too_large_refused",
+      "witness": "9d49dbc894be2611",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_unknown_device_refused",
+      "witness": "b7372aee1959982e",
+      "links": [
+        {
+          "id": "ObX",
+          "kind": "asserted",
+          "artifact": "6be51a4da791e806",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_user_data_key_only",
+      "witness": "8eebfd916b374f92",
+      "links": [
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_what_cloud_init_would_misread_is_refused",
+      "witness": "4b3f5b33ed68a42d",
+      "links": [
+        {
+          "id": "mX4",
+          "kind": "asserted",
+          "artifact": "a1b9ead686d2f137",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "OmH",
+          "kind": "asserted",
+          "artifact": "6c3eb1437e571ae1",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_localize.py",
+  "entries": [
+    {
+      "name": "_moved",
+      "witness": "fcd8522c03ab3759",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_room",
+      "witness": "438dac41dc84bc0d",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_wall",
+      "witness": "541ac87a0c134f84",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_corridor_does_not_let_it_slide",
+      "witness": "484c7451333002db",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_known_odometry_error_is_recovered",
+      "witness": "bea82efacc4b8244",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_scan_that_mostly_does_not_match_the_map_is_not_trusted",
+      "witness": "15a99c450f25b894",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_furniture_that_moved_does_not_pull_it",
+      "witness": "ac89ffc4cf154fb0",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_heights_are_measured_from_the_floor_under_a_tilted_scan",
+      "witness": "15cfd21b570c4112",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_it_never_wanders_far_from_what_odometry_could_have_drifted",
+      "witness": "28464abb3702e7ee",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

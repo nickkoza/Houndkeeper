@@ -1,0 +1,187 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_map_error_frame_and_log.py",
+  "entries": [
+    {
+      "name": "_floor",
+      "witness": "e81b1f5fb49f1845",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_no_structures",
+      "witness": "0a9d1c6d74020f64",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_rot",
+      "witness": "9e41be6ecc366d33",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_run_main",
+      "witness": "01ea86706840f0ac",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_traj",
+      "witness": "aa5a03b153a7f72f",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_walk",
+      "witness": "5b1ce9ace5d8328b",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_bent_map_counts_against_it",
+      "witness": "2805f1ef7f3c7f8d",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_map_built_on_the_true_path_is_judged_where_it_lies",
+      "witness": "07c9c06a2381fd47",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_map_in_odometrys_turned_frame_is_laid_back_by_its_path_and_scores_low",
+      "witness": "b004edf2f8447b33",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_each_measurement_is_appended_to_the_log_with_its_date_and_how_the_map_was_built",
+      "witness": "bf523e39205b7030",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_funnel_check_measures_each_bench_house_from_its_path_and_labels_the_bench",
+      "witness": "d417d1f418d81063",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_funnel_check_measures_each_bench_house_from_its_path_and_labels_the_bench.fake",
+      "witness": "e44a345bb3f2397b",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_log_goes_to_data_eval_by_default",
+      "witness": "dc75cf7a354ab2dd",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_log_goes_to_data_eval_by_default.grab",
+      "witness": "77845bee3da98b2e",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_paths_corrections_are_applied_before_the_rigid_fit",
+      "witness": "8b39fde7945832ca",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

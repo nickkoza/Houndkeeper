@@ -1,0 +1,121 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_project_map.py",
+  "entries": [
+    {
+      "name": "test_a_clean_page_carries_nothing",
+      "witness": "5f9686a1c411aca9",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_named_path_git_ignores_is_refused_before_the_map_is_made",
+      "witness": "0c585d734b9dec97",
+      "links": [
+        {
+          "id": "Nlv",
+          "kind": "asserted",
+          "artifact": "8d11e2058bb652d3",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_page_that_leaks_is_removed_and_the_report_names_only_kinds",
+      "witness": "73f11d6a29638f29",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_page_that_leaks_is_removed_and_the_report_names_only_kinds.fake_run",
+      "witness": "ffea139d0892b5b6",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_value_escaped_in_the_pages_data_is_still_found",
+      "witness": "ff140f7139f127eb",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_value_the_repository_already_carries_does_not_count",
+      "witness": "208ad54b0c052c85",
+      "links": [
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_each_kind_is_found_and_counted",
+      "witness": "557da0539ef58c0d",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_maps_own_words_name_the_robot_barrymore",
+      "witness": "bb38f2232a9ba095",
+      "links": [
+        {
+          "id": "EZt",
+          "kind": "asserted",
+          "artifact": "54635414607da53c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_values_are_counted_and_never_reported",
+      "witness": "352ec7c4f04b6e8e",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

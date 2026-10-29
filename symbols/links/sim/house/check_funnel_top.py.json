@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/check_funnel_top.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "423b607e49a24433",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.check",
+      "witness": "c69f1b66f0acd943",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "witness": "99a2cf86fc545cc1",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

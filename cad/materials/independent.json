@@ -1,0 +1,301 @@
+{
+  "about": "Independent test data for 3D-printed polycarbonate and PC-CF, set beside the makers' datasheets in materials.json, for the mount's design values (printed-mount [3JA], [Xtj]). Collected 4 Oct 2026. XY: specimen printed flat, load along the layers; Z: specimen printed upright, load across the layers. Every figure is copied from the source as published; 'verified' says how it was read: 'full text' (read in the paper or page itself), 'abstract only' (the paper is paywalled; only its abstract was read), 'second-hand' (quoted by a third party, the primary document not read). null: not reported. No figure here is estimated; estimates and assumptions live in allowables.json, labelled.",
+  "sources": [
+    {
+      "id": "cnck_pcblend_2021",
+      "who": "Stefan Hermann, CNC Kitchen (independent tester; filament supplied free by Prusa for review)",
+      "title": "Prusament PC Blend Review",
+      "date": "2021-06-12",
+      "url": "https://www.cnckitchen.com/blog/prusament-pc-blend-review",
+      "verified": "full text",
+      "material": "Prusament PC Blend (PC compounded with undisclosed polymers, no styrene). Not one of our three candidates; the nearest published independent test of a consumer PC filament with flat and upright specimens.",
+      "method": {
+        "printer": "Original Prusa MK3S, no enclosure",
+        "settings": "PrusaSlicer built-in profile: 275 C nozzle, 115 C bed, 20% part fan",
+        "specimen": "his own mini tensile specimens (not an ISO/ASTM geometry), printed flat (XY) and standing (Z); DIY universal test machine at constant speed; bending modulus from his 3-point rig with dead weights",
+        "infill_walls": "not stated on the public page (full report on Patreon)",
+        "annealed": false,
+        "dried": "both: spool stored open in a damp basement for a year (un-dried), then 6 h in a food dehydrator at its highest setting",
+        "nozzle": "brass and hardened steel compared"
+      },
+      "results": {
+        "tensile_xy_MPa": {"undried_brass": 68, "dried_steel": 71},
+        "tensile_z_MPa": {"undried_brass": 35, "dried_steel": 25, "dried_brass": 43.4},
+        "z_over_xy": {"undried_brass": 0.51, "dried_steel": 0.35, "dried_brass": 0.61},
+        "bend_E_MPa": 2200,
+        "hook_flat_kg": [74, 77], "hook_upright_kg": {"undried_brass": 35, "dried_steel": 22, "dried_brass": 31},
+        "izod_notched_flat_kJ_m2": {"undried": 27, "dried": 25}, "izod_upright_kJ_m2": "under 3",
+        "softens_C": 110, "fails_C": 125
+      },
+      "notes": "Upright 'dried brass' 43.4 MPa is derived from his statements (layer strength +73% over the steel-nozzle 25 MPa, and 23% above the un-dried 35 MPa). The key finding for us: a hardened steel nozzle cut layer strength by about 40% against brass, probably thermally. The X1 Carbon ships with a hardened steel nozzle."
+    },
+    {
+      "id": "gomezgras_2021_pciso",
+      "who": "Gomez-Gras G., Abad M.D., Perez M.A., IQS School of Engineering, Universitat Ramon Llull (peer reviewed)",
+      "title": "Mechanical Performance of 3D-Printed Biocompatible Polycarbonate for Biomechanical Applications",
+      "journal": "Polymers 13(21):3669, 2021",
+      "doi": "10.3390/polym13213669",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8587781/",
+      "verified": "full text",
+      "material": "Stratasys PC-ISO (unfilled polycarbonate)",
+      "method": {
+        "printer": "Stratasys Fortus 400mc, heated build chamber; 365 C extrusion; T16 tip, 0.254 mm layers",
+        "standards": "tensile ASTM D638 type IV, 4 mm thick; 3-point bending ASTM D790; shear ASTM D5379; Charpy ISO 179-1; flexural fatigue ASTM D7774 procedure A (3-point) on a Bose ElectroForce 3200",
+        "orientations": "X-Flat, X-Edge (layers parallel to load) and Z-Flat (upright, load across layers); raster 0, +/-45, 90 deg",
+        "infill_walls": "solid: 0 mm air gap, 1 contour",
+        "annealed": "not stated for the specimens (supplier post-processing oven 145 C is mentioned as a supplier condition)",
+        "dried": "not stated",
+        "n": "5 per static configuration; 3 per fatigue load level"
+      },
+      "results": {
+        "tensile": [
+          {"config": "X-Flat 0", "E_MPa": 2236, "strength_MPa": 62, "strain_pct": 4.03},
+          {"config": "X-Flat +/-45", "E_MPa": 2510, "strength_MPa": 65, "strain_pct": 4.83},
+          {"config": "X-Flat 90", "E_MPa": 2185, "strength_MPa": 41, "strain_pct": 3.10},
+          {"config": "X-Edge 0", "E_MPa": 2110, "strength_MPa": 59, "strain_pct": 4.99},
+          {"config": "X-Edge +/-45", "E_MPa": 2114, "strength_MPa": 53, "strain_pct": 4.28},
+          {"config": "X-Edge 90", "E_MPa": 2379, "strength_MPa": 62, "strain_pct": 3.77},
+          {"config": "Z-Flat 0", "E_MPa": 1976, "strength_MPa": 26, "strain_pct": 1.36},
+          {"config": "Z-Flat +/-45", "E_MPa": 1857, "strength_MPa": 28, "strain_pct": 1.73},
+          {"config": "Z-Flat 90", "E_MPa": 1806, "strength_MPa": 30, "strain_pct": 1.56}
+        ],
+        "flexural": [
+          {"config": "X-Flat 0", "E_MPa": 1871, "strength_MPa": 85.4, "strain_pct": 7.1},
+          {"config": "X-Flat +/-45", "E_MPa": 1654, "strength_MPa": 74.8, "strain_pct": 7.6},
+          {"config": "X-Flat 90", "E_MPa": 1674, "strength_MPa": 66.1, "strain_pct": 5.0},
+          {"config": "X-Edge 0", "E_MPa": 1793, "strength_MPa": 78.4, "strain_pct": 6.7},
+          {"config": "X-Edge +/-45", "E_MPa": 1921, "strength_MPa": 85.3, "strain_pct": 6.6},
+          {"config": "X-Edge 90", "E_MPa": 1715, "strength_MPa": 72.7, "strain_pct": 6.0},
+          {"config": "Z-Flat 0", "E_MPa": 1759, "strength_MPa": 54.2, "strain_pct": 2.7},
+          {"config": "Z-Flat +/-45", "E_MPa": 1715, "strength_MPa": 55.5, "strain_pct": 3.6},
+          {"config": "Z-Flat 90", "E_MPa": 1627, "strength_MPa": 44.9, "strain_pct": 4.4}
+        ],
+        "flexural_fatigue_cycles_to_failure": {
+          "levels_pct_of_static_flexural_strength": [80, 60, 40, 20],
+          "X-Flat 0": [1016, 1437, 3206, 14245],
+          "X-Flat +/-45": [423, 1011, 2480, 12623],
+          "X-Flat 90": [16, 164, 562, 3838],
+          "X-Edge 0": [1082, 1354, 3504, 13589],
+          "X-Edge +/-45": [187, 404, 1715, 14549],
+          "X-Edge 90": [953, 1519, 3563, 20009],
+          "Z-Flat 0": [122, 432, 2647, 16445],
+          "Z-Flat +/-45": [51, 989, 1614, 8236],
+          "Z-Flat 90": [255, 959, 4075, 39332]
+        },
+        "z_over_xy_tensile_strength_+/-45": 0.43,
+        "z_over_xy_tensile_modulus_+/-45": 0.74,
+        "z_over_xy_flexural_strength_+/-45": 0.74
+      },
+      "notes": "Industrial printer with a heated chamber, so its layer bonding is better than an open or passively warmed desktop machine's. Even so, at 20% of static bending strength every configuration failed within 4,000 to 40,000 cycles: printed PC is poor in fatigue."
+    },
+    {
+      "id": "rodrigues_2026_fff_fatigue",
+      "who": "Rodrigues A., Branco R., Franco M., Silva R., Malca C., Martins R.F., NOVA University Lisbon, University of Coimbra, Polytechnic of Leiria (peer reviewed)",
+      "title": "Mechanical, Fatigue, and Thermal Characterization of ASA, Nylon 12, PC, and PC-ABS Manufactured by Fused Filament Fabrication (FFF)",
+      "journal": "Polymers 18(2):302, 2026",
+      "doi": "10.3390/polym18020302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12845617/",
+      "verified": "full text",
+      "material": "Stratasys PC filament",
+      "method": {
+        "printer": "Stratasys Fortus 450 (heated chamber); PC 275 C extrusion, 110 C platform; 0.254 mm layers",
+        "standards": "ASTM D638-03 specimens, about 5.2 mm thick; quasi-static at 2 mm/min; fatigue at 10 Hz, R = 0.05 (tension-tension), load controlled sine, staircase method, run-out 1e6 cycles",
+        "orientations": "XY only, raster +/-45",
+        "infill_walls": "100% infill; micro-CT still shows voids, concentrated mid-section",
+        "annealed": "not stated",
+        "dried": "not stated",
+        "n": "5 static; 10 fatigue specimens for PC"
+      },
+      "results": {
+        "tensile_xy": {"E_MPa": 1549, "strength_MPa": 57.1, "ultimate_strain_pct": 9.6},
+        "fatigue_limit_1e6_stress_range_MPa": 3.6,
+        "fatigue_limit_fraction_of_static": 0.07,
+        "basquin_hcf_stress_range_MPa": "101.77 * Nf^-0.247",
+        "basquin_lcf_stress_range_MPa": "478.49 * Nf^-0.389",
+        "fatigue_points": [
+          {"pct_of_static": 40, "max_stress_MPa": 21.35, "cycles": 3368},
+          {"pct_of_static": 25, "max_stress_MPa": 13.35, "cycles": 11269},
+          {"pct_of_static": 10, "max_stress_MPa": 5.34, "cycles": 182224},
+          {"pct_of_static": 9, "max_stress_MPa": 4.80, "cycles": [220112, 299132]},
+          {"pct_of_static": 8.5, "max_stress_MPa": 4.54, "cycles": 600516},
+          {"pct_of_static": 8, "max_stress_MPa": 4.27, "cycles": [834070, 520942]},
+          {"pct_of_static": 7, "max_stress_MPa": 3.74, "cycles": "1e6 run-out"},
+          {"pct_of_static": 5, "max_stress_MPa": 2.67, "cycles": "1e6 run-out"}
+        ]
+      },
+      "notes": "PC had the lowest fatigue strength of the four materials. The paper's stated fatigue limit (3.6 MPa, Table 11) and its Table 6 (3.74 MPa maximum stress at 7%) differ slightly; the percentages are computed on a strength of about 53.4 MPa, not the 57.1 MPa of Table 4. Recorded as published. Extrapolating the Basquin fit to 1e7 cycles gives about 1.9 MPa (3.3% of 57.1 MPa): that is our extrapolation, labelled in allowables.json."
+    },
+    {
+      "id": "fang_2020_humidity",
+      "who": "Fang L., Yan Y., Agarwal O., Yao S., Seppala J.E., Kang S.H., Johns Hopkins University and NIST (peer reviewed)",
+      "title": "Effects of Environmental Temperature and Humidity on the Geometry and Strength of Polycarbonate Specimens Prepared by Fused Filament Fabrication",
+      "journal": "Materials 13(19):4414, 2020",
+      "doi": "10.3390/ma13194414",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7579282/",
+      "verified": "full text (figures not digitised; percentages from the text)",
+      "material": "bisphenol-A polycarbonate filament",
+      "method": {
+        "printer": "LulzBot TAZ 6, 0.5 mm nozzle, 0.3 mm layers, 10 mm/s, in an acrylic enclosure with a heater (room to 90 C) and dry-air purge (<10% RH)",
+        "specimens": "tensile, longitudinal (along the bead) and transverse (across the bond)",
+        "dried": "filament dried 1 h in vacuum at 100 C, then conditioned at 10 to 90% RH for the humidity series"
+      },
+      "results": {
+        "porosity_dry_pct": 0.16,
+        "porosity_wet_pct": 11.7,
+        "water_content_for_wet_case_pct_mass": 0.15,
+        "longitudinal_strength_loss_wet_vs_dry": "about 30%",
+        "chamber_temperature_effect_longitudinal": "slight increase with chamber temperature, not significant (p = 0.024 per the paper's own reading); approaches bulk PC when printed at 90 C",
+        "transverse": "brittle; strongly anisotropic; chamber temperature effect not significant (p = 0.273)"
+      },
+      "notes": "Dry filament printed close to bulk PC along the bead; wet filament lost about 30% of it through porosity. Supports a moisture knock-down and the rule that PC is dried and fed from a dry box."
+    },
+    {
+      "id": "akgumus_2026_infill",
+      "who": "Akgumus D., Istanbul Aydin University (peer reviewed)",
+      "title": "Experimental and Statistical Evaluation of Infill Density Effects on the Mechanical Properties of FDM-Printed PLA, ABS, PC, and PETG Engineering Materials",
+      "journal": "Polymers 18(16):1998, 2026",
+      "doi": "10.3390/polym18161998",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13516365/",
+      "verified": "full text",
+      "material": "Porima PC filament",
+      "method": {
+        "printer": "GEMA AFZ 227, 0.4 mm nozzle, 0.2 mm layers, 60 mm/s, 280 C nozzle, 120 C bed, grid infill, raft; 25 C, 40% RH room",
+        "standard": "ASTM D638 tensile",
+        "infill_walls": "30% and 60% grid infill; wall count not stated",
+        "annealed": false, "dried": "not stated"
+      },
+      "results": {
+        "tensile_MPa_30pct_infill": 17.49,
+        "tensile_MPa_60pct_infill": 24.86,
+        "modulus": "reported as 14.6 to 15.9 GPa for PC, not physically plausible for PC (bulk about 2.4 GPa); not used"
+      },
+      "notes": "Strength on the nominal section. Against a solid printed PC of about 59 MPa (independent typical, allowables.json) that is about 0.30 at 30% and 0.42 at 60% infill. Supports designing load paths solid."
+    },
+    {
+      "id": "aldawood_2025_pc_pla",
+      "who": "Aldawood F.K., Abualkhair H.F., Khan M.A., Alquraish M., University of Bisha and others (peer reviewed)",
+      "title": "Optimization of Mechanical Properties Using Fused Deposition Manufacturing Technique: A Systematic Investigation of Polycarbonate and Polylactic Acid Specimens",
+      "journal": "Polymers 17(19):2659, 2025",
+      "doi": "10.3390/polym17192659",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526709/",
+      "verified": "full text",
+      "material": "PC filament (brand not recorded here)",
+      "method": {"standard": "ASTM D638 type I", "orientations": "horizontal and 'vertical' (from the dimensions, on edge, layers still along the load, not upright Z)", "n": "1 per condition (the authors say this is underpowered)"},
+      "results": [
+        {"layer_mm": 0.2, "orientation": "horizontal", "strength_MPa": 42.5, "E_MPa": 2350, "strain_pct": 18.6},
+        {"layer_mm": 0.2, "orientation": "vertical (on edge)", "strength_MPa": 63.8, "E_MPa": 2720, "strain_pct": 8.9},
+        {"layer_mm": 0.4, "orientation": "horizontal", "strength_MPa": 55.0, "E_MPa": 2480, "strain_pct": 12.3},
+        {"layer_mm": 0.4, "orientation": "vertical (on edge)", "strength_MPa": 67.5, "E_MPa": 2790, "strain_pct": 6.7}
+      ],
+      "notes": "One specimen per condition: low weight. Shows the spread of flat XY PC strength (42.5 to 55 MPa) from one lab."
+    },
+    {
+      "id": "remache_2026_pccf",
+      "who": "Remache A., Pavon W., Jara Vinueza O., Chicaiza J., Fuentes J.M., Cadena H., Universidad Central del Ecuador and others (peer reviewed)",
+      "title": "Sterilization-Induced Property Changes in FDM-Printed Carbon Fiber-Reinforced Polycarbonate for Medical Device Applications",
+      "journal": "Journal of Functional Biomaterials 17(4):159, 2026",
+      "doi": "10.3390/jfb17040159",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13116934/",
+      "verified": "full text",
+      "material": "Prusa Polymers PC-CF (Prusament PC Blend Carbon Fiber). The only independent printed PC-CF tensile result found.",
+      "method": {
+        "printer": "Smart3D Macro (enclosed), 0.4 mm nozzle, 0.2 mm layers, 275 C nozzle, 110 C bed, 55 mm/s",
+        "standard": "ISO 527-2 type 1BA, ISO 527-1, 1 mm/min",
+        "orientations": "XY flat only",
+        "infill_walls": "80% rectilinear +/-45 infill for tensile",
+        "annealed": false, "dried": "not stated; conditioned 23 C / 50% RH"
+      },
+      "results": {
+        "tensile_xy_MPa": 53.0,
+        "E_reported_MPa": 175.5,
+        "elongation_reported_pct": 65.2,
+        "charpy_kJ_m2": 29.3
+      },
+      "notes": "The reported modulus (175 MPa) and elongation (65%) are not plausible for PC-CF (bulk PC alone is about 2400 MPa and the datasheets give 2 to 3% elongation); probably from crosshead travel without an extensometer. Only the strength is used. No Z data."
+    },
+    {
+      "id": "dogan_2022_creep",
+      "who": "Dogan O., Kahramanmaras Sutcu Imam University (peer reviewed)",
+      "title": "Short-term Creep Behaviour of Different Polymers Used in Additive Manufacturing under Different Thermal and Loading Conditions",
+      "journal": "Strojniski vestnik - Journal of Mechanical Engineering 68(7-8):451-460, 2022",
+      "doi": "10.5545/sv-jme.2022.191",
+      "url": "https://ojs30.sv-jme.eu/index.php/sv-jme/article/view/191",
+      "verified": "full text (creep curves in figures only, not digitised)",
+      "material": "Ultimaker PC (transparent)",
+      "method": {"printer": "Ultimaker 2+ Extended, 270 C nozzle, 110 C bed, 45 mm/s, 0.4 mm nozzle, 0.2 mm layers, lines infill", "specimens": "printed then CNC-milled to the creep geometry, ASTM D638/D2990", "conditions": "25, 40 and 60 C; 10 and 20 MPa; 3 h"},
+      "results": {
+        "summary": "PC crept least of the six materials (PLA, tough PLA, ABS, CPE, PC, nylon) in every case; no PC specimen ruptured, including 60 C at 20 MPa; no rupture of any material at 25 or 40 C",
+        "strain_values": null
+      },
+      "notes": "Only three hours. Says PC is the best of the common filaments in creep, and that 40 C is not a cliff for it; does not give a long-term strain we can design to."
+    },
+    {
+      "id": "salazar_2018_creep",
+      "who": "Salazar Gabino A.G., Perez M.A., Garcia-Granada A.A., Reyes G., Puigoriol-Forcada J.M., IQS, Universitat Ramon Llull (peer reviewed)",
+      "title": "A study of creep in polycarbonate fused deposition modelling parts",
+      "journal": "Materials & Design 141:414-425, 2018",
+      "doi": "10.1016/j.matdes.2018.01.008",
+      "verified": "abstract only (paywalled)",
+      "results": {"summary": "creep of FDM PC depends on build orientation, raster air gap and number of contours, in line with their static findings; primary and secondary creep fitted with Bailey-Norton and a fractional model", "strain_values": null},
+      "notes": "Numbers not read. Worth buying if creep turns out to govern."
+    },
+    {
+      "id": "puigoriol_2018_fatigue",
+      "who": "Puigoriol-Forcada J.M., Alsina A., Salazar Gabino A.G., Gomez-Gras G., Perez M.A., IQS, Universitat Ramon Llull (peer reviewed)",
+      "title": "Flexural fatigue properties of polycarbonate fused-deposition modelling specimens",
+      "journal": "Materials & Design 155:414-421, 2018",
+      "doi": "10.1016/j.matdes.2018.06.018",
+      "verified": "abstract only (paywalled)",
+      "results": {"summary": "S-N curves at R = -1 and R = -0.5; build orientation significantly affects fatigue; FEA with Goodman correction on the R = -1 curve predicted a real part well", "values": null},
+      "notes": "The method (von Mises plus Goodman on the printed S-N curve) is the one to follow for the walking case."
+    },
+    {
+      "id": "sedighi_2020_pc",
+      "who": "Sedighi I., Ayatollahi M.R., Bahrami B., Perez-Martinez M.A., Garcia-Granada A.A., Iran University of Science and Technology and IQS (peer reviewed)",
+      "title": "Mechanical behavior of an additively manufactured poly-carbonate specimen: tensile, flexural and mode I fracture properties",
+      "journal": "Rapid Prototyping Journal 26(2):267-277, 2020",
+      "doi": "10.1108/RPJ-03-2019-0055",
+      "verified": "abstract only (paywalled)",
+      "results": {"tensile_strength_range_MPa": [40, 53], "fracture_toughness_MPa_mm05": [1.93, 2.37], "modulus": "anisotropy small enough to neglect"},
+      "notes": "Agrees with Gomez-Gras: printed PC modulus is nearly isotropic, strength is not."
+    },
+    {
+      "id": "covestro_makrolon2805",
+      "who": "Covestro, Makrolon 2805 injection-moulding datasheet (a resin maker, independent of the three filament makers; moulded, not printed)",
+      "url": "https://www.protolabs.com/media/3z2llptj/makrolon-2805.pdf",
+      "verified": "full text",
+      "method": {"standard": "ISO 527, ISO 899-1 tensile creep, 23 C", "specimen": "moulded"},
+      "results": {"E_MPa": 2400, "yield_MPa": 66.0, "creep_modulus_1h_MPa": 2200, "creep_modulus_1000h_MPa": 1900, "creep_modulus_ratio_1000h": 0.79},
+      "notes": "Bulk PC creep: the modulus falls about 21% in 1000 h at room temperature (ISO 899-1 uses small strain, about 0.5%). Printed PC has interfaces and voids and is expected to creep at least as much; we extrapolate to years in allowables.json, labelled."
+    },
+    {
+      "id": "mu_2022_pc_creep_rupture",
+      "who": "Mu Q., Ningxia University and Xi'an Jiaotong University (peer reviewed data paper)",
+      "title": "Experimental data for creep and dynamic mechanical properties of polycarbonate and polycarbonate/ABS",
+      "journal": "Data in Brief 42:108264, 2022",
+      "doi": "10.1016/j.dib.2022.108264",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9123197/",
+      "verified": "full text (curves in the Mendeley dataset, not read)",
+      "material": "neat PC, machined dog bones (not printed)",
+      "results": {"creep_rupture_test_stresses_MPa": [52, 50, 49, 48, 47, 41], "note": "loads chosen below 0.8 of yield; ruptured at 47 to 52 MPa, the 41 MPa test stopped by hand because rupture took too long"},
+      "notes": "Even bulk PC ruptures in creep at about 0.7 to 0.8 of its yield strength: a sustained-load factor well below 1 is needed."
+    },
+    {
+      "id": "bambu_pahtcf_tds_v3",
+      "who": "Bambu Lab (manufacturer; comparison point only, not independent)",
+      "title": "Bambu PAHT-CF Technical Data Sheet V3.0",
+      "url": "https://stacksheriff.com/3d-printing/bambu-paht-cf-review/",
+      "verified": "second-hand (quoted by a review site; the PDF itself was not reachable)",
+      "results": {"tensile_xy_MPa": 92, "tensile_z_MPa": 47, "z_over_xy": 0.51},
+      "notes": "A maker's own Z penalty for a short-fibre composite: half the XY strength across the layers. Used only to bound the PC-CF Z assumption."
+    }
+  ],
+  "not_found": {
+    "bambu_pc": "No independent test of Bambu PC (along or across the layers) was found, 4 Oct 2026. Its own datasheet's Z/XY tensile ratio (56/62 = 0.90, annealed and dried 80 C 12 h) is far above every independent result (0.35 to 0.61).",
+    "polymaker_polymax_pc": "No independent test of PolyMax PC with published numbers was found. CNC Kitchen compared PC Blend against it (2021) but the PolyMax numbers are not on the public page; a search summary claimed a Z/XY of 63%, which could not be traced to a source and is not used.",
+    "3dxtech_carbonx_ezpc_cf": "No independent test found. Its datasheet gives no Z values. The only independent printed PC-CF figure is Remache 2026 (Prusa PC-CF, XY strength only).",
+    "polymaker_fiberon_pc_cf": "Polymaker's Fiberon line lists PA6, PA612, PA12, PET and PPS CF grades; no Fiberon PC-CF was found.",
+    "printed_pc_long_term_creep_strain": "No published long-term (months to years) creep strain for printed PC at room temperature was found open-access; Salazar 2018 has creep curves but is paywalled.",
+    "printed_pc_cf_creep_fatigue": "No creep or fatigue data for printed PC-CF was found."
+  }
+}

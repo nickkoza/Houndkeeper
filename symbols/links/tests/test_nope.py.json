@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_nope.py",
+  "entries": [
+    {
+      "name": "_S",
+      "witness": "5744d02dfb8eeb1c",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_S.__init__",
+      "witness": "3913af424f3fd0a4",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_S.arm_to",
+      "witness": "0453122aee63769d",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_S.target",
+      "witness": "f86b7ffd38e9a415",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_nope_can_be_turned_off",
+      "witness": "d0315b0329faa759",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_nope_turns_only_the_shoulder_and_returns",
+      "witness": "cc96a104a2b48da9",
+      "links": [
+        {
+          "id": "N2T",
+          "kind": "asserted",
+          "artifact": "d3156c68e697d450",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "ZjA",
+          "kind": "asserted",
+          "artifact": "feb2aa271d56719d",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/vslice.py",
+  "entries": [
+    {
+      "name": "_cross",
+      "witness": "18616bdc466cbc67",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "height_image",
+      "witness": "720ce5b56a53c763",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "dab5fc2a4e20dd8f",
+      "links": [
+        {
+          "id": "bXX",
+          "kind": "asserted",
+          "artifact": "4b643c449c2f3b4c",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim",
+      "witness": "6cc178a6f55ce1fb",
+      "links": [
+        {
+          "id": "KAe",
+          "kind": "asserted",
+          "artifact": "7c073d53f37b7095",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "oZb",
+          "kind": "asserted",
+          "artifact": "2306cdf0a84604aa",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "Sim.__init__",
+      "witness": "9ae38865297347ad",
+      "links": [
+        {
+          "id": "KAe",
+          "kind": "asserted",
+          "artifact": "7c073d53f37b7095",
+          "at": "2026-10-01"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-10-01"
+        },
+        {
+          "id": "Udt",
+          "kind": "asserted",
+          "artifact": "92cd785da80fe141",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Sim._hits",
+      "witness": "1eda343bab741fd5",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim._nearest",
+      "witness": "8f6f857101bf3919",
+      "links": [
+        {
+          "id": "0uR",
+          "kind": "asserted",
+          "artifact": "b5065b23538dfcfa",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim._seg_free",
+      "witness": "9f77fc206cced97c",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim._tick",
+      "witness": "674afa1fd18dc9aa",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Tru",
+          "kind": "asserted",
+          "artifact": "a3e09ed873f8a393",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim._tip_report",
+      "witness": "aec3e3fda897290d",
+      "links": [
+        {
+          "id": "Tru",
+          "kind": "asserted",
+          "artifact": "a3e09ed873f8a393",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim._watch",
+      "witness": "482aefe77f65877e",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "p2t",
+          "kind": "asserted",
+          "artifact": "fb4a1d9237068697",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.arm_to",
+      "witness": "298e06bef513a5a7",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "zwe",
+          "kind": "asserted",
+          "artifact": "8b4f4cc41441cc26",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.arm_to_safe",
+      "witness": "bbacbafc09ee1aed",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.base_xy",
+      "witness": "b425e7baff2210cc",
+      "links": [
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.bin_clear_z",
+      "witness": "81caf38c33c98bcd",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.bin_pose",
+      "witness": "1aa170ec13496d35",
+      "links": [
+        {
+          "id": "oZb",
+          "kind": "asserted",
+          "artifact": "2306cdf0a84604aa",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Swf",
+          "kind": "asserted",
+          "artifact": "84f7d8fad9f6a330",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "Sim.capture",
+      "witness": "09ef4ba6f8d121e8",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "Sim.command",
+      "witness": "494e186454214a60",
+      "links": [
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.finger_low",
+      "witness": "737d5a70ef729173",
+      "links": [
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.floor_hit",
+      "witness": "4823ef97ae9a5ac4",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.gains",
+      "witness": "d3169061df17b0ee",
+      "links": [
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.grasp_point",
+      "witness": "100d1db5396c646a",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.grip_to",
+      "witness": "5d01690ffe58e02f",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.gripper",
+      "witness": "698238cc66b0a654",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.gripper_frame",
+      "witness": "40556e96fc2aedf7",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.held_mass",
+      "witness": "6fb19221592b9e06",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.ik",
+      "witness": "e248292ae6faf5cf",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.ik_lean",
+      "witness": "7c9e4aed57533891",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.ik_pos",
+      "witness": "1112d8a6ad797e8e",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.ik_pose",
+      "witness": "4f86c41e0d0a4c15",
+      "links": [
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.jaws",
+      "witness": "8124843b9a4c7819",
+      "links": [
+        {
+          "id": "Udt",
+          "kind": "asserted",
+          "artifact": "92cd785da80fe141",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "Sim.joint_efforts",
+      "witness": "101bf71b8bb5250d",
+      "links": [
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.joint_state",
+      "witness": "0c177105d931eace",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.kin_model",
+      "witness": "c12ad4b90408689e",
+      "links": [
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.legs_to",
+      "witness": "c43a6e8111d731ac",
+      "links": [
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.look_at",
+      "witness": "3a4bfdec0b3a26bb",
+      "links": [
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.look_down",
+      "witness": "5ef1495b33d50826",
+      "links": [
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.new_floor",
+      "witness": "43198445380b4b8e",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.over_bin",
+      "witness": "8b242d0637dece74",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.plan",
+      "witness": "7c3356296e6d596c",
+      "links": [
+        {
+          "id": "Cts",
+          "kind": "asserted",
+          "artifact": "69803f22798731ca",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.ready_pose",
+      "witness": "0bd97addd582e210",
+      "links": [
+        {
+          "id": "A2c",
+          "kind": "asserted",
+          "artifact": "a82d0c5d229aed7d",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "UH4",
+          "kind": "asserted",
+          "artifact": "e1e88cee6dd0d45a",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.relight",
+      "witness": "9ebf30de471bb680",
+      "links": [
+        {
+          "id": "eIH",
+          "kind": "asserted",
+          "artifact": "44b7850bf4d8d6c3",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.relight.put",
+      "witness": "b0b2589fbbf9079b",
+      "links": [
+        {
+          "id": "eIH",
+          "kind": "asserted",
+          "artifact": "44b7850bf4d8d6c3",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.say",
+      "witness": "e633229776778fe5",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.set_payload",
+      "witness": "83482acbcc1a3350",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Sim.settled_efforts",
+      "witness": "417b2a3687a5cc2a",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.small_image",
+      "witness": "7379861a0816d39d",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.snap",
+      "witness": "4946e8d17534f6c0",
+      "links": [
+        {
+          "id": "bXX",
+          "kind": "asserted",
+          "artifact": "4b643c449c2f3b4c",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.state",
+      "witness": "6385e1a2cfa2e07a",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Sim.step",
+      "witness": "c510fc687d7af626",
+      "links": [
+        {
+          "id": "KAe",
+          "kind": "asserted",
+          "artifact": "7c073d53f37b7095",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "Tru",
+          "kind": "asserted",
+          "artifact": "a3e09ed873f8a393",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "Sim.target",
+      "witness": "95ae77bf985248fe",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "Sim.walk_to",
+      "witness": "117a33ca56cd9e30",
+      "links": [
+        {
+          "id": "S7o",
+          "kind": "asserted",
+          "artifact": "8e0489e8a7750477",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "write_video",
+      "witness": "e8b579458487798f",
+      "links": [
+        {
+          "id": "bXX",
+          "kind": "asserted",
+          "artifact": "4b643c449c2f3b4c",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

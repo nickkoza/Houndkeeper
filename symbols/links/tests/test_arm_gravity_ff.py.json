@@ -1,0 +1,109 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_gravity_ff.py",
+  "entries": [
+    {
+      "name": "_base_gravity",
+      "witness": "80fcbfc2b0a0552d",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_pose",
+      "witness": "0aef3a6571ada923",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sim",
+      "witness": "c0a23b1515b1594c",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_gravity_py_imports_numpy_and_the_standard_library_only",
+      "witness": "b19cb129332ef662",
+      "links": [
+        {
+          "id": "Y2p",
+          "kind": "asserted",
+          "artifact": "44d46be6894e97c9",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_model_error_is_seeded_and_nonzero",
+      "witness": "5cd80882aee64208",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x3f",
+          "kind": "asserted",
+          "artifact": "39bddfe66b5da565",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_sims_feed_forward_is_the_perturbed_models_torques",
+      "witness": "7979a0923cc4677c",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Y2p",
+          "kind": "asserted",
+          "artifact": "44d46be6894e97c9",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_static_sag_at_floor_reach_is_within_the_expected_band",
+      "witness": "ca9afb7e91354475",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x3f",
+          "kind": "asserted",
+          "artifact": "39bddfe66b5da565",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

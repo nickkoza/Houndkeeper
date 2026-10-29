@@ -1,0 +1,487 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/make_house.py",
+  "entries": [
+    {
+      "name": "_draw_plan",
+      "witness": "8f2dbe7d16302308",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.can",
+      "witness": "360afdd7aaf7cd09",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.cells",
+      "witness": "bbae4e281a2ffc3c",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.free",
+      "witness": "5fe56a5fd27a02c9",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.put",
+      "witness": "b43fdf2d385ea451",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.rect",
+      "witness": "652ff4be10d4001f",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.room_box",
+      "witness": "9cf752a96aba3408",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_draw_plan.wall_spots",
+      "witness": "fc71911e228be58e",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_grid",
+      "witness": "260e9950a4afe937",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_grid.fill",
+      "witness": "7279b41ac1f0802c",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_reach_all",
+      "witness": "5c97bf56128bb4fe",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_rooms",
+      "witness": "9749c4a805ad8e55",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_side",
+      "witness": "f3a7da464e46734e",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_side_m",
+      "witness": "1885e31b9eb1aa36",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_valid",
+      "witness": "32808b72858b2177",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "base_grid",
+      "witness": "e8d7700171e749c8",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "base_grid.fill",
+      "witness": "7279b41ac1f0802c",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "bounds",
+      "witness": "8defed5f1b161a9c",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "box_geom",
+      "witness": "427ed87f7d33adf5",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "cell_to_world",
+      "witness": "18db9db47a403aa4",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "clutter",
+      "witness": "1a82a50aa90cd9dc",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "clutter.clear",
+      "witness": "45d20d277358ee78",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "item_geom",
+      "witness": "a3d1e76231ae20f4",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "layout",
+      "witness": "2a533e03db55a8a6",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "8687aca65a23d424",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "plan_overlap",
+      "witness": "00c2f6ac56f90cbd",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "structure",
+      "witness": "7ad68792d43c5437",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "unique_plan",
+      "witness": "0bb38c25adad8a0b",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "use_layout",
+      "witness": "693be38e3222ffa3",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "wall_rects",
+      "witness": "228061577eae6d3d",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

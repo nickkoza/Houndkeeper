@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/round_summary.py",
+  "entries": [
+    {
+      "name": "gate",
+      "witness": "b0fb56e11c237d5b",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "16efc1c9c9e1b60d",
+      "links": [
+        {
+          "id": "5SS",
+          "kind": "asserted",
+          "artifact": "b388d725e58c3b60",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "summarize",
+      "witness": "b6fea34a1719f8ac",
+      "links": [
+        {
+          "id": "5SS",
+          "kind": "asserted",
+          "artifact": "b388d725e58c3b60",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

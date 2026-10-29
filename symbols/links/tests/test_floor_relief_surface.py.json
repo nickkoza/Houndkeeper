@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_relief_surface.py",
+  "entries": [
+    {
+      "name": "_pairs",
+      "witness": "85373d21e19c1062",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_truth",
+      "witness": "d3bca96bec6b66ca",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_planted_raised_step_and_a_dip_are_recovered",
+      "witness": "4cc09648fcad5138",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_step_keeps_its_edge",
+      "witness": "4caca418bcc9bb99",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

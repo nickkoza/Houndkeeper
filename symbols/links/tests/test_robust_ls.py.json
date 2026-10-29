@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_robust_ls.py",
+  "entries": [
+    {
+      "name": "_chain",
+      "witness": "5ba774e59dd96999",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "_group_huber",
+      "witness": "c9feed3174449c2f",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_gtsam_gives_the_converged_huber_and_marginals",
+      "witness": "92a4c1328917c0e6",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_least_squares_holds_off_outliers",
+      "witness": "942c05db0fb5f181",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_loss_influence_never_falls_with_the_residual",
+      "witness": "228c6abbc64d9413",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_loss_is_robust_on_robust_rows_only_and_its_derivatives_hold",
+      "witness": "eeddaf8742bef81f",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_noise_is_measured_robustly",
+      "witness": "bf29e53b1443f051",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_old_path_pass_with_unit_weights_is_plain_least_squares",
+      "witness": "a4be2e049fe3f90e",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_rows_build_the_system_with_weights_and_groups",
+      "witness": "6882ef0a351dd081",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

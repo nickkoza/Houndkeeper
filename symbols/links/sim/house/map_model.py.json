@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/map_model.py",
+  "entries": [
+    {
+      "name": "night_voxels",
+      "witness": "a84154df4ee40ed9",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "6ea44c9712db95c5",
+      "links": [
+        {
+          "id": "QdH",
+          "kind": "asserted",
+          "artifact": "4dc51dc64c245667",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth_boxes",
+      "witness": "38e26cba5c0da4c8",
+      "links": [
+        {
+          "id": "QdH",
+          "kind": "asserted",
+          "artifact": "4dc51dc64c245667",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

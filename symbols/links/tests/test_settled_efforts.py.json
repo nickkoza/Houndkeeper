@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_settled_efforts.py",
+  "entries": [
+    {
+      "name": "_Arm",
+      "witness": "1c73bb736702b9ec",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.__init__",
+      "witness": "7c382f32a862ab23",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_Arm._k",
+      "witness": "f66164c3835f3bab",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.read_joint_efforts",
+      "witness": "5723de629a407f7b",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.read_joint_velocities",
+      "witness": "e8463b6cdf64c265",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_torque_is_averaged_over_the_arms_own_readings_once_still",
+      "witness": "f32dde0d012aaa95",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_dimos_fork_rule6.py",
+  "entries": [
+    {
+      "name": "_added_lines",
+      "witness": "e62c6f9474d824db",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_our_ids",
+      "witness": "7cce1014b2c040cb",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_fork_cites_none_of_our_spec_ids",
+      "witness": "45613d3d73b436a8",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_fork_names_no_houndkeeper",
+      "witness": "61b5b66ad5d4ca34",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_fork_reads_no_hk_variable",
+      "witness": "616f674bd214005e",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

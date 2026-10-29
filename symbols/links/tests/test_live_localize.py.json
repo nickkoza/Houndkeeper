@@ -1,0 +1,127 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_live_localize.py",
+  "entries": [
+    {
+      "name": "_Confirmer",
+      "witness": "41f04b78f8cc4f2d",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Confirmer.decide",
+      "witness": "ba1b17f5201d0519",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Confirmer.frame",
+      "witness": "73af2a29f38a8747",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Confirmer.keepout",
+      "witness": "d62807391689ec44",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Fixed",
+      "witness": "507431053ebc2fd9",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Fixed.__init__",
+      "witness": "8d3438a1ef81c0c6",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Fixed.correction",
+      "witness": "16bce3c642dc1ffc",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_floor_tracking_moves_spots_back_but_not_frames_twice",
+      "witness": "440461dffe2b94ff",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_frames_go_in_moved_and_spots_come_back",
+      "witness": "bc5f1b53a24f8b27",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_localizer_matches_scans_as_they_arrive",
+      "witness": "68a45047b551fab5",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

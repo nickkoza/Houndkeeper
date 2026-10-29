@@ -1,0 +1,169 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_robot_calibration.py",
+  "entries": [
+    {
+      "name": "test_a_night_with_no_turning_leaves_the_robots_lag_unchanged",
+      "witness": "8920e41c0997a199",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_number_is_the_lag_itself_everywhere",
+      "witness": "b142cc3d205511cc",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_picture_saves_the_head_cameras_lag_not_the_wrists",
+      "witness": "24ce8f4a6a2d90a3",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_replay_places_each_camera_with_its_own_stored_lag",
+      "witness": "a5bf5514fd9d5b57",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_sign_flipped_edge_or_thin_estimate_leaves_the_robots_lag_unchanged",
+      "witness": "d8d12f8a49d099e2",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_floor_mosaic2_reads_the_stored_lag_by_default",
+      "witness": "a45a576df37fa0eb",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_stitch_baselines_never_writes_the_robots_mount",
+      "witness": "3919e4c2a023d9fa",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_calibration_steps_refuse_hold_out_seeds",
+      "witness": "e79f2912a6ec5761",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_lag_file_names_its_clock",
+      "witness": "d6af0905101b295d",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_nights_estimate_only_checks_the_stored_lag",
+      "witness": "8bc2fb144fbb02a4",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_replay_and_the_mount_default_to_the_stored_lag",
+      "witness": "1ca1376cfa43804e",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

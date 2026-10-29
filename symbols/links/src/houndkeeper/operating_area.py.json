@@ -1,0 +1,181 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/operating_area.py",
+  "entries": [
+    {
+      "name": "_edge_distance",
+      "witness": "30bd80bcc4004a7a",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "Area",
+      "witness": "3bdcf31ae5416891",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "Area.to_dict",
+      "witness": "49dffaf9230308a1",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "Area.zones",
+      "witness": "50b4cd21b66dc309",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "inside",
+      "witness": "6cb5a1e16fb55978",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "keep_inside",
+      "witness": "e8d6937cb06f4d07",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "witness": "f7a9bfe9a15d7fcc",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "map_dir",
+      "witness": "398e102b771e17b1",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "nearest_inside",
+      "witness": "334497506b88cf0e",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "save",
+      "witness": "1ab195b14cca1218",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "validate",
+      "witness": "040d00d2b02f6702",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "zones_json",
+      "witness": "2c95bdf10b2211a9",
+      "links": [
+        {
+          "id": "mvn",
+          "kind": "asserted",
+          "artifact": "a93dbc8959577700",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

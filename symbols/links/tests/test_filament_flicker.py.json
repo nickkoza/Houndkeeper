@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_flicker.py",
+  "entries": [
+    {
+      "name": "test_the_house_does_not_flicker_as_the_camera_creeps",
+      "witness": "d99382e6b6230714",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_house_does_not_flicker_as_the_camera_creeps.creep",
+      "witness": "1a7b3ba613d1949c",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

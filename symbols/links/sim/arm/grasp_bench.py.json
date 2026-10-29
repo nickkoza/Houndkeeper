@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/grasp_bench.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "e3ff5e01db22467b",
+      "links": [
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "bfo",
+          "kind": "asserted",
+          "artifact": "adf1a0807cdf047f",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "bxP",
+          "kind": "asserted",
+          "artifact": "18713750bcc39632",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "EWu",
+          "kind": "asserted",
+          "artifact": "c614ae0f68323a7a",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "gF0",
+          "kind": "asserted",
+          "artifact": "3baaf000818cc150",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "gNg",
+          "kind": "asserted",
+          "artifact": "6066b0543f12b1d5",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "JwG",
+          "kind": "asserted",
+          "artifact": "41550bb71d95c83e",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "OQ9",
+          "kind": "asserted",
+          "artifact": "c472c88e34fe8eb8",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "oZb",
+          "kind": "asserted",
+          "artifact": "2306cdf0a84604aa",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "udO",
+          "kind": "asserted",
+          "artifact": "7321ebae04eb1fbf",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "main.reset_robot",
+      "witness": "6d15bd26e07737f0",
+      "links": [
+        {
+          "id": "JwG",
+          "kind": "asserted",
+          "artifact": "41550bb71d95c83e",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

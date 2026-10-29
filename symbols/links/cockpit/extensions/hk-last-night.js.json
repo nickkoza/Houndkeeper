@@ -1,0 +1,187 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cockpit/extensions/hk-last-night.js",
+  "entries": [
+    {
+      "name": "blocks",
+      "witness": "18f2c077b79e38d3",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "blocks.cells",
+      "witness": "4f1447d41c538411",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "blocks.isTable",
+      "witness": "da0a07e3d47e42c0",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "blocks.sep",
+      "witness": "885dcc541e2a92a4",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "inline",
+      "witness": "840f6ddc99a8a5cf",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register",
+      "witness": "5c1179d83c30f62b",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Finding",
+      "witness": "a58b636030378dd7",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.head",
+      "witness": "a639e0e9d7967fc9",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Inline",
+      "witness": "06d535203d3ba472",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.LastNight",
+      "witness": "15348c2a2ded2ece",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Markdown",
+      "witness": "328f502485f0d473",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Morning",
+      "witness": "04fd2a8f3070fa54",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Night",
+      "witness": "233ad67eba666ce1",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.Numbers",
+      "witness": "eaab2bb99124d12e",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "register.small",
+      "witness": "b2e818e11fb446c0",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

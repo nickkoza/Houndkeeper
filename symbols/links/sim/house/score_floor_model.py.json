@@ -1,0 +1,37 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/score_floor_model.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "5306db877df66ca7",
+      "links": [
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "QdH",
+          "kind": "asserted",
+          "artifact": "4dc51dc64c245667",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "aba9b4c08f22477e",
+      "links": [
+        {
+          "id": "QdH",
+          "kind": "asserted",
+          "artifact": "4dc51dc64c245667",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

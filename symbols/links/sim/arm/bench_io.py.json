@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/bench_io.py",
+  "entries": [
+    {
+      "name": "append",
+      "witness": "61a5aa6014dfb246",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "witness": "e763c1cc713fbe3c",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "witness": "f4688b521ace77be",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

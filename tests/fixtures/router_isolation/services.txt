@@ -1,0 +1,18 @@
+ 0  X  name=ftp port=21 proto=tcp available-from= vrf=main max-sessions=20
+ 1     name=ssh port=22 proto=tcp available-from=192.0.2.0/24 vrf=main max-sessions=20
+ 2 D c name=ssh port=22 proto=tcp local=192.0.2.1 remote=192.0.2.50:40000
+ 3  X  name=telnet port=23 proto=tcp available-from= vrf=main max-sessions=20
+ 4 D   name=resolver port=53 proto=tcp
+ 5 D   name=resolver port=53 proto=udp
+ 6 D   name=dhcp port=67 proto=udp
+ 7 D   name=dhcpclient port=68 proto=udp
+ 8  X  name=www port=80 proto=tcp available-from= vrf=main max-sessions=20
+ 9 D   name=ntp port=123 proto=udp
+10  X  name=www-ssl port=443 proto=tcp available-from= certificate=none tls-version=any vrf=main max-sessions=20
+11  X  name=reverse-proxy port=443 proto=tcp available-from= certificate=none tls-version=any vrf=main max-sessions=20
+12 D   name=btest port=2000 proto=tcp
+13 D   name=discover port=5678 proto=udp
+14     name=winbox port=8291 proto=tcp available-from=192.0.2.0/24 vrf=main max-sessions=20
+15  X  name=api port=8728 proto=tcp available-from= vrf=main max-sessions=20
+16  X  name=api-ssl port=8729 proto=tcp available-from= certificate=none tls-version=any vrf=main max-sessions=20
+

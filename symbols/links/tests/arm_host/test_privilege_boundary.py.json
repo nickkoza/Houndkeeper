@@ -1,0 +1,361 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_privilege_boundary.py",
+  "entries": [
+    {
+      "name": "_code",
+      "witness": "60645f38cb8aa2cf",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_owners",
+      "witness": "67d35f0a6d9c752a",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_python_calls",
+      "witness": "cc639149f9249972",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_unit",
+      "witness": "5f4226664f629f9f",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_unit_run_as_root_runs_isolated_python_from_the_root_owned_tree",
+      "witness": "c9c203226bddb00b",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_deploy_refuses_a_host_without_the_boundary_before_root_runs_its_code",
+      "witness": "efb5616264741716",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_deploy_writes_the_release_tree_only_through_sudo",
+      "witness": "ba3e31a5d7ca2c76",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_first_boot_makes_the_tree_roots_before_it_installs_units_from_it",
+      "witness": "ba929c427c7f3df7",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_no_service_runs_as_the_admin_and_each_profile_service_runs_as_the_service_user",
+      "witness": "9c1af6e3322b466d",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_runs_python_under_sudo_with_a_path_it_was_given",
+      "witness": "3115dc5d9f3d5124",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_root_scripts_run_python_only_isolated",
+      "witness": "5bd1188ff9a95378",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_set_up_gives_the_release_tree_and_settings_only_to_root",
+      "witness": "29eb7401948e510b",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_set_up_makes_a_service_user_with_no_sudo_no_login_and_no_ssh",
+      "witness": "a5fbc77d4187023d",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_card_gives_sudo_and_ssh_keys_only_to_the_admin",
+      "witness": "c5e297edfe579689",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_check_ships_every_module_its_on_pi_half_imports",
+      "witness": "ec79a0b6c3daa2cd",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Uyb",
+          "kind": "asserted",
+          "artifact": "83107db048fef84c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_is_confined",
+      "witness": "02856db012e0629e",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_on_pi_check_runs_the_laptops_own_code_from_a_fresh_root_dir",
+      "witness": "af8e82ec03100663",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Uyb",
+          "kind": "asserted",
+          "artifact": "83107db048fef84c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_service_user_and_the_admin_are_different_accounts",
+      "witness": "6c424eb277e2084f",
+      "links": [
+        {
+          "id": "CIu",
+          "kind": "asserted",
+          "artifact": "f65d49089afc27e2",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "ZyY",
+          "kind": "asserted",
+          "artifact": "3088dadaca2a0cbe",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

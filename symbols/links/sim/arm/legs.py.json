@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/legs.py",
+  "entries": [
+    {
+      "name": "move_legs",
+      "witness": "89fb3affa99ff618",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "cRC",
+          "kind": "asserted",
+          "artifact": "25fa845bd9d8e4d0",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "pose",
+      "witness": "ca530f19a4c1222a",
+      "links": [
+        {
+          "id": "cRC",
+          "kind": "asserted",
+          "artifact": "25fa845bd9d8e4d0",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "start_standing",
+      "witness": "232510289f46ca20",
+      "links": [
+        {
+          "id": "cRC",
+          "kind": "asserted",
+          "artifact": "25fa845bd9d8e4d0",
+          "at": "2026-10-01"
+        },
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-10-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_real_night_scoring.py",
+  "entries": [
+    {
+      "name": "_cam",
+      "witness": "7f7f7c90cd4944b2",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_cands",
+      "witness": "c0ff277437dae9f5",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_night",
+      "witness": "89220632e1b48c9d",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_toy",
+      "witness": "a11b8ce03ec3d55f",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "ns",
+      "witness": "c38bf98f16d3d47b",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_mark_off_the_list_or_off_the_map_is_refused",
+      "witness": "017b62ac6a939e1a",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_night_with_no_marks_still_has_its_flags_judged",
+      "witness": "d8aaba5d86a0925d",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_each_candidate_gets_one_crop_from_the_frame_nearest_its_decision_and_only_if_clear_of_people",
+      "witness": "098fe818ffd0a1b5",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_each_candidate_gets_one_crop_from_the_frame_nearest_its_decision_and_only_if_clear_of_people.screen",
+      "witness": "28777c537bc546fa",
+      "links": [
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_each_flag_near_no_mark_is_shown_with_its_crop_and_place_until_judged",
+      "witness": "8aed3c96031754ec",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_marks_are_refused_once_the_night_has_run_or_when_stale",
+      "witness": "2a7dc43b98fca2bc",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_marks_are_saved_in_the_scorers_shape_from_the_short_list",
+      "witness": "983960a93f4bd6cd",
+      "links": [
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_no_crop_is_made_from_a_recording_not_cleared_for_its_frames",
+      "witness": "047f4689be261672",
+      "links": [
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_no_crop_is_made_from_a_recording_not_cleared_for_its_frames.refuse",
+      "witness": "ae8cfc7656b51bbc",
+      "links": [
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_command_line_marks_a_tuning_night",
+      "witness": "92ac63b255509f32",
+      "links": [
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_feed_takes_the_pages_commands",
+      "witness": "97c63aea7266d5eb",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_first_two_nights_that_ran_are_tuning_nights",
+      "witness": "21f3b1d630b44301",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_first_two_real_nights_are_kept_apart_from_the_launch_number",
+      "witness": "9966c6994a1921fc",
+      "links": [
+        {
+          "id": "iDT",
+          "kind": "asserted",
+          "artifact": "4e17ffa46f7c13db",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_marks_and_review_pages_at_phone_width",
+      "witness": "533d45e4bc3a8df8",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_marks_message_has_tonight_the_map_the_list_and_what_is_marked",
+      "witness": "d1e0655a47f090f7",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_project_service_carries_the_two_pages",
+      "witness": "e997a51db3c93375",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_review_message_keeps_within_its_bound_dropping_judged_flags_pictures_first",
+      "witness": "0e5856e5f2f74b40",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_review_pages_recorded_message_is_a_review_message",
+      "witness": "02e280daea9e630b",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_tonight_is_the_date_its_evening_began",
+      "witness": "0d9aed8ab1e62c7d",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

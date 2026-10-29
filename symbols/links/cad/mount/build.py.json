@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cad/mount/build.py",
+  "entries": [
+    {
+      "name": "export",
+      "witness": "0600631707737a61",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "tY3",
+          "kind": "asserted",
+          "artifact": "d63da47da9d70ae9",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "da5f01ede5fd9ec7",
+      "links": [
+        {
+          "id": "Lsn",
+          "kind": "asserted",
+          "artifact": "a918de97fc7803f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "on_bed",
+      "witness": "8c12b7d28ea4c18f",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "reference",
+      "witness": "6f15c1c6fa781102",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "d7c037884cd3dc4c",
+      "links": [
+        {
+          "id": "Uaq",
+          "kind": "asserted",
+          "artifact": "cb3207a2b0914c86",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "renders",
+      "witness": "7e3e622326a3ac98",
+      "links": [
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Uaq",
+          "kind": "asserted",
+          "artifact": "cb3207a2b0914c86",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

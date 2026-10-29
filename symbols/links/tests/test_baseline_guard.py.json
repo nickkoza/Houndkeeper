@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_baseline_guard.py",
+  "entries": [
+    {
+      "name": "test_a_stale_baseline_is_refused_unless_fresh_is_asked_for",
+      "witness": "544fb167bfe163fb",
+      "links": [
+        {
+          "id": "01j",
+          "kind": "asserted",
+          "artifact": "bd712079c940dd07",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_keep_old_copies_the_run_directory_before_a_resweep",
+      "witness": "1e09b4f71f55416d",
+      "links": [
+        {
+          "id": "01j",
+          "kind": "asserted",
+          "artifact": "bd712079c940dd07",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_run_dir_can_be_an_experiments_own",
+      "witness": "16cbcbed68357d10",
+      "links": [
+        {
+          "id": "01j",
+          "kind": "asserted",
+          "artifact": "bd712079c940dd07",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

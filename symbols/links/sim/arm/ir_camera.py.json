@@ -1,0 +1,241 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/ir_camera.py",
+  "entries": [
+    {
+      "name": "add_leds",
+      "witness": "3962854b944aa76c",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "capture",
+      "witness": "8df1a3f458677763",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "yZ4",
+          "kind": "asserted",
+          "artifact": "c1930cf7878c55d4",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "depth_edges",
+      "witness": "18964fbb43a0ac62",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "electrons_per_level",
+      "witness": "5e76d85192394d5a",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "floor_agreement",
+      "witness": "eef9064c7bf7eb10",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "item_mask",
+      "witness": "7f6747f04779bb99",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "led_image_dirs",
+      "witness": "b1e266defb46cbbd",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "led_linear",
+      "witness": "750bc72dd4ec9910",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "yZ4",
+          "kind": "asserted",
+          "artifact": "c1930cf7878c55d4",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "led_world",
+      "witness": "991b3eeab236012e",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "outline",
+      "witness": "f019fa5ec446f43d",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "room_electrons",
+      "witness": "a4036248ae97f4dd",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "sensor",
+      "witness": "19dcc09dea92f523",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "m52",
+          "kind": "asserted",
+          "artifact": "ba65bcb1367f9307",
+          "at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

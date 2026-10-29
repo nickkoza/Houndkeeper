@@ -1,0 +1,187 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cad/mount/parts.py",
+  "entries": [
+    {
+      "name": "adapter",
+      "witness": "4732387b9e60cb20",
+      "links": [
+        {
+          "id": "MEp",
+          "kind": "asserted",
+          "artifact": "7232604f90e9c318",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Qfe",
+          "kind": "asserted",
+          "artifact": "4e1f0f2ecbe65278",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "vqz",
+          "kind": "asserted",
+          "artifact": "2e7296e1fedc8be7",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "bench_plate",
+      "witness": "825c4c428ec8506e",
+      "links": [
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "bin_",
+      "witness": "a60d72673fc6e16f",
+      "links": [
+        {
+          "id": "Frm",
+          "kind": "asserted",
+          "artifact": "6be96a6128b4cfbd",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pIr",
+          "kind": "asserted",
+          "artifact": "900bf69259b413ac",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "box",
+      "witness": "186890631c852100",
+      "links": [
+        {
+          "id": "Lsn",
+          "kind": "asserted",
+          "artifact": "a918de97fc7803f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "build",
+      "witness": "8f843054a9db0c77",
+      "links": [
+        {
+          "id": "Lsn",
+          "kind": "asserted",
+          "artifact": "a918de97fc7803f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "coupon",
+      "witness": "d2c3ca2607dc3071",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "cyl",
+      "witness": "cbbdbc379eb524a2",
+      "links": [
+        {
+          "id": "Lsn",
+          "kind": "asserted",
+          "artifact": "a918de97fc7803f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "hat_screws",
+      "witness": "3e60784688950e6f",
+      "links": [
+        {
+          "id": "4JP",
+          "kind": "asserted",
+          "artifact": "e1c938db8a798627",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "hat_seat",
+      "witness": "77c998b727ee2264",
+      "links": [
+        {
+          "id": "4JP",
+          "kind": "asserted",
+          "artifact": "e1c938db8a798627",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pIr",
+          "kind": "asserted",
+          "artifact": "900bf69259b413ac",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "interface_features",
+      "witness": "7e02a811d0c38630",
+      "links": [
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "module",
+      "witness": "ddca1b9e190aa923",
+      "links": [
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Qfe",
+          "kind": "asserted",
+          "artifact": "4e1f0f2ecbe65278",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "vQO",
+          "kind": "asserted",
+          "artifact": "20e649e510c6680b",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "one_solid",
+      "witness": "7bee4a93eb7ee254",
+      "links": [
+        {
+          "id": "tY3",
+          "kind": "asserted",
+          "artifact": "d63da47da9d70ae9",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

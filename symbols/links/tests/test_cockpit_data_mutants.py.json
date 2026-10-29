@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_cockpit_data_mutants.py",
+  "entries": [
+    {
+      "name": "_square",
+      "witness": "f9576e308dba6055",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "harness",
+      "witness": "1f65d2ce05add4c2",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_heading_that_ends_past_180_degrees_is_a_small_error",
+      "witness": "4a71949ea63f928c",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_second_start_while_recording_keeps_the_run",
+      "witness": "963530a0f4bbc46e",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_confirming_a_power_run_writes_the_stand_power_beside_the_walk_power",
+      "witness": "0b3f35bb33ec72cf",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_taped_square_measures_the_end_in_the_robots_own_start_frame",
+      "witness": "be796c15154d885a",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_true_and_false_are_not_numbers_to_write",
+      "witness": "9172e902758da5b7",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_wandering_near_the_start_is_not_a_lap",
+      "witness": "c38c1ef352de95de",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

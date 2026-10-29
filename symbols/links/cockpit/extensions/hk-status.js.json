@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cockpit/extensions/hk-status.js",
+  "entries": [
+    {
+      "name": "register",
+      "witness": "22b09b12adefb5ac",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "register.fmt",
+      "witness": "6084aca403e28297",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "register.Status",
+      "witness": "5a85574e30bc8d1b",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "register.tile",
+      "witness": "fa53c84d773f8f30",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

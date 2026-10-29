@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/eval_policy.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "63206eb8245243a2",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "jlr",
+          "kind": "asserted",
+          "artifact": "60d678b9331a4943",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nuQ",
+          "kind": "asserted",
+          "artifact": "b2b754d2aef04ee6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.command",
+      "witness": "916d93a981026cc8",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.park_it",
+      "witness": "9ebcfce0d42b2079",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.reset_robot",
+      "witness": "2f0b26d8620be20b",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "main.state",
+      "witness": "c846f7017e1cef59",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

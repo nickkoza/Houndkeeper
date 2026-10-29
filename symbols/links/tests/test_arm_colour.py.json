@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_colour.py",
+  "entries": [
+    {
+      "name": "test_the_jaws_are_black_too_and_by_default",
+      "witness": "2b2288db010a30db",
+      "links": [
+        {
+          "id": "ipj",
+          "kind": "asserted",
+          "artifact": "1ceb729a34390502",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_printed_arm_is_matte_black",
+      "witness": "1cf15fff8cc2f88e",
+      "links": [
+        {
+          "id": "ipj",
+          "kind": "asserted",
+          "artifact": "1ceb729a34390502",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

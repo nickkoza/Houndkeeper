@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_whole_box.py",
+  "entries": [
+    {
+      "name": "test_a_box_barely_bigger_or_beside_it_is_not_the_whole",
+      "witness": "d4916703349de21b",
+      "links": [
+        {
+          "id": "c1X",
+          "kind": "asserted",
+          "artifact": "f4292b9d3d025270",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_part_gives_way_to_the_toy_it_is_part_of",
+      "witness": "0ee1d66e21a79198",
+      "links": [
+        {
+          "id": "c1X",
+          "kind": "asserted",
+          "artifact": "f4292b9d3d025270",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

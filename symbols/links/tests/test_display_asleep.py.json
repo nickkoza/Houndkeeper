@@ -1,0 +1,139 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_display_asleep.py",
+  "entries": [
+    {
+      "name": "test_a_headless_run_draws_nothing_but_still_counts_energy",
+      "witness": "0c5af562e705c1bb",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "test_a_headless_run_draws_nothing_but_still_counts_energy.Headless",
+      "witness": "caf2b0303ec173d2",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "test_asleep_means_no_overlay_calls",
+      "witness": "4eadf26796b45566",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_asleep_means_no_overlay_calls.V",
+      "witness": "b9110a8bb6fbdaba",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_asleep_means_no_overlay_calls.V.set_figures",
+      "witness": "5a6fc5e95921fa3e",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_asleep_means_no_overlay_calls.V.set_images",
+      "witness": "6f39abc5549273f2",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_asleep_means_no_overlay_calls.V.set_texts",
+      "witness": "e023bdaca70489ff",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_energy_used_is_written_for_the_report",
+      "witness": "d862cae61ff33ade",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_energy_used_is_written_for_the_report.H",
+      "witness": "b720bdcaa4cdcd76",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_monitor_state_is_read_from_xset",
+      "witness": "f5b15d1a8dfdae40",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

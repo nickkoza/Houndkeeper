@@ -1,0 +1,163 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_guard_odom_stamps.py",
+  "entries": [
+    {
+      "name": "_gait",
+      "witness": "4283a7cc7905bc28",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_gait.yaw",
+      "witness": "6c7737a27fa72033",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_msg",
+      "witness": "eea77f44a3729353",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_on_odom",
+      "witness": "609a99a0759bd35f",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_settle",
+      "witness": "951733d7921162eb",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_settle.sleep",
+      "witness": "1b510fe82e670c2e",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_tidy",
+      "witness": "66c7264dcf6d9140",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_base_stepping_in_pulses_never_reads_settled",
+      "witness": "fc4d5fd8f60f371f",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_late_burst_of_odometry_reads_at_its_own_stamps",
+      "witness": "b6ac69198bbbf911",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_message_without_a_stamp_falls_back_to_arrival",
+      "witness": "f6c03333a05cabda",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stamp_ahead_of_the_clock_reads_as_its_arrival",
+      "witness": "00b69008b3695031",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_still_base_reads_settled_after_the_hold",
+      "witness": "3383ddd3699068ef",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stop_folds_the_arm_only_if_it_left_the_stow",
+      "witness": "50ce0127ba2fe385",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

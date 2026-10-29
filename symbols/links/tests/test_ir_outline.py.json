@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_ir_outline.py",
+  "entries": [
+    {
+      "name": "_scene",
+      "witness": "a09d183d3d85c63f",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_part_grows_to_the_whole_toy_and_the_stripes_dont_count",
+      "witness": "dd7cc65ed3ab2759",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_standing_gives_no_outline",
+      "witness": "62e71978fb3bbe8f",
+      "links": [
+        {
+          "id": "6hI",
+          "kind": "asserted",
+          "artifact": "07d7626c9549645b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

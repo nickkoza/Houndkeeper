@@ -1,0 +1,17 @@
+{
+  "about": "Printed-specimen properties from the manufacturers' technical data sheets (100% infill), for the mount's FEA (printed-mount [3JA], [tY3]). X-Y: along the layers (specimen printed flat); Z: across the layers. null: not published (assume conservatively). Datasheets are fetched by URL (README), not kept in git.",
+  "materials": {
+    "bambu_pc": {"datasheet": "Bambu PC Technical Data Sheet V2.0", "url": "https://cdn.shopify.com/s/files/1/1339/4265/files/Bambu_PC_Technical_Data_Sheet.pdf",
+      "density_g_cm3": 1.20, "E_xy_MPa": 2110, "E_z_MPa": 1450, "tensile_xy_MPa": 62, "tensile_z_MPa": 56,
+      "elong_xy_pct": 3.8, "elong_z_pct": 2.1, "bend_E_xy_MPa": 2310, "bend_E_z_MPa": 1620, "bend_strength_xy_MPa": 108, "bend_strength_z_MPa": 55,
+      "hdt_1p8_C": 117, "specimens": "270 C nozzle, 100 C bed, 200 mm/s, 100% infill; annealed and dried 80 C 12 h"},
+    "polymaker_polymax_pc": {"datasheet": "Polymaker PolyMax PC TDS V5.5 (2026-01-05)", "url": "https://polymaker.com/wp-content/uploads/TDS_Polymaker_PolyMax-PC_V5.5_2026-01-05_EN.pdf",
+      "density_g_cm3": 1.19, "E_xy_MPa": 2435, "E_z_MPa": 2149, "tensile_xy_MPa": 53.44, "tensile_z_MPa": 41.43,
+      "elong_xy_pct": 4.53, "elong_z_pct": 2.79, "bend_E_xy_MPa": 2050, "bend_E_z_MPa": null, "bend_strength_xy_MPa": 81.29, "bend_strength_z_MPa": null,
+      "hdt_1p8_C": 99, "specimens": "260 C, 100% infill; annealing advised 90 C 2 h"},
+    "3dxtech_carbonx_ezpc_cf": {"datasheet": "3DXTech CarbonX CF ezPC TDS v1", "url": "https://nl.3ddruckboss.de/cdn/shop/files/CarbonX_CF_ezPC_TDSv1.pdf",
+      "density_g_cm3": 1.36, "E_xy_MPa": 6980, "E_z_MPa": null, "tensile_xy_MPa": 73, "tensile_z_MPa": null,
+      "elong_xy_pct": 2.1, "elong_z_pct": null, "bend_E_xy_MPa": 6540, "bend_E_z_MPa": null, "bend_strength_xy_MPa": 85, "bend_strength_z_MPa": null,
+      "hdt_1p8_C": null, "specimens": "0.4 mm nozzle, 100% infill +/-45, XY flat; abrasive: hardened nozzle"}
+  }
+}

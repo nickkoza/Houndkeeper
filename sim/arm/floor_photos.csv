@@ -1,0 +1,67 @@
+# Photographed floors for the arm sim's floor patches ([N4z], principle [CaM]): ambientCG, CC0, 2K JPG sets (colour,
+# normal (OpenGL), roughness, ambient occlusion where given). size_m: metres one copy of the photo covers, ambientCG's
+# listed dimension or est (judged from the photo: pile, plank or tile size). split heldout: judging only, never training or
+# tuning (as the held-out items). Left out of the 42 fetched: Carpet010 and Fabric024 (green stripes and green checker,
+# unlike home floors). zip_sha256 pins each download (tools/fetch_floors.sh). tile_pattern (27 Sep): complex, high-contrast
+# tile (marble checkers, painted cement-style and mosaic patterns: a tiled floor is often a complex,
+# high-contrast design, so these are kept, not backed off); the checkers' sizes are est. from their repeat at 30 cm (Tiles012,
+# Tiles014) or by eye (Tiles016, Tiles021). stone: colour sources only, never laid as they are (rough rock and travertine
+# photos): make_nights.slate_tile lays large diagonal slate-look porcelain tiles cut from them, each tile its own stone,
+# crop and tone, as a home's printed porcelain is
+id,kind,size_m,size_source,split,zip_sha256
+Carpet001,carpet,1.0,est,train,d41f13b273b88cad717add9dea455da8aa8f075046a4fc7f71833fc4f02a66a2
+Carpet004,carpet,1.0,est,train,3dea5a23316442f03c836608acfabee8010fb055b95f3a19a85d774a71c60233
+Carpet012,carpet,1.0,est,train,476528d0deb91b38608e7d2ef51991ba89b5c976e0ae726d655588728f5852c8
+Carpet014,carpet,1.0,est,train,2b0962ddbda95b1dbcef2e8a30d3adcf97ff00ab4ba5ee8ad5ff7b5ea89da874
+Carpet016,carpet,1.7,ambientCG,train,a57bceafe6f2e37ed931b02f7310f6df1f7bbef5653cc5811e04f57048bc533f
+Fabric025,carpet,1.0,est,train,0728d0569d2f4578d82461a664c08e7efaad23654a75b0eee776b523e6ee0689
+Fabric027,carpet,0.5,est,train,50235ffee8e8cc603d38be36e62b01b97b06ccc472aa5d7f802734696c5e9c14
+Fabric028,carpet,1.0,est,train,be3c5a8a3431548a7321fdd0cd2ce2b2aebb888a5a85e593310d2fde37392f53
+Carpet002,rug,1.0,est,train,c7b3922e705d2ba223afdbe112f797ef9e71bdb1c7949748dad8b32c785fa70d
+Carpet005,rug,1.0,est,train,bebab9030077d3af26992ead9f9bd2bf5d6e49787cda92185a5cdbb209ef7d78
+Carpet008,rug,1.5,est,train,0a97abfbca965ddfcec575cf2409b2b3ddd1f48fda0aa0f5442bb2e8e3175be1
+WoodFloor039,wood,1.9,ambientCG,train,0413ffe5d60d724e6bcaf7a86f6ea24c6bc93b743f0ccd9ed7ba53aadf097fe4
+WoodFloor040,wood,1.9,ambientCG,train,5e6c5eec9e971605db738052f032ef667637429961eb4fde408a06866539ce2e
+WoodFloor041,wood,1.9,ambientCG,train,f80d5875cfd72a2607d1fc2b8a8dc1272f22d4ef1d1111758b2a0727cc58cdae
+WoodFloor043,wood,1.3,ambientCG,train,5f9cab5c67eeeb441a6aa6744f9ebbd56186dfeab4f9c1d924220d3d43b73bdb
+WoodFloor046,wood,1.3,ambientCG,train,88ee442801931355615fef1fe127416aa242ff09fbd0ebe9e9a64a815b1b7460
+WoodFloor047,wood,1.3,ambientCG,train,4d2061a2c25af22038a0802e592366fbded3cfd327fa6748db9dac44701947a4
+WoodFloor048,wood,1.3,ambientCG,train,010199783b188290417a5bd5b0245ae8da62ec889c8d68d18fccd8ee4bebaa61
+WoodFloor051,wood,1.8,ambientCG,train,eb7d1cee763bb17a59feb89b0fd16398d3673a071a76fed289111cf81013ac25
+WoodFloor052,wood,1.8,ambientCG,train,a34632521c4c6824a9111d4dff3cc48eaca51cd32d6d33ff3c6ad526bb4bd164
+WoodFloor054,wood,1.6,ambientCG,train,c4bf88cd661387e05adca841ee18818154f3f317b56041722c5b1cc3210b1269
+WoodFloor062,wood,2.0,est,train,522ef847dd4259f73af0e89a223c95552ad9b41d7d16f959df5f1441fb115414
+WoodFloor069,wood,1.0,est,train,4b9611a6dbedb48e9590af99b8a2ff5e8045463ab9941726a1d879fc791aea0a
+Tiles074,tile,2.1,ambientCG,train,8c9439bd30113c9ab4e223cf4e1fb08265d0a34978d02b5b61d7754c68cfc74f
+Tiles075,tile,1.35,ambientCG,train,75b09aa472bab6100567dcb6a4ce1a2392f5245fa34c9604c881436285682e33
+Tiles105,tile,1.0,ambientCG,train,e13569b358735386082a0a0f640239b7f8eeba0998555eaefce46172b7922417
+Tiles107,tile,1.0,ambientCG,train,fa76887bb33af0972154700126d1f86d01eaed518341ce7411616c1d1202ac55
+Tiles108,tile,1.0,ambientCG,train,40cf39244f0f98681dd43fc85778e1efebcda68e8059bbc78dcdebeeec2af5ff
+Tiles110,tile,1.85,ambientCG,train,6b324498ca4cc82c5c04f07833f1ed2b9344cd14391f42442ec45fc8c154e259
+Tiles142,tile,2.0,ambientCG,train,e3dde41b3218f8f855bcd8294014847b9c61ac3ad5f72734284220074a2561ac
+Tiles143,tile,2.0,ambientCG,train,d6f5c6f78d06675d4071b981c43da521d07702480d243eea250bd3d6ee1f24fc
+Carpet003,carpet,0.5,est,heldout,59d3cc72de6535c2da0b7ae7915c4f3c8f6e4b2d3b7a896e1108f5eff06c5800
+Carpet011,carpet,1.0,est,heldout,f1b2ead4a3c87247a37551da76c0fb536d4f3afa142afba0b80bdfe3d5c20be6
+Fabric029,carpet,1.0,est,heldout,24db8a20cf67bf63153e83ea7f13eae5e472cd97ef054c7e18b0d09c7f86bb75
+WoodFloor049,wood,1.3,ambientCG,heldout,40594b934c80ff40dc28bec1787cd69af2ead615e9d195ddcd0cd4eb1dcdad82
+WoodFloor053,wood,1.8,ambientCG,heldout,7f8dcf0f06057b6ecb0e414e28529385336d8dd7f75feb6836dfe1b8794c3d93
+WoodFloor070,wood,1.0,est,heldout,8339d38a45315e2bbb8d4af7f08e5a68cd9b225101d22c2b2e80013e1a2d6fc2
+Tiles141,tile,2.0,ambientCG,heldout,aa746dab97b16147d29e39113ed4d8788f165b659c79ee6a585afc721d64c068
+Tiles144,tile,2.0,ambientCG,heldout,ca329af9114e9037864f20798a141b6154a88cad086c7eb9ed13931c93db212a
+Tiles012,tile_pattern,2.4,est,train,fefd6079969309d249f0732f177801984232e5da7f1a938f9a4541fb73d440f5
+Tiles016,tile_pattern,1.5,est,train,98ad959230165edc938a186d897d37910833d2e428cc6a91596ac4296b1d2ad4
+Tiles021,tile_pattern,2.4,est,train,af8b28f1e7e537e7c22cc49947b9ffbcf0ec12f334d024181c262e53ed628718
+Tiles099,tile_pattern,1.0,ambientCG,train,21172c5f41782b37f2492e056df7dba951d2e4aa7adadf5479962199236a736e
+Tiles100,tile_pattern,1.0,ambientCG,train,aaef5afd2b31376837be85498e35cab84bde0824ee9602f9758f8fba30d7cb56
+Tiles102,tile_pattern,1.0,ambientCG,train,87ae89c1d4c218286a3fc33ee3b0efcbcdec6f272852c45bd421e3fa0f9c6f1f
+Tiles103,tile_pattern,1.0,ambientCG,train,0bdcac49a6191b88b107c30550d6253a1aa6e9ee79211569b807244ebc3736f7
+Tiles131,tile_pattern,1.5,ambientCG,train,78cd98e915367be3770b33b8589afac692ce1ed1b39b33961507fcb8c7224d75
+Tiles014,tile_pattern,1.2,est,heldout,038cbd6bf77201275b121865353a3de38032a1693dd90ed4dd37e8c86c2fe807
+Tiles101,tile_pattern,1.0,ambientCG,heldout,db3c1cd1faa475782c3c3cf3127b772d41c46670066af3d485f94bed070e7cd5
+Tiles104,tile_pattern,1.0,ambientCG,heldout,48c158896cd29c19ecf2596342679968051d2a048bfceb91331639bffae4f05c
+Rock049,stone,2.0,est,train,34e0aca383744e3d62aee1cad83b933e7bc51308939d72aae05dbe060a7ebe5e
+Rock061,stone,2.0,est,train,34d15ee39ed72be031adf88d6218e4ddbaf2e6560116ccb3a928e3b64a2228c3
+Rock039,stone,2.0,est,train,3c59a47f9a0dfb8b9d996b1f10025ca9c9b150d6b597e36a027bf7e8124e73be
+Rock056,stone,2.0,est,train,cc106036a98beb7b750da52473d794515888308936393b57469f7b5708e0cbd2
+Travertine005,stone,1.2,ambientCG,train,cc8c3e2808c8ad7d912317028c84eeb01235afc88e9a2352dd633b8fa0c616cd
+Rock055,stone,2.0,est,heldout,e800ef20a02cf6be37eb0ee177296458f4d402ffc93a29299b526cc14c38b2fa

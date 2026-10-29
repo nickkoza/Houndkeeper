@@ -1,0 +1,37 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_code_paths.py",
+  "entries": [
+    {
+      "name": "test_no_python_file_names_a_checkout_by_its_absolute_path",
+      "witness": "0706ad447453151e",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_viewer_adds_the_arm_path_once",
+      "witness": "22d13d1426e41809",
+      "links": [
+        {
+          "id": "5AP",
+          "kind": "asserted",
+          "artifact": "a6f77c9b739aec90",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

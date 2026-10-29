@@ -1,0 +1,223 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/stitch_floor.py",
+  "entries": [
+    {
+      "name": "_crop",
+      "witness": "70560f381bafc97b",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_down",
+      "witness": "ab7d5a55d80ff69d",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_grey",
+      "witness": "3581dc3c56073306",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_init",
+      "witness": "aedd00e090d7a2f6",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_sqrtm",
+      "witness": "ebd956c19c3ec490",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_window",
+      "witness": "701480db9b392120",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "floor_jac",
+      "witness": "3f294e66ea6f7b53",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "b92b90f65ff9ccfc",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.disagree",
+      "witness": "9ea0e114f90bf5cc",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "measure",
+      "witness": "9a73d058f5344042",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "measure_soft",
+      "witness": "40419bfb8d1caebd",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

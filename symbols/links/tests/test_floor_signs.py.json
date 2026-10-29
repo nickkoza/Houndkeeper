@@ -1,0 +1,151 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_signs.py",
+  "entries": [
+    {
+      "name": "_centroid_world",
+      "witness": "1aac85880a57abae",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_paint",
+      "witness": "4315ff0d716778a0",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_texture",
+      "witness": "e5fb649afdb8472f",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_window",
+      "witness": "055b8a04dda77b5e",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_confirmers_default_tracks_with_the_checked_sign",
+      "witness": "2d2813e4bad7a5c7",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_says_a_view_moves_back_by_what_it_was_off",
+      "witness": "059924413ae815e7",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_trackers_shift_undoes_the_snaps",
+      "witness": "4497259dac1547ee",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_trackers_turn_undoes_the_snaps",
+      "witness": "f7147f3c7bf1709c",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

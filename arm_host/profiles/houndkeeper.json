@@ -1,0 +1,7 @@
+{
+ "description": "The tidying robot: the arm and the wrist camera (when built), the voice for status; eyes dark, no microphone.",
+ "services": ["hk-hostd"],
+ "host": {
+  "features": {"voice": true, "ears": false, "eyes": false, "arm": true, "wrist_camera": true}
+ }
+}

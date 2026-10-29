@@ -1,0 +1,157 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cad/gripper_pads/build_pads.py",
+  "entries": [
+    {
+      "name": "contact",
+      "witness": "4492f9a709199b55",
+      "links": [
+        {
+          "id": "2L1",
+          "kind": "asserted",
+          "artifact": "b636a025d010884b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "8ME",
+          "kind": "asserted",
+          "artifact": "a5b475138e3389c2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Iin",
+          "kind": "asserted",
+          "artifact": "f0b4999ddd2b093f",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFg",
+          "kind": "asserted",
+          "artifact": "d3503811b913fa52",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "export",
+      "witness": "8f02e38c99fa979e",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "finger",
+      "witness": "585955ac725e2c56",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "loft",
+      "witness": "dee09b047e12ff9d",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pad",
+      "witness": "a74d3b623b2bc48d",
+      "links": [
+        {
+          "id": "2L1",
+          "kind": "asserted",
+          "artifact": "b636a025d010884b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "rings",
+      "witness": "1f38a43f4e5e93d5",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "section",
+      "witness": "27edc93d3eb402a3",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sim_file",
+      "witness": "6ba2aa5b5b628913",
+      "links": [
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFg",
+          "kind": "asserted",
+          "artifact": "d3503811b913fa52",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "zigzag",
+      "witness": "40e541058cd49a56",
+      "links": [
+        {
+          "id": "2L1",
+          "kind": "asserted",
+          "artifact": "b636a025d010884b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "v8J",
+          "kind": "asserted",
+          "artifact": "949491a12a75e46b",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

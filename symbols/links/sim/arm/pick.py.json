@@ -1,0 +1,763 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/pick.py",
+  "entries": [
+    {
+      "name": "_approach_poses",
+      "witness": "17c3b96a17723bad",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "_dbg",
+      "witness": "282018afb5d367b1",
+      "links": [
+        {
+          "id": "GU5",
+          "kind": "asserted",
+          "artifact": "da77f1ff0693ca96",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "_grasp_to_bin",
+      "witness": "83e07dc82b6ec0a0",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "dgF",
+          "kind": "asserted",
+          "artifact": "09061bd073a7930d",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "GU5",
+          "kind": "asserted",
+          "artifact": "da77f1ff0693ca96",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "OQ9",
+          "kind": "asserted",
+          "artifact": "c472c88e34fe8eb8",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_look_closer",
+      "witness": "7e4df072fa62c23e",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ojR",
+          "kind": "asserted",
+          "artifact": "3567d18098d0f3f4",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "TBu",
+          "kind": "asserted",
+          "artifact": "58c3d9e8f25866eb",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "_lower_into_bin",
+      "witness": "93fec0dca1e64d0f",
+      "links": [
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "_toward_upright",
+      "witness": "0ad0084ba331ed3d",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_width_at_height",
+      "witness": "1073517fb3885eb6",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "annotate_last",
+      "witness": "06843c5db8e6f5d3",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "carry_plan",
+      "witness": "8066bebb3658f8dc",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GU5",
+          "kind": "asserted",
+          "artifact": "da77f1ff0693ca96",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "carry_to_bin",
+      "witness": "ea90c52e6201e079",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "ee_target",
+      "witness": "220275dd75a85d3d",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "fits_bin",
+      "witness": "eef43e48e66e426a",
+      "links": [
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "framing",
+      "witness": "19576359c75aff46",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "grasp_to_bin",
+      "witness": "efb053bc3d4956e3",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "OQ9",
+          "kind": "asserted",
+          "artifact": "c472c88e34fe8eb8",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "handover_pose",
+      "witness": "d955b8a227733e66",
+      "links": [
+        {
+          "id": "cLC",
+          "kind": "asserted",
+          "artifact": "5722a931e024ce2e",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "look_closer",
+      "witness": "5d56ac180750cbe3",
+      "links": [
+        {
+          "id": "GWg",
+          "kind": "asserted",
+          "artifact": "1615b69b6e77fddf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "hwo",
+          "kind": "asserted",
+          "artifact": "10cc4b3f07bc26f7",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "LJm",
+          "kind": "asserted",
+          "artifact": "0e651f51bc46c6aa",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ojR",
+          "kind": "asserted",
+          "artifact": "3567d18098d0f3f4",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        },
+        {
+          "id": "TBu",
+          "kind": "asserted",
+          "artifact": "58c3d9e8f25866eb",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "payload_kg",
+      "witness": "0ebec88c4bf7a013",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "pick_with_tries",
+      "witness": "3960450f4b1fae35",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "PickRecorder",
+      "witness": "fa5d2cd9ae7b443d",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PickRecorder.__init__",
+      "witness": "59e77d469dcf385c",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PickRecorder.frame",
+      "witness": "8565b3271da9b654",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PickRecorder.mark_lift_end",
+      "witness": "9a6f9877d6dfe879",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PickRecorder.save",
+      "witness": "7e1388c8859832b1",
+      "links": [
+        {
+          "id": "95i",
+          "kind": "asserted",
+          "artifact": "66777e8ed1ebb5cc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "policy_pick",
+      "witness": "de1feb14d50d3c08",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PolicyClient",
+      "witness": "4ad79db509f25db6",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PolicyClient.__init__",
+      "witness": "b2b108592550e0f0",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PolicyClient.ask",
+      "witness": "1af0b8fc05629f42",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "PolicyClient.close",
+      "witness": "e711d4c35465969c",
+      "links": [
+        {
+          "id": "7wf",
+          "kind": "asserted",
+          "artifact": "d622c5428018eba5",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "qMA",
+          "kind": "asserted",
+          "artifact": "d41ee1aec429f946",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "real_grips",
+      "witness": "d2a25a2e44d38005",
+      "links": [
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "release_in_bin",
+      "witness": "13381c0d10349c0b",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "same_as",
+      "witness": "cceccd0925f79963",
+      "links": [
+        {
+          "id": "XfI",
+          "kind": "asserted",
+          "artifact": "7dc9339a9d6eff43",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "save_looks",
+      "witness": "8286667953cc0101",
+      "links": [
+        {
+          "id": "JKS",
+          "kind": "asserted",
+          "artifact": "3ea93d0b5bf6065c",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "seen_part_too_big",
+      "witness": "df4880b8e617ab05",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "TBu",
+          "kind": "asserted",
+          "artifact": "58c3d9e8f25866eb",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "set_payload",
+      "witness": "def39d86bad907af",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "stow",
+      "witness": "538dc0ecbe1ae784",
+      "links": [
+        {
+          "id": "Xsf",
+          "kind": "asserted",
+          "artifact": "caa08395f7cd54fc",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "wrist_light",
+      "witness": "9cbd55ee21f42800",
+      "links": [
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

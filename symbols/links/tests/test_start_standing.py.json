@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_start_standing.py",
+  "entries": [
+    {
+      "name": "test_the_dog_settles_standing_at_its_start_not_on_what_is_at_the_origin",
+      "witness": "dd9723be34f5c5af",
+      "links": [
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_dog_settles_standing_at_its_start_not_on_what_is_at_the_origin.bench",
+      "witness": "51dfc189135aad3c",
+      "links": [
+        {
+          "id": "rUS",
+          "kind": "asserted",
+          "artifact": "b48f4e28f16560b9",
+          "at": "2026-10-01"
+        }
+      ]
+    }
+  ]
+}

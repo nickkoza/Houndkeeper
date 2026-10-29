@@ -1,0 +1,241 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_rec_poses.py",
+  "entries": [
+    {
+      "name": "_night",
+      "witness": "54a90aef823c8dc3",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_reference",
+      "witness": "f8c4008e40ef8626",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_tf",
+      "witness": "a1475661cc1fde78",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_house96_walk_every_frame_has_its_pose",
+      "witness": "416e4102cbfbba46",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_interpolated_halfway",
+      "witness": "3e6bf4397e133f6b",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_live_head_camera_pose_is_interpolated",
+      "witness": "62520ffb8767a32e",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_mount_and_samples",
+      "witness": "78846cec160a04bd",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_never_across_a_gap_nor_past_the_ends",
+      "witness": "7d3ceb658036fcfb",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_no_tf_stream_refused",
+      "witness": "9f825347d7363867",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_no_tool_keeps_its_own_pose_interpolation",
+      "witness": "991d078cb99f6c4f",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_pose_at_a_frames_own_time_matches_the_retired_lookup",
+      "witness": "23a1cf25f3c7f63a",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_robot_clock_recording_stored_on_the_wall_clock",
+      "witness": "43b42df2c424141f",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

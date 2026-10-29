@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_width_at_height.py",
+  "entries": [
+    {
+      "name": "_look",
+      "witness": "699129b56c7514e0",
+      "links": [
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_standing_toy_too_wide_flat_fits_at_its_height",
+      "witness": "13c0df18b73109a2",
+      "links": [
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_toy_with_its_legs_apart_fits_by_one_leg",
+      "witness": "2b5993ad75455cfe",
+      "links": [
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_wide_thing_stays_too_wide",
+      "witness": "920eed086f4d65bd",
+      "links": [
+        {
+          "id": "pYZ",
+          "kind": "asserted",
+          "artifact": "6ba366e569cf73ad",
+          "at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

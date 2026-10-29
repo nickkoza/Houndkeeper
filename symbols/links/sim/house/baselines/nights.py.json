@@ -1,0 +1,97 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/nights.py",
+  "entries": [
+    {
+      "name": "_bench",
+      "witness": "7bb3c04e30e60364",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_s96",
+      "witness": "44d9cd769a9fef11",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "carpet_rects",
+      "witness": "56e4c026c3e9fe40",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "night_set",
+      "witness": "0900ff8b359c74d6",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "truth_toys",
+      "witness": "b7d44d7730448c67",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

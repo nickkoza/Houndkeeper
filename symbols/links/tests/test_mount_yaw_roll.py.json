@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mount_yaw_roll.py",
+  "entries": [
+    {
+      "name": "_lanes",
+      "witness": "97486e9c156b3878",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_true_roll_leaks_into_the_yaw_found_from_walking_lanes",
+      "witness": "232d3ffc6fbe82e4",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

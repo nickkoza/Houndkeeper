@@ -1,0 +1,121 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/standing_look.py",
+  "entries": [
+    {
+      "name": "aim",
+      "witness": "c27b5e4c5e85d079",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "aim.cost",
+      "witness": "cb59bf28cb5b36e5",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "aim.want",
+      "witness": "83afc8d1c7186b1f",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "b60c34b4afc8f98b",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "move_arm",
+      "witness": "2f74e719bb362260",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "tipping",
+      "witness": "2c9eca67bd8036c7",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}

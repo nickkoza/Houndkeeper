@@ -1,0 +1,175 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_high_carry.py",
+  "entries": [
+    {
+      "name": "_Held",
+      "witness": "c69d2a68ce805f98",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.__init__",
+      "witness": "aa796027c7e10cef",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.arm_to_safe",
+      "witness": "f506d24ba1bb9c34",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.grip_to",
+      "witness": "635502d988852c4d",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.gripper",
+      "witness": "6353346f56479bb6",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.over_bin",
+      "witness": "c82b9c955ad2418a",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.state",
+      "witness": "e1539b715d3e01ba",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_Held.step",
+      "witness": "4d2573bb1dc18229",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S",
+      "witness": "5744d02dfb8eeb1c",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.bin_clear_z",
+      "witness": "3619e597fbeb0a4b",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.ik_lean",
+      "witness": "9f59d177440911ae",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_short_item_is_still_carried_high",
+      "witness": "2a8e89ac3fa585f5",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_as_before_with_the_rule_off",
+      "witness": "4b97c4c8d3973eab",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_policy_picks_carry_is_as_high",
+      "witness": "1f3f7162d1b55216",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

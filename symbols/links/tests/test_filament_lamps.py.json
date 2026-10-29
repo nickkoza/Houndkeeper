@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_lamps.py",
+  "entries": [
+    {
+      "name": "_halves",
+      "witness": "ed75d46e45ecae1a",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_two_lamps_each_light_their_own_half",
+      "witness": "1436dc02204ba441",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

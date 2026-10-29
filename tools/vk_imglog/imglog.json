@@ -1,0 +1,3 @@
+{"file_format_version": "1.0.0", "layer": {"name": "VK_LAYER_HK_imglog", "type": "GLOBAL", "library_path": "./libimglog.so",
+ "api_version": "1.3.0", "implementation_version": "1", "description": "log image creation",
+ "functions": {"vkGetInstanceProcAddr": "imglog_GetInstanceProcAddr", "vkGetDeviceProcAddr": "imglog_GetDeviceProcAddr"}}}

@@ -1,0 +1,52 @@
+Filament's panic reason, thread and call stack on stderr, whichever thread panicked (a panic on Filament's driver or
+job threads otherwise ends the process with only its type: the sim's 18 Oct aborts). Applied by tools/build_mujofil.sh.
+
+--- a/native/render_module.cpp
++++ b/native/render_module.cpp
+@@ -15,8 +15,13 @@
+ #include <pybind11/pybind11.h>
+ #include <pybind11/stl.h>
+ 
++#include <utils/CallStack.h>
+ #include <utils/Panic.h>
+ 
++#include <dlfcn.h>
++#include <pthread.h>
++#include <cstdio>
++
+ #include <cstdint>
+ #include <cstdlib>
+ #include <memory>
+@@ -264,7 +269,32 @@
+ #define MUJOFIL_WARP_MODULE _mujofil_warp
+ #endif
+ 
++namespace {
++// Filament's panics carry their reason, but one thrown on Filament's own threads (the driver thread, the job system)
++// reaches no handler: the process ends on "terminating due to uncaught exception of type utils::PostconditionPanic" and
++// nothing else. Filament calls the panic handler on the panicking thread before it throws, so the reason, the thread
++// and where it came from are on stderr first, whichever thread it was.
++void log_panic(void*, utils::Panic const& p) {
++    char thread[32] = "?";
++    pthread_getname_np(pthread_self(), thread, sizeof thread);
++    std::fprintf(stderr, "mujofil: Filament %s on thread '%s' in %s (%s:%d): %s\n", p.getType(), thread,
++                 p.getFunction(), p.getFile(), p.getLine(), p.getReason());
++    utils::CallStack const& cs = p.getCallStack();
++    for (size_t i = 0; i < cs.getFrameCount(); ++i) {     // module-relative addresses: addr2line on an unstripped build
++        Dl_info info{};
++        void* pc = reinterpret_cast<void*>(cs[i]);
++        if (dladdr(pc, &info) && info.dli_fname)
++            std::fprintf(stderr, "mujofil:   #%zu %s+0x%lx %s\n", i, info.dli_fname,
++                         (unsigned long)((char*)pc - (char*)info.dli_fbase), info.dli_sname ? info.dli_sname : "");
++        else
++            std::fprintf(stderr, "mujofil:   #%zu %p\n", i, pc);
++    }
++    std::fflush(stderr);
++}
++}  // namespace
++
+ PYBIND11_MODULE(MUJOFIL_WARP_MODULE, m) {
++    utils::Panic::setPanicHandler(&log_panic, nullptr);
+     m.doc() = "mujofil-warp native: Filament PBR render of MuJoCo -> torch CUDA (zero-copy)";
+ 
+     // Surface Filament's real error text. Filament throws utils::Panic, which is

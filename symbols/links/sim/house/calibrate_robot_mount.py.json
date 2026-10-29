@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/calibrate_robot_mount.py",
+  "entries": [
+    {
+      "name": "calibrate",
+      "witness": "94c62b1cc0ad1a66",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "house_solve",
+      "witness": "3aa8c6847d222f78",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "25e0d569a49e5462",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_release_mutants.py",
+  "entries": [
+    {
+      "name": "make",
+      "witness": "00ec4bcbf42d345a",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_check_that_hangs_is_a_failed_check",
+      "witness": "6df2e0c3d9cac495",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_that_is_not_there_changes_nothing",
+      "witness": "1dfe4569c640d7d9",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_current_link_holds_when_the_tree_is_moved",
+      "witness": "f57830692729e05b",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_first_release_failing_leaves_no_current",
+      "witness": "7acccb640a6ec02e",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

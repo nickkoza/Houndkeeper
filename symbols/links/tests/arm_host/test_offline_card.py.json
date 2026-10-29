@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_offline_card.py",
+  "entries": [
+    {
+      "name": "_code",
+      "witness": "60645f38cb8aa2cf",
+      "links": [
+        {
+          "id": "DzZ",
+          "kind": "asserted",
+          "artifact": "f979eb9e21a11d8b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XzS",
+          "kind": "asserted",
+          "artifact": "83e585505aeaf25a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_first_boot_installs_only_from_the_card",
+      "witness": "51179cd0968706d0",
+      "links": [
+        {
+          "id": "DzZ",
+          "kind": "asserted",
+          "artifact": "f979eb9e21a11d8b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XzS",
+          "kind": "asserted",
+          "artifact": "83e585505aeaf25a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_first_boot_without_packages_stops_offline",
+      "witness": "1c45d6552809d023",
+      "links": [
+        {
+          "id": "DzZ",
+          "kind": "asserted",
+          "artifact": "f979eb9e21a11d8b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XzS",
+          "kind": "asserted",
+          "artifact": "83e585505aeaf25a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_card_always_carries_its_packages_and_fetching_checks_signatures",
+      "witness": "2336d987bc6f74cc",
+      "links": [
+        {
+          "id": "DzZ",
+          "kind": "asserted",
+          "artifact": "f979eb9e21a11d8b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XzS",
+          "kind": "asserted",
+          "artifact": "83e585505aeaf25a",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

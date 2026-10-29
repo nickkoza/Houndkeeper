@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/look_vlm.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "2e0d959604bd31ee",
+      "links": [
+        {
+          "id": "ojR",
+          "kind": "asserted",
+          "artifact": "3567d18098d0f3f4",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

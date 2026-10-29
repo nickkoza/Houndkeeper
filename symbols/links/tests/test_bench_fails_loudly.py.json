@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_bench_fails_loudly.py",
+  "entries": [
+    {
+      "name": "test_a_confirmer_crash_stops_the_bench_and_keeps_its_stderr",
+      "witness": "285e3e497037dd53",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_confirmer_that_exits_0_without_a_result_stops_the_bench",
+      "witness": "d97bd925a097dfb9",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_good_replay_returns_its_result",
+      "witness": "59802994b67a0c99",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_nights_own_files_are_put_in",
+      "witness": "c8b367f1da8ab783",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_placeholder_the_night_lacks_stops_the_bench",
+      "witness": "9b963ea3748468a3",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_relook_fit.py",
+  "entries": [
+    {
+      "name": "_S",
+      "witness": "b457462c15049aab",
+      "links": [
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_relook_does_not_reverse_the_fit",
+      "witness": "66cf9c1761ff3308",
+      "links": [
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "MFH",
+          "kind": "asserted",
+          "artifact": "31bc8c6388c561d5",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

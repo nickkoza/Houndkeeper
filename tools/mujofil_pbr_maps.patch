@@ -1,0 +1,784 @@
+Our one change to mujofil's rendering: normal and ORM layers, anisotropic filtering, lamp shadows, SSAO and shadow
+options (the why is in tools/build_mujofil.sh). Applied by tools/build_mujofil.sh.
+
+diff --git a/mujofil/__init__.py b/mujofil/__init__.py
+index a9b000d..fa2ec52 100644
+--- a/mujofil/__init__.py
++++ b/mujofil/__init__.py
+@@ -331,6 +331,9 @@ def make_config(
+     tone_mapping: bool = True,
+     dithering: bool = True,
+     layered: bool = False,
++    ssao_resolution: float = 0.5,
++    ssao_bias: float = 0.0005,
++    shadow_type: str = "pcf",
+ ) -> "RendererConfig":
+     """Build a :class:`RendererConfig` from clear keyword toggles.
+ 
+@@ -383,6 +386,9 @@ def make_config(
+     cfg.exposure = exposure
+     cfg.tone_mapping = tone_mapping
+     cfg.dithering = dithering
++    cfg.ssao_resolution = ssao_resolution
++    cfg.ssao_bias = ssao_bias
++    cfg.shadow_type = {"pcf": 0, "vsm": 1, "dpcf": 2, "pcss": 3}[shadow_type.lower()]
+     return cfg
+ 
+ 
+@@ -557,6 +563,10 @@ class WarpRenderer:
+             except Exception:  # noqa: BLE001 - missing/old IBL must never be fatal
+                 pass
+ 
++    def update_texture(self, model, texid: int):
++        """texture `texid` of `model` was rewritten in tex_data: show the new pixels (as mjr_uploadTexture does)"""
++        self._r.update_texture(_addr(model), int(texid))
++
+     def load_glb(self, path: str):
+         self._r.load_glb(path)
+ 
+@@ -818,9 +828,17 @@ class WarpRenderer:
+             self._r.set_ambient_intensity(float(intensity))
+         return True
+ 
++    def set_exposure(self, ev: float):
++        """change the exposure (EV) without rebuilding the renderer (as a camera's auto-exposure does)"""
++        self._r.set_exposure(float(ev))
++
+     def set_ambient_intensity(self, intensity: float):
+         self._r.set_ambient_intensity(intensity)
+ 
++    def set_ambient_tint(self, r: float, g: float, b: float):
++        """colour the ambient light (Filament traces no bounces: light off a room's walls and floor takes their colour)"""
++        self._r.set_ambient_tint(r, g, b)
++
+     def clear_dynamic_lights(self):
+         self._r.clear_dynamic_lights()
+ 
+@@ -831,9 +849,9 @@ class WarpRenderer:
+         self._r.add_point_light(x, y, z, r, g, b, intensity, falloff)
+ 
+     def add_spot_light(self, x, y, z, dx, dy, dz, r, g, b, intensity, falloff,
+-                       inner_deg, outer_deg, focused=True):
++                       inner_deg, outer_deg, focused=True, cast_shadows=False, bulb_radius=0.0):
+         self._r.add_spot_light(x, y, z, dx, dy, dz, r, g, b, intensity, falloff,
+-                               inner_deg, outer_deg, focused)
++                               inner_deg, outer_deg, focused, cast_shadows, bulb_radius)
+ 
+     def set_free_camera(self, ex, ey, ez, tx, ty, tz):
+         self._r.set_free_camera(ex, ey, ez, tx, ty, tz)
+diff --git a/native/render_module.cpp b/native/render_module.cpp
+index a6aa1da..c3833a5 100644
+--- a/native/render_module.cpp
++++ b/native/render_module.cpp
+@@ -72,6 +72,7 @@ public:
+ 
+     // --- scene setup (delegates to SceneBridge) ---
+     void load_model(uintptr_t m) { bridge_->load_model(MODEL(m)); }
++    void update_texture(uintptr_t m, int texid) { bridge_->update_texture(MODEL(m), texid); }
+     void sync_transforms(uintptr_t m, uintptr_t d) { bridge_->sync_transforms(MODEL(m), DATA(d)); }
+     void sync_camera(uintptr_t m, uintptr_t d, int cam) { bridge_->sync_camera(MODEL(m), DATA(d), cam); }
+     void set_free_camera(float ex, float ey, float ez, float tx, float ty, float tz) {
+@@ -115,6 +116,8 @@ public:
+         bridge_->load_ibl(ibl, sky, with_skybox);
+     }
+     void set_ambient_intensity(float i) { bridge_->set_ambient_intensity(i); }
++    void set_ambient_tint(float r, float g, float b) { bridge_->set_ambient_tint(r, g, b); }
++    void set_exposure(float ev) { renderer_->set_exposure(ev); }
+     void clear_dynamic_lights() { bridge_->clear_dynamic_lights(); }
+     void add_directional_light(float dx, float dy, float dz, float r, float g, float b,
+                                float intensity, bool shadows) {
+@@ -126,9 +129,10 @@ public:
+     }
+     void add_spot_light(float x, float y, float z, float dx, float dy, float dz,
+                         float r, float g, float b, float intensity, float falloff,
+-                        float inner_deg, float outer_deg, bool focused) {
++                        float inner_deg, float outer_deg, bool focused,
++                        bool cast_shadows, float bulb_radius) {
+         bridge_->add_spot_light(x, y, z, dx, dy, dz, r, g, b, intensity, falloff,
+-                                inner_deg, outer_deg, focused);
++                                inner_deg, outer_deg, focused, cast_shadows, bulb_radius);
+     }
+     size_t geom_count() const { return bridge_->geom_count(); }
+ 
+@@ -293,12 +297,17 @@ PYBIND11_MODULE(MUJOFIL_WARP_MODULE, m) {
+         .def_readwrite("exposure", &RendererConfig::exposure)
+         .def_readwrite("tone_mapping", &RendererConfig::tone_mapping)
+         .def_readwrite("dithering", &RendererConfig::dithering)
++        .def_readwrite("ssao_resolution", &RendererConfig::ssao_resolution)
++        .def_readwrite("ssao_bias", &RendererConfig::ssao_bias)
++        .def_readwrite("shadow_type", &RendererConfig::shadow_type)
+         .def_readwrite("batch_size", &RendererConfig::batch_size)
+         .def_readwrite("layered", &RendererConfig::layered);
+ 
+     py::class_<WarpRenderer>(m, "WarpRenderer")
+         .def(py::init<const RendererConfig&>(), py::arg("config"))
+         .def("load_model", &WarpRenderer::load_model)
++        .def("set_exposure", &WarpRenderer::set_exposure)
++        .def("update_texture", &WarpRenderer::update_texture)
+         .def("sync_transforms", &WarpRenderer::sync_transforms)
+         .def("sync_camera", &WarpRenderer::sync_camera,
+              py::arg("model"), py::arg("data"), py::arg("cam_id") = -1)
+@@ -309,6 +318,7 @@ PYBIND11_MODULE(MUJOFIL_WARP_MODULE, m) {
+         .def("load_ibl", &WarpRenderer::load_ibl,
+              py::arg("ibl"), py::arg("sky"), py::arg("with_skybox") = false)
+         .def("set_ambient_intensity", &WarpRenderer::set_ambient_intensity)
++        .def("set_ambient_tint", &WarpRenderer::set_ambient_tint)
+         .def("clear_dynamic_lights", &WarpRenderer::clear_dynamic_lights)
+         .def("add_directional_light", &WarpRenderer::add_directional_light,
+              py::arg("dx"), py::arg("dy"), py::arg("dz"), py::arg("r"), py::arg("g"), py::arg("b"),
+@@ -317,7 +327,8 @@ PYBIND11_MODULE(MUJOFIL_WARP_MODULE, m) {
+         .def("add_spot_light", &WarpRenderer::add_spot_light,
+              py::arg("x"), py::arg("y"), py::arg("z"), py::arg("dx"), py::arg("dy"), py::arg("dz"),
+              py::arg("r"), py::arg("g"), py::arg("b"), py::arg("intensity"), py::arg("falloff"),
+-             py::arg("inner_deg"), py::arg("outer_deg"), py::arg("focused") = true)
++             py::arg("inner_deg"), py::arg("outer_deg"), py::arg("focused") = true,
++             py::arg("cast_shadows") = false, py::arg("bulb_radius") = 0.0f)
+         .def_property_readonly("geom_count", &WarpRenderer::geom_count)
+         .def("render_dlpack", &WarpRenderer::render_dlpack,
+              "Render the scene; return a DLPack capsule (H,W,4 uint8 cuda) for torch.from_dlpack.")
+diff --git a/native/renderer_warp.cpp b/native/renderer_warp.cpp
+index 9d92039..b6bd549 100644
+--- a/native/renderer_warp.cpp
++++ b/native/renderer_warp.cpp
+@@ -277,7 +277,7 @@ void Renderer::setup_view() {
+         // Params matched to mujofil's tuned SSAO: a moderate radius that grounds
+         // objects, with minHorizonAngleRad rejecting coplanar floor/wall samples
+         // (avoids the broad "gloom" band a wide radius paints at frame edges).
+-        ao.radius = 0.30f; ao.bias = 0.0005f; ao.power = 1.0f;
++        ao.radius = 0.30f; ao.bias = config_.ssao_bias; ao.power = 1.0f; ao.resolution = config_.ssao_resolution;
+         ao.intensity = 1.5f; ao.bilateralThreshold = 0.05f;
+         ao.minHorizonAngleRad = 0.10f;
+         switch (config_.ssao_quality) {
+@@ -300,9 +300,27 @@ void Renderer::setup_view() {
+         view_->setScreenSpaceReflectionsOptions(ssr);
+     }
+     view_->setShadowingEnabled(config_.enable_shadows);
++    switch (config_.shadow_type) {
++        case 1: {                                        // soft shadows without TAA: blurred variance maps, 32-bit
++            view_->setShadowType(View::ShadowType::VSM);  // (16-bit made the soft edge grainy), light bleeding cut
++            View::VsmShadowOptions vsm; vsm.highPrecision = true; vsm.lightBleedReduction = 0.3f; vsm.mipmapping = true;
++            view_->setVsmShadowOptions(vsm); break;
++        }
++        case 2:  view_->setShadowType(View::ShadowType::DPCF); break;
++        case 3:  view_->setShadowType(View::ShadowType::PCSS); break;
++        default: view_->setShadowType(View::ShadowType::PCF); break;
++    }
+     view_->setDithering(config_.dithering ? View::Dithering::TEMPORAL : View::Dithering::NONE);
+ }
+ 
++void Renderer::set_exposure(float ev) {
++    if (ev == config_.exposure && color_grading_) return;
++    config_.exposure = ev;
++    filament::ColorGrading* old = color_grading_;
++    setup_color_grading();                                  // the view now holds the new grading
++    if (old) engine_->destroy(old);
++}
++
+ void Renderer::setup_color_grading() {
+     auto b = ColorGrading::Builder();
+     b.toneMapping(config_.tone_mapping
+diff --git a/native/vendor/core/light_manager.cpp b/native/vendor/core/light_manager.cpp
+index 4b31a1b..3dca31a 100644
+--- a/native/vendor/core/light_manager.cpp
++++ b/native/vendor/core/light_manager.cpp
+@@ -1,5 +1,6 @@
+ #include "core/light_manager.h"
+ 
++#include <algorithm>
+ #include <fstream>
+ #include <vector>
+ #include <filament/IndirectLight.h>
+@@ -84,11 +85,7 @@ void LightManager::setup_indirect_fallback() {
+             default_refl_->setImage(*engine_, 0, std::move(pb), off);
+         }
+ 
+-        indirect_light_ = filament::IndirectLight::Builder()
+-            .reflections(default_refl_)
+-            .irradiance(3, bands.data())
+-            .intensity(14000.0f)
+-            .build(*engine_);
++        indirect_light_ = build_indirect(default_refl_, bands.data(), 14000.0f);
+ 
+         scene_->setIndirectLight(indirect_light_);
+     }
+@@ -117,11 +114,7 @@ void LightManager::load_ibl(const std::string& ibl_path, const std::string& skyb
+                 if (indirect_light_) {
+                     engine_->destroy(indirect_light_);
+                 }
+-                indirect_light_ = filament::IndirectLight::Builder()
+-                    .reflections(ibl_texture_)
+-                    .irradiance(3, sh)
+-                    .intensity(18000.0f)
+-                    .build(*engine_);
++                indirect_light_ = build_indirect(ibl_texture_, sh, 18000.0f);
+                 scene_->setIndirectLight(indirect_light_);
+             } else {
+                 // Fallback: use reflections cubemap without SH
+@@ -140,11 +133,7 @@ void LightManager::load_ibl(const std::string& ibl_path, const std::string& skyb
+                     filament::math::float3{-0.220f, -0.246f, -0.282f},
+                     filament::math::float3{0.071f, 0.071f, 0.073f},
+                 };
+-                indirect_light_ = filament::IndirectLight::Builder()
+-                    .reflections(ibl_texture_)
+-                    .irradiance(3, bands.data())
+-                    .intensity(18000.0f)
+-                    .build(*engine_);
++                indirect_light_ = build_indirect(ibl_texture_, bands.data(), 18000.0f);
+                 scene_->setIndirectLight(indirect_light_);
+             }
+         }
+@@ -268,7 +257,7 @@ utils::Entity LightManager::add_spot_light(
+     float r, float g, float b,
+     float intensity, float falloff_radius,
+     float inner_cone_deg, float outer_cone_deg,
+-    bool cast_shadows, bool focused)
++    bool cast_shadows, bool focused, float bulb_radius)
+ {
+     auto entity = utils::EntityManager::get().create();
+ 
+@@ -291,7 +280,13 @@ utils::Entity LightManager::add_spot_light(
+ 
+     if (cast_shadows) {
+         filament::LightManager::ShadowOptions shadowOpts;
+-        shadowOpts.mapSize = 1024;
++        shadowOpts.mapSize = 2048;                 // a room-wide cone: 1024 left shadow texels cm-wide
++        shadowOpts.constantBias = 0.002f;          // m: against acne on large surfaces
++        shadowOpts.normalBias = 1.5f;
++        shadowOpts.shadowBulbRadius = bulb_radius; // the penumbra's source size (PCSS / DPCF)
++        // VSM's soft edge: a blur in shadow-map texels, from the bulb's size (est.: a 2048 map over a wide cone is
++        // ~2 mm a texel 1.5 m away, and a lamp's penumbra on the floor ~0.4 x its size: ~180 texels per metre of bulb)
++        shadowOpts.vsm.blurWidth = std::min(48.0f, 180.0f * bulb_radius);
+         builder.shadowOptions(shadowOpts);
+     }
+ 
+@@ -310,6 +305,28 @@ void LightManager::clear_dynamic_lights() {
+     light_entities_.clear();
+ }
+ 
++filament::IndirectLight* LightManager::build_indirect(filament::Texture* refl, const filament::math::float3* sh, float intensity) {
++    // the ambient light, remembered so set_ambient_tint can rebuild it coloured
++    ibl_refl_ = refl; ibl_intensity_ = intensity;
++    for (int i = 0; i < 9; ++i) ibl_sh_[i] = sh[i];
++    filament::math::float3 t[9];
++    for (int i = 0; i < 9; ++i) t[i] = ibl_sh_[i] * tint_;
++    return filament::IndirectLight::Builder().reflections(refl).irradiance(3, t).intensity(intensity).build(*engine_);
++}
++
++void LightManager::set_ambient_tint(float r, float g, float b) {
++    // colour the ambient (indirect) light: Filament traces no bounces, so light that reached a room off its walls and
++    // floor, and took their colour, is approximated by tinting the ambient with it
++    tint_ = {r, g, b};
++    if (!indirect_light_ || !ibl_refl_) return;
++    float intensity = indirect_light_->getIntensity();
++    filament::IndirectLight* old = indirect_light_;
++    indirect_light_ = build_indirect(ibl_refl_, ibl_sh_.data(), ibl_intensity_);
++    indirect_light_->setIntensity(intensity);
++    scene_->setIndirectLight(indirect_light_);                // the scene lets go of the old one first
++    engine_->destroy(old);
++}
++
+ void LightManager::set_indirect_light_intensity(float intensity) {
+     auto* ibl = scene_->getIndirectLight();
+     if (ibl) {
+diff --git a/native/vendor/core/light_manager.h b/native/vendor/core/light_manager.h
+index 7b24907..71ddc7a 100644
+--- a/native/vendor/core/light_manager.h
++++ b/native/vendor/core/light_manager.h
+@@ -1,4 +1,5 @@
+ #pragma once
++#include <array>
+ 
+ #include <string>
+ #include <vector>
+@@ -69,13 +70,15 @@ public:
+         float inner_cone_deg,
+         float outer_cone_deg,
+         bool cast_shadows = false,
+-        bool focused = true);
++        bool focused = true,
++        float bulb_radius = 0.0f);   // m: a soft shadow's penumbra (PCSS / DPCF), 0 = hard
+ 
+     /// Remove only the directional/point/spot lights (keeps IBL + skybox).
+     void clear_dynamic_lights();
+ 
+     /// Set the indirect light intensity (ambient).
+     void set_indirect_light_intensity(float intensity);
++    void set_ambient_tint(float r, float g, float b);
+ 
+     /// Remove all lights.
+     void clear();
+@@ -86,6 +89,11 @@ private:
+     std::vector<utils::Entity> light_entities_;
+     utils::Entity sun_entity_;
+     filament::IndirectLight* indirect_light_ = nullptr;
++    filament::IndirectLight* build_indirect(filament::Texture* refl, const filament::math::float3* sh, float intensity);
++    std::array<filament::math::float3, 9> ibl_sh_{};
++    filament::Texture* ibl_refl_ = nullptr;
++    float ibl_intensity_ = 14000.0f;
++    filament::math::float3 tint_{1.0f, 1.0f, 1.0f};
+     filament::Skybox* skybox_ = nullptr;
+     filament::Texture* ibl_texture_ = nullptr;
+     filament::Texture* skybox_texture_ = nullptr;
+diff --git a/native/vendor/core/material_manager.cpp b/native/vendor/core/material_manager.cpp
+index 573508a..fb1523d 100644
+--- a/native/vendor/core/material_manager.cpp
++++ b/native/vendor/core/material_manager.cpp
+@@ -145,7 +145,8 @@ filament::MaterialInstance* MaterialManager::create_mujoco_textured_instance(
+     float r, float g, float b, float a,
+     float roughness, float metallic, float reflectance, float emissive,
+     float uvscale_x, float uvscale_y,
+-    filament::Texture* albedo_2d, filament::Texture* cube)
++    filament::Texture* albedo_2d, filament::Texture* cube,
++    filament::Texture* normal_2d, filament::Texture* orm_2d)
+ {
+     // Fall back to a solid instance if the textured material isn't available or
+     // no texture was supplied.
+@@ -176,6 +177,7 @@ filament::MaterialInstance* MaterialManager::create_mujoco_textured_instance(
+         filament::TextureSampler::MinFilter::LINEAR_MIPMAP_LINEAR,
+         filament::TextureSampler::MagFilter::LINEAR,
+         filament::TextureSampler::WrapMode::REPEAT);
++    sampler.setAnisotropy(8.0f);
+ 
+     // Filament requires BOTH declared samplers (albedoMap + cubeMap) to be bound
+     // even when only one is used; the booleans select which one the shader reads.
+@@ -191,17 +193,18 @@ filament::MaterialInstance* MaterialManager::create_mujoco_textured_instance(
+         instance->setParameter("cubeMap", useCube ? cube : dummy_cube(), sampler);
+     setB("useCube", useCube);
+ 
+-    // The layered textured material also declares normal / MR / emissive samplers.
+-    // The plain MuJoCo textured path doesn't use them, but Filament requires every
+-    // declared sampler to be bound -> bind dummies and gate them OFF.
++    // MuJoCo's normal and ORM layers, when the material has them; otherwise dummies (Filament requires every
++    // declared sampler bound) with their flags off. Linear data: sampled without sRGB decode.
++    const bool useNormal = (normal_2d != nullptr);
++    const bool useMR = (orm_2d != nullptr);
+     if (mat->hasParameter("normalMap"))
+-        instance->setParameter("normalMap", dummy_normal(), sampler);
++        instance->setParameter("normalMap", useNormal ? normal_2d : dummy_normal(), sampler);
+     if (mat->hasParameter("mrMap"))
+-        instance->setParameter("mrMap", dummy_white_lin(), sampler);
++        instance->setParameter("mrMap", useMR ? orm_2d : dummy_white_lin(), sampler);
+     if (mat->hasParameter("emissiveMap"))
+         instance->setParameter("emissiveMap", dummy_white_lin(), sampler);
+-    setB("useNormal", false);
+-    setB("useMR", false);
++    setB("useNormal", useNormal);
++    setB("useMR", useMR);
+     setB("useEmissiveMap", false);
+ 
+     instances_.push_back(instance);
+@@ -387,6 +390,28 @@ filament::Texture* MaterialManager::get_or_create_texture_2d(
+     return tex;
+ }
+ 
++void MaterialManager::update_texture_2d(int key, int width, int height, int nchannel, const uint8_t* data)
++{
++    auto it = texture_cache_.find(key);
++    if (it == texture_cache_.end() || !data) return;
++    filament::Texture* tex = it->second;
++    if ((int)tex->getWidth() != width || (int)tex->getHeight() != height) return;
++    const size_t px = static_cast<size_t>(width) * height;
++    auto* rgba = new uint8_t[px * 4];
++    for (size_t i = 0; i < px; ++i) {
++        const uint8_t* p = data + i * nchannel;
++        rgba[i * 4 + 0] = p[0];
++        rgba[i * 4 + 1] = nchannel >= 3 ? p[1] : p[0];
++        rgba[i * 4 + 2] = nchannel >= 3 ? p[2] : p[0];
++        rgba[i * 4 + 3] = nchannel >= 4 ? p[3] : 255;
++    }
++    filament::Texture::PixelBufferDescriptor pb(
++        rgba, px * 4, filament::Texture::Format::RGBA, filament::Texture::Type::UBYTE,
++        [](void* buf, size_t, void*) { delete[] static_cast<uint8_t*>(buf); });
++    tex->setImage(*engine_, 0, std::move(pb));
++    tex->generateMipmaps(*engine_);
++}
++
+ filament::Texture* MaterialManager::get_or_create_texture_cube(
+     int key, int width, int height, int nchannel, const uint8_t* data)
+ {
+diff --git a/native/vendor/core/material_manager.h b/native/vendor/core/material_manager.h
+index 9b34ef3..2ef2b4e 100644
+--- a/native/vendor/core/material_manager.h
++++ b/native/vendor/core/material_manager.h
+@@ -46,7 +46,8 @@ public:
+         float r, float g, float b, float a,
+         float roughness, float metallic, float reflectance, float emissive,
+         float uvscale_x, float uvscale_y,
+-        filament::Texture* albedo_2d, filament::Texture* cube);
++        filament::Texture* albedo_2d, filament::Texture* cube,
++        filament::Texture* normal_2d = nullptr, filament::Texture* orm_2d = nullptr);
+ 
+     /// Create a layered-env textured PBR instance with the full glTF map set
+     /// (albedo + normal + metallic-roughness + emissive). Any map may be null;
+@@ -65,6 +66,9 @@ public:
+     /// Get (or create + cache) a Filament 2D texture from MuJoCo pixel data.
+     /// key is the MuJoCo texture id (for caching). nchannel is 1/3/4. srgb=false
+     /// uploads a LINEAR texture (for data maps: normal / metallic-roughness).
++    /// Re-upload a cached 2D texture from new pixel data (same size); no-op if it was never uploaded.
++    void update_texture_2d(int key, int width, int height, int nchannel, const uint8_t* data);
++
+     filament::Texture* get_or_create_texture_2d(
+         int key, int width, int height, int nchannel, const uint8_t* data,
+         bool srgb = true);
+diff --git a/native/vendor/core/renderer.h b/native/vendor/core/renderer.h
+index 0773ef5..426035e 100644
+--- a/native/vendor/core/renderer.h
++++ b/native/vendor/core/renderer.h
+@@ -45,6 +45,9 @@ struct RendererConfig {
+     float exposure = 0.0f;     // Exposure compensation (EV); 0 = neutral
+     bool tone_mapping = true;
+     bool dithering = true;
++    float ssao_resolution = 0.5f;  // SSAO buffer scale (0.5 = half; full res stops far surfaces banding)
++    float ssao_bias = 0.0005f;     // SSAO depth bias (m): larger stops coplanar self-occlusion bands
++    uint8_t shadow_type = 0;       // 0 PCF, 1 VSM, 2 DPCF, 3 PCSS (soft: penumbra from each light's bulb radius)
+     uint32_t batch_size = 1;   // # of swapchain images for batched rendering
+     // Parallel layered batch: render all batch_size worlds in ONE instanced draw
+     // into a (W,H,batch_size) array texture via the forked Filament gl_Layer
+@@ -63,6 +66,10 @@ public:
+     bool initialize();
+     void destroy();
+ 
++    /// Change the exposure (EV) of an existing renderer, as a camera's auto-exposure does: rebuilds the colour grading
++    /// only (a few ms), not the renderer.
++    void set_exposure(float ev);
++
+     // --- accessors used by SceneBridge / MaterialManager / LightManager ---
+     filament::Engine* engine() const { return engine_; }
+     filament::Scene* scene() const { return scene_; }
+diff --git a/native/vendor/core/scene_bridge.cpp b/native/vendor/core/scene_bridge.cpp
+index bd4f9a0..5e64318 100644
+--- a/native/vendor/core/scene_bridge.cpp
++++ b/native/vendor/core/scene_bridge.cpp
+@@ -25,6 +25,8 @@ static constexpr int CAPSULE_SLICES = 24;
+ static constexpr int CAPSULE_STACKS = 8;
+ static constexpr int CYLINDER_SLICES = 32;
+ static constexpr float GROUND_PLANE_SIZE = 20.0f;
++// plane texture origin and direction relative to MuJoCo's (u along +x, v along y; tuned by the classic comparison)
++static constexpr float UV_OX = 0.5f, UV_OY = 0.5f, UV_SU = 1.0f, UV_SV = 1.0f;
+ static constexpr int GROUND_PLANE_SUBDIVS = 64;
+ 
+ SceneBridge::SceneBridge(Renderer& renderer)
+@@ -89,6 +91,102 @@ void SceneBridge::load_model(const mjModel* model) {
+     for (int i = 0; i < model->ngeom; ++i) {
+         create_geom(model, i);
+     }
++    create_flexes(model);
++}
++
++// --- flex bodies (Houndkeeper patch): cloth (dim 2) draws its triangles from both sides; a soft body (dim 3) its outer
++// shell. Positions and normals are rewritten from data->flexvert_xpos every frame (sync_flexes). ---
++static void tangent_quats(const std::vector<float>& v6, std::vector<int16_t>& q) {
++    const size_t n = v6.size() / 6; q.resize(n * 4);
++    for (size_t i = 0; i < n; ++i) {                          // Frisvad basis from the normal, as create_renderable does
++        float nx = v6[i*6+3], ny = v6[i*6+4], nz = v6[i*6+5], l = std::sqrt(nx*nx + ny*ny + nz*nz);
++        if (l > 1e-6f) { nx /= l; ny /= l; nz /= l; } else { nx = 0; ny = 0; nz = 1; }
++        float tx, ty, tz, bx, by, bz;
++        if (nz < -0.9999f) { tx = 0; ty = -1; tz = 0; bx = -1; by = 0; bz = 0; }
++        else { float a = 1.0f / (1.0f + nz), b = -nx * ny * a; tx = 1.0f - nx*nx*a; ty = b; tz = -nx; bx = b; by = 1.0f - ny*ny*a; bz = -ny; }
++        float tr = tx + by + nz, qw, qx, qy, qz;
++        if (tr > 0) { float s = 0.5f / std::sqrt(tr + 1.0f); qw = 0.25f / s; qx = (bz - ny) * s; qy = (nx - tz) * s; qz = (ty - bx) * s; }
++        else if (tx > by && tx > nz) { float s = 2.0f * std::sqrt(1.0f + tx - by - nz); qw = (bz - ny) / s; qx = 0.25f * s; qy = (ty + bx) / s; qz = (nx + tz) / s; }
++        else if (by > nz) { float s = 2.0f * std::sqrt(1.0f + by - tx - nz); qw = (nx - tz) / s; qx = (ty + bx) / s; qy = 0.25f * s; qz = (bz + ny) / s; }
++        else { float s = 2.0f * std::sqrt(1.0f + nz - tx - by); qw = (ty - bx) / s; qx = (nx + tz) / s; qy = (bz + ny) / s; qz = 0.25f * s; }
++        float ql = std::sqrt(qw*qw + qx*qx + qy*qy + qz*qz); if (ql > 0) { qw /= ql; qx /= ql; qy /= ql; qz /= ql; }
++        q[i*4+0] = (int16_t)(qx * 32767.0f); q[i*4+1] = (int16_t)(qy * 32767.0f); q[i*4+2] = (int16_t)(qz * 32767.0f); q[i*4+3] = (int16_t)(qw * 32767.0f);
++    }
++}
++
++void SceneBridge::create_flexes(const mjModel* model) {
++    flex_renderables_.clear();
++    for (int f = 0; f < model->nflex; ++f) {
++        const int dim = model->flex_dim[f], nv = model->flex_vertnum[f];
++        if (dim < 2 || nv < 3) continue;                       // lines (cables) have geoms of their own
++        FlexRenderable fr; fr.flex_id = f; fr.vadr = model->flex_vertadr[f]; fr.nv = nv; fr.two_sided = (dim == 2);
++        fr.radius = (float)model->flex_radius[f];              // drawn this far out, as MuJoCo draws a flex (its contact size)
++        if (dim == 2) {                                        // cloth: its elements are its triangles
++            const int* e = model->flex_elem + model->flex_elemdataadr[f];
++            for (int k = 0; k < model->flex_elemnum[f] * 3; ++k) fr.tris.push_back((uint32_t)e[k]);
++        } else {                                               // a soft body: its shell, the triangles facing out
++            const int* sh = model->flex_shell + model->flex_shelldataadr[f];
++            for (int k = 0; k < model->flex_shellnum[f] * 3; ++k) fr.tris.push_back((uint32_t)sh[k]);
++        }
++        if (fr.tris.empty()) continue;
++        std::vector<uint32_t> idx(fr.tris);
++        const int nvr = fr.two_sided ? 2 * nv : nv;
++        if (fr.two_sided)                                      // the back: its own vertices (flipped normals), wound the other way
++            for (size_t k = 0; k < fr.tris.size(); k += 3) { idx.push_back(fr.tris[k] + nv); idx.push_back(fr.tris[k+2] + nv); idx.push_back(fr.tris[k+1] + nv); }
++        std::vector<float> v6((size_t)nvr * 6, 0.0f); for (int i = 0; i < nvr; ++i) v6[i*6+5] = 1.0f;
++        ResolvedMaterial rm; const float* c = model->flex_rgba + f * 4;
++        const int mid = model->flex_matid[f];
++        if (mid >= 0) { const float* mc = model->mat_rgba + mid * 4; for (int k = 0; k < 4; ++k) rm.rgba[k] = mc[k]; }
++        else for (int k = 0; k < 4; ++k) rm.rgba[k] = c[k];
++        rm.roughness = 0.9f; rm.metallic = 0.0f; rm.reflectance = 0.3f;   // fabric: matte
++        std::vector<float> uvs;
++        const int ta = model->flex_texcoordadr[f];
++        if (mid >= 0 && ta >= 0) {                              // textured cloth: its texture coordinates, twice for the back
++            int texid = model->mat_texid[mid * mjNTEXROLE + mjTEXROLE_RGB];
++            if (texid >= 0 && model->tex_type[texid] == mjTEXTURE_2D) {
++                rm.albedo_2d = material_manager_->get_or_create_texture_2d(texid, model->tex_width[texid], model->tex_height[texid],
++                                                                            model->tex_nchannel[texid], model->tex_data + model->tex_adr[texid]);
++                rm.uvscale[0] = model->mat_texrepeat[mid * 2]; rm.uvscale[1] = model->mat_texrepeat[mid * 2 + 1];
++                for (int s = 0; s < (fr.two_sided ? 2 : 1); ++s)
++                    for (int i = 0; i < nv; ++i) { uvs.push_back(model->flex_texcoord[(ta + i) * 2]); uvs.push_back(model->flex_texcoord[(ta + i) * 2 + 1]); }
++            }
++        }
++        fr.gr = create_renderable(v6, idx, make_instance(rm), -1, uvs, true);
++        flex_renderables_.push_back(std::move(fr));
++    }
++}
++
++void SceneBridge::sync_flexes(const mjData* data) {
++    auto* engine = renderer_.engine();
++    for (auto& fr : flex_renderables_) {
++        const int nv = fr.nv, nvr = fr.two_sided ? 2 * nv : nv;
++        std::vector<float> v6((size_t)nvr * 6, 0.0f);
++        const mjtNum* x = data->flexvert_xpos + fr.vadr * 3;
++        for (int i = 0; i < nv; ++i) for (int k = 0; k < 3; ++k) v6[i*6+k] = (float)x[i*3+k];
++        for (size_t t = 0; t + 2 < fr.tris.size(); t += 3) {  // area-weighted vertex normals
++            const uint32_t a = fr.tris[t], b = fr.tris[t+1], cc = fr.tris[t+2];
++            float e1[3], e2[3], n[3];
++            for (int k = 0; k < 3; ++k) { e1[k] = v6[b*6+k] - v6[a*6+k]; e2[k] = v6[cc*6+k] - v6[a*6+k]; }
++            n[0] = e1[1]*e2[2] - e1[2]*e2[1]; n[1] = e1[2]*e2[0] - e1[0]*e2[2]; n[2] = e1[0]*e2[1] - e1[1]*e2[0];
++            for (uint32_t v : {a, b, cc}) for (int k = 0; k < 3; ++k) v6[v*6+3+k] += n[k];
++        }
++        for (int i = 0; i < nv; ++i) {                          // each side drawn its radius out along its normal: the vertices
++            float* n = &v6[i*6+3]; const float l = std::sqrt(n[0]*n[0] + n[1]*n[1] + n[2]*n[2]);   // rest that far from
++            if (l < 1e-9f) continue;                                // what they touch, so a bare surface would lie in the floor
++            for (int k = 0; k < 3; ++k) {
++                const float o = n[k] / l * fr.radius;
++                if (fr.two_sided) { v6[(nv+i)*6+k] = v6[i*6+k] - o; v6[(nv+i)*6+3+k] = -n[k]; }
++                v6[i*6+k] += o;
++            }
++        }
++        std::vector<int16_t> q; tangent_quats(v6, q);
++        auto* vp = new float[v6.size()]; std::memcpy(vp, v6.data(), v6.size() * sizeof(float));
++        fr.gr.vertex_buffer->setBufferAt(*engine, 0, filament::VertexBuffer::BufferDescriptor(vp, v6.size() * sizeof(float),
++            [](void* p, size_t, void*) { delete[] static_cast<float*>(p); }));
++        auto* qp = new int16_t[q.size()]; std::memcpy(qp, q.data(), q.size() * sizeof(int16_t));
++        fr.gr.vertex_buffer->setBufferAt(*engine, 1, filament::VertexBuffer::BufferDescriptor(qp, q.size() * sizeof(int16_t),
++            [](void* p, size_t, void*) { delete[] static_cast<int16_t*>(p); }));
++    }
+ }
+ 
+ int SceneBridge::sync_lights_from_model(const mjModel* model) {
+@@ -293,6 +391,7 @@ ResolvedMaterial SceneBridge::resolve_material(const mjModel* model, int geom_id
+         // washed-out hotspot, not a mirror. So we keep the surface MATTE; a true
+         // planar reflection pass is the correct way to mirror the scene.
+ 
++        rm.texuniform = model->mat_texuniform[matid] != 0;
+         rm.uvscale[0] = model->mat_texrepeat[matid * 2 + 0];
+         rm.uvscale[1] = model->mat_texrepeat[matid * 2 + 1];
+ 
+@@ -313,6 +412,17 @@ ResolvedMaterial SceneBridge::resolve_material(const mjModel* model, int geom_id
+                     texid, tw, th, nch, tdata);
+             }
+         }
++        // Normal and ORM layers (<material><layer role="normal"/"orm">): linear data, so no sRGB decode.
++        // Cache keys are offset past the colour textures' so one texture used both ways gets two uploads.
++        auto layer = [&](int role) -> filament::Texture* {
++            int id = model->mat_texid[matid * mjNTEXROLE + role];
++            if (id < 0 || id >= model->ntex || model->tex_type[id] != mjTEXTURE_2D) return nullptr;
++            return material_manager_->get_or_create_texture_2d(
++                id + (1 << 20), model->tex_width[id], model->tex_height[id], model->tex_nchannel[id],
++                model->tex_data + model->tex_adr[id], /*srgb=*/false);
++        };
++        rm.normal_2d = layer(mjTEXROLE_NORMAL);
++        rm.orm_2d = layer(mjTEXROLE_ORM);
+     } else {
+         // No MuJoCo material: keep a tasteful brightness heuristic for scalars so
+         // bare MJCF colors still look like plausible materials.
+@@ -326,10 +436,12 @@ ResolvedMaterial SceneBridge::resolve_material(const mjModel* model, int geom_id
+     // Floor planes read best MATTE: a glossy floor reflects the bright IBL/sky
+     // and washes out (we can't planar-mirror the scene here anyway). Force any
+     // ground plane fully diffuse regardless of material so it stays clean.
+-    if (geom_type == mjGEOM_PLANE) {
++    if (geom_type == mjGEOM_PLANE && rm.orm_2d == nullptr) {
+         rm.roughness = 1.0f;
+         rm.metallic = 0.0f;
+         rm.reflectance = 0.0f;
++    } else if (geom_type == mjGEOM_PLANE) {
++        rm.reflectance = 0.5f;
+     }
+     return rm;
+ }
+@@ -339,7 +451,7 @@ filament::MaterialInstance* SceneBridge::make_instance(const ResolvedMaterial& r
+         return material_manager_->create_mujoco_textured_instance(
+             rm.rgba[0], rm.rgba[1], rm.rgba[2], rm.rgba[3],
+             rm.roughness, rm.metallic, rm.reflectance, rm.emissive,
+-            rm.uvscale[0], rm.uvscale[1], rm.albedo_2d, rm.cube);
++            rm.uvscale[0], rm.uvscale[1], rm.albedo_2d, rm.cube, rm.normal_2d, rm.orm_2d);
+     }
+     return material_manager_->create_pbr_instance(
+         rm.rgba[0], rm.rgba[1], rm.rgba[2], rm.rgba[3],
+@@ -370,7 +482,8 @@ void SceneBridge::create_primitive(int geom_id, int geom_type,
+             build_cylinder(size[0], size[1], CYLINDER_SLICES, vertices, indices);
+             break;
+         case mjGEOM_PLANE:
+-            build_plane(GROUND_PLANE_SIZE, vertices, indices);
++            build_plane(size[0] > 0 ? (float)size[0] : GROUND_PLANE_SIZE,
++                        size[1] > 0 ? (float)size[1] : GROUND_PLANE_SIZE, vertices, indices);
+             break;
+         default:
+             return;
+@@ -391,12 +504,17 @@ void SceneBridge::create_primitive(int geom_id, int geom_type,
+             // texture repeats per metre -> roughly MuJoCo's ~0.75 m checker
+             // tiles). mat_texrepeat tunes it around that baseline. The shader's
+             // uvscale is neutralised to 1 so density isn't applied twice.
+-            const float density = 0.13f * (rm.uvscale[0] > 0.0f ? rm.uvscale[0] : 1.0f);
+-            const float density_y = 0.13f * (rm.uvscale[1] > 0.0f ? rm.uvscale[1] : 1.0f);
++            // MuJoCo's own mapping, measured on its classic renderer (MuJoCo 3.10, 25 Sep 2026; Houndkeeper's
++            // tests/test_filament_orientation.py): the texture is centred on the plane (u = 0.5 at its centre);
++            // texuniform -> texrepeat repeats per 2 m; otherwise texrepeat repeats across the plane.
++            const float hx = size[0] > 0 ? (float)size[0] : GROUND_PLANE_SIZE;
++            const float hy = size[1] > 0 ? (float)size[1] : GROUND_PLANE_SIZE;
++            const float sx = rm.texuniform ? 0.5f * rm.uvscale[0] : rm.uvscale[0] / (2.0f * hx);
++            const float sy = rm.texuniform ? 0.5f * rm.uvscale[1] : rm.uvscale[1] / (2.0f * hy);
+             for (uint32_t i = 0; i < vcount; ++i) {
+                 float x = vertices[i * 6 + 0], y = vertices[i * 6 + 1];
+-                uvs[i * 2 + 0] = x * density;
+-                uvs[i * 2 + 1] = y * density_y;
++                uvs[i * 2 + 0] = UV_OX + UV_SU * x * sx;
++                uvs[i * 2 + 1] = UV_OY + UV_SV * y * sy;
+             }
+             rm_local.uvscale[0] = 1.0f;
+             rm_local.uvscale[1] = 1.0f;
+@@ -768,6 +886,7 @@ GeomRenderable SceneBridge::create_renderable(
+ 
+ void SceneBridge::sync_transforms(const mjModel* model, const mjData* data) {
+     auto& tcm = renderer_.engine()->getTransformManager();
++    sync_flexes(data);                                        // cloth and soft bodies: this frame's shape
+ 
+     for (auto& gr : geom_renderables_) {
+         if (gr.mj_geom_id < 0) continue;
+@@ -1010,6 +1129,12 @@ void SceneBridge::clear() {
+         if (gr.instance_buffer) engine->destroy(gr.instance_buffer);
+     }
+     geom_renderables_.clear();
++    for (auto& fr : flex_renderables_) {                      // flex bodies: the same, material owned by MaterialManager
++        renderer_.scene()->remove(fr.gr.entity); engine->destroy(fr.gr.entity);
++        if (fr.gr.vertex_buffer) engine->destroy(fr.gr.vertex_buffer);
++        if (fr.gr.index_buffer) engine->destroy(fr.gr.index_buffer);
++    }
++    flex_renderables_.clear();
+ 
+     if (light_manager_) light_manager_->clear();
+ }
+@@ -1270,6 +1395,10 @@ void SceneBridge::set_ambient_intensity(float intensity) {
+     light_manager_->set_indirect_light_intensity(intensity);
+ }
+ 
++void SceneBridge::set_ambient_tint(float r, float g, float b) {
++    light_manager_->set_ambient_tint(r, g, b);
++}
++
+ void SceneBridge::add_directional_light(float dx, float dy, float dz,
+                                         float r, float g, float b,
+                                         float intensity, bool cast_shadows) {
+@@ -1288,10 +1417,10 @@ void SceneBridge::add_spot_light(float x, float y, float z,
+                                  float r, float g, float b,
+                                  float intensity, float falloff,
+                                  float inner_deg, float outer_deg,
+-                                 bool focused) {
++                                 bool focused, bool cast_shadows, float bulb_radius) {
+     light_manager_->add_spot_light(x, y, z, dx, dy, dz, r, g, b,
+                                    intensity, falloff, inner_deg, outer_deg,
+-                                   false, focused);
++                                   cast_shadows, focused, bulb_radius);
+ }
+ 
+ // ============================================================================
+@@ -1587,17 +1716,25 @@ void SceneBridge::build_cylinder(float radius, float half_length, int slices,
+     }
+ }
+ 
+-void SceneBridge::build_plane(float size,
++void SceneBridge::build_plane(float hx, float hy,
+                                std::vector<float>& vertices,
+                                std::vector<uint32_t>& indices) {
+     // Simple quad — no subdivision needed for matte materials
+     vertices = {
+-        -size, -size, 0.0f,  0, 0, 1,
+-         size, -size, 0.0f,  0, 0, 1,
+-         size,  size, 0.0f,  0, 0, 1,
+-        -size,  size, 0.0f,  0, 0, 1,
++        -hx, -hy, 0.0f,  0, 0, 1,
++         hx, -hy, 0.0f,  0, 0, 1,
++         hx,  hy, 0.0f,  0, 0, 1,
++        -hx,  hy, 0.0f,  0, 0, 1,
+     };
+     indices = {0, 1, 2, 0, 2, 3};
+ }
+ 
++void SceneBridge::update_texture(const mjModel* model, int texid) {
++    if (!model || texid < 0 || texid >= model->ntex || model->tex_type[texid] != mjTEXTURE_2D) return;
++    const uint8_t* data = model->tex_data + model->tex_adr[texid];
++    for (int key : {texid, texid + (1 << 20)})               // colour and linear (normal / ORM) uploads
++        material_manager_->update_texture_2d(key, model->tex_width[texid], model->tex_height[texid],
++                                             model->tex_nchannel[texid], data);
++}
++
+ } // namespace vf_mujoco
+diff --git a/native/vendor/core/scene_bridge.h b/native/vendor/core/scene_bridge.h
+index 885b9f7..e35e244 100644
+--- a/native/vendor/core/scene_bridge.h
++++ b/native/vendor/core/scene_bridge.h
+@@ -55,8 +55,11 @@ struct ResolvedMaterial {
+     float emissive = 0.0f;
+     float uvscale[2] = {1.0f, 1.0f};
+     bool has_mat = false;                 // a MuJoCo <material> drives PBR scalars
++    bool texuniform = false;              // MuJoCo texuniform: texrepeat is per metre, else per geom
+     filament::Texture* albedo_2d = nullptr;  // 2D texture (planes/hfields/meshes)
+     filament::Texture* cube = nullptr;       // cube texture (other geoms)
++    filament::Texture* normal_2d = nullptr;  // MuJoCo normal layer (linear, tangent space)
++    filament::Texture* orm_2d = nullptr;     // MuJoCo ORM layer (linear: R occlusion, G roughness, B metallic)
+     bool textured() const { return albedo_2d != nullptr || cube != nullptr; }
+ };
+ 
+@@ -71,6 +74,9 @@ public:
+     /// Call once after loading the model.
+     void load_model(const mjModel* model);
+ 
++    /// The model's texture `texid` was rewritten in tex_data: re-upload Filament's copies of it.
++    void update_texture(const mjModel* model, int texid);
++
+     /// Sync transforms from MuJoCo simulation data to Filament entities.
+     /// Call every frame before rendering.
+     void sync_transforms(const mjModel* model, const mjData* data);
+@@ -152,6 +158,7 @@ public:
+ 
+     /// Set the indirect (ambient) light intensity.
+     void set_ambient_intensity(float intensity);
++    void set_ambient_tint(float r, float g, float b);
+ 
+     /// Add a directional light (like an even overhead/sun fill). Unlike point and
+     /// spot lights it has no position, no distance falloff and is never froxel-
+@@ -173,7 +180,7 @@ public:
+                         float r, float g, float b,
+                         float intensity, float falloff,
+                         float inner_deg, float outer_deg,
+-                        bool focused = true);
++                        bool focused = true, bool cast_shadows = false, float bulb_radius = 0.0f);
+ 
+     /// Clear all renderables from the scene.
+     void clear();
+@@ -233,7 +240,7 @@ private:
+                         std::vector<uint32_t>& indices);
+ 
+     /// Build a ground plane.
+-    void build_plane(float size,
++    void build_plane(float hx, float hy,
+                      std::vector<float>& vertices,
+                      std::vector<uint32_t>& indices);
+ 
+@@ -256,6 +263,11 @@ private:
+     std::unique_ptr<MaterialManager> material_manager_;
+     std::unique_ptr<LightManager> light_manager_;
+     std::vector<GeomRenderable> geom_renderables_;
++    /// MuJoCo flex bodies (cloth, soft bodies): a renderable whose vertices follow the flex every frame
++    struct FlexRenderable { GeomRenderable gr; int flex_id; int vadr; int nv; bool two_sided; float radius; std::vector<uint32_t> tris; };
++    std::vector<FlexRenderable> flex_renderables_;
++    void create_flexes(const mjModel* model);
++    void sync_flexes(const mjData* data);
+     std::vector<uint8_t> batch_scratch_;  // reused RGBA readback buffer for render_batch_rgb
+     bool layered_ = false;                // instanced/gl_Layer parallel-batch mode
+     int n_worlds_ = 1;                    // # worlds (= array layers) in layered mode

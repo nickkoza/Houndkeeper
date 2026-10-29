@@ -1,0 +1,17 @@
+# The router's firewall log of the robot network, received over remote syslog and kept on the laptop
+# ([VVJ], robot-network.md section 2). Listens only on the laptop's house addresses (real/.env), on an unprivileged
+# port. A template: @REPO@ and @USER@ are filled in on install.
+[Unit]
+Description=Houndkeeper robot network: the router's firewall log, kept
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=@USER@
+ExecStart=/usr/bin/python3 @REPO@/real/bringup/robot_logs.py syslog
+NoNewPrivileges=yes
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

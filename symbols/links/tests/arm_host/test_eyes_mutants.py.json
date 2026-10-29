@@ -1,0 +1,97 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_eyes_mutants.py",
+  "entries": [
+    {
+      "name": "test_a_clock_stepping_back_changes_nothing_on_the_wire",
+      "witness": "3fc101cc1e9d3ad7",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_clock_stepping_back_changes_nothing_on_the_wire.SPI",
+      "witness": "2a2fb6aa11898225",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_clock_stepping_back_changes_nothing_on_the_wire.SPI.writebytes2",
+      "witness": "bf1ee6197ee7e7fa",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stalled_loop_catches_up_over_several_frames_not_one",
+      "witness": "e29446dd4c5b8463",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_an_infinite_colour_is_dark",
+      "witness": "161db3fff56d9031",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

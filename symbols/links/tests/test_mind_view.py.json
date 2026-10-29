@@ -1,0 +1,289 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mind_view.py",
+  "entries": [
+    {
+      "name": "build",
+      "witness": "2346ebb9e1efb28b",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "camera",
+      "witness": "ddf576e79b3ddaa8",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "night",
+      "witness": "875dedf570951e25",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "quat",
+      "witness": "4697700bc473ffa2",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_huge_night_still_fits",
+      "witness": "339bd3640769ec44",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stops_outcome_gives_its_status",
+      "witness": "344c89c8e6ab9cb1",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_usual_night_is_small_and_cheap_to_build",
+      "witness": "9238365f167369a1",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_an_outline_lands_on_its_floor_point",
+      "witness": "496aa8125a23dac7",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_each_find_once_with_the_status_its_stop_gave_it",
+      "witness": "cd6dbde1423b4498",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_projection_matches_opencvs_fisheye",
+      "witness": "c4de66f8ff58f756",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_reasons_are_the_deciding_modules_words",
+      "witness": "5a743e6bd567ec94",
+      "links": [
+        {
+          "id": "1XG",
+          "kind": "asserted",
+          "artifact": "881e98e4808f1477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_ruled_out_is_what_the_tidy_module_clears",
+      "witness": "02d71dfabcdc7632",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_feed_passes_only_mind_messages",
+      "witness": "2c653c31adf2b439",
+      "links": [
+        {
+          "id": "Fho",
+          "kind": "asserted",
+          "artifact": "09d53dac1ec4e6b2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_page_reads_only",
+      "witness": "e96b7f6aab8e6789",
+      "links": [
+        {
+          "id": "ls3",
+          "kind": "asserted",
+          "artifact": "93f79349db574cee",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_page_renders_from_a_recorded_message",
+      "witness": "85de3d3ea9b692b6",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "ls3",
+          "kind": "asserted",
+          "artifact": "93f79349db574cee",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_rate_is_bounded",
+      "witness": "3fe7f1fe2ec4fa1e",
+      "links": [
+        {
+          "id": "BxF",
+          "kind": "asserted",
+          "artifact": "593964715597b81c",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_recorded_message_is_a_mind_message",
+      "witness": "f5ec3b82d43115bf",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_summary_has_its_shape",
+      "witness": "7b4c88e8685c75a2",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_tidy_module_sets_its_reasons",
+      "witness": "9bd07d92e5f35ed1",
+      "links": [
+        {
+          "id": "1XG",
+          "kind": "asserted",
+          "artifact": "881e98e4808f1477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_tidy_modules_hook_reads_its_state",
+      "witness": "898669f7f9536064",
+      "links": [
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

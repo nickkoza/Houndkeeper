@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_repark_grip.py",
+  "entries": [
+    {
+      "name": "test_slivers_are_not_grips",
+      "witness": "cde979236290e68b",
+      "links": [
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_re_park_aims_the_grip_point",
+      "witness": "eb7a4eb62aa9cd3c",
+      "links": [
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+ 0 comment=Robot-Net: no IPv6 out chain=forward action=drop in-interface-list=Robot
+ 1 comment=Robot-Net: no IPv6 in chain=forward action=drop out-interface-list=Robot
+ 2 comment=Robot-Net: no IPv6 to the router chain=input action=drop in-interface-list=Robot
+ 3 comment=defconf: accept established,related,untracked chain=input action=accept connection-state=established,related,untracked
+ 4 comment=defconf: drop invalid chain=input action=drop connection-state=invalid
+ 5 comment=defconf: accept ICMPv6 chain=input action=accept protocol=icmpv6
+ 6 comment=defconf: accept UDP traceroute chain=input action=accept protocol=udp port=33434-33534
+ 7 comment=defconf: accept DHCPv6-Client prefix delegation. chain=input action=accept protocol=udp src-address=fe80::/10 dst-port=546
+ 8 comment=defconf: accept IKE chain=input action=accept protocol=udp dst-port=500,4500
+ 9 comment=defconf: accept ipsec AH chain=input action=accept protocol=ipsec-ah
+10 comment=defconf: accept ipsec ESP chain=input action=accept protocol=ipsec-esp
+11 comment=defconf: accept all that matches ipsec policy chain=input action=accept ipsec-policy=in,ipsec
+12 comment=defconf: drop everything else not coming from LAN chain=input action=drop in-interface-list=!LAN
+13 comment=defconf: accept established,related,untracked chain=forward action=accept connection-state=established,related,untracked
+14 comment=defconf: drop invalid chain=forward action=drop connection-state=invalid
+15 comment=defconf: drop packets with bad src ipv6 chain=forward action=drop src-address-list=bad_ipv6
+16 comment=defconf: drop packets with bad dst ipv6 chain=forward action=drop dst-address-list=bad_ipv6
+17 comment=defconf: rfc4890 drop hop-limit=1 chain=forward action=drop protocol=icmpv6 hop-limit=equal:1
+18 comment=defconf: accept ICMPv6 chain=forward action=accept protocol=icmpv6
+19 comment=defconf: accept HIP chain=forward action=accept protocol=139
+20 comment=defconf: accept IKE chain=forward action=accept protocol=udp dst-port=500,4500
+21 comment=defconf: accept ipsec AH chain=forward action=accept protocol=ipsec-ah
+22 comment=defconf: accept ipsec ESP chain=forward action=accept protocol=ipsec-esp
+23 comment=defconf: accept all that matches ipsec policy chain=forward action=accept ipsec-policy=in,ipsec
+24 comment=defconf: drop everything else not coming from LAN chain=forward action=drop in-interface-list=!LAN
+

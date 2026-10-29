@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/real_nights.py",
+  "entries": [
+    {
+      "name": "canvas_share",
+      "witness": "e5a326f1ad2a9a4d",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "313cdd70315e5e18",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "problems",
+      "witness": "09503ad6c58d7f53",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "survey",
+      "witness": "58e1d5e51ef8d9a6",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

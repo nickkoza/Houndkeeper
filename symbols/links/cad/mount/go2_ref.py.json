@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cad/mount/go2_ref.py",
+  "entries": [
+    {
+      "name": "_load",
+      "witness": "9d983c3519c10427",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "available",
+      "witness": "d279a0f1bbd8a5a3",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "holes",
+      "witness": "8a69c7999ae4a4a2",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "index",
+      "witness": "a2821e39ae9c3055",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "mesh",
+      "witness": "cb68d76631f324fb",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Uaq",
+          "kind": "asserted",
+          "artifact": "cb3207a2b0914c86",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "step_to_robot",
+      "witness": "3f8147215835cb3a",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "top_z",
+      "witness": "6441a4c43bb6c2b5",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Uaq",
+          "kind": "asserted",
+          "artifact": "cb3207a2b0914c86",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

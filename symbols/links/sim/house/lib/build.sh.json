@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/lib/build.sh",
+  "entries": [
+    {
+      "name": "build",
+      "witness": "5aff3153bcdd83ce",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "build_wait",
+      "witness": "8119d9d8da2ace4c",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

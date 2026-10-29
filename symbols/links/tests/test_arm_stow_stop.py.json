@@ -1,0 +1,331 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_stow_stop.py",
+  "entries": [
+    {
+      "name": "_Arm",
+      "witness": "c1495fe8ff5dbb03",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.__init__",
+      "witness": "6723bcffdb0f56bd",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.move",
+      "witness": "bc84ca9a887f0eb5",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_BlockedArm",
+      "witness": "3ff74f8888805783",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_BlockedArm.__init__",
+      "witness": "d23e4a705c80e64b",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_BlockedArm.move",
+      "witness": "aee18b3414b4dfdd",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Clock",
+      "witness": "fd726a4eea098ea0",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Clock.__init__",
+      "witness": "b7620803e2253df1",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Clock.now",
+      "witness": "d9c521e51ea3f1e8",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_Clock.sleep",
+      "witness": "4fb16e8006b1e90c",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_SlowArm",
+      "witness": "255cfe5cee7aac18",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_SlowArm.__init__",
+      "witness": "67496dc270ed8823",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_SlowArm.move",
+      "witness": "35780d10329d6053",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_SlowArm.read",
+      "witness": "da6a909e45c751da",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "_tidy",
+      "witness": "c305c81b99d64350",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "clk",
+      "witness": "59edcba1cfbc4eb1",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_blocked_stow_is_held_where_it_rests_and_stops_without_retrying",
+      "witness": "cdb2f6f75289eea9",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_move_refused_partway_keeps_the_last_command_sent",
+      "witness": "8966a6caa33d24e9",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_move_refused_partway_keeps_the_last_command_sent.sleep",
+      "witness": "f975ad0ecd5fbf36",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_slow_stow_still_moving_is_not_called_blocked",
+      "witness": "59849f90afa0b910",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_standing_look_refused_partway_stows_before_it_walks_on",
+      "witness": "08c0d04e9d2f9ee3",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stow_refused_every_time_stops_the_night_with_the_arm_out",
+      "witness": "84256553f95955d2",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stow_refused_partway_is_held_then_finished_once_the_base_settles",
+      "witness": "5b6c365fe85e91ef",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_the_end_of_a_stop_stows_through_the_retry",
+      "witness": "dd208923451aea61",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_the_end_of_a_stop_stows_through_the_retry.move",
+      "witness": "98d92423dcbcaf13",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_the_night_stops_in_place_with_the_arm_filed_not_failed",
+      "witness": "45fc4126467ea779",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_the_night_stops_in_place_with_the_arm_filed_not_failed.loop",
+      "witness": "da0ff5c38d672513",
+      "links": [
+        {
+          "id": "WkC",
+          "kind": "asserted",
+          "artifact": "65b0cb43cafc76ca",
+          "at": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

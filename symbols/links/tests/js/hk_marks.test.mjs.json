@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_marks.test.mjs",
+  "entries": [
+    {
+      "name": "a tap marks the picked toy, on its floor, where the Area page's map puts it",
+      "witness": "fed84de7b7572c32",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "nothing on the page moves",
+      "witness": "9cc6e027cd6d8aec",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "84ec6047423b9167",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "save sends tonight's name, the toys, the save it replaces, and the confirmation",
+      "witness": "6ed19ab18cbb7fbf",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "the count says the toys, the bricks and the floors",
+      "witness": "4764ed95188201a3",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "the page offers the list and the floors, and closes a night that has run",
+      "witness": "5adeed12dd960afb",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

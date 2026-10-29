@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/conftest.py",
+  "entries": [
+    {
+      "name": "pytest_configure",
+      "witness": "6ba916026d9edc27",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_cockpit_data.py",
+  "entries": [
+    {
+      "name": "harness",
+      "witness": "6539c63d0b792476",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stream_run_measures_drops_and_writes_only_on_confirm",
+      "witness": "d3fe31047aba85d8",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_power_and_link_status_from_the_battery",
+      "witness": "24cf543259585980",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_reset_returns_to_the_list_and_unknown_procedures_are_ignored",
+      "witness": "fa0d7d833b17bd00",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_morning_feed_publishes_the_latest_log_once_and_again_when_a_newer_one_comes",
+      "witness": "ef1d39db1f3b7148",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_morning_feed_publishes_the_latest_log_once_and_again_when_a_newer_one_comes.log",
+      "witness": "5c8ec2fc61dc4ef0",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_morning_page_is_registered_and_reads_only",
+      "witness": "edeb3d5b0de8e200",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_taped_square_waits_for_the_measured_end_then_reports_drift",
+      "witness": "2ac7115e32e29821",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

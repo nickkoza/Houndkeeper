@@ -1,0 +1,157 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_payload_ff.py",
+  "entries": [
+    {
+      "name": "_held_torque",
+      "witness": "0415c320361bbd6a",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_pose",
+      "witness": "4277c07c0f19667c",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sim",
+      "witness": "633e1226c844834d",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_each_dimos_launch_names_its_own_payload_file",
+      "witness": "bc3486962164a61b",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_way_out_of_the_pick_clears_the_payload",
+      "witness": "6f651767c7eae4f3",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_way_out_of_the_pick_clears_the_payload.faulting_carry",
+      "witness": "60e7c3d34db605ae",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_way_out_of_the_pick_clears_the_payload.lifted_then",
+      "witness": "7fc42d486faa0dae",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_way_out_of_the_pick_clears_the_payload.lifted_then.fake",
+      "witness": "1c81d14895208718",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_estimate_error_is_stated_and_applied",
+      "witness": "a8867979e9fe2728",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_payload_file_round_trip",
+      "witness": "9cfda9f6fe714f6d",
+      "links": [
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_payload_raises_the_feed_forward_by_the_held_weight",
+      "witness": "4ce5e76fe9bc0809",
+      "links": [
+        {
+          "id": "cqG",
+          "kind": "asserted",
+          "artifact": "25269a7bbfc6122b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qaS",
+          "kind": "asserted",
+          "artifact": "1221d28a9ebf7dff",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

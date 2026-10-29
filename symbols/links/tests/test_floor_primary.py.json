@@ -1,0 +1,139 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_primary.py",
+  "entries": [
+    {
+      "name": "_confirmer",
+      "witness": "06faa73a0a879bc1",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_frames",
+      "witness": "720a0a91e1c508fb",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_lo_confirmer",
+      "witness": "bc38a6ca352116e5",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_cached_replay_is_the_live_one_exactly_at_a_knife_edge",
+      "witness": "56ed3f2fe0a5b5b6",
+      "links": [
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_a_cached_replay_judges_and_decides_as_the_live_one",
+      "witness": "144652bd04c753dd",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_faint_spot_seen_in_every_view_is_found_only_when_views_are_pooled",
+      "witness": "a399c7856f7172ed",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_far_view_that_sees_no_change_is_weak_evidence_against_one",
+      "witness": "9d69930e9a4d2a32",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_reported_number_never_comes_from_a_screen",
+      "witness": "59ca1d9e5f2541b9",
+      "links": [
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_log_odds_keeps_a_steady_change_and_forgets_a_passing_glint",
+      "witness": "51244b31785cc14b",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_log_odds_sensor_model_weighs_a_change_against_the_cells_own_noise",
+      "witness": "6c2862f75acfea9a",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_view_noise_is_the_spread_between_the_empty_nights_views",
+      "witness": "0fd3cec06a0044c4",
+      "links": [
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

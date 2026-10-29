@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/tip_bench.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "74048042cdb844f5",
+      "links": [
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMP",
+          "kind": "asserted",
+          "artifact": "7396256580fe1e3e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "YGD",
+          "kind": "asserted",
+          "artifact": "8e34f7450ff1dcd3",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Yns",
+          "kind": "asserted",
+          "artifact": "6cce48e206e497c2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "static",
+      "witness": "8f8ce517635774a0",
+      "links": [
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "support_margin",
+      "witness": "3ed1d342270fbd6e",
+      "links": [
+        {
+          "id": "oxZ",
+          "kind": "asserted",
+          "artifact": "2f490e07e25111fc",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

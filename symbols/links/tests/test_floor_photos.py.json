@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_photos.py",
+  "entries": [
+    {
+      "name": "test_generated_floors_come_from_the_split",
+      "witness": "9db1b1cf61a4c951",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_held_out_floors_never_train",
+      "witness": "85f1a1e080187c31",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_photo_floor_repeats_without_a_seam",
+      "witness": "24b6a10010a5fafb",
+      "links": [
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_relief_is_lit_from_the_side_it_faces",
+      "witness": "2fd7d890214d8880",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "N4z",
+          "kind": "asserted",
+          "artifact": "c3cee23f0d148a7a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/gpu_share.py",
+  "entries": [
+    {
+      "name": "_waiting_night_gone",
+      "witness": "253f84a0da37344c",
+      "links": [
+        {
+          "id": "jlr",
+          "kind": "asserted",
+          "artifact": "60d678b9331a4943",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "share",
+      "witness": "d615f3898379a703",
+      "links": [
+        {
+          "id": "jlr",
+          "kind": "asserted",
+          "artifact": "60d678b9331a4943",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

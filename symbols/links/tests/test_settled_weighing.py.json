@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_settled_weighing.py",
+  "entries": [
+    {
+      "name": "LaggingArm",
+      "witness": "b8a1b0702b9bacfb",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "LaggingArm.__init__",
+      "witness": "2c4857aa7875b808",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "LaggingArm._moving",
+      "witness": "e4420939ea005e1c",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "LaggingArm.read_joint_efforts",
+      "witness": "777d6855a8942d0d",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "LaggingArm.read_joint_positions",
+      "witness": "c5ac41facacf47f7",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "LaggingArm.read_joint_velocities",
+      "witness": "b9154c1ca1709e5d",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_weighs_once_the_arm_is_still",
+      "witness": "addb88db492405cc",
+      "links": [
+        {
+          "id": "XCl",
+          "kind": "asserted",
+          "artifact": "7a7e81ec40b4fb47",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

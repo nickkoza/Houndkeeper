@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_snap.py",
+  "entries": [
+    {
+      "name": "_tiles",
+      "witness": "9e0321cf09754b9a",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_toy_does_not_drag_the_snap",
+      "witness": "9515d0e70bd63780",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_plain_carpet_does_not_lock",
+      "witness": "ead84d98b5145cdb",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_snap_finds_how_far_the_patch_is_off",
+      "witness": "035a301fa65cf69e",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

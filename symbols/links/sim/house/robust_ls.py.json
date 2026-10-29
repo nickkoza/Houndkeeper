@@ -1,0 +1,199 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/robust_ls.py",
+  "entries": [
+    {
+      "name": "_factors",
+      "witness": "3f69e0cf4422e212",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "group_norms",
+      "witness": "8b5955837bb8aea6",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "lsqr_weighted",
+      "witness": "0164c68fc63ae1ed",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "masked_loss",
+      "witness": "86e8b783899a1290",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "masked_loss.loss",
+      "witness": "88180d4aa6be496b",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "noise_sd",
+      "witness": "da285a04e898f254",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "pinned",
+      "witness": "531f646d439615fe",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "plain",
+      "witness": "6fb9535d03480f30",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "robust_start",
+      "witness": "d149aa37c256e414",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "Rows",
+      "witness": "bc0a71210cd4a1ad",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "Rows.__init__",
+      "witness": "9c3aa24b821043e5",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "Rows.eq",
+      "witness": "2ee77e3bf7139ad3",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "Rows.system",
+      "witness": "d99b5827f277800e",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "solve_gtsam",
+      "witness": "6efe9ba5ee026d51",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "solve_gtsam.err",
+      "witness": "03155d393584a5a6",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "solve_robust",
+      "witness": "e1077566a2fc9289",
+      "links": [
+        {
+          "id": "2Ke",
+          "kind": "asserted",
+          "artifact": "5bf17b6231aa854e",
+          "at": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

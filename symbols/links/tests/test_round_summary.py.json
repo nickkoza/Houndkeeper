@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_round_summary.py",
+  "entries": [
+    {
+      "name": "_night",
+      "witness": "576d7350ea36e3ca",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "test_a_round_is_summed_by_kind",
+      "witness": "4e99913a6a823260",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gate_before_the_hold_out",
+      "witness": "2e64075d342726ee",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_hold_out_is_numbers_only",
+      "witness": "be6efbf42a7792c6",
+      "links": [
+        {
+          "id": "bnO",
+          "kind": "asserted",
+          "artifact": "37237803bb5c1020",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

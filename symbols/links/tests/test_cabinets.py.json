@@ -1,0 +1,109 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_cabinets.py",
+  "entries": [
+    {
+      "name": "_pieces",
+      "witness": "e9a209632a3c8ea1",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_counter_has_doors_a_drawer_row_and_handles_proud_of_its_face",
+      "witness": "59cbbb8bb4748bb3",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_face_carries_texture_at_real_scale_the_grain_running_up",
+      "witness": "4daed93042f392f3",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_dining_chairs_and_stool_are_textured_meshes",
+      "witness": "399cdfcc9c06e74c",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_finish_is_drawn_per_house_and_leaves_the_other_draws_alone",
+      "witness": "707b78c7f8adc1fb",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_house_furniture_is_textured_meshes_and_the_cabinets_are_in_it",
+      "witness": "9c94bc0243229499",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_island_seating_side_has_panels_without_handles",
+      "witness": "f2ec6837ddacb27e",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_meshes_compile_and_the_fronts_stand_where_they_were_drawn",
+      "witness": "586c7f9f59f855d1",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

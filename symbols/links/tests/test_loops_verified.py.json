@@ -1,0 +1,157 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_loops_verified.py",
+  "entries": [
+    {
+      "name": "_confirmer_args",
+      "witness": "41cb7cafc5776996",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "_run",
+      "witness": "d27c73fc4200667f",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "_stitch_line",
+      "witness": "5d3b7850aa64662b",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_a_house_with_no_map_yet_is_no_reason",
+      "witness": "38b6e7409e9b1801",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_an_older_map_is_named_stale",
+      "witness": "dd1ea520cb3b6c7c",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_house_frame_verifies_by_default_and_hands_dimos_the_verifier",
+      "witness": "2c5583ef773e947e",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-12"
+        },
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_bench_verifies_and_runs_one_thread_by_default",
+      "witness": "7b502d8c7e0d65e0",
+      "links": [
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_confirmer_refuses_an_older_map_unless_asked",
+      "witness": "3b5bcb6c49c93f90",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_refuses_an_older_map",
+      "witness": "517cf28201e9bf7d",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_stamp_carries_the_map_version_the_readers_expect",
+      "witness": "11d5a70efe6e6220",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-12"
+        },
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_verifies_loops_on_one_thread",
+      "witness": "a2bc046f3afba63d",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-12"
+        },
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

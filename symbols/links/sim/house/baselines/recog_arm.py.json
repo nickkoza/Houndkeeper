@@ -1,0 +1,25 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/recog_arm.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "02b891f9810ffc8c",
+      "links": [
+        {
+          "id": "En1",
+          "kind": "asserted",
+          "artifact": "124c1c96fbe100a1",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

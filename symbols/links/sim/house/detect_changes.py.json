@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/detect_changes.py",
+  "entries": [
+    {
+      "name": "feats",
+      "witness": "e1a11fee05ea2eb5",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "26261053e1a91730",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main.disk",
+      "witness": "e43c487f1c063c3b",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main.odd",
+      "witness": "622bbdc65daac00f",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "tolerant_diff",
+      "witness": "aca33d60d95b4904",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "w2rc",
+      "witness": "fb58be5dcc0bfd5e",
+      "links": [
+        {
+          "id": "39V",
+          "kind": "asserted",
+          "artifact": "33dc1edd6d49252d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

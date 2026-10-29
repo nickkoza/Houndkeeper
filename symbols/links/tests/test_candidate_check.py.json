@@ -1,0 +1,331 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_candidate_check.py",
+  "entries": [
+    {
+      "name": "cam",
+      "witness": "bf0139e24e1beb92",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Const",
+      "witness": "01367f3a9a619c0e",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Const.__init__",
+      "witness": "7291c0b07fb03c2b",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Const.score",
+      "witness": "63a6872b0da957f7",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "run_online",
+      "witness": "4dc99a340a2b1123",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_candidate_no_frame_saw_is_kept_and_floor_changes_are_not_checked",
+      "witness": "5f270bec59825d82",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_candidate_settles_once_no_later_frame_can_change_it",
+      "witness": "6c10d2e4669d94e5",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_each_crop_keeps_its_frame_stamp",
+      "witness": "10bd62d02b7632c8",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_frames_older_than_the_memory_are_not_views",
+      "witness": "3fbc2f5ba3d5b535",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_kept_at_the_threshold",
+      "witness": "5528d72e63bbc02f",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_live_a_candidate_is_scored_after_the_wait_with_the_views_it_has",
+      "witness": "070294ca7842df29",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_check_is_off_by_default",
+      "witness": "22de9f5c39b77afe",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_check_reads_no_truth",
+      "witness": "87bbee5afcf74b35",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_crop_is_the_benchs",
+      "witness": "8fe200043976d009",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_device_is_the_gpu_when_there_is_one",
+      "witness": "ef090a49ae0d38f5",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gpu_falls_back_to_the_cpu",
+      "witness": "d6af031943cd556e",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gpu_falls_back_to_the_cpu.Det",
+      "witness": "df3f6f2286115b29",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gpu_falls_back_to_the_cpu.Det.__init__",
+      "witness": "b2a8cbd245ba4421",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gpu_falls_back_to_the_cpu.Det.predict_image",
+      "witness": "81c378a966820545",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_gpu_falls_back_to_the_cpu.make_failing_load",
+      "witness": "a5d9091ce91b8b77",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_launch_setting_is_the_cascade_rounds_stage_one_and_the_check",
+      "witness": "e539d4e3408e525a",
+      "links": [
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-16"
+        },
+        {
+          "id": "tTD",
+          "kind": "asserted",
+          "artifact": "615e7e6a8163cdae",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_holds_a_candidate_until_the_check_scores_it",
+      "witness": "2f7310baab74c7ff",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_threshold_is_the_leads_chosen_on_tuning",
+      "witness": "4a0332f656d65f42",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_views_are_the_nearest_in_time_and_match_the_bench",
+      "witness": "9ffb5641df79eacd",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_with_the_check_off_the_tidy_passes_every_decision_on_unchanged",
+      "witness": "389965e0530c3949",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "walk",
+      "witness": "337c00a8799eb37d",
+      "links": [
+        {
+          "id": "Zaf",
+          "kind": "asserted",
+          "artifact": "25fff5dd582ee942",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

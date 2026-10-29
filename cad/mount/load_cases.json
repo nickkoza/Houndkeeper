@@ -1,0 +1,417 @@
+{
+ "frame": "robot frame, mm: X forward, Y left, Z up, origin at the Go2's body centre",
+ "g": 9.81,
+ "arm_mass_kg": 3.7,
+ "payload_kg": 1.5,
+ "reach_mm": 670.0,
+ "arm": {
+  "model_mass_kg": 3.38,
+  "stow_com_mm": [
+   85.5,
+   0.0,
+   266.1
+  ],
+  "max_self_moment_Nm": 8.92,
+  "joints_mm": {
+   "link_002_joint": [
+    100.0,
+    0.0,
+    182.9
+   ],
+   "link_003_joint": [
+    100.0,
+    0.0,
+    241.2
+   ],
+   "link_004_joint": [
+    -90.0,
+    0.0,
+    241.2
+   ],
+   "link_005_joint": [
+    84.0,
+    0.0,
+    317.5
+   ],
+   "link_006_joint": [
+    169.0,
+    0.0,
+    350.2
+   ],
+   "link_007_joint": [
+    161.1,
+    0.0,
+    303.9
+   ]
+  },
+  "base_axis_mm": [
+   100.0,
+   0.0,
+   152.1
+  ]
+ },
+ "cases": {
+  "sustained_stowed": {
+   "factor": 1.0,
+   "F_N": [
+    0,
+    0,
+    -36.297000000000004
+   ],
+   "at_mm": [
+    85.5,
+    0.0,
+    266.1
+   ],
+   "kind": "sustained (creep)",
+   "note": "the folded arm's weight, always on the mount"
+  },
+  "working_full_reach": {
+   "factor": 1.5,
+   "F_N": [
+    0,
+    0,
+    -51.012
+   ],
+   "M_Nm_about_Y": 18.779049999999998,
+   "M_Nm_about_X": 18.779049999999998,
+   "at_mm": [
+    100.0,
+    0.0,
+    118.4
+   ],
+   "kind": "working peak",
+   "note": "robot lying (the arm moves only stopped and down); arm stretched out at its measured 0.67 m reach with the rated 1.5 kg at the tip, forward/back (about Y) or to the side (about X); x1.5 for the arm's own accelerations (est.)"
+  },
+  "walking_stowed": {
+   "factor_vertical_peak": 2.0,
+   "factor_vertical_range": 2.0,
+   "factor_lateral": 0.5,
+   "factor_fore_aft": 0.5,
+   "F_N_per_g": [
+    0,
+    0,
+    -36.297000000000004
+   ],
+   "at_mm": [
+    85.5,
+    0.0,
+    266.1
+   ],
+   "kind": "fatigue (range) and peak",
+   "note": "each step: vertical 0 to 2 g on the stowed arm (range 2 g), 0.5 g sideways and fore-aft (est., trot); 1e7 cycles design life ([Xtj])"
+  },
+  "lying_and_standing": {
+   "factor_vertical": 1.5,
+   "tilt_deg": 20.0,
+   "F_N_per_g": [
+    0,
+    0,
+    -36.297000000000004
+   ],
+   "at_mm": [
+    85.5,
+    0.0,
+    266.1
+   ],
+   "kind": "working peak",
+   "note": "lying down and standing up with the arm stowed: 1.5 g and a 20 deg pitch (est.)"
+  },
+  "fall_onto_back": {
+   "factor": 8.0,
+   "F_N_per_g": [
+    0,
+    0,
+    36.297000000000004
+   ],
+   "at_mm": [
+    85.5,
+    0.0,
+    266.1
+   ],
+   "kind": "one-off (fall)",
+   "note": "the robot rolls onto its back: the stowed arm's mass at 8 g, pushing the arm toward the body (est.: ~0.3 m drop onto a rug or hard floor with ~4 mm of give at the arm); the arm may scuff, the mount must not let go of it"
+  }
+ },
+ "boundary_conditions": {
+  "adapter": {
+   "fixed": [
+    {
+     "what": "M4 bolt through the cover hole (assumed thread)",
+     "xy_mm": [
+      -62.7,
+      20.3
+     ],
+     "z_mm": 57.0
+    },
+    {
+     "what": "M4 bolt through the cover hole (assumed thread)",
+     "xy_mm": [
+      -62.7,
+      -20.3
+     ],
+     "z_mm": 57.0
+    },
+    {
+     "what": "M4 bolt through the cover hole (assumed thread)",
+     "xy_mm": [
+      -89.3,
+      20.3
+     ],
+     "z_mm": 57.0
+    },
+    {
+     "what": "M4 bolt through the cover hole (assumed thread)",
+     "xy_mm": [
+      -89.3,
+      -20.3
+     ],
+     "z_mm": 57.0
+    }
+   ],
+   "contact_compression_only": {
+    "what": "underside on the top cover (Z 57)",
+    "region_x_mm": [
+     -127.0,
+     75.0
+    ],
+    "half_width_mm": 38.0
+   },
+   "loads_from": "the module, through the interface (bolts + dowels + bearing on the deck); the bin on its magnets"
+  },
+  "module": {
+   "joined_to": "adapter or bench_plate at the interface",
+   "loads_at": {
+    "point_mm": [
+     100.0,
+     0.0,
+     118.4
+    ],
+    "what": "the arm's base: its four M5 on the module's top (79 mm square)"
+   },
+   "electronics_kg": 0.278
+  },
+  "bench_plate": {
+   "fixed": [
+    {
+     "what": "M8 to the bench (or C-clamp on the flange)",
+     "xy_mm": [
+      -2.0,
+      110.0
+     ]
+    },
+    {
+     "what": "M8 to the bench (or C-clamp on the flange)",
+     "xy_mm": [
+      -2.0,
+      -110.0
+     ]
+    },
+    {
+     "what": "M8 to the bench (or C-clamp on the flange)",
+     "xy_mm": [
+      128.0,
+      110.0
+     ]
+    },
+    {
+     "what": "M8 to the bench (or C-clamp on the flange)",
+     "xy_mm": [
+      128.0,
+      -110.0
+     ]
+    }
+   ],
+   "loads_from": "the module, as on the robot"
+  }
+ },
+ "joints": [
+  {
+   "name": "module-adapter (and module-bench_plate)",
+   "plane_z_mm": 86.4,
+   "bolts": [
+    {
+     "size": "M5",
+     "into": "M5 heat-set insert (Ruthex, 6.4 x 9.5)",
+     "xy_mm": [
+      14.0,
+      60.0
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "M5 heat-set insert (Ruthex, 6.4 x 9.5)",
+     "xy_mm": [
+      14.0,
+      -60.0
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "M5 heat-set insert (Ruthex, 6.4 x 9.5)",
+     "xy_mm": [
+      108.0,
+      108.0
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "M5 heat-set insert (Ruthex, 6.4 x 9.5)",
+     "xy_mm": [
+      108.0,
+      -108.0
+     ]
+    }
+   ],
+   "dowels": [
+    {
+     "d_mm": 6.0,
+     "xy_mm": [
+      34.0,
+      82.0
+     ],
+     "fit": "pressed in the adapter; round hole in the module"
+    },
+    {
+     "d_mm": 6.0,
+     "xy_mm": [
+      34.0,
+      -82.0
+     ],
+     "fit": "pressed in the adapter; slot along Y in the module"
+    }
+   ],
+   "bearing": "the module's underside on the deck, compression only, X 0..112"
+  },
+  {
+   "name": "arm base-module",
+   "plane_z_mm": 118.4,
+   "bolts": [
+    {
+     "size": "M5",
+     "into": "the arm base's nut traps",
+     "xy_mm": [
+      139.5,
+      39.5
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "the arm base's nut traps",
+     "xy_mm": [
+      139.5,
+      -39.5
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "the arm base's nut traps",
+     "xy_mm": [
+      60.5,
+      39.5
+     ]
+    },
+    {
+     "size": "M5",
+     "into": "the arm base's nut traps",
+     "xy_mm": [
+      60.5,
+      -39.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "adapter-robot",
+   "bolts": [
+    {
+     "size": "M4 (assumed)",
+     "xy_mm": [
+      -62.7,
+      20.3
+     ]
+    },
+    {
+     "size": "M4 (assumed)",
+     "xy_mm": [
+      -62.7,
+      -20.3
+     ]
+    },
+    {
+     "size": "M4 (assumed)",
+     "xy_mm": [
+      -89.3,
+      20.3
+     ]
+    },
+    {
+     "size": "M4 (assumed)",
+     "xy_mm": [
+      -89.3,
+      -20.3
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bin-adapter (breakaway)",
+   "magnets": [
+    {
+     "xy_mm": [
+      -114.0,
+      66.0
+     ],
+     "magnet": "supermagnete S-10-03-N, Ø10 x 3 mm N42: adhesive force ~1.8 kg (17.7 N) on steel (observed 4 Oct 2026)"
+    },
+    {
+     "xy_mm": [
+      -114.0,
+      -66.0
+     ],
+     "magnet": "supermagnete S-10-03-N, Ø10 x 3 mm N42: adhesive force ~1.8 kg (17.7 N) on steel (observed 4 Oct 2026)"
+    },
+    {
+     "xy_mm": [
+      -50.0,
+      66.0
+     ],
+     "magnet": "supermagnete S-10-03-N, Ø10 x 3 mm N42: adhesive force ~1.8 kg (17.7 N) on steel (observed 4 Oct 2026)"
+    },
+    {
+     "xy_mm": [
+      -50.0,
+      -66.0
+     ],
+     "magnet": "supermagnete S-10-03-N, Ø10 x 3 mm N42: adhesive force ~1.8 kg (17.7 N) on steel (observed 4 Oct 2026)"
+    }
+   ],
+   "locators": [
+    {
+     "xy_mm": [
+      -98.0,
+      0.0
+     ],
+     "ball_d_mm": 10.0,
+     "socket_half_angle_deg": 45.0
+    },
+    {
+     "xy_mm": [
+      -32.0,
+      0.0
+     ],
+     "ball_d_mm": 10.0,
+     "socket_half_angle_deg": 45.0
+    }
+   ]
+  }
+ ],
+ "pieces": "no piece needs splitting: each fits the X1's 256 mm cube with margin (see report), so no printed joints inside a part; the joints above are the assembly's",
+ "layers": {
+  "adapter": "printed upside down, deck on the bed: layers are XY planes, so bending along X (the arm's moment) and the twist both run in the layers; the bolt clamp and the deck's bearing press across them",
+  "module": "printed top-down: the same; the arm base's bolts pull across the layers (6 mm of top skin)",
+  "bench_plate": "printed top-down: as the module",
+  "bin": "printed upright: walls along Z; a knock bends the walls across the layers (PETG or PC, low stress)"
+ },
+ "status": "estimates, 4 Oct 2026; the printed parts' measured stiffness replaces them ([lUO])"
+}

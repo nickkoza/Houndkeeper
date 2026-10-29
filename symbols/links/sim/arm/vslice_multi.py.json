@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/vslice_multi.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "d4ba2f59ddbf7e53",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "JKS",
+          "kind": "asserted",
+          "artifact": "3ea93d0b5bf6065c",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "m62",
+          "kind": "asserted",
+          "artifact": "3317b5c7e70d290f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "S7o",
+          "kind": "asserted",
+          "artifact": "8e0489e8a7750477",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "XfI",
+          "kind": "asserted",
+          "artifact": "7dc9339a9d6eff43",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main.free",
+      "witness": "78d934e1ecf1b9e1",
+      "links": [
+        {
+          "id": "S7o",
+          "kind": "asserted",
+          "artifact": "8e0489e8a7750477",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.stop_for",
+      "witness": "5e5846ba50159982",
+      "links": [
+        {
+          "id": "A2c",
+          "kind": "asserted",
+          "artifact": "a82d0c5d229aed7d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "S7o",
+          "kind": "asserted",
+          "artifact": "8e0489e8a7750477",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

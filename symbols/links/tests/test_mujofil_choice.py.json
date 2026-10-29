@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mujofil_choice.py",
+  "entries": [
+    {
+      "name": "test_a_renderer_is_never_reused_for_another_model",
+      "witness": "09b5754e0364d2a0",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_renderer_is_never_reused_for_another_model.Stub",
+      "witness": "029e3cfc13f08baf",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_renderer_is_never_reused_for_another_model.Stub.__init__",
+      "witness": "da0eda4857dcbf6c",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_renderer_is_never_reused_for_another_model.Stub.render",
+      "witness": "d1cc24544cbaeab9",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_chosen_folder_goes_first_on_the_path",
+      "witness": "0cc3eaee4a37cb3f",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_render_stamp_names_the_build_and_the_default_stamps_as_the_fixed_build",
+      "witness": "a17d940d82520df7",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_switch_the_build_that_draws_every_lamp_is_used",
+      "witness": "ec78cf481acbb78c",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

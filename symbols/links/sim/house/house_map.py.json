@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/house_map.py",
+  "entries": [
+    {
+      "name": "keys",
+      "witness": "a0c6733d3f2164b5",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "ab41af25a94450a7",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "night_evidence",
+      "witness": "71c9a815ee510ee1",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "pack",
+      "witness": "36d9fd9619b705c0",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "unpack",
+      "witness": "f0c8ed17134bf0f2",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

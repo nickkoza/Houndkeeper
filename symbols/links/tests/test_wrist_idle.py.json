@@ -1,0 +1,25 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_wrist_idle.py",
+  "entries": [
+    {
+      "name": "test_folded_the_wrist_camera_rests_and_out_it_runs",
+      "witness": "30228f646a4ccfaf",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

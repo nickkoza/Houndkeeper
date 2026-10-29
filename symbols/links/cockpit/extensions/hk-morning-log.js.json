@@ -1,0 +1,109 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cockpit/extensions/hk-morning-log.js",
+  "entries": [
+    {
+      "name": "mapBox",
+      "witness": "8038670d455afa40",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "mapBox.pts",
+      "witness": "21dbfca941db879b",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register",
+      "witness": "50f139cf185c9d8a",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register.Card",
+      "witness": "a295210b33045475",
+      "links": [
+        {
+          "id": "hKP",
+          "kind": "asserted",
+          "artifact": "55b8ffbbe340370b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register.MapView",
+      "witness": "79260abbcebb2903",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register.MapView.flip",
+      "witness": "abe13f23965cc7c6",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register.Morning",
+      "witness": "2084e2cced3954ec",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "register.Morning.head",
+      "witness": "0e42a58e2e507700",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

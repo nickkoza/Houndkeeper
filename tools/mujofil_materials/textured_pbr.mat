@@ -1,0 +1,83 @@
+// mujofil's "MuJoCo Textured PBR" material with MuJoCo's normal and ORM texture layers added (waymark [UQK]).
+// Upstream's shipped standard material (mujofil 0.2.6) reads only the colour map; its layered twin
+// (materials_layered_src/textured_pbr.mat) already reads normal and metallic-roughness maps, and this is that
+// material without the layered pass. Specular anti-aliasing and a 60% relief keep a normal-mapped floor from
+// sparkling ("marching ants") as the camera moves, with no temporal anti-aliasing to smooth it (26 Sep). Compiled by tools/build_mujofil.sh with Filament 1.56.3's matc (material
+// version 56, the Filament mujofil links); a matc of another Filament version builds materials it can't load.
+material {
+    name : "MuJoCo Textured PBR",
+    shadingModel : lit,
+    blending : opaque,
+    specularAntiAliasing : true,
+    specularAntiAliasingVariance : 0.2,
+    specularAntiAliasingThreshold : 0.2,
+    parameters : [
+        { type : float4,          name : baseColor },
+        { type : float,           name : roughness },
+        { type : float,           name : metallic },
+        { type : float,           name : reflectance },
+        { type : float3,          name : emissive },
+        { type : float2,          name : uvscale },
+        { type : bool,            name : useAlbedo },
+        { type : bool,            name : useCube },
+        { type : bool,            name : useNormal },
+        { type : bool,            name : useMR },
+        { type : bool,            name : useEmissiveMap },
+        { type : sampler2d,       name : albedoMap },
+        { type : samplerCubemap,  name : cubeMap },
+        { type : sampler2d,       name : normalMap },
+        { type : sampler2d,       name : mrMap },
+        { type : sampler2d,       name : emissiveMap }
+    ],
+    variables : [
+        localDir
+    ],
+    requires : [
+        uv0,
+        tangents,
+        position
+    ]
+}
+
+vertex {
+    void materialVertex(inout MaterialVertexInputs material) {
+        material.localDir = getPosition();          // object-space direction, for MuJoCo cube textures
+    }
+}
+
+fragment {
+    void material(inout MaterialInputs material) {
+        vec2 uv = getUV0() * materialParams.uvscale;
+        if (materialParams.useNormal) {             // tangent space; set before prepareMaterial() applies the TBN
+            vec3 n = texture(materialParams_normalMap, uv).xyz * 2.0 - 1.0;   // relief at 60%: at full strength
+            material.normal = normalize(vec3(n.xy * 0.6, n.z));                // photo floors read as corrugated
+        }
+        prepareMaterial(material);
+
+        vec4 base = materialParams.baseColor;
+        if (materialParams.useAlbedo) {
+            base *= texture(materialParams_albedoMap, uv);
+        } else if (materialParams.useCube) {
+            base *= textureLod(materialParams_cubeMap, normalize(variable_localDir.xyz), 0.0);
+        }
+        material.baseColor = base;
+
+        float rough = materialParams.roughness;     // MuJoCo's ORM layer = glTF's: R occlusion, G roughness, B metallic
+        float metal = materialParams.metallic;
+        if (materialParams.useMR) {
+            vec3 orm = texture(materialParams_mrMap, uv).rgb;
+            rough *= orm.g;
+            metal *= orm.b;
+            material.ambientOcclusion = orm.r;
+        }
+        material.roughness = rough;
+        material.metallic = metal;
+        material.reflectance = materialParams.reflectance;
+
+        vec3 em = materialParams.emissive;
+        if (materialParams.useEmissiveMap) {
+            em *= texture(materialParams_emissiveMap, uv).rgb;
+        }
+        material.emissive = vec4(em, 1.0);
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_robot_clock_static.py",
+  "entries": [
+    {
+      "name": "test_the_lists_name_only_reads_that_exist",
+      "witness": "c27990c2f9e18093",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_robot_side_reads_time_through_the_robot_clock",
+      "witness": "ebd15f721f8be496",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "wall_reads",
+      "witness": "8b308bd7f1792455",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "wall_reads.walk",
+      "witness": "a1a842e2591a1814",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

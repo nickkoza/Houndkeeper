@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/floor_overlay_module.py",
+  "entries": [
+    {
+      "name": "FloorOverlay",
+      "witness": "d1498f941c208381",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "h3t",
+          "kind": "asserted",
+          "artifact": "0c95948237ecc4a0",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "FloorOverlay.__init__",
+      "witness": "8ce25fe545eddd26",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "h3t",
+          "kind": "asserted",
+          "artifact": "0c95948237ecc4a0",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "FloorOverlay.start",
+      "witness": "2eba1323a1ddaf99",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "h3t",
+          "kind": "asserted",
+          "artifact": "0c95948237ecc4a0",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "FloorOverlay.stop",
+      "witness": "ed7819aeafdbf364",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "h3t",
+          "kind": "asserted",
+          "artifact": "0c95948237ecc4a0",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

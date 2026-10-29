@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/owl_arm.py",
+  "entries": [
+    {
+      "name": "dense_frames",
+      "witness": "fe390669714b7685",
+      "links": [
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XEi",
+          "kind": "asserted",
+          "artifact": "117175a206a8243a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "detect",
+      "witness": "767ddc2ca7c7a08f",
+      "links": [
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XEi",
+          "kind": "asserted",
+          "artifact": "117175a206a8243a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "detector",
+      "witness": "7dee1b157f83cdbd",
+      "links": [
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XEi",
+          "kind": "asserted",
+          "artifact": "117175a206a8243a",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "e42b9669cac835b3",
+      "links": [
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "XEi",
+          "kind": "asserted",
+          "artifact": "117175a206a8243a",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+set_exposure on mujofil's OpenGL renderer too: without it the renderer's module would not load. Applied by
+tools/build_mujofil.sh.
+
+--- a/native/renderer_gl.cpp
++++ b/native/renderer_gl.cpp
+@@ -480,6 +480,14 @@
+     }
+ }
+ 
++void Renderer::set_exposure(float ev) {                  // as the Vulkan renderer's: a built renderer's exposure, changed
++    if (ev == config_.exposure && color_grading_) return;  // without rebuilding it (houndkeeper)
++    config_.exposure = ev;
++    filament::ColorGrading* old = color_grading_;
++    setup_color_grading();
++    if (old) engine_->destroy(old);
++}
++
+ void Renderer::setup_color_grading() {
+     auto b = ColorGrading::Builder();
+     b.toneMapping(config_.tone_mapping

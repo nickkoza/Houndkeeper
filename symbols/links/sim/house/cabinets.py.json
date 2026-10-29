@@ -1,0 +1,169 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/cabinets.py",
+  "entries": [
+    {
+      "name": "_mesh",
+      "witness": "d3a93f45c3eb50e5",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_mesh.quad",
+      "witness": "e488756b7bcf709d",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_widths",
+      "witness": "8db5006c088b3674",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "carcass",
+      "witness": "db3b83192a3ee866",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "cylinder",
+      "witness": "bb2e6f449102b47f",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "ends",
+      "witness": "f13bf04a6b264904",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "finish",
+      "witness": "79e1d2fdf2813422",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fronts",
+      "witness": "e847bb3e4c1b32fd",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "material_xml",
+      "witness": "fdd6f5a2c52a9a6a",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "panels",
+      "witness": "4bcdf3c56c0cdabf",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "piece",
+      "witness": "5708c9479a4cfd0e",
+      "links": [
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "reset",
+      "witness": "b018544d09d5aec8",
+      "links": [
+        {
+          "id": "WTj",
+          "kind": "asserted",
+          "artifact": "5e6eda84e1c3af88",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

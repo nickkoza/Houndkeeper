@@ -1,0 +1,40 @@
+# The arm host's daemon ([BRx]): starts on power-up, restarted if it dies; runs the current release ([WHV]).
+[Unit]
+Description=Houndkeeper arm host (voice, ears, eyes, report)
+After=network-online.target bluetooth.target sound.target
+Wants=network-online.target
+
+[Service]
+# a daemon on the network runs as its own account: no sudo, no login, no SSH key, only the device groups it uses
+# (first boot makes it); the code it runs is root's and it can write none of it ([CIu], decision [ZyY])
+User=hkd
+WorkingDirectory=/opt/houndkeeper/current
+Environment=PYTHONPATH=/opt/houndkeeper/current PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -m arm_host.hostd
+Restart=always
+RestartSec=2
+# the eyes fade out on stop (hostd's SIGTERM handler, up to 2.5 s), never cut; what the LEDs show is kept in
+# /run/houndkeeper across a restart, so a crashed daemon's successor fades from there ([GTG])
+TimeoutStopSec=5
+RuntimeDirectory=houndkeeper
+RuntimeDirectoryPreserve=yes
+# no way up, nothing of the system writable but its runtime directory; devices are left open (SPI, sound, vcgencmd's
+# /dev/vchiq): ProtectClock and PrivateDevices would close them. /run/user stays readable for its PipeWire socket.
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+AmbientCapabilities=
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictNamespaces=yes
+LockPersonality=yes
+SystemCallArchitectures=native
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

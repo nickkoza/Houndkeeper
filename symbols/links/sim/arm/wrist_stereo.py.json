@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/wrist_stereo.py",
+  "entries": [
+    {
+      "name": "fingers_land",
+      "witness": "7de97d6bbd877310",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "standing",
+      "witness": "77a5939c8ec5eeb5",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "whole",
+      "witness": "99b647b1067900f1",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

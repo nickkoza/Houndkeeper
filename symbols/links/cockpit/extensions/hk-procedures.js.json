@@ -1,0 +1,127 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cockpit/extensions/hk-procedures.js",
+  "entries": [
+    {
+      "name": "fmt",
+      "witness": "4457cdba3250e1aa",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register",
+      "witness": "2b3b6d358b45d2ce",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.Procedures",
+      "witness": "90fd9177fdcac039",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.Procedures.send",
+      "witness": "b67e6aabbc32711b",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.Procedures.what",
+      "witness": "98f07a1b9b661cbd",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.Rows",
+      "witness": "461f3d0fd7ab88e2",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.Truth",
+      "witness": "c3d03531d1c47d63",
+      "links": [
+        {
+          "id": "Eir",
+          "kind": "asserted",
+          "artifact": "52a8b3bfb427f9fd",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

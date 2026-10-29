@@ -1,0 +1,693 @@
+{
+ "v": 1,
+ "made": "2026-10-04T08:00:00",
+ "nights": [
+  {
+   "id": "20261003_222437",
+   "when": "Sat 3 Oct 2026, 10:24 pm",
+   "house": 72,
+   "mode": "confirm",
+   "item_seed": 1,
+   "dir": "data/runs/dimos_tidy/20261003_222437",
+   "counts_from": "score.json",
+   "scored_against_truth": true,
+   "numbers": [
+    {
+     "label": "Found",
+     "value": 1,
+     "text": "1 of 8",
+     "note": "items in the house",
+     "source": "score.json"
+    },
+    {
+     "label": "Binned",
+     "value": 1,
+     "text": "1 of 7",
+     "note": "of the binnable",
+     "source": "score.json"
+    },
+    {
+     "label": "False stops",
+     "value": 24,
+     "text": "24 of 25",
+     "note": "stops for nothing",
+     "source": "score.json"
+    },
+    {
+     "label": "Battery left",
+     "value": 75.77,
+     "text": "76 %",
+     "note": "57 Wh used",
+     "source": "energy.json"
+    },
+    {
+     "label": "Time",
+     "value": 1278.8,
+     "text": "21 min",
+     "note": "the robot's clock",
+     "source": "score.json"
+    },
+    {
+     "label": "Sim speed",
+     "value": 0.28,
+     "text": "0.28x real time",
+     "note": "latency-flattered",
+     "source": "score.json"
+    }
+   ],
+   "failed": [
+    "Waypoint 1 not reached: gave up",
+    "20 stops: not seen standing",
+    "2 stops: not seen at the flag",
+    "1 stop: not seen again after a failed try",
+    "1 stop: no reachable grip direction",
+    "hard items: 1 of 2 binned",
+    "too big items: 0 of 1 binned",
+    "easy items: 0 of 5 binned"
+   ],
+   "morning": {
+    "prose": [
+     "Good morning. I set out at 10:25 pm and was done by 11:43 pm, 78 minutes in all, and walked 75 metres about the house.",
+     "Something on the floor caught my eye 25 times, and each time I went to see.",
+     "At 20 of those places there proved to be nothing at all, and I beg your pardon for the fuss.",
+     "A plastic object I put in the bin.",
+     "A plastic object I tried for once, and could not see again after.",
+     "Two things I glimpsed were not where I looked when I came close: two small objects.",
+     "Scissors I could find no way to take hold of; it is where it was.",
+     "Scissors I went to at 11:24 pm gave me the most trouble: 14 minutes of it.",
+     "The night cost the battery 24 per cent of its charge; 76 per cent remains.",
+     "A picture of each is below, with the hour and the place.",
+     "I remain, as ever, your servant."
+    ],
+    "finds": [
+     {
+      "k": 1,
+      "what": "a small object",
+      "fate": "not_found_again",
+      "clock": "10:41 pm"
+     },
+     {
+      "k": 2,
+      "what": "a plastic object",
+      "fate": "put_away",
+      "clock": "10:49 pm"
+     },
+     {
+      "k": 3,
+      "what": "a plastic object",
+      "fate": "slipped",
+      "clock": "10:58 pm"
+     },
+     {
+      "k": 4,
+      "what": "a small object",
+      "fate": "not_found_again",
+      "clock": "11:13 pm"
+     },
+     {
+      "k": 5,
+      "what": "scissors",
+      "fate": "no_grip",
+      "clock": "11:24 pm"
+     }
+    ],
+    "figures": [
+     {
+      "label": "Began",
+      "text": "10:25 pm",
+      "source": "report.json"
+     },
+     {
+      "label": "Finished",
+      "text": "11:43 pm",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Minutes",
+      "text": "78",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints reached",
+      "text": "14",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints planned",
+      "text": "14",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Walked (m, odometry)",
+      "text": "75",
+      "source": "traj.csv"
+     },
+     {
+      "label": "Stops",
+      "text": "25",
+      "source": "report.json"
+     },
+     {
+      "label": "Stops for nothing (his own judgement)",
+      "text": "20",
+      "source": "report.json"
+     },
+     {
+      "label": "Finds by kind (his names)",
+      "text": "a small object 2, a plastic object 2, scissors 1",
+      "source": "report.json"
+     },
+     {
+      "label": "Put in the bin",
+      "text": "one",
+      "source": "report.json"
+     },
+     {
+      "label": "Pick attempts",
+      "text": "5",
+      "source": "report.json"
+     },
+     {
+      "label": "Parking error, median",
+      "text": "3.1 cm",
+      "source": "report.json"
+     },
+     {
+      "label": "Battery used (%)",
+      "text": "24",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery used (Wh)",
+      "text": "57",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery left (%)",
+      "text": "76",
+      "source": "energy.json"
+     },
+     {
+      "label": "Slowest stage",
+      "text": "looking from standing, 19 min",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Greatest tilt",
+      "text": "11.5 deg",
+      "source": "report.json"
+     },
+     {
+      "label": "Route planned (m)",
+      "text": "11.5",
+      "source": "route.json"
+     },
+     {
+      "label": "Route waypoints given",
+      "text": "14",
+      "source": "route.json"
+     },
+     {
+      "label": "House seed",
+      "text": "72",
+      "source": "night.json"
+     },
+     {
+      "label": "Mode",
+      "text": "confirm",
+      "source": "night.json"
+     },
+     {
+      "label": "Item seed",
+      "text": "1",
+      "source": "night.json"
+     },
+     {
+      "label": "Night folder",
+      "text": "data/runs/night_tidy/20261003_222354",
+      "source": "night.json"
+     }
+    ],
+    "pictures_note": "",
+    "source": "morning_log.json"
+   }
+  },
+  {
+   "id": "20261003_214551",
+   "when": "Sat 3 Oct 2026, 9:45 pm",
+   "house": 72,
+   "mode": "confirm",
+   "item_seed": 1,
+   "dir": "data/runs/dimos_tidy/20261003_214551",
+   "counts_from": "score.json",
+   "scored_against_truth": true,
+   "numbers": [
+    {
+     "label": "Found",
+     "value": 2,
+     "text": "2 of 8",
+     "note": "items in the house",
+     "source": "score.json"
+    },
+    {
+     "label": "Binned",
+     "value": 1,
+     "text": "1 of 7",
+     "note": "of the binnable",
+     "source": "score.json"
+    },
+    {
+     "label": "False stops",
+     "value": 16,
+     "text": "16 of 19",
+     "note": "stops for nothing",
+     "source": "score.json"
+    },
+    {
+     "label": "Battery left",
+     "value": 81.3,
+     "text": "81 %",
+     "note": "44 Wh used",
+     "source": "energy.json"
+    },
+    {
+     "label": "Time",
+     "value": 1041.9,
+     "text": "17 min",
+     "note": "the robot's clock",
+     "source": "score.json"
+    },
+    {
+     "label": "Sim speed",
+     "value": 0.48,
+     "text": "0.48x real time",
+     "note": "latency-flattered",
+     "source": "score.json"
+    }
+   ],
+   "failed": [
+    "Waypoint 1 not reached: gave up",
+    "14 stops: not seen standing",
+    "3 stops: not seen at the flag",
+    "1 stop: not seen again after a failed try",
+    "hard items: 1 of 2 binned",
+    "too big items: 0 of 1 binned",
+    "easy items: 0 of 5 binned"
+   ],
+   "morning": {
+    "prose": [
+     "Good morning. I set out at 9:46 pm and was done by 10:23 pm, 36 minutes in all, and walked 51 metres about the house.",
+     "Something on the floor caught my eye 19 times, and each time I went to see.",
+     "At 14 of those places there proved to be nothing at all, and I beg your pardon for the fuss.",
+     "A plastic object I put in the bin.",
+     "A plastic object I tried for once, and could not see again after.",
+     "Three things I glimpsed were not where I looked when I came close: three small objects.",
+     "The plastic object I went to at 9:53 pm gave me the most trouble: five minutes of it.",
+     "The night cost the battery 19 per cent of its charge; 81 per cent remains.",
+     "A picture of each is below, with the hour and the place.",
+     "I remain, as ever, your servant."
+    ],
+    "finds": [
+     {
+      "k": 1,
+      "what": "a plastic object",
+      "fate": "slipped",
+      "clock": "9:53 pm"
+     },
+     {
+      "k": 2,
+      "what": "a plastic object",
+      "fate": "put_away",
+      "clock": "9:59 pm"
+     },
+     {
+      "k": 3,
+      "what": "a small object",
+      "fate": "not_found_again",
+      "clock": "10:08 pm"
+     },
+     {
+      "k": 4,
+      "what": "a small object",
+      "fate": "not_found_again",
+      "clock": "10:14 pm"
+     },
+     {
+      "k": 5,
+      "what": "a small object",
+      "fate": "not_found_again",
+      "clock": "10:19 pm"
+     }
+    ],
+    "figures": [
+     {
+      "label": "Began",
+      "text": "9:46 pm",
+      "source": "report.json"
+     },
+     {
+      "label": "Finished",
+      "text": "10:23 pm",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Minutes",
+      "text": "36",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints reached",
+      "text": "14",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints planned",
+      "text": "14",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Walked (m, odometry)",
+      "text": "51",
+      "source": "traj.csv"
+     },
+     {
+      "label": "Stops",
+      "text": "19",
+      "source": "report.json"
+     },
+     {
+      "label": "Stops for nothing (his own judgement)",
+      "text": "14",
+      "source": "report.json"
+     },
+     {
+      "label": "Finds by kind (his names)",
+      "text": "a small object 3, a plastic object 2",
+      "source": "report.json"
+     },
+     {
+      "label": "Put in the bin",
+      "text": "one",
+      "source": "report.json"
+     },
+     {
+      "label": "Pick attempts",
+      "text": "2",
+      "source": "report.json"
+     },
+     {
+      "label": "Parking error, median",
+      "text": "5.1 cm",
+      "source": "report.json"
+     },
+     {
+      "label": "Battery used (%)",
+      "text": "19",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery used (Wh)",
+      "text": "44",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery left (%)",
+      "text": "81",
+      "source": "energy.json"
+     },
+     {
+      "label": "Slowest stage",
+      "text": "looking from standing, 9 min",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Greatest tilt",
+      "text": "8.0 deg",
+      "source": "report.json"
+     },
+     {
+      "label": "Route planned (m)",
+      "text": "11.5",
+      "source": "route.json"
+     },
+     {
+      "label": "Route waypoints given",
+      "text": "14",
+      "source": "route.json"
+     },
+     {
+      "label": "House seed",
+      "text": "72",
+      "source": "night.json"
+     },
+     {
+      "label": "Mode",
+      "text": "confirm",
+      "source": "night.json"
+     },
+     {
+      "label": "Item seed",
+      "text": "1",
+      "source": "night.json"
+     },
+     {
+      "label": "Night folder",
+      "text": "data/runs/night_tidy/20261003_210839",
+      "source": "night.json"
+     }
+    ],
+    "pictures_note": "Pictures withheld: 20261003-214557-unitree-go2-mcp-server-houndkeeper-tidy-houndkeeper-phone-cockpit is unscreened: screen it for people before using its frames (tools/screen_people.py)",
+    "source": "morning_log.json"
+   }
+  },
+  {
+   "id": "20261003_200750",
+   "when": "Sat 3 Oct 2026, 8:07 pm",
+   "house": 96,
+   "mode": "walk",
+   "item_seed": 1,
+   "dir": "data/runs/dimos_tidy/20261003_200750",
+   "counts_from": "score.json",
+   "scored_against_truth": true,
+   "numbers": [
+    {
+     "label": "Found",
+     "value": 0,
+     "text": "0 of 8",
+     "note": "items in the house",
+     "source": "score.json"
+    },
+    {
+     "label": "Binned",
+     "value": 0,
+     "text": "0 of 7",
+     "note": "of the binnable",
+     "source": "score.json"
+    },
+    {
+     "label": "False stops",
+     "value": 0,
+     "text": "0 of 0",
+     "note": "stops for nothing",
+     "source": "score.json"
+    },
+    {
+     "label": "Battery left",
+     "value": 90.72,
+     "text": "91 %",
+     "note": "22 Wh used",
+     "source": "energy.json"
+    },
+    {
+     "label": "Time",
+     "value": 0.7,
+     "text": "0.7 s",
+     "note": "the robot's clock",
+     "source": "score.json"
+    },
+    {
+     "label": "Sim speed",
+     "value": 0.47,
+     "text": "0.47x real time",
+     "note": "latency-flattered",
+     "source": "score.json"
+    }
+   ],
+   "failed": [
+    "No stops at all, over after 0.7 s; its last line: \"0.7s sweep: no house lidar map; frames placed by odometry alone\"",
+    "hard items: 0 of 2 binned",
+    "too big items: 0 of 1 binned",
+    "easy items: 0 of 5 binned"
+   ],
+   "morning": {
+    "prose": [
+     "Good morning. I set out at 8:08 pm and was done by 8:20 pm, 12 minutes in all, and walked 61 metres about the house.",
+     "Nothing on the floor caught my eye; the house was as you left it, and I found nothing that wanted putting away.",
+     "The night cost the battery 9 per cent of its charge; 91 per cent remains.",
+     "I remain, as ever, your servant."
+    ],
+    "finds": [],
+    "figures": [
+     {
+      "label": "Began",
+      "text": "8:08 pm",
+      "source": "report.json"
+     },
+     {
+      "label": "Finished",
+      "text": "8:20 pm",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Minutes",
+      "text": "12",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints reached",
+      "text": "17",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Route waypoints planned",
+      "text": "17",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Walked (m, odometry)",
+      "text": "61",
+      "source": "traj.csv"
+     },
+     {
+      "label": "Stops",
+      "text": "no",
+      "source": "report.json"
+     },
+     {
+      "label": "Stops for nothing (his own judgement)",
+      "text": "no",
+      "source": "report.json"
+     },
+     {
+      "label": "Finds by kind (his names)",
+      "text": "none",
+      "source": "report.json"
+     },
+     {
+      "label": "Pick attempts",
+      "text": "0",
+      "source": "report.json"
+     },
+     {
+      "label": "Battery used (%)",
+      "text": "9",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery used (Wh)",
+      "text": "22",
+      "source": "energy.json"
+     },
+     {
+      "label": "Battery left (%)",
+      "text": "91",
+      "source": "energy.json"
+     },
+     {
+      "label": "Slowest stage",
+      "text": "walking the rounds, 12 min",
+      "source": "dimos.log"
+     },
+     {
+      "label": "Greatest tilt",
+      "text": "8.8 deg",
+      "source": "report.json"
+     },
+     {
+      "label": "Route planned (m)",
+      "text": "23.1",
+      "source": "route.json"
+     },
+     {
+      "label": "Route waypoints given",
+      "text": "17",
+      "source": "route.json"
+     },
+     {
+      "label": "House seed",
+      "text": "96",
+      "source": "night.json"
+     },
+     {
+      "label": "Mode",
+      "text": "walk",
+      "source": "night.json"
+     },
+     {
+      "label": "Item seed",
+      "text": "1",
+      "source": "night.json"
+     },
+     {
+      "label": "Night folder",
+      "text": "data/runs/night_tidy/20261003_200709",
+      "source": "night.json"
+     }
+    ],
+    "pictures_note": "",
+    "source": "morning_log.json"
+   }
+  }
+ ],
+ "findings": [
+  {
+   "name": "sensitivity-2026-10-13.md",
+   "title": "Which sim estimates the cascade's 94% leans on: a sensitivity study (sim, 13-14 Oct 2026)",
+   "date": "14 Oct 2026",
+   "mtime": 0,
+   "path": "docs/research/sensitivity-2026-10-13.md",
+   "section": "Answer",
+   "excerpt": "**Correction (14 Oct 2026, afternoon):** the gap below is not float16 rounding. A cached replay applied the colour threshold its paint run had (tc 0.045, raised per noisy frame) and ignored its own `--tc` (0.032), so the round's near choice was really measured at tc 0.045; painted live at 0.045 it gives the cached candidates, and a float16 cache of a live paint changes nothing (docs/research/cascade-onboard-2026-10-13.md, \"Why the cached replays were kinder\"; fixed by [LQs]). The numbers here stand; read \"float16 cache\" as \"cached replay at the paint run's colour threshold\".\n\n**On the CPU tonight, the cascade's numbers lean hardest on where each frame is placed: the head camera's mount\nagainst its calibration, the frames' lag behind odometry, and odometry's drift. Each, made worse, raises stage 1's\nfalse alarms by about two thirds and loses three toys there; the check behind it holds most of the found but its false alarms rise by half to three quarters. A harder\ncompressed stream (JPEG q30 all night) costs false alarms, mostly on the dark tile, not toys; four times the sensor\nnoise is within the replay's own spread. Before any of that: the launch figures were measured on replays from a\nfloat16 cache, and painting the same nights live (float32, as the robot would) already gives 39/48 at 11.2 a night at\nthe lead's threshold, not 45/48 at 7.8.**\n\n- **Ranked** (lead false alarms a night against the live nominal's 11.2; found 39/48): the head camera pitched 1 deg\n  off its calibration 20.0 (+8.8; stage 1 found 42, false 88 against 54); the frames placed 150 ms off\n  their stored lag 19.7 (+8.5; stage 1 found 42, false 88 against 54); odometry drift x4 16.5 (+5.3; stage 1 found 42,\n  false 91); JPEG q30 15.3 (+4.1; stage 1 false 62); noise x4 12.3 (+1.1, found 42, within the spread). Pending in the\n  queue when this was written: the 2x steps of lag and drift (lag 50 ms running), the mount at 0.5 deg, exposure, rolling shutter, jitter,\n  drops (`../build/sens/table.json` fills as they finish).\n- **The found count is fragile at a fixed threshold**: it moves by up to 3 toys between variants that should not help\n  (noise x4 found 42 against nominal 39), because the threshold sits on one toy's score. Read found differences of 3 or\n  fewer as noise; false alarms and stage 1's own found are the steadier measures.",
+   "excerpt_cut": true,
+   "full": "> **Why this is here:** it ranks which of the sim's guesses about the robot the launch numbers depend on, which set\n> day one's calibration bands ([GWP]), and it is where the sim was found never to have delayed its camera frames at\n> all (\"the sim never delayed its frames\", below). The real calibration procedures cite it.\n> Paths under `../build/` were scratch space outside the repository and were not kept.\n\nLaunch bar [tTD] (docs/specs/detection-baselines.md): the near-floor grid plus the YOLO-E check on the crops nearest in\ntime, about 94% found at about 10 false alarms a night. Principle [x3f] (the sim is never kinder than real); the\ncalibration procedures are [4hm]'s (real/calibration/README.md). Sim only; CPU only (the GPU was the 1280 re-sweep's);\nnothing sent to any hosted service; no hold-out (78, 80, 81, 100-119) opened; the fresh nights not used; nothing written\ninto `sim/house/runs`, `data/runs/nights_s*`, `data/bench` or `data/robot`; `params/robot.yaml` not edited. Artefacts:\n`../build/sens/` (driver `sens.py`, queue `runq.py`, rules `RULES.txt` written before any variant ran,\n`v/<variant>/` replays, `c/` crops, verdicts and scores, `table.json`), `day/` (daytime changes), `gpu/` (the queued\nrender-time variants).\n\n## Answer\n\n**Correction (14 Oct 2026, afternoon):** the gap below is not float16 rounding. A cached replay applied the colour threshold its paint run had (tc 0.045, raised per noisy frame) and ignored its own `--tc` (0.032), so the round's near choice was really measured at tc 0.045; painted live at 0.045 it gives the cached candidates, and a float16 cache of a live paint changes nothing (docs/research/cascade-onboard-2026-10-13.md, \"Why the cached replays were kinder\"; fixed by [LQs]). The numbers here stand; read \"float16 cache\" as \"cached replay at the paint run's colour threshold\".\n\n**On the CPU tonight, the cascade's numbers lean hardest on where each frame is placed: the head camera's mount\nagainst its calibration, the frames' lag behind odometry, and odometry's drift. Each, made worse, raises stage 1's\nfalse alarms by about two thirds and loses three toys there; the check behind it holds most of the found but its false alarms rise by half to three quarters. A harder\ncompressed stream (JPEG q30 all night) costs false alarms, mostly on the dark tile, not toys; four times the sensor\nnoise is within the replay's own spread. Before any of that: the launch figures were measured on replays from a\nfloat16 cache, and painting the same nights live (float32, as the robot would) already gives 39/48 at 11.2 a night at\nthe lead's threshold, not 45/48 at 7.8.**\n\n- **Ranked** (lead false alarms a night against the live nominal's 11.2; found 39/48): the head camera pitched 1 deg\n  off its calibration 20.0 (+8.8; stage 1 found 42, false 88 against 54); the frames placed 150 ms off\n  their stored lag 19.7 (+8.5; stage 1 found 42, false 88 against 54); odometry drift x4 16.5 (+5.3; stage 1 found 42,\n  false 91); JPEG q30 15.3 (+4.1; stage 1 false 62); noise x4 12.3 (+1.1, found 42, within the spread). Pending in the\n  queue when this was written: the 2x steps of lag and drift (lag 50 ms running), the mount at 0.5 deg, exposure, rolling shutter, jitter,\n  drops (`../build/sens/table.json` fills as they finish).\n- **The found count is fragile at a fixed threshold**: it moves by up to 3 toys between variants that should not help\n  (noise x4 found 42 against nominal 39), because the threshold sits on one toy's score. Read found differences of 3 or\n  fewer as noise; false alarms and stage 1's own found are the steadier measures.\n- **Day one, first:** the head camera's mount and whether it stays put ([head_camera.md](../../real/calibration/head_camera.md)\n  5), the frames' lag behind odometry ([timing.md](../../real/calibration/timing.md) 1-3) and odometry's drift\n  ([odometry.md](../../real/calibration/odometry.md)); then the stream's compression on the darkest floor (no procedure\n  measures it yet) and the noise ([camer",
+   "full_cut": true
+  },
+  {
+   "name": "cascade-onboard-2026-10-13.md",
+   "title": "The cascade's check on the robot, and the lead on new nights (sim, 13-14 Oct 2026)",
+   "date": "14 Oct 2026",
+   "mtime": 0,
+   "path": "docs/research/cascade-onboard-2026-10-13.md",
+   "section": "Answer",
+   "excerpt": "**Correction, 14 Oct 10:00 (below, \"Re-measured from float32 replays\"): every stage-1 number in this answer came from cached replays, which judged at the paint run's colour threshold (tc 0.045), not the near choice's stated 0.032 (below, \"Why the cached replays were kinder\"). Painted live at 0.032, as stated, the six fresh nights give 47/48 at 35.5 false alarms a night at the threshold re-chosen on tuning (0.0504), and 44/48 at 12.2 at the old 0.2436, which finds only 39/48 on tuning. The launch bar of about 94% at about 10 does not hold live.**\n\n**The cascade's check now runs on the robot's side, and replayed on the cascade round's six fresh nights it picks\nexactly the bench's crops; on the CPU it finds 44 of 48 at 10.3 false alarms a night against the bench's 45 at 10.5,\nthe one toy lost a brick, and the whole difference is YOLO-E itself scoring a few crops differently on the CPU than on\nthe GPU.** On the new nights scored so far (seven by 06:50 on 14 Oct, four in houses the round never used) the check lost no toy the floor comparison found; the unseen houses find 31/32 (97%) at 13.5 false alarms a night, found above the bar set beforehand and false alarms just over it (12). Not confirmed yet; the sweep's other houses keep landing and are scored as they do.\n\n- **Same crops, every one.** For all 531 candidates of the six fresh nights the robot-side stage chose the same three\n  frames (same frame stamps) and cut the same boxes as the bench's lead (`cascade.py crops --by-time`), online, frame by\n  frame, without seeing the rest of the night.\n- **Same scores on 1538 of 1563 crops.** The 25 that differ were all re-scored by the bench's own code on the CPU: 24\n  give the robot's score exactly (the remaining one differs below the threshold, likely the thread count). So the\n  differences are the CPU against the GPU (YOLO-E's prompt-free head picks a different label or drops a box), not the\n  robot's code. The cascade round's control, \"CPU matches the GPU to the fourth decimal\", held on its 20 crops but not\n  on all 1563: about 1.6% of crops change, some by a whole detection.\n- **What that changes:** 4 candidates of 531 cross the threshold, all from kept to dropped: one is the near-layer\n  candidate the scorer credits house 96's 1 x 1 brick to (11 fresh), so found falls 45 to 44 (ordinary toys 42/44 on",
+   "excerpt_cut": true,
+   "full": "> **Why this is here:** the headline fell from 94% found to 90% when the numbers were re-measured the way the robot\n> judges live. Cached replays had applied a kinder colour threshold than the one stated, and nothing flagged it. How\n> that was found and fixed (detection-baselines [LQs]) is worth knowing before trusting any replayed benchmark.\n> Paths under `../build/` were scratch space outside the repository and were not kept.\n\nCriterion [Zaf] (the robot checks each floor-comparison candidate itself, opt-in) and decision [tTD] (launch at the\ncascade's numbers once confirmed on unseen nights) in docs/specs/detection-baselines.md; the lead of\nthe cascade round (12 Oct 2026, summarised in the spec's [80w] Tests row). Sim only; CPU only (the 1280 re-sweep owned the GPU); nothing sent to\nany hosted service; no hold-out (78, 80, 81, 100-119) opened; nothing written into `sim/house/runs/nights_s*`,\n`data/runs/nights_s*`, `data/bench/*` or `data/robot/`. No default changed: the check is off unless asked for.\n\n## Answer\n\n**Correction, 14 Oct 10:00 (below, \"Re-measured from float32 replays\"): every stage-1 number in this answer came from cached replays, which judged at the paint run's colour threshold (tc 0.045), not the near choice's stated 0.032 (below, \"Why the cached replays were kinder\"). Painted live at 0.032, as stated, the six fresh nights give 47/48 at 35.5 false alarms a night at the threshold re-chosen on tuning (0.0504), and 44/48 at 12.2 at the old 0.2436, which finds only 39/48 on tuning. The launch bar of about 94% at about 10 does not hold live.**\n\n**The cascade's check now runs on the robot's side, and replayed on the cascade round's six fresh nights it picks\nexactly the bench's crops; on the CPU it finds 44 of 48 at 10.3 false alarms a night against the bench's 45 at 10.5,\nthe one toy lost a brick, and the whole difference is YOLO-E itself scoring a few crops differently on the CPU than on\nthe GPU.** On the new nights scored so far (seven by 06:50 on 14 Oct, four in houses the round never used) the check lost no toy the floor comparison found; the unseen houses find 31/32 (97%) at 13.5 false alarms a night, found above the bar set beforehand and false alarms just over it (12). Not confirmed yet; the sweep's other houses keep landing and are scored as they do.\n\n- **Same crops, every one.** For all 531 candidates of the six fresh nights the robot-side stage chose the same three\n  frames (same frame stamps) and cut the same boxes as the bench's lead (`cascade.py crops --by-time`), online, frame by\n  frame, without seeing the rest of the night.\n- **Same scores on 1538 of 1563 crops.** The 25 that differ were all re-scored by the bench's own code on the CPU: 24\n  give the robot's score exactly (the remaining one differs below the threshold, likely the thread count). So the\n  differences are the CPU against the GPU (YOLO-E's prompt-free head picks a different label or drops a box), not the\n  robot's code. The cascade round's control, \"CPU matches the GPU to the fourth decimal\", held on its 20 crops but not\n  on all 1563: about 1.6% of crops change, some by a whole detection.\n- **What that changes:** 4 candidates of 531 cross the threshold, all from kept to dropped: one is the near-layer\n  candidate the scorer credits house 96's 1 x 1 brick to (11 fresh), so found falls 45 to 44 (ordinary toys 42/44 on\n  both); one is a false alarm on house 71, so false alarms fall 10.5 to 10.3 a night. In real use the check runs on the\n  laptop's GPU, where it should give the bench's numbers; that replay is queued for when the GPU is free\n  (`../build/confirm/gpu_q.sh`), not yet run.\n- **Live, as the tidy would run it** (frames kept 60 s, a candidate scored 60 s after its decision with the views it\n  has): 9 candidates of 531 get fewer views; 44/48 at 10.7 a night on the CPU. Half the candidates are scored within\n  2.7 s of their decision, 90% within 31 s; 18 of the six nights' candidates are never seen three times.\n- **Confirmation on new ",
+   "full_cut": true
+  },
+  {
+   "name": "detection-misses-2026-10-05.md",
+   "title": "Why OWLv2 missed what it missed: detector or prompt? (sim, 5 Oct 2026)",
+   "date": "5 Oct 2026",
+   "mtime": 0,
+   "path": "docs/research/detection-misses-2026-10-05.md",
+   "section": "Answer",
+   "excerpt": "**Mostly the prompt, and a little the threshold. Not the detector.** No miss is an in-view toy of ordinary size that\nOWLv2 cannot see:\n\n- **The bowl and the dinosaurs** sit outside the 12 prompts' words. They score 0.06 to 0.19 with them, and 0.35 to\n  0.60 when asked about with \"small object\" or \"object on the floor\". This is a prompt failure.\n- **The lion, the other dinosaur and the lacing sheep** are seen, but just under the line: 0.09 to 0.19, against\n  thresholds of 0.15 and 0.2.\n- **The 1×1 Lego brick** is 2 to 6 pixels across. It is too small for base at this resolution. Large, with its finer\n  patches, does pick it up in one house.\n- **House 96's card game** never comes within the 2.5 m range in which the arm places detections. Large's miss of it\n  is a matter of where the camera went, not of recognition. Base's \"find\" of it was a coincidence: its box was on the\n  lacing sheep, which lies within reach of both toys.\n\nAdding one generic prompt, \"small object\", to the 12 finds 3 more toys for each model on these nights. It costs no\nextra false positives and loses no toy that was found before. That figure is fitted to these nights (below).",
+   "excerpt_cut": false,
+   "full": "> **Why this is here:** a short, clean diagnosis of a question every open-vocabulary detector raises: when it misses,\n> is it the model or the words it was given? Here it was mostly the words (detection-baselines [XEi], [En1]).\n\nThe question: when the detector fails to detect a toy, is that a failure of the detector or of the prompt? This\ndiagnoses every toy that OWLv2 base and OWLv2 large missed as detectors in\nthe recognizers round of 4 Oct (detection-baselines [80w]'s Tests row), on its 270 frames and 48 toys, with the 12 prompts of [XEi] ([En1]'s\nrecognizers). Sim only; everything ran on the laptop; nothing was sent to any hosted service. This is a **diagnosis,\nnot a result**. It reads the truth, and the generic-prompt thresholds were matched using all six nights' truth.\n\n## Answer\n\n**Mostly the prompt, and a little the threshold. Not the detector.** No miss is an in-view toy of ordinary size that\nOWLv2 cannot see:\n\n- **The bowl and the dinosaurs** sit outside the 12 prompts' words. They score 0.06 to 0.19 with them, and 0.35 to\n  0.60 when asked about with \"small object\" or \"object on the floor\". This is a prompt failure.\n- **The lion, the other dinosaur and the lacing sheep** are seen, but just under the line: 0.09 to 0.19, against\n  thresholds of 0.15 and 0.2.\n- **The 1×1 Lego brick** is 2 to 6 pixels across. It is too small for base at this resolution. Large, with its finer\n  patches, does pick it up in one house.\n- **House 96's card game** never comes within the 2.5 m range in which the arm places detections. Large's miss of it\n  is a matter of where the camera went, not of recognition. Base's \"find\" of it was a coincidence: its box was on the\n  lacing sheep, which lies within reach of both toys.\n\nAdding one generic prompt, \"small object\", to the 12 finds 3 more toys for each model on these nights. It costs no\nextra false positives and loses no toy that was found before. That figure is fitted to these nights (below).\n\n## Counts\n\n| Class | OWLv2 base (thr 0.2): 7 misses | OWLv2 large (thr 0.15): 6 misses |\n|---|---|---|\n| threshold (best score on the toy at least half the threshold) | **2**: s76 lion (0.149), s76 dinosaur dino_5 (0.191) | **3**: s71 dinosaur dino_5 (0.126), s76 bowl (0.090), s96 lacing sheep (0.088) |\n| prompt, generic (12 + a generic prompt finds it at the original false-positive level) | **3**: s71 bowl, s76 bowl, s71 dinosaur | **1**: s71 bowl |\n| prompt, specific (only its own name finds it) | 0 | 0 |\n| resolution/size (projected long side under 20 px) | **2**: s71 Lego 1×1 (6 px), s76 Lego 1×1 (3 px) | **1**: s76 Lego 1×1 (3 px) |\n| detector (nothing finds it, and it is large enough) | 0 | 0 |\n| not in view (no frame sees it within the arm's 2.5 m placement range; a class added below) | 0 | **1**: s96 card game |\n\nThe classes overlap. The first that holds is given, in the order of the table. Of the threshold class:\n\n- For base, the lion is also found by its own name (\"lion\", 0.277). The s76 dinosaur is also found by \"small object\"\n  at the matched threshold.\n- For large, the s76 bowl and the s96 sheep are also found by \"small object\". The s71 dinosaur is also found by\n  \"object on the floor\".\n\nSo the \"threshold\" toys are prompt-fixable too, and for both models every miss but the Lego bricks and the\nout-of-range card game is prompt-fixable or within a hair of the line.\n\n## What ran\n\n| | |\n|---|---|\n| Harness | houndkeeper `sim/house/baselines/misses.py` (new; `run`, `diagnose`), on base commit ae84241; the placement and scorer of `place.py`, `score.py`, `table.py` unchanged ([o0E], [oR6]) |\n| DimOS | fork base a7492431f with its local working-tree changes; the wrapper `dimos/perception/detection/detectors/owlv2.py` (sha256 `d618af38…bc21c`), `Owlv2Detector.query_score_rows` |\n| Models | `google/owlv2-base-patch16-ensemble`, HF snapshot `cfd3195ba4ea9592eec887ded089f4c08eff231d`; `google/owlv2-large-patch14-ensemble`, HF snapshot `95e26936e865f87db17421284",
+   "full_cut": true
+  },
+  {
+   "name": "realtime-run.md",
+   "title": "Real-time sim run: results",
+   "date": "23 Sep 2026",
+   "mtime": 0,
+   "path": "docs/research/realtime-run.md",
+   "section": "",
+   "excerpt": "> **Why this is here:** the sim ran 3.3x faster than real time while DimOS ran on the wall clock, so the camera saw\n> about 3x fewer frames a metre and every number looked better than it would on the robot. A plain account of a\n> clock mismatch that flatters a simulation, and what it cost to fix (sim-house-nights [drP] holds the result).\n\nRun overnight 22–23 Sep 2026. Raw output is in `sim/runs/nights_s8/final.txt`, with the log in `sim/runs/nights_s8/run_notes.txt`.\nAll numbers are from the simulator, not the real house. Numbers marked (est.) are estimates.",
+   "excerpt_cut": false,
+   "full": "> **Why this is here:** the sim ran 3.3x faster than real time while DimOS ran on the wall clock, so the camera saw\n> about 3x fewer frames a metre and every number looked better than it would on the robot. A plain account of a\n> clock mismatch that flatters a simulation, and what it cost to fix (sim-house-nights [drP] holds the result).\n\nRun overnight 22–23 Sep 2026. Raw output is in `sim/runs/nights_s8/final.txt`, with the log in `sim/runs/nights_s8/run_notes.txt`.\nAll numbers are from the simulator, not the real house. Numbers marked (est.) are estimates.\n\n## Why we ran it\nThe sim had been running about 3.3× faster than real time. Each physics loop advanced 35 ms of sim time but waited only for 5 ms of real time, and DimOS runs on the real clock. So the robot moved about 3× faster than DimOS thought, and the camera saw about 3× fewer frames per metre.\nA speed setting (`DIMOS_SIM_SPEED`) was added to DimOS's sim loop. This run used real time.\n\n## What changed compared with the earlier run\nThree things changed at once, so no single difference can be pinned on sim speed alone:\n1. **Sim speed:** real time (measured 0.91–0.93×), against about 3.3×.\n2. **New timeline (seed 8):** a different floor, and 12 nights instead of 8.\n3. **Moving furniture:** six dining chairs, a stool and a kid's chair, each tucked in, nudged a bit, or moved a lot each night. None are pick-up targets.\n\nUnchanged: detector v2 (frozen), the navigation fixes, the sweep route and the scoring. Tuning nights 2–4, held-out nights 5–12, scored once.\n\n## Results (held-out nights)\n\n| | Earlier: ~3.3×, seed 7, nights 5–8 | **Real time: seed 8 with chairs, nights 5–12** |\n|---|---|---|\n| Items scored | 87 | 156 |\n| Found | 72% | **58%** (91/156) |\n| Easy / medium / hard | 86 / 74 / 54% | 66 / 54 / 42% |\n| False alarms per night | ~43 | **~18** |\n| Look-closer: real finds kept | 95% | 84% |\n| Look-closer: false alarms removed | 29% | 53% |\n| False alarms left after look-closer | ~30 a night | **~8 a night** |\n| Items never properly seen | 8 | 24 |\n| Flags on chairs, or on the spot a chair left | n/a | 0 of 175 false alarms |\n\nOld detector (v1) on the same real-time nights, for reference: 47% found, ~30 false alarms a night.\n\n## Navigation\n- 49/49 waypoints every night; 0–2 failed waypoints a night, with the robot still reaching all 49.\n- Stalled 0–1% of the time it was told to move. Night 12 was 6% (39 s), cause not investigated.\n- A night took about 24 minutes of real time, against about 8–10 minutes at 3.3×. The robot was told to move for about 500–680 s a night (about 112–170 s at 3.3×).\n\n## Floor model\nIt got steadily sharper at real time and ended much better than the 3.3× run:\n\n| | After night 1 | After night 12 | 3.3× run, final |\n|---|---|---|---|\n| Fidelity to true floor | 0.24 | 0.30 | 0.12 |\n| Confidently mapped patches | 33% | 49% | 10% |\n| Waviness | 1.4 cm | 2.0 cm | 4.0 cm (peaked at 4.3) |\n| Coverage | 72% | 76% | 80% |\n\nThis fits the idea that real time gives the camera about 3× more frames per metre.\n\n## Reading the results\n- **Fewer false alarms is the big win.** About 8 closer looks a night after look-closer, against about 30. That's the battery-budget problem shrinking a lot.\n- **The drop in finds is mostly items seen only as tiny specks.** Misses where the item was detected and then dropped went from 8 to 34, mostly specks under 8 px.\n  - Likely cause, not verified: some thresholds count lidar hits per cell. They were tuned at 3.3×, and real time gives about 3× more scans.\n  - The lidar \"stands up\" layer tripled in size (~23 → ~80 m²) and probably masks floor next to items.\n- **Chairs weren't flagged, but big chair moves were barely tested.** A generator bug meant only 2 big moves in 12 nights: when a big move couldn't find space, the generator re-rolled the move type instead of retrying the position.\n- **Decision (user):** we are not re-tuning for sim speed. At this point it would be tuning for the simulator rather than the real robot.\n  - The d",
+   "full_cut": true
+  }
+ ],
+ "trimmed": []
+}

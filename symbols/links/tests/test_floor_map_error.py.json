@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_map_error.py",
+  "entries": [
+    {
+      "name": "_floor",
+      "witness": "2ae69839c06dffaa",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_map_that_is_the_floor_has_no_error_and_one_off_by_a_tile_does",
+      "witness": "63764cf70dc96553",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_lighting_alone_is_not_error",
+      "witness": "e43a16cf56b7ac2b",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_edge_of_what_the_map_saw_is_not_error",
+      "witness": "379e12c50a5528ee",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

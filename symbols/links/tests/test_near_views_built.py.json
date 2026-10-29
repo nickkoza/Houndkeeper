@@ -1,0 +1,85 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_near_views_built.py",
+  "entries": [
+    {
+      "name": "_home",
+      "witness": "77cfad0cd5b87bcc",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_run",
+      "witness": "67ad30aa0ce96fcd",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "cy4",
+          "kind": "asserted",
+          "artifact": "455e037ad1c57e66",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_stitched_house_gets_its_near_views_once_per_stitch",
+      "witness": "1cc2fc81e66c6a65",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_paints_them_whether_it_runs_or_was_already_done",
+      "witness": "b138e7484d283e89",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

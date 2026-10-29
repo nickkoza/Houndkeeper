@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/workspace.py",
+  "entries": [
+    {
+      "name": "dimos",
+      "witness": "7dd59500b92ecaa7",
+      "links": [
+        {
+          "id": "8kb",
+          "kind": "asserted",
+          "artifact": "b463fcc5c5544b39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "cy4",
+          "kind": "asserted",
+          "artifact": "455e037ad1c57e66",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "sibling",
+      "witness": "e3b80df128e1db15",
+      "links": [
+        {
+          "id": "8kb",
+          "kind": "asserted",
+          "artifact": "b463fcc5c5544b39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "cy4",
+          "kind": "asserted",
+          "artifact": "455e037ad1c57e66",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "workspace",
+      "witness": "4b770c6806685be7",
+      "links": [
+        {
+          "id": "8kb",
+          "kind": "asserted",
+          "artifact": "b463fcc5c5544b39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "cy4",
+          "kind": "asserted",
+          "artifact": "455e037ad1c57e66",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

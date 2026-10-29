@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tools/import_glb.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "75b31320e820fa50",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.save",
+      "witness": "bbf6e96b43593d90",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

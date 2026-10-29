@@ -1,0 +1,25 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_wrist_power.py",
+  "entries": [
+    {
+      "name": "test_the_second_camera_all_night_and_the_look_loads_only_while_looking",
+      "witness": "1d0894fe49d923ea",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

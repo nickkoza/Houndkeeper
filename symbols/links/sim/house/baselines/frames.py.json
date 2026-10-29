@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/frames.py",
+  "entries": [
+    {
+      "name": "even_pick",
+      "witness": "0c4a99ed9b6e2050",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "head_camera",
+      "witness": "c5a82d3ab6cd957b",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "d4a77d69b239175e",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "sample_night",
+      "witness": "fa4d449c6c657d7d",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_recordings_mutants.py",
+  "entries": [
+    {
+      "name": "_synced",
+      "witness": "d3ba2d0a67b1b01c",
+      "links": [
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fake_recording",
+      "witness": "963062d397c66d08",
+      "links": [
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "rec",
+      "witness": "0c7c4a4ebc07dd4f",
+      "links": [
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_copy_that_did_not_match_is_not_marked_verified",
+      "witness": "ee35cde780e24bfb",
+      "links": [
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_host_with_any_public_address_is_outside_the_house",
+      "witness": "7594541d790baf46",
+      "links": [
+        {
+          "id": "fya",
+          "kind": "asserted",
+          "artifact": "238c90b29d626005",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recording_flagged_for_people_is_refused_like_an_unscreened_one",
+      "witness": "3bc552f581fd5ef7",
+      "links": [
+        {
+          "id": "R1X",
+          "kind": "asserted",
+          "artifact": "8f38b1a6e578627b",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_robot_recording_cannot_be_added_as_sim",
+      "witness": "f0197b268bb3d040",
+      "links": [
+        {
+          "id": "YP8",
+          "kind": "asserted",
+          "artifact": "d44491a5c6505a6a",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_run_folder_holding_anything_else_is_not_moved",
+      "witness": "fdb2229382e2633e",
+      "links": [
+        {
+          "id": "u6u",
+          "kind": "asserted",
+          "artifact": "deae923fd2a334a0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_drop_local_refuses_a_laptop_copy_outside_the_store",
+      "witness": "07607308575fb66c",
+      "links": [
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_drop_local_refuses_a_server_copy_that_is_the_laptops_own_file",
+      "witness": "b74d8100eef2379d",
+      "links": [
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_prune_never_deletes_a_recording_outside_dimos_recordings",
+      "witness": "d41bc313971b55e8",
+      "links": [
+        {
+          "id": "B2O",
+          "kind": "asserted",
+          "artifact": "c240583d0399f20b",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

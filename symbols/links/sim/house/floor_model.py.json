@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_model.py",
+  "entries": [
+    {
+      "name": "align",
+      "witness": "6840ecdbeb06dce5",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "build",
+      "witness": "1060f9d39e83be56",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "gray",
+      "witness": "9cac4764bb6662b5",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "smooth",
+      "witness": "f10299bbd5570329",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "structure",
+      "witness": "018cfae592058738",
+      "links": [
+        {
+          "id": "fis",
+          "kind": "asserted",
+          "artifact": "9e9e2f215f383b0b",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

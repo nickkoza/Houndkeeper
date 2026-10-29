@@ -1,0 +1,5 @@
+0   comment=defconf address=192.0.2.1/24 network=192.0.2.0 interface=br-private actual-interface=br-private vrf=main
+1   comment=Guest subnet address=198.51.100.1/24 network=198.51.100.0 interface=br-guest actual-interface=br-guest vrf=main
+2 D address=100.64.0.2/24 network=100.64.0.0 interface=ether1 actual-interface=ether1 vrf=main
+3   comment=Robot-Net network address=203.0.113.1/24 network=203.0.113.0 interface=br-robot actual-interface=br-robot vrf=main
+

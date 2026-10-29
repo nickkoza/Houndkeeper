@@ -1,0 +1,325 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/grasp_proposers.py",
+  "entries": [
+    {
+      "name": "_array",
+      "witness": "e65bbc72ccdc41e0",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_straight_down",
+      "witness": "09a5d78eac1cd9ab",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Allowance",
+      "witness": "ca054a2d7ee8963c",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosHeuristicGrasps",
+      "witness": "1443efd68f71dc5b",
+      "links": [
+        {
+          "id": "dgF",
+          "kind": "asserted",
+          "artifact": "09061bd073a7930d",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "DimosHeuristicGrasps.propose",
+      "witness": "f85dbb096128d5c2",
+      "links": [
+        {
+          "id": "dgF",
+          "kind": "asserted",
+          "artifact": "09061bd073a7930d",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "GraspGenXClient",
+      "witness": "55d715359d70882f",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "GraspGenXClient.__init__",
+      "witness": "a2e48d546ce072a2",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "GraspGenXClient.ask",
+      "witness": "c0638850c82fd81d",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "GraspGenXGrasps",
+      "witness": "3d0bf769f1cbed0d",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "GraspGenXGrasps.propose",
+      "witness": "2cd91fd9df49ba86",
+      "links": [
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HoundkeeperGrasps",
+      "witness": "2c95127a805bc646",
+      "links": [
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HoundkeeperGrasps.propose",
+      "witness": "eff1ca18a1b98ed3",
+      "links": [
+        {
+          "id": "7Xd",
+          "kind": "asserted",
+          "artifact": "c0055aeb914bb0c0",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "B4g",
+          "kind": "asserted",
+          "artifact": "9a5ded9ca4eb6b53",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "GU5",
+          "kind": "asserted",
+          "artifact": "da77f1ff0693ca96",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Hwc",
+          "kind": "asserted",
+          "artifact": "43a8fde13b3d9211",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "Q8C",
+          "kind": "asserted",
+          "artifact": "8ec97c72f38f7d69",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "item_cloud",
+      "witness": "c87677a3665eedfc",
+      "links": [
+        {
+          "id": "dgF",
+          "kind": "asserted",
+          "artifact": "09061bd073a7930d",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "uVy",
+          "kind": "asserted",
+          "artifact": "a5ec4fc575e65540",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "link7_from_tcp",
+      "witness": "b6d7a3f7d3b6206e",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pose_arrays",
+      "witness": "694ba5d94a932b2f",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Proposal",
+      "witness": "5ded33d7df148186",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "proposer",
+      "witness": "3be02a4912d5212c",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "tcp_pose",
+      "witness": "acb139a8a78aa807",
+      "links": [
+        {
+          "id": "WuR",
+          "kind": "asserted",
+          "artifact": "b33346a280dfa4fe",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

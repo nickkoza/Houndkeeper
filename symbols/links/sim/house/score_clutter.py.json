@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/score_clutter.py",
+  "entries": [
+    {
+      "name": "grab_costmap",
+      "witness": "279215a561404fa4",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "b432d2fcf0878f67",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "8317b64d4fd5d5b7",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "unexplained",
+      "witness": "e22de09a901554f8",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

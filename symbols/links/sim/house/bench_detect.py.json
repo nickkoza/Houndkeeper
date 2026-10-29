@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/bench_detect.py",
+  "entries": [
+    {
+      "name": "confirmer_args",
+      "witness": "26d465478febffe2",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "d90c2191bef4ba9c",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-10-02"
+        },
+        {
+          "id": "QDc",
+          "kind": "asserted",
+          "artifact": "cfb5822c24d4d8b7",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "night",
+      "witness": "81d7033a39b0f2d1",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "QDc",
+          "kind": "asserted",
+          "artifact": "cfb5822c24d4d8b7",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "replay",
+      "witness": "9f6be4c967e63219",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

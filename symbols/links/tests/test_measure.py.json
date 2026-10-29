@@ -1,0 +1,511 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_measure.py",
+  "entries": [
+    {
+      "name": "_check",
+      "witness": "9ab0fc3ddcae9128",
+      "links": [
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "_dark_floor",
+      "witness": "7729382a2b8460fd",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "_FakeStore",
+      "witness": "2454916d25d853c4",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_FakeStore.__init__",
+      "witness": "32431c82dde3c5a1",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_FakeStore.stream",
+      "witness": "2433e8bbda566d84",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Noisier",
+      "witness": "30eee49abdf05b66",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Noisier.__init__",
+      "witness": "6585fbf12383d836",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Noisier.to_numpy",
+      "witness": "8ef6abe6cb121643",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Obs",
+      "witness": "20e683165bf3ce23",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Obs.__init__",
+      "witness": "64d3939ec79f2603",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Odom",
+      "witness": "7db8baaabc3585b9",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Odom.__init__",
+      "witness": "4eb95f81ce0e36c7",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Perturbed",
+      "witness": "a5d78b5d62e8d336",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Perturbed.__init__",
+      "witness": "771feb9a52a1fde1",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Perturbed.stream",
+      "witness": "9284628fc6422e8b",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Pts",
+      "witness": "bec01ea1c39930f4",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Pts.__init__",
+      "witness": "b3992d6fdfe5467f",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_Pts.as_numpy",
+      "witness": "d5cc9bbe3d554aa0",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_row",
+      "witness": "7afe7fce1624c0fa",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_band_verdict_reads_pass_outside_and_fails_from_the_study_steps",
+      "witness": "dda7d474fbb02743",
+      "links": [
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_compression_compare_sets_the_real_floor_beside_the_sims_at_q50_and_q30",
+      "witness": "736e379b74e9fead",
+      "links": [
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_compression_measure_tells_jpeg_qualities_apart_on_a_dark_floor",
+      "witness": "399e034cc6bc6bf4",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_day_one_lag_searches_past_the_nightly_reach_and_never_reports_a_failed_turn_as_zero",
+      "witness": "2838b3f494cd1ec4",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "test_frame_gaps_recover_drops_and_stalls",
+      "witness": "dcb2dd476c6ba81e",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_command_smoke_on_a_second_sim_night",
+      "witness": "ac0eb6edcf6d1fa2",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_on_a_perturbed_sim_night_recovers_lag_drops_noise_and_lidar_thinning",
+      "witness": "aa9e04170ed2daf6",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_reads_the_sim_reference_file",
+      "witness": "f89e27e11597cdf9",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_report_on_two_different_sim_nights_reports_each_nights_own_values",
+      "witness": "0958f2101eb45ada",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_report_recovers_known_gaps_between_sim_and_a_perturbed_sim",
+      "witness": "645ba527cd2f5372",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_gap_report_says_agree_when_nothing_differs",
+      "witness": "3b00acd4d139b2ad",
+      "links": [
+        {
+          "id": "KbT",
+          "kind": "asserted",
+          "artifact": "9a75068cf624b2d7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_mount_series_flags_a_head_that_moved_between_nights",
+      "witness": "df158faa3b0aa8c5",
+      "links": [
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_mount_series_on_the_sim_houses_own_checks_passes_and_catches_a_planted_knock",
+      "witness": "6bb00ccc0b9c3ca2",
+      "links": [
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_odometry_scale_and_heading_drift_against_the_truth",
+      "witness": "2dda96e46be82a2e",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_only_the_dark_floor_is_read",
+      "witness": "45f6b604ae238329",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "GWP",
+          "kind": "asserted",
+          "artifact": "f945c8e8302ec073",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_plane_spread_recovers_range_noise",
+      "witness": "b74f07e503387d71",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_plane_spread_recovers_range_noise.Msg",
+      "witness": "9582edaf9801deb5",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_plane_spread_recovers_range_noise.Msg.__init__",
+      "witness": "83d05f46cc83b5ca",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_power_split_recovers_walking_and_standing_power",
+      "witness": "5f2cc30af266d20c",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_writing_a_measurement_keeps_the_file_one_line_per_parameter",
+      "witness": "3c6198f2a1e3b880",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_writing_stand_power_adds_its_line_beside_walk_power",
+      "witness": "fdaf23bfbde37068",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

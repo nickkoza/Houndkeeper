@@ -1,0 +1,211 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_calibration.py",
+  "entries": [
+    {
+      "name": "_robot",
+      "witness": "8c198954aa43b218",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_run_with_relief",
+      "witness": "f0e748ceb06cadc3",
+      "links": [
+        {
+          "id": "Q9k",
+          "kind": "asserted",
+          "artifact": "b3c2312e2570b503",
+          "at": "2026-10-11"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_selfcal",
+      "witness": "4d80f6869d46daf2",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_solve",
+      "witness": "40717c4453f286f2",
+      "links": [
+        {
+          "id": "9tQ",
+          "kind": "asserted",
+          "artifact": "a1b36696573604d0",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_product_painted_under_another_calibration_is_refused",
+      "witness": "18aafdf55b74281c",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "Q9k",
+          "kind": "asserted",
+          "artifact": "b3c2312e2570b503",
+          "at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "name": "test_every_painter_defaults_to_the_houses_relief",
+      "witness": "f7cf3de6f46f3e69",
+      "links": [
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_painters_take_the_houses_relief_in_its_frame",
+      "witness": "c9cb5715b9a32e62",
+      "links": [
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_floor_is_laid_with_the_floor_rows_lag",
+      "witness": "d4f59a410a1f9c8a",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_nightly_check_warns_past_its_tolerances_and_only_reports",
+      "witness": "5bc72c5ca955f02b",
+      "links": [
+        {
+          "id": "9tQ",
+          "kind": "asserted",
+          "artifact": "a1b36696573604d0",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_writer_backs_up_and_records_what_it_replaced",
+      "witness": "18e23790362efad1",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_writer_refuses_hold_outs_and_the_validation_house",
+      "witness": "2192d9e9e6c58a2d",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_writer_refuses_views_painted_with_another_calibration",
+      "witness": "02287d7090303eb3",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-07"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

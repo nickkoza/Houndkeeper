@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/house_frame.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "1d96b13b520f59bc",
+      "links": [
+        {
+          "id": "63R",
+          "kind": "asserted",
+          "artifact": "e61e5da3767db15c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-12"
+        },
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "posed",
+      "witness": "7469e54b1355ec1c",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "se2_of",
+      "witness": "b955798832de828f",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "verifier",
+      "witness": "0101c4ca7d50586e",
+      "links": [
+        {
+          "id": "dmT",
+          "kind": "asserted",
+          "artifact": "a828bd0924fbcbe1",
+          "at": "2026-10-12"
+        },
+        {
+          "id": "fxk",
+          "kind": "asserted",
+          "artifact": "cc4ccb55a9e7fa49",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

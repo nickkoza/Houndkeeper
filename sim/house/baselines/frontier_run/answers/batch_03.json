@@ -1,0 +1,19 @@
+{"model": "claude-opus-5-5 (Claude Code subagent)", "frames": {
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s76_t2/1790938740.571.jpg": [{"label": "toy figure", "box": [193, 207, 212, 239]}, {"label": "green ball", "box": [609, 246, 632, 265]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940952.839.jpg": [{"label": "orange ball", "box": [162, 197, 173, 207]}, {"label": "white shoe", "box": [333, 191, 367, 205]}, {"label": "yellow block", "box": [331, 220, 348, 234]}, {"label": "cup", "box": [0, 231, 17, 269]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940962.579.jpg": [{"label": "orange ball", "box": [162, 197, 173, 207]}, {"label": "white shoe", "box": [333, 191, 367, 205]}, {"label": "yellow block", "box": [331, 220, 348, 234]}, {"label": "cup", "box": [0, 231, 17, 269]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790940973.549.jpg": [{"label": "orange ball", "box": [128, 198, 140, 208]}, {"label": "white shoe", "box": [297, 192, 332, 206]}, {"label": "yellow block", "box": [293, 221, 310, 235]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941000.187.jpg": [{"label": "orange ball", "box": [113, 207, 129, 218]}, {"label": "white shoe", "box": [350, 192, 395, 209]}, {"label": "yellow block", "box": [463, 252, 499, 277]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941031.672.jpg": [{"label": "small objects", "box": [219, 181, 245, 199]}, {"label": "toy truck", "box": [365, 198, 421, 219]}, {"label": "small red object", "box": [487, 206, 505, 219]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941058.958.jpg": [{"label": "shell", "box": [124, 191, 148, 211]}, {"label": "yellow block", "box": [375, 200, 397, 211]}, {"label": "orange ball", "box": [141, 263, 174, 286]}, {"label": "cup", "box": [616, 200, 635, 222]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941071.094.jpg": [{"label": "shell", "box": [442, 221, 474, 249]}, {"label": "toy box", "box": [448, 194, 486, 229]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s77_t1/1790941074.829.jpg": [{"label": "toy box", "box": [587, 224, 637, 291]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083322.843.jpg": [],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083430.643.jpg": [{"label": "yellow block", "box": [172, 186, 191, 198]}, {"label": "toy truck", "box": [199, 175, 245, 190]}, {"label": "orange ball", "box": [413, 199, 433, 213]}, {"label": "small object", "box": [0, 171, 21, 183]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083481.743.jpg": [{"label": "toy truck", "box": [367, 177, 425, 198]}, {"label": "yellow block", "box": [356, 202, 382, 219]}, {"label": "shoe", "box": [51, 171, 83, 187]}, {"label": "small object", "box": [0, 202, 13, 213]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083490.213.jpg": [{"label": "green object", "box": [86, 173, 108, 194]}, {"label": "small object", "box": [133, 176, 152, 191]}, {"label": "shoe", "box": [347, 190, 411, 213]}, {"label": "small figure", "box": [2, 249, 25, 279]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083556.923.jpg": [{"label": "toy truck", "box": [144, 210, 226, 242]}, {"label": "yellow block", "box": [272, 249, 323, 274]}, {"label": "orange ball", "box": [489, 206, 506, 217]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083599.273.jpg": [{"label": "small figure", "box": [617, 247, 640, 271]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083607.323.jpg": [{"label": "shell", "box": [0, 277, 29, 333]}],
+"~/.claude/jobs/a53e8952/tmp/baselines/frontier/frames/s96_t1/1791083616.983.jpg": [{"label": "yellow cup", "box": [66, 198, 95, 230]}]
+}}

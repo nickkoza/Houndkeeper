@@ -1,0 +1,193 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mount_cad.py",
+  "entries": [
+    {
+      "name": "arm",
+      "witness": "dd791f1909fe9b83",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "holes_at_plane",
+      "witness": "57b78f61bc938a06",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "P",
+      "witness": "bc0f01332d8ee9b1",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_part_fits_the_x1_with_margin",
+      "witness": "2032a53407f7656c",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_part_prints_with_little_or_no_support",
+      "witness": "b0c4b6098c6dc66f",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_load_bearing_parts_are_single_valid_solids",
+      "witness": "4716f7317bfdeb8e",
+      "links": [
+        {
+          "id": "ngX",
+          "kind": "asserted",
+          "artifact": "15d9de360675097f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "tY3",
+          "kind": "asserted",
+          "artifact": "d63da47da9d70ae9",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_magnets_keep_their_distance_from_the_encoders_and_the_imu",
+      "witness": "55cf23ad3eab4e71",
+      "links": [
+        {
+          "id": "4JP",
+          "kind": "asserted",
+          "artifact": "e1c938db8a798627",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Frm",
+          "kind": "asserted",
+          "artifact": "6be96a6128b4cfbd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_predicted_mass_stays_within_the_kit_budget",
+      "witness": "058d54dc6e63769d",
+      "links": [
+        {
+          "id": "mgb",
+          "kind": "asserted",
+          "artifact": "68632abb28f23a33",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Rrm",
+          "kind": "asserted",
+          "artifact": "b62aeade5067b0c7",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_adapter_sits_on_the_cover_without_cutting_into_it",
+      "witness": "e41520ac67a33f20",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Uaq",
+          "kind": "asserted",
+          "artifact": "cb3207a2b0914c86",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_adapter_stays_within_its_walking_fatigue_allowable",
+      "witness": "76ff064e2c934099",
+      "links": [
+        {
+          "id": "lUO",
+          "kind": "asserted",
+          "artifact": "2a5fe73a9492a00a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "vqz",
+          "kind": "asserted",
+          "artifact": "2e7296e1fedc8be7",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_base_lands_at_the_decided_position",
+      "witness": "cfdd01ca883a41af",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Pvh",
+          "kind": "asserted",
+          "artifact": "5558508f83f512ca",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_module_interface_is_the_same_on_the_adapter_and_the_bench_plate",
+      "witness": "6cdc779c714bdef6",
+      "links": [
+        {
+          "id": "JW7",
+          "kind": "asserted",
+          "artifact": "9c5a39a189065f5e",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

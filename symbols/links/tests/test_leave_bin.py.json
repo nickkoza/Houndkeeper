@@ -1,0 +1,163 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_leave_bin.py",
+  "entries": [
+    {
+      "name": "_S",
+      "witness": "42d8ff90db3719ce",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.__init__",
+      "witness": "e55e6aa24fd1e0dc",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S._hits",
+      "witness": "056d2b13a95d3eb1",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.arm_to",
+      "witness": "678ac972a923184c",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.grasp_point",
+      "witness": "8cd7fdae49c41c2f",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.grip_to",
+      "witness": "4999095be99e6deb",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.gripper_frame",
+      "witness": "c496ada5af655d0c",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.ik_pose",
+      "witness": "1c7efa1d93c061cc",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.joint_efforts",
+      "witness": "c65661e936589f5f",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.step",
+      "witness": "4d2573bb1dc18229",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_S.target",
+      "witness": "f86b7ffd38e9a415",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_let_go_it_rises_the_way_it_came",
+      "witness": "2a1e6ffb2761c25b",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_off_it_lets_go_and_stays",
+      "witness": "752bf9a2cce68901",
+      "links": [
+        {
+          "id": "2ho",
+          "kind": "asserted",
+          "artifact": "036d666d54bafa29",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/floor_arm.py",
+  "entries": [
+    {
+      "name": "candidates",
+      "witness": "3c9fff6e1dbfa12a",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "confirmer_cmd",
+      "witness": "e65ee8a65570012b",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "7ec287ca6f61d40d",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "run_night",
+      "witness": "0909ee12e0cee30a",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

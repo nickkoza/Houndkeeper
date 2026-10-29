@@ -1,0 +1,264 @@
+{
+  "spec_version": 1,
+  "about": "The benchmark's houses as specs: a seed, a track (the generator's arguments and toy sets) and a split. The generator version is stamped when a release is exported. Edited by hand; read by benchmark_release.py.",
+  "tracks": {
+    "tidy": {
+      "generator": "make_nights",
+      "args": [
+        "--nights",
+        "3",
+        "--per-night",
+        "0",
+        "--indoor",
+        "--movables",
+        "--pets",
+        "--photo-floors",
+        "--regime",
+        "lit"
+      ],
+      "floors": "train",
+      "items": "train",
+      "toy_sets": [
+        1,
+        2,
+        3
+      ],
+      "toys": "sim/dimos/house_items.py <night 1 truth> auto <toy set>",
+      "about": "Three nights of one house, lit as the robot works; toys placed on the floor per toy set. Nights 1-2 are baselines, night 3 is tidied."
+    }
+  },
+  "houses": [
+    {
+      "seed": 71,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 72,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 73,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 76,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 77,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 78,
+      "track": "tidy",
+      "split": "validation"
+    },
+    {
+      "seed": 82,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 83,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 84,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 85,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 86,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 87,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 88,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 89,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 90,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 91,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 92,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 93,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 70,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 95,
+      "track": "tidy",
+      "split": "tuning"
+    },
+    {
+      "seed": 80,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 81,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 100,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 101,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 102,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 103,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 104,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 105,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 106,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 107,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 108,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 109,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 110,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 111,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 112,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 113,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 114,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 115,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 116,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 117,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 118,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    },
+    {
+      "seed": 119,
+      "split": "heldout",
+      "released": false,
+      "withheld": "held out for judging"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_zoomed_look.py",
+  "entries": [
+    {
+      "name": "test_a_crop_box_maps_back_to_the_frame",
+      "witness": "41e9597134ecb56e",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

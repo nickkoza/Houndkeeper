@@ -1,0 +1,13 @@
+You are looking at one frame from a small robot dog's head camera, about 30 cm above the floor of a house, at night.
+The robot tidies toys and other small objects off the floor.
+
+List every toy or other loose object lying on the floor in this image: anything that does not belong on an empty floor
+(toys, shoes, cups, cards, blocks, figures, anything small someone left there). Do not list furniture, walls,
+rugs, doors, floor patterns, stains or shadows.
+
+For each one give a short label and a tight pixel box around it in this image: [x0, y0, x1, y1], x to the right and y
+down from the top-left corner, the image being 640 x 360 pixels.
+
+Answer with JSON only, nothing else: a list like
+[{"label": "toy car", "box": [412, 230, 468, 262]}]
+or [] if there is nothing on the floor.

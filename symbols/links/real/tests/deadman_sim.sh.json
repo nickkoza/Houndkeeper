@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "real/tests/deadman_sim.sh",
+  "entries": [
+    {
+      "name": "cleanup",
+      "witness": "98aba2353b35824a",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "kill_browsers",
+      "witness": "ca191963d916f2c1",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

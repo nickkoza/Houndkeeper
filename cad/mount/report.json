@@ -1,0 +1,447 @@
+{
+ "date": "2026-10-04",
+ "frame": "robot frame, mm: X forward, Y left, Z up, origin at the Go2's body centre",
+ "bed_mm": 256.0,
+ "on_bed_size_mm": {
+  "adapter": [
+   245.0,
+   228.0,
+   29.4
+  ],
+  "module": [
+   153.5,
+   230.0,
+   32.0
+  ],
+  "bench_plate": [
+   150.0,
+   240.0,
+   22.0
+  ],
+  "bin": [
+   120.0,
+   150.0,
+   101.6
+  ],
+  "hat_seat": [
+   46.0,
+   46.0,
+   8.0
+  ],
+  "coupon": [
+   160.0,
+   48.0,
+   10.0
+  ]
+ },
+ "mass_g": {
+  "adapter": {
+   "polymaker_polymax_pc": 641,
+   "3dxtech_carbonx_ezpc_cf": 733,
+   "bambu_pc": 646
+  },
+  "module": {
+   "polymaker_polymax_pc": 341,
+   "3dxtech_carbonx_ezpc_cf": 389,
+   "bambu_pc": 343
+  },
+  "bench_plate": {
+   "polymaker_polymax_pc": 469,
+   "3dxtech_carbonx_ezpc_cf": 536,
+   "bambu_pc": 473
+  },
+  "bin": {
+   "polymaker_polymax_pc": 152,
+   "3dxtech_carbonx_ezpc_cf": 173,
+   "bambu_pc": 153
+  },
+  "hat_seat": {
+   "polymaker_polymax_pc": 9,
+   "3dxtech_carbonx_ezpc_cf": 11,
+   "bambu_pc": 10
+  },
+  "coupon": {
+   "polymaker_polymax_pc": 82,
+   "3dxtech_carbonx_ezpc_cf": 93,
+   "bambu_pc": 82
+  }
+ },
+ "mass_on_robot": {
+  "polymaker_polymax_pc": {
+   "printed_g": 1143,
+   "hardware_g": 278,
+   "total_kg": 1.42,
+   "budget_kg": 1.8
+  },
+  "3dxtech_carbonx_ezpc_cf": {
+   "printed_g": 1306,
+   "hardware_g": 278,
+   "total_kg": 1.58,
+   "budget_kg": 1.8
+  },
+  "bambu_pc": {
+   "printed_g": 1152,
+   "hardware_g": 278,
+   "total_kg": 1.43,
+   "budget_kg": 1.8
+  }
+ },
+ "print": {
+  "walls": 8,
+  "line_width": 0.42,
+  "top_bottom_layers": 18,
+  "layer": 0.2,
+  "infill": 0.15
+ },
+ "z_base_mm": 118.4,
+ "z_interface_mm": 86.4,
+ "arm": {
+  "model_mass_kg": 3.38,
+  "stow_com_mm": [
+   85.5,
+   0.0,
+   266.1
+  ],
+  "max_self_moment_Nm": 8.92,
+  "joints_mm": {
+   "link_002_joint": [
+    100.0,
+    0.0,
+    182.9
+   ],
+   "link_003_joint": [
+    100.0,
+    0.0,
+    241.2
+   ],
+   "link_004_joint": [
+    -90.0,
+    0.0,
+    241.2
+   ],
+   "link_005_joint": [
+    84.0,
+    0.0,
+    317.5
+   ],
+   "link_006_joint": [
+    169.0,
+    0.0,
+    350.2
+   ],
+   "link_007_joint": [
+    161.1,
+    0.0,
+    303.9
+   ]
+  },
+  "base_axis_mm": [
+   100.0,
+   0.0,
+   152.1
+  ]
+ },
+ "stiffness": {
+  "x_fix_mm": -62.7,
+  "x_load_mm": 100.0,
+  "materials": {
+   "polymaker_polymax_pc": {
+    "E_design_MPa": 975.9,
+    "adapter_alone": {
+     "k_bend_Nm_per_rad": 970,
+     "k_twist_Nm_per_rad": 734,
+     "k_bend_short_term_Nm_per_rad": 1386,
+     "k_twist_short_term_Nm_per_rad": 1048
+    },
+    "adapter_and_module_bonded": {
+     "k_bend_Nm_per_rad": 1963,
+     "k_twist_Nm_per_rad": 991,
+     "k_bend_short_term_Nm_per_rad": 2805,
+     "k_twist_short_term_Nm_per_rad": 1415
+    }
+   },
+   "3dxtech_carbonx_ezpc_cf": {
+    "E_design_MPa": 3298.0,
+    "adapter_alone": {
+     "k_bend_Nm_per_rad": 3280,
+     "k_twist_Nm_per_rad": 2480,
+     "k_bend_short_term_Nm_per_rad": 4685,
+     "k_twist_short_term_Nm_per_rad": 3543
+    },
+    "adapter_and_module_bonded": {
+     "k_bend_Nm_per_rad": 6635,
+     "k_twist_Nm_per_rad": 3348,
+     "k_bend_short_term_Nm_per_rad": 9479,
+     "k_twist_short_term_Nm_per_rad": 4784
+    }
+   },
+   "bambu_pc": {
+    "E_design_MPa": 975.9,
+    "adapter_alone": {
+     "k_bend_Nm_per_rad": 970,
+     "k_twist_Nm_per_rad": 734,
+     "k_bend_short_term_Nm_per_rad": 1386,
+     "k_twist_short_term_Nm_per_rad": 1048
+    },
+    "adapter_and_module_bonded": {
+     "k_bend_Nm_per_rad": 1963,
+     "k_twist_Nm_per_rad": 991,
+     "k_bend_short_term_Nm_per_rad": 2805,
+     "k_twist_short_term_Nm_per_rad": 1415
+    }
+   }
+  }
+ },
+ "sim_flex_Nm_per_rad": 1500,
+ "jaw_error": {
+  "moment_Nm": 18.8,
+  "polymaker_polymax_pc": {
+   "adapter_alone": {
+    "deg": 1.11,
+    "jaw_mm_at_reach": 13.0
+   },
+   "adapter_and_module_bonded": {
+    "deg": 0.55,
+    "jaw_mm_at_reach": 6.4
+   }
+  },
+  "3dxtech_carbonx_ezpc_cf": {
+   "adapter_alone": {
+    "deg": 0.33,
+    "jaw_mm_at_reach": 3.8
+   },
+   "adapter_and_module_bonded": {
+    "deg": 0.16,
+    "jaw_mm_at_reach": 1.9
+   }
+  },
+  "bambu_pc": {
+   "adapter_alone": {
+    "deg": 1.11,
+    "jaw_mm_at_reach": 13.0
+   },
+   "adapter_and_module_bonded": {
+    "deg": 0.55,
+    "jaw_mm_at_reach": 6.4
+   }
+  },
+  "sim_now": {
+   "deg": 0.72,
+   "jaw_mm_at_reach": 8.4
+  }
+ },
+ "stress": {
+  "sigma_MPa": {
+   "sustained": 0.49,
+   "working_peak": 5.67,
+   "walking_range": 0.98,
+   "walking_peak": 0.98,
+   "fall": 3.93
+  },
+  "against": {
+   "polymaker_polymax_pc": {
+    "sustained": "0.49 of 8.8",
+    "working_peak": "5.67 of 17.6",
+    "walking_range_fatigue": "0.98 of 1.16",
+    "fall": "3.93 of 26.4",
+    "ok": true
+   },
+   "3dxtech_carbonx_ezpc_cf": {
+    "sustained": "0.49 of 7.8",
+    "working_peak": "5.67 of 15.6",
+    "walking_range_fatigue": "0.98 of 1.03",
+    "fall": "3.93 of 23.4",
+    "ok": true
+   },
+   "bambu_pc": {
+    "sustained": "0.49 of 8.8",
+    "working_peak": "5.67 of 17.6",
+    "walking_range_fatigue": "0.98 of 1.16",
+    "fall": "3.93 of 26.4",
+    "ok": true
+   }
+  },
+  "note": "beam estimate in the adapter only, away from holes and corners; the FEA ([tY3]) finds the peaks at the bolts, inserts and the deck's corners, where these will be several times higher"
+ },
+ "magnets": {
+  "magnet": "supermagnete S-10-03-N, Ø10 x 3 mm N42: adhesive force ~1.8 kg (17.7 N) on steel (observed 4 Oct 2026)",
+  "gap_derate": 0.6,
+  "held_per_pair_N": 10.6,
+  "bin": {
+   "pairs": 4,
+   "pull_off_N": 49.8,
+   "lateral_release_N": 92.6,
+   "walking_lift_N": 7.4,
+   "margin_walking": 5.8,
+   "repeat": "two balls in the deck, a 45 deg cone socket and a V-slot along X in the bin: back within ~0.3 mm (est., print tolerance)",
+   "encoder_mm": 170.0,
+   "field_at_encoder_mT": 0.019,
+   "imu_mm": 83.0,
+   "field_at_imu_mT": 0.153
+  },
+  "hat": {
+   "pairs": 1,
+   "held_N": 10.6,
+   "weight_N": 0.39,
+   "margin_at_2g": 13.5,
+   "note": "hat mass est. 40 g; lateral: the boss locates it",
+   "encoder_mm": 125.2,
+   "field_at_encoder_mT": 0.046,
+   "imu_mm": 125.4,
+   "field_at_imu_mT": 0.046
+  },
+  "earth_field_mT": 0.05,
+  "detail": {
+   "bin": [
+    {
+     "at": [
+      -114.0,
+      66.0,
+      86.4
+     ],
+     "nearest_encoder": "link_004_joint",
+     "encoder_mm": 170.0,
+     "imu_mm": 118.8
+    },
+    {
+     "at": [
+      -114.0,
+      -66.0,
+      86.4
+     ],
+     "nearest_encoder": "link_004_joint",
+     "encoder_mm": 170.0,
+     "imu_mm": 118.8
+    },
+    {
+     "at": [
+      -50.0,
+      66.0,
+      86.4
+     ],
+     "nearest_encoder": "link_004_joint",
+     "encoder_mm": 173.0,
+     "imu_mm": 83.0
+    },
+    {
+     "at": [
+      -50.0,
+      -66.0,
+      86.4
+     ],
+     "nearest_encoder": "link_004_joint",
+     "encoder_mm": 173.0,
+     "imu_mm": 83.0
+    }
+   ],
+   "hat": [
+    {
+     "at": [
+      22.0,
+      -80.0,
+      126.4
+     ],
+     "nearest_encoder": "link_002_joint",
+     "encoder_mm": 125.2,
+     "imu_mm": 125.4
+    }
+   ]
+  }
+ },
+ "bin": {
+  "inner_mm": [
+   117,
+   147,
+   100
+  ],
+  "litres": 1.71
+ },
+ "clearances": {
+  "body_source": "Unitree Go2 CAD 0911 (dock removed) for body/head/battery; Menagerie Go2 legs, posed",
+  "adapter_on_cover": {
+   "min_gap_mm": -0.23,
+   "share_in_contact": 0.27,
+   "note": "negative = the part would sit into the cover; contact is the flat at Z 57"
+  },
+  "parts_to_body": {
+   "module": 4.0,
+   "bin": 23.9
+  },
+  "legs": {
+   "standing": {
+    "adapter": 30.2,
+    "module": 43.7,
+    "bin": 54.9
+   },
+   "lying": {
+    "adapter": 30.2,
+    "module": 43.8,
+    "bin": 55.0
+   },
+   "walking_thigh_back": {
+    "adapter": 30.4,
+    "module": 28.0,
+    "bin": 51.5
+   },
+   "walking_thigh_fwd": {
+    "adapter": 30.1,
+    "module": 42.4,
+    "bin": 54.0
+   }
+  },
+  "thigh_contact_rad": null,
+  "folded_arm": {
+   "adapter": 32.0,
+   "bin": 21.0,
+   "module_top_to_arm_bottom_mm": 0.0
+  },
+  "hat": {
+   "to_folded_arm": 3.0,
+   "to_bin": 3.5
+  },
+  "battery": {
+   "adapter": 29.5,
+   "module": 55.4,
+   "bin": 55.4
+  },
+  "battery_port": {
+   "adapter": 36.2,
+   "module": 61.2,
+   "bin": 59.5
+  },
+  "battery_way_out_clear": true,
+  "views": {
+   "head_camera_pct_blocked": {
+    "adapter": 0.0,
+    "module": 0.0,
+    "bin": 0.0,
+    "arm": 0.0,
+    "hat": 0.0
+   },
+   "lidar_upper_hemisphere_pct_blocked": {
+    "adapter": 0.0,
+    "module": 0.0,
+    "bin": 0.0,
+    "arm": 0.0,
+    "hat": 0.0
+   },
+   "camera_mm": [
+    331,
+    0,
+    43
+   ],
+   "lidar_mm": [
+    275,
+    0,
+    -53
+   ]
+  }
+ },
+ "reference_assembly": "models/go2/_src/go2_with_mount_reference_mm.stl",
+ "renders": [
+  "cad/mount/renders/1_side.png",
+  "cad/mount/renders/2_top.png",
+  "cad/mount/renders/3_module_off.png",
+  "cad/mount/renders/4_module_on_bench.png"
+ ]
+}

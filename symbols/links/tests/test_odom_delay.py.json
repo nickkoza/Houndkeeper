@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_odom_delay.py",
+  "entries": [
+    {
+      "name": "_run",
+      "witness": "25adf2ee48b8fe1c",
+      "links": [
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_stamped_at_source_when_carried",
+      "witness": "9125e7d167ca47d7",
+      "links": [
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_stamped_on_arrival_by_default",
+      "witness": "1630b8fe3469b08e",
+      "links": [
+        {
+          "id": "UMH",
+          "kind": "asserted",
+          "artifact": "312b3332fd9c8987",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

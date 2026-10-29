@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_headless_viewer.py",
+  "entries": [
+    {
+      "name": "test_headless_viewer_stands_in",
+      "witness": "97e6095728cb48f3",
+      "links": [
+        {
+          "id": "p2t",
+          "kind": "asserted",
+          "artifact": "fb4a1d9237068697",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

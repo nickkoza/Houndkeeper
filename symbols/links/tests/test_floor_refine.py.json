@@ -1,0 +1,301 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_refine.py",
+  "entries": [
+    {
+      "name": "_lidar",
+      "witness": "83b11826dc65f88f",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_line",
+      "witness": "12c0b55a92dc4033",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_views_on",
+      "witness": "943da664c79a5170",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "box_at",
+      "witness": "69522c64044426f4",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "centre",
+      "witness": "de671e4313d5d0ce",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_pass_that_worsens_the_nights_agreement_is_rejected",
+      "witness": "4343108c3ebc9883",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_view_already_at_the_bound_cannot_be_moved_past_it",
+      "witness": "f5002ac033e66708",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_leave_out_takes_the_view_and_its_own_nights_neighbours_in_time",
+      "witness": "df9b1ce1cede2fd1",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_no_image_evidence_moves_nothing",
+      "witness": "12abb0fa4dd410fc",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_refining_stops_when_the_agreement_stops_improving",
+      "witness": "6fc020d493748495",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_registration_finds_how_far_a_view_sits_off_the_floor",
+      "witness": "4ccaeee98161f6a4",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_agreement_is_the_truth_free_nights_disagreement",
+      "witness": "b4caa08b2fda7397",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_benchs_plant_moves_only_its_block_by_the_shift_and_turn_given",
+      "witness": "8be7d84ca818300a",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_lidar_pinned_shape_does_not_bend",
+      "witness": "345ea93ae8718e74",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_move_bound_stops_a_one_tile_jump_on_a_repeating_floor",
+      "witness": "747864e57137fbe2",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_picture_a_view_is_registered_against_leaves_it_out",
+      "witness": "055ad2a8ebfba6b5",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_solve_never_moves_a_view_past_the_bound",
+      "witness": "28613aabf3b73d4f",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ObC",
+          "kind": "asserted",
+          "artifact": "2400dc4620e1c634",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "texture",
+      "witness": "5bebbde2a48e580e",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "tiles",
+      "witness": "0f2d1c9ecbeca322",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

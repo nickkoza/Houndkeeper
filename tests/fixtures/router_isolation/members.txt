@@ -1,0 +1,4 @@
+0 comment=defconf list=LAN interface=br-private dynamic=no
+1 comment=defconf list=WAN interface=ether1 dynamic=no
+2 comment=Robot-Net network list=Robot interface=br-robot dynamic=no
+

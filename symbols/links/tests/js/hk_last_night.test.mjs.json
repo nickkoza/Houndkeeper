@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_last_night.test.mjs",
+  "entries": [
+    {
+      "name": "each finding opens with its answer and has its whole text a tap away",
+      "witness": "caec071ecad157bf",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "each night shows its house, its numbers each with its source, what failed and its morning log",
+      "witness": "a879e29a1937e8e4",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "esc",
+      "witness": "2d78ab8138cfa7ec",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "it reads only: no session, nothing sent; nothing on it moves",
+      "witness": "0c5871ff5d7d5bc3",
+      "links": [
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "markdown: headings, paragraphs, lists, tables and code become blocks; no HTML passes through",
+      "witness": "a10a97e6e39acc42",
+      "links": [
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "0536113ad7e267bc",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "witness": "1f0a859e53531b67",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "with no message yet it says so; with no night or finding it says so",
+      "witness": "8d6e592b079331d1",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

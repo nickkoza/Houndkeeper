@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "cad/mount/config.py",
+  "entries": [
+    {
+      "name": "materials",
+      "witness": "572dd167d427b525",
+      "links": [
+        {
+          "id": "lUO",
+          "kind": "asserted",
+          "artifact": "2a5fe73a9492a00a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "mgb",
+          "kind": "asserted",
+          "artifact": "68632abb28f23a33",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Xtj",
+          "kind": "asserted",
+          "artifact": "ff4aab06fe854bbe",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

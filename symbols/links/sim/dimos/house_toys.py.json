@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/house_toys.py",
+  "entries": [
+    {
+      "name": "night_mix",
+      "witness": "e7f5020bc4b870d1",
+      "links": [
+        {
+          "id": "Afy",
+          "kind": "asserted",
+          "artifact": "e65b7a1cc3bf01d5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pick_night",
+      "witness": "b8a4ec75f35ed579",
+      "links": [
+        {
+          "id": "Afy",
+          "kind": "asserted",
+          "artifact": "e65b7a1cc3bf01d5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "toys_for_floor",
+      "witness": "9516c55d30b8661b",
+      "links": [
+        {
+          "id": "Afy",
+          "kind": "asserted",
+          "artifact": "e65b7a1cc3bf01d5",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

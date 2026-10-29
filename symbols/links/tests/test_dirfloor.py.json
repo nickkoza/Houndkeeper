@@ -1,0 +1,85 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_dirfloor.py",
+  "entries": [
+    {
+      "name": "_cell_xy",
+      "witness": "a2b4ddbe75535e29",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_views",
+      "witness": "cec0ccdc09abf0be",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_an_unseen_direction_falls_back_to_every_direction",
+      "witness": "05ee9af3978c2965",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_azimuth_bin_is_where_the_camera_stands_seen_from_the_cell",
+      "witness": "81851a00fe076f76",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_displacements_solve_one_vector_a_direction_from_the_pairs",
+      "witness": "a1d7b4cd236ea3f4",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_spread_is_read_from_the_frames_own_direction",
+      "witness": "cb4b4c3d5b2e9328",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

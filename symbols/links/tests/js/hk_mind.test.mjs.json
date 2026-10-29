@@ -1,0 +1,145 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_mind.test.mjs",
+  "entries": [
+    {
+      "name": "near",
+      "witness": "90db0dfdc1fcf29d",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "nothing on the page moves by itself",
+      "witness": "b575e40a65a0a3ee",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "b6337f8c50673dd8",
+      "links": [
+        {
+          "id": "ls3",
+          "kind": "asserted",
+          "artifact": "93f79349db574cee",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the candidates the camera sees are outlined with their confidence",
+      "witness": "b27eb357e0c25cc7",
+      "links": [
+        {
+          "id": "D1U",
+          "kind": "asserted",
+          "artifact": "10c4f92d61251425",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the costmap's cells become the picture, rows flipped",
+      "witness": "f2fb3694418028a8",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the goal's reason is said in the robot's words",
+      "witness": "36ff2145b20ec007",
+      "links": [
+        {
+          "id": "1XG",
+          "kind": "asserted",
+          "artifact": "881e98e4808f1477",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the map shows each candidate coloured by status and confidence, both routes and the goal",
+      "witness": "cda38b8624c45abe",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the page renders the stage, goal, arm and every candidate from the recorded message",
+      "witness": "7ce7dd573e2a525b",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "the page sends nothing, whatever it is given",
+      "witness": "f9b291d900b8eb18",
+      "links": [
+        {
+          "id": "ls3",
+          "kind": "asserted",
+          "artifact": "93f79349db574cee",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "without a costmap the map fits round what the message names",
+      "witness": "d7adeaf67d68f117",
+      "links": [
+        {
+          "id": "Ttd",
+          "kind": "asserted",
+          "artifact": "ad225db7a49d9243",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

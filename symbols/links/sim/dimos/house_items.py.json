@@ -1,0 +1,85 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/house_items.py",
+  "entries": [
+    {
+      "name": "_tier",
+      "witness": "1d2e48463fa40c16",
+      "links": [
+        {
+          "id": "Afy",
+          "kind": "asserted",
+          "artifact": "e65b7a1cc3bf01d5",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "clear",
+      "witness": "121fbddc38f61615",
+      "links": [
+        {
+          "id": "QxY",
+          "kind": "asserted",
+          "artifact": "bdb00c8be6439628",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "YWo",
+          "kind": "asserted",
+          "artifact": "02012dad319cc0c5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "layout",
+      "witness": "8281956a4f565889",
+      "links": [
+        {
+          "id": "O7l",
+          "kind": "asserted",
+          "artifact": "95a6158db61b631c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "YWo",
+          "kind": "asserted",
+          "artifact": "02012dad319cc0c5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "static_bounds",
+      "witness": "8c4332c65902717e",
+      "links": [
+        {
+          "id": "YWo",
+          "kind": "asserted",
+          "artifact": "02012dad319cc0c5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "static_bounds.bounds",
+      "witness": "2ab86757759bd2f9",
+      "links": [
+        {
+          "id": "YWo",
+          "kind": "asserted",
+          "artifact": "02012dad319cc0c5",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

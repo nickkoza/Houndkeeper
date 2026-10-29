@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/area_excursion.py",
+  "entries": [
+    {
+      "name": "crossed_walls",
+      "witness": "0dffcf1e88958106",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "edge_m",
+      "witness": "56ce35af90ef0118",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "goals",
+      "witness": "dc728c9c174438a2",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "42a48cade12bb57b",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "outside_m",
+      "witness": "977bf725f4a35b82",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

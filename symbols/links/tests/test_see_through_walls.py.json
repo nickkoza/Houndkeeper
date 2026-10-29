@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_see_through_walls.py",
+  "entries": [
+    {
+      "name": "_centre_depth",
+      "witness": "7f6b6d5de928ffde",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_model",
+      "witness": "b84e672750cbfb8d",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_south_faces_views",
+      "witness": "81f51c535fd498e9",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "witness": "fee310689ce59d0b",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_each_light_is_one_light",
+      "witness": "999d451a063b6323",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_from_inside_the_wall_is_solid_to_the_viewer_and_the_lidar",
+      "witness": "cae0619c5192468e",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_viewer_sees_in_through_an_outside_wall",
+      "witness": "ad583df06ab1b452",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_carpet_wear.py",
+  "entries": [
+    {
+      "name": "test_wear_lies_on_carpet_in_smooth_bands_and_is_the_houses_own",
+      "witness": "ac26f4d620ab8052",
+      "links": [
+        {
+          "id": "bP1",
+          "kind": "asserted",
+          "artifact": "6f52eb2ffaef7d7f",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

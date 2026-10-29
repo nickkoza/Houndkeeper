@@ -1,0 +1,253 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/sweep_route.py",
+  "entries": [
+    {
+      "name": "limit_to_area",
+      "witness": "a05d7846dfe73ae9",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "d649c8fc87be59e8",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "Map",
+      "witness": "517a49bd3301c51f",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Map.__init__",
+      "witness": "beac3bf9f6cd556f",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Map.cell",
+      "witness": "b5a128f7c6eea996",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Map.clearance",
+      "witness": "a43847bb1fb94538",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Map.from_points",
+      "witness": "3997fd7a2a6995d8",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "Map.from_points.grid",
+      "witness": "3235a64c2e4720c5",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Map.xy",
+      "witness": "d4a965fc43f46259",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "night_map",
+      "witness": "31b18eff2e7081bf",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "night_maps",
+      "witness": "61395281b3fe9023",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "nights_from",
+      "witness": "c3ba80cf97d83a5a",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "open_up",
+      "witness": "458be60de5ba7b68",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "plan",
+      "witness": "177124ed618fad4c",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "reachable",
+      "witness": "1fead89d650575b3",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jIh",
+          "kind": "asserted",
+          "artifact": "06baaad918687f02",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "tall_points",
+      "witness": "dc28f2418fc8205a",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "why_empty",
+      "witness": "a03781f3cd13addc",
+      "links": [
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

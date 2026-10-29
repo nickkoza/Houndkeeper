@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mount_jacobian.py",
+  "entries": [
+    {
+      "name": "_camera",
+      "witness": "fa9c51b4c4ccfa47",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_far_points_move_more_and_pitch_moves_along_the_view",
+      "witness": "f5dc06e8628e1f85",
+      "links": [
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

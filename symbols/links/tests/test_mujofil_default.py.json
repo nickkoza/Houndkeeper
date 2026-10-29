@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_mujofil_default.py",
+  "entries": [
+    {
+      "name": "test_a_build_that_drops_lamps_is_refused",
+      "witness": "5b591a182b4186b8",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_lamp_check_runs_under_a_control_callback_and_leaves_it_in_place",
+      "witness": "4f98b537ac6129d5",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_lamp_check_runs_under_a_control_callback_and_leaves_it_in_place.policy",
+      "witness": "a4557e4cc9284fb0",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_a_choice_the_lamp_fixed_build_is_used_and_stamped",
+      "witness": "c4edda42a765ceb2",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/tip_recovery.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "8fbce55de79f4601",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "jfW",
+          "kind": "asserted",
+          "artifact": "e2de06bb32982c07",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "tilt_of",
+      "witness": "f4e19853a9863b14",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "jfW",
+          "kind": "asserted",
+          "artifact": "e2de06bb32982c07",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "trial",
+      "witness": "cd8c473a51906dfd",
+      "links": [
+        {
+          "id": "4KC",
+          "kind": "asserted",
+          "artifact": "c54a338011dda122",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "jfW",
+          "kind": "asserted",
+          "artifact": "e2de06bb32982c07",
+          "at": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "method": "1.0.5",
+  "dated": [
+    "docs/research/",
+    "docs/backlog.md",
+    "docs/dimos-fork.md"
+  ],
+  "repositories": {
+    "method": "https://github.com/nickkoza/Railyard-Method.git"
+  }
+}

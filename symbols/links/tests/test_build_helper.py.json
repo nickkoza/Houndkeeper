@@ -1,0 +1,151 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_build_helper.py",
+  "entries": [
+    {
+      "name": "sh",
+      "witness": "061f6a3ab0b6fb6e",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_build_that_exits_0_without_its_output_fails",
+      "witness": "68ed0c4d7daa632d",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_build_that_succeeds_leaves_its_output_and_shows_its_last_line",
+      "witness": "909c8440800d7718",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_crashed_build_fails_and_last_runs_output_is_gone",
+      "witness": "0aea0795f7a67ece",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_cleared_directories_and_stdout_outputs",
+      "witness": "7e7d59d8435cce57",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_parallel_builds_are_each_waited_on",
+      "witness": "eb216042339a0d45",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_night_pipeline_builds_through_the_helper",
+      "witness": "5a3c8d4801269008",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_pipeline_scripts_fail_a_pipeline_on_any_stage",
+      "witness": "3b25a0928fd2696e",
+      "links": [
+        {
+          "id": "gI8",
+          "kind": "asserted",
+          "artifact": "6da37088be4fad53",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

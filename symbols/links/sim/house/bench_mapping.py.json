@@ -1,0 +1,379 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/bench_mapping.py",
+  "entries": [
+    {
+      "name": "_shift_corr",
+      "witness": "9a03de91d15f6cd6",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_shift_corr.sub",
+      "witness": "46186ccab4ce70a9",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "build_map",
+      "witness": "91ef68b7d1374fab",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "cam_pose",
+      "witness": "6d2f0a67611fa77c",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "compare",
+      "witness": "893247fec93bbb12",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "compare_pictures",
+      "witness": "f5752b6eb3cd34e2",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "edge_at",
+      "witness": "b7e07b0419f317d6",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "edge_signal",
+      "witness": "31c587fd03ec756e",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fit_edge",
+      "witness": "c85cd765fe914943",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "grids",
+      "witness": "5c5e86fc0cff0939",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "witness": "5121525aeb1bc0a7",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "witness": "ca220db75a9d6d4a",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "8d53e132bf562e9c",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "place",
+      "witness": "cb76cadd674795fd",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register",
+      "witness": "36a747abe461c1a1",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.evaluate",
+      "witness": "39bc0f0a766e9fde",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.evaluate.blur",
+      "witness": "6f8558e0675dcaa5",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "register.patch",
+      "witness": "4e778db91b505678",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "route",
+      "witness": "79e98bb8b977688b",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "steepest",
+      "witness": "25c2141c7f6cf974",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "true_line",
+      "witness": "955eba2e7fdf6705",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

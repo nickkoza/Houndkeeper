@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tools/go2_step_cache.py",
+  "entries": [
+    {
+      "name": "main",
+      "witness": "1c413fcbf982e105",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "main.walk",
+      "witness": "f50c270243d1fab7",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "mesh_faces",
+      "witness": "787d9fed4cd2a3dd",
+      "links": [
+        {
+          "id": "I9y",
+          "kind": "asserted",
+          "artifact": "e9494c7982a1da75",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

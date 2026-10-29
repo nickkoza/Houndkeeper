@@ -1,0 +1,30 @@
+# The houndkeeper package: DimOS blueprints (entry points below) and the hk-data recordings tool.
+[project]
+name = "houndkeeper"
+version = "0.1.0"
+description = "Houndkeeper: a Go2 with a Maker Arm that tidies a real house. DimOS extension package."
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+# code-CAD for the printed mount (printed-mount [3JA], decision [Lsn]); installed 4 Oct 2026 as build123d 0.13.0, which
+# brought cadquery-ocp-novtk 8.0.1 (OpenCASCADE) and lib3mf 2.5.0; the rest were already in the DimOS venv
+cad = ["build123d>=0.13,<0.14", "lib3mf>=2.5", "trimesh>=4.12", "shapely>=2.1", "scipy>=1.17", "pillow>=12", "matplotlib>=3.10"]
+
+[project.scripts]
+hk-data = "houndkeeper.recordings:main"
+
+[project.entry-points."dimos.blueprints"]
+floor-overlay = "houndkeeper.floor_overlay_module:FloorOverlay"
+battery = "houndkeeper.battery_module:BatteryLog"
+tidy = "houndkeeper.tidy_module:TidyArm"
+operating-area = "houndkeeper.operating_area_module:OperatingArea"
+phone-cockpit = "houndkeeper.phone_cockpit:phone_cockpit"
+area = "houndkeeper.phone_cockpit:area"
+project = "houndkeeper.project:project"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

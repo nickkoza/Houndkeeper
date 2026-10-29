@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "training/sim/make_dataset.py",
+  "entries": [
+    {
+      "name": "samples",
+      "witness": "743bae8c6426ff37",
+      "links": [
+        {
+          "id": "soS",
+          "kind": "asserted",
+          "artifact": "56bc21db16f92d7b",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

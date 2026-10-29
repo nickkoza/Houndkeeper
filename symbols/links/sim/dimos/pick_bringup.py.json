@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/pick_bringup.py",
+  "entries": [
+    {
+      "name": "_pose",
+      "witness": "f4471c8b94eeae88",
+      "links": [
+        {
+          "id": "ZMc",
+          "kind": "asserted",
+          "artifact": "4378abe6d00e9bc3",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "img",
+      "witness": "6654bda7eb2f7049",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "odom",
+      "witness": "28f84ea17da86448",
+      "links": [
+        {
+          "id": "hJ5",
+          "kind": "asserted",
+          "artifact": "cfd43bce83853e50",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "lps",
+          "kind": "asserted",
+          "artifact": "056af2e3678a7f49",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

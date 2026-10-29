@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_flex.py",
+  "entries": [
+    {
+      "name": "_red",
+      "witness": "580dbc67afeb934d",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_cloth_lying_flat_on_the_floor_is_seen",
+      "witness": "e8cae8f7bb0ac294",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_filament_draws_a_cloth_where_mujoco_does",
+      "witness": "24fef2ad8f08ce4d",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

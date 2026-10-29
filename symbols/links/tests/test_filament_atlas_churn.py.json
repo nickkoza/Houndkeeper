@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_atlas_churn.py",
+  "entries": [
+    {
+      "name": "_atlases",
+      "witness": "7edfcb6357b04dc9",
+      "links": [
+        {
+          "id": "U8i",
+          "kind": "asserted",
+          "artifact": "a64728674a4994cf",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "Ctl",
+      "witness": "ba352c7b907a7adb",
+      "links": [
+        {
+          "id": "U8i",
+          "kind": "asserted",
+          "artifact": "a64728674a4994cf",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "Ctl.get_command",
+      "witness": "cc177a93a92de752",
+      "links": [
+        {
+          "id": "U8i",
+          "kind": "asserted",
+          "artifact": "a64728674a4994cf",
+          "at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "name": "test_alternating_cameras_keep_one_shadow_atlas_each",
+      "witness": "a6e44c7519f70753",
+      "links": [
+        {
+          "id": "U8i",
+          "kind": "asserted",
+          "artifact": "a64728674a4994cf",
+          "at": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

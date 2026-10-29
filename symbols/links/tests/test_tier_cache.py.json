@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_tier_cache.py",
+  "entries": [
+    {
+      "name": "test_a_kept_tier_is_the_measured_one_and_a_changed_item_is_measured_again",
+      "witness": "9cae283d628474c9",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

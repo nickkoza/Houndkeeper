@@ -1,0 +1,391 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_mutants.py",
+  "entries": [
+    {
+      "name": "_fine_floor",
+      "witness": "4d03dc5431728a00",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_floor",
+      "witness": "f9666ef9c2c72149",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_none",
+      "witness": "891a853fb60733fd",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_pic",
+      "witness": "c4815948ae76f7ad",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_traj",
+      "witness": "aa5a03b153a7f72f",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_map_off_by_more_than_the_slack_is_error_and_within_it_is_not",
+      "witness": "0c65c93f5340c8c9",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_night_with_one_truth_file_has_no_truth",
+      "witness": "bb1d2f71efd84ed3",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_nights_error_leaves_out_the_band_by_the_walls",
+      "witness": "013b33f5b4432c1c",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_patch_without_a_clear_match_is_left_out_of_the_placement",
+      "witness": "4a147c3b7b285e9f",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_straight_walk_still_gives_a_turn_not_a_mirror",
+      "witness": "15d972d14b59e4f9",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_agreement_judges_only_floor_both_saw_away_from_structures_both_mapped",
+      "witness": "50e7a1be9db4fa30",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_feats_are_blind_to_the_floor_outside_what_was_seen",
+      "witness": "d77cfda2d6659079",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_feats_judge_a_toy_against_the_floor_round_it_not_against_itself",
+      "witness": "1190127c2a7b057e",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_error_threshold_is_the_confirmers",
+      "witness": "9a315ac248188b85",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_error_threshold_is_the_confirmers.shift",
+      "witness": "f52155e2ad31cc79",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_error_threshold_is_the_confirmers.tinted",
+      "witness": "990a55cd8a8602e7",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_maps_frame_comes_from_its_path_and_lands_points_where_they_truly_are",
+      "witness": "b9fbe5a69a49397c",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_maps_placement_reads_a_shift_the_error_forgives",
+      "witness": "c261d34bb3081a56",
+      "links": [
+        {
+          "id": "G9q",
+          "kind": "asserted",
+          "artifact": "fc4f7b41671e83bf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_maps_ragged_edge_is_not_judged",
+      "witness": "8aa8d039a7819142",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_score_finds_the_frame_and_each_patchs_own_warp",
+      "witness": "ea60f335a622b3c4",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_structures_mask_covers_each_wall_cell_where_the_sim_built_it",
+      "witness": "649cb80c3a592a22",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_truth_is_judged_over_the_maps_floor_even_beside_a_bright_rug",
+      "witness": "903e1ca0a3efd837",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_tolerant_diff_brightening_is_signed_so_a_shadow_is_not_a_brightening",
+      "witness": "5eb766164e99545f",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_tolerant_diff_forgives_every_misalignment_up_to_the_slack_and_no_more",
+      "witness": "5f968ca9b41a9cf9",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_what_is_excluded_is_not_judged",
+      "witness": "18e938cec14d2683",
+      "links": [
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_with_the_truth_the_rug_and_moved_chairs_are_split_from_the_open_floor",
+      "witness": "e5534b7d73951af6",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nv5",
+          "kind": "asserted",
+          "artifact": "cdc7749bb1273e30",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

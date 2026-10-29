@@ -1,0 +1,565 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_real_nights.py",
+  "entries": [
+    {
+      "name": "_cands",
+      "witness": "c0ff277437dae9f5",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_decision",
+      "witness": "68bae27f4d22fcdf",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_house",
+      "witness": "f7d22b7d70e2288d",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "_marks",
+      "witness": "6b0b11219a662e28",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_picture",
+      "witness": "516064c5bb50f477",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "_score_night",
+      "witness": "1aff12afe40cc4d5",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_stops",
+      "witness": "192cf71577138041",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "U4p",
+          "kind": "asserted",
+          "artifact": "33f8b956c6a8f503",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "_toy",
+      "witness": "3b6dc9604c980e80",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_dog_alone_night_is_laid_out_and_its_log_says_the_arm_was_skipped",
+      "witness": "e8ab698934bda096",
+      "links": [
+        {
+          "id": "hKP",
+          "kind": "asserted",
+          "artifact": "55b8ffbbe340370b",
+          "at": "2026-10-16"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-16"
+        },
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-16"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "name": "test_a_night_that_fails_before_its_walk_ends_leaves_nothing_where_nights_are_counted",
+      "witness": "fc45eef39e987af2",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_a_real_night_is_scored_against_the_users_marks",
+      "witness": "67ecc097f460db3e",
+      "links": [
+        {
+          "id": "hOy",
+          "kind": "asserted",
+          "artifact": "bf826d52a5c1dce6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recording_is_checked_for_what_the_steps_read",
+      "witness": "7ac52e1336d1ddf5",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_replayed_night_gives_a_morning_log_and_the_phone_list_without_sim_files",
+      "witness": "0922b0705ca76dd9",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_run_without_truth_files_or_a_seed_has_no_truth",
+      "witness": "efe4d4f7ef49bc0b",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_each_stop_is_tested_lying_and_standing_and_the_deadman_passed",
+      "witness": "cfedebf1bd5a5470",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "U4p",
+          "kind": "asserted",
+          "artifact": "33f8b956c6a8f503",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_real_nights_pool_into_the_sims_figures",
+      "witness": "6c1895b733e4d6ca",
+      "links": [
+        {
+          "id": "iDT",
+          "kind": "asserted",
+          "artifact": "4e17ffa46f7c13db",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_floor_map_error_on_a_night_without_truth_is_skipped_and_says_so",
+      "witness": "f2a4e25c474b57ee",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_house_must_be_complete_pass_its_gate_and_hold_no_truth",
+      "witness": "3b7e3ad3e1d38c61",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_launcher_reads_no_sim_file",
+      "witness": "0e4e316fe9353d55",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_launcher_refuses_before_any_robot_session",
+      "witness": "16748b979912a7f7",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model",
+      "witness": "a03691931374df32",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model.Buf",
+      "witness": "c062ccbb10afad30",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model.Buf.get",
+      "witness": "ffbdd48a7f98775e",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model.Me",
+      "witness": "df4d890e9416c807",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model.Tr",
+      "witness": "0555602331fd1578",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_places_its_camera_without_the_sims_model.Tr.to_matrix",
+      "witness": "fa6cf22ceeb76c0c",
+      "links": [
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "test_the_night_refuses_to_start_naming_each_thing_not_in_order",
+      "witness": "23e27e6369d1108f",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_rehearsals_stand_in_marks_are_placed_by_a_rigid_fit",
+      "witness": "1de5c30127739816",
+      "links": [
+        {
+          "id": "vO9",
+          "kind": "asserted",
+          "artifact": "5d5257c7adc3f885",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_seed_comes_from_a_sim_run_dir_name_only",
+      "witness": "99c40bc851d35d00",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_share_of_a_path_on_the_floor_grid",
+      "witness": "21578d15b889d817",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stand_in_skips_only_the_dogs_own_checks_and_says_so",
+      "witness": "100e163d5a560cd1",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_tonights_decisions_become_the_robots_list",
+      "witness": "851a5cb05ceabbd8",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "test_two_real_nights_disagreement_needs_no_truth",
+      "witness": "081f0f981b849865",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_unmatched_flags_are_judged_before_a_night_counts",
+      "witness": "ed492c459495a018",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_arm_the_walk_watches_only_and_reports_what_it_skipped",
+      "witness": "8c430e2fe6aa1508",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_arm_the_walk_watches_only_and_reports_what_it_skipped.Me",
+      "witness": "95e44762741cd443",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_arm_the_walk_watches_only_and_reports_what_it_skipped.Me.__init__",
+      "witness": "17a72d5aa25cf3c4",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_arm_the_walk_watches_only_and_reports_what_it_skipped.Me._say",
+      "witness": "dd95ede8bd2a9b7d",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_without_the_arm_the_walk_watches_only_and_reports_what_it_skipped.Me._sweep_and_pick",
+      "witness": "c576d89e76d053c7",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

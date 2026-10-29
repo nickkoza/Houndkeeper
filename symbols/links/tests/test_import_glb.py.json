@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_import_glb.py",
+  "entries": [
+    {
+      "name": "_bounds",
+      "witness": "5bb63ba5b3ebbee3",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_origin_and_size",
+      "witness": "a43319f89418e4b3",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_save_looks.py",
+  "entries": [
+    {
+      "name": "test_looks_round_trip",
+      "witness": "968108479f0b0c21",
+      "links": [
+        {
+          "id": "JKS",
+          "kind": "asserted",
+          "artifact": "3ea93d0b5bf6065c",
+          "at": "2026-09-26"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_eyes.py",
+  "entries": [
+    {
+      "name": "biggest_step",
+      "witness": "c1a6238175204d2c",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "decode",
+      "witness": "3739ec28c56df9e1",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "driver",
+      "witness": "6b41bb6e6a588ec6",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "FakeSPI",
+      "witness": "e38399a9818e6182",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "FakeSPI.__init__",
+      "witness": "0d44a07c7c469dfa",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "FakeSPI.writebytes2",
+      "witness": "5c02f1e4fabdc5a3",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "frames",
+      "witness": "41faeafa1659d661",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_a_colour_without_three_channels_is_refused",
+      "witness": "b6ede1a3b706c02c",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_nonsense_breath_period_never_leaves_0_to_1",
+      "witness": "2dccbf14b8cbcf75",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_restarted_driver_carries_on_from_where_the_lights_are",
+      "witness": "058f1b53d3e5243b",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_breathing_is_slow",
+      "witness": "66092c3f6db4f024",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_breathing_while_commands_arrive_never_crashes_the_loop",
+      "witness": "abfa3c31e544b196",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_breathing_while_commands_arrive_never_crashes_the_loop.hammer",
+      "witness": "a71ec8dc3fe3347d",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_fault_fades_out_not_off",
+      "witness": "e1c53c88445d6741",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_full_swing_takes_two_seconds",
+      "witness": "6ac39e094729d499",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_minimum_swing_is_two_seconds",
+      "witness": "e2ad1cc548d0a2b0",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_no_command_sequence_makes_a_step",
+      "witness": "ad864161fb8c5138",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_starts_dark_and_fades_in",
+      "witness": "a8464de4d76bb1d6",
+      "links": [
+        {
+          "id": "0Py",
+          "kind": "asserted",
+          "artifact": "e6faadd4f3918be2",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_the_latch_gap_suits_every_ws2812",
+      "witness": "13c6cd6ad9735240",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_led_driver_clamps_and_never_wraps",
+      "witness": "ececf731b7ac4652",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_led_driver_slew_limits_itself",
+      "witness": "241c38d51bd1eebe",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

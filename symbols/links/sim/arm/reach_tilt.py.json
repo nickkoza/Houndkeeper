@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/reach_tilt.py",
+  "entries": [
+    {
+      "name": "floor_hit",
+      "witness": "d98e253afc1d74fe",
+      "links": [
+        {
+          "id": "ssZ",
+          "kind": "asserted",
+          "artifact": "719dd59e7edb5a30",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "reach",
+      "witness": "d1fced9ed916364a",
+      "links": [
+        {
+          "id": "ssZ",
+          "kind": "asserted",
+          "artifact": "719dd59e7edb5a30",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

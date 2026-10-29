@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_measure_mutants.py",
+  "entries": [
+    {
+      "name": "_truth",
+      "witness": "82dc74dac475870b",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_key_only_another_group_has_is_not_written_there",
+      "witness": "cbd4835ab643eebc",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_truth_heading_that_wraps_past_180_is_not_a_turn",
+      "witness": "80852285b8a43f03",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_frame_gaps_share_is_of_the_frames_that_should_have_come",
+      "witness": "cd9a83f117741ae3",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_odometry_in_its_own_frame_is_laid_on_the_truth_at_the_start",
+      "witness": "04574ce4b770f21a",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_position_drift_is_per_root_metre",
+      "witness": "fa79d755cafdfd8e",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_standing_still_jitter_is_not_distance_walked",
+      "witness": "c2ee983b9d78ed03",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_end_drift_is_at_the_end_not_the_worst_on_the_way",
+      "witness": "cbac2b2fd1b8355e",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_writing_one_field_of_a_dict_keeps_the_others",
+      "witness": "41ccc198958def48",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/house_twin.py",
+  "entries": [
+    {
+      "name": "build",
+      "witness": "874acbf42e8be4a5",
+      "links": [
+        {
+          "id": "0Dt",
+          "kind": "asserted",
+          "artifact": "3610c51ea3a2ce82",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "e1y",
+          "kind": "asserted",
+          "artifact": "9c54b59191b27320",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "P2B",
+          "kind": "asserted",
+          "artifact": "bf2ea9e01e4a476d",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "floor_texture",
+      "witness": "dbe0da2ed58141d6",
+      "links": [
+        {
+          "id": "03u",
+          "kind": "asserted",
+          "artifact": "72c097488073f8fe",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "grey",
+      "witness": "188f11b2a9b54a1d",
+      "links": [
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "house_points",
+      "witness": "d355345293aefed6",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "inputs",
+      "witness": "2b0e82ea5403c0e5",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "install",
+      "witness": "6bae564d6f27776d",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "6babc644ca14bac9",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "opened",
+      "witness": "d27ae35956ae1729",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "private_out",
+      "witness": "72e3f53ccfd7a847",
+      "links": [
+        {
+          "id": "au3",
+          "kind": "asserted",
+          "artifact": "7554c540cdc3fda8",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "register",
+      "witness": "4532d45d4fd6c6f9",
+      "links": [
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "scene_lib",
+      "witness": "e3a9f5b26c23f467",
+      "links": [
+        {
+          "id": "4TQ",
+          "kind": "asserted",
+          "artifact": "0dc3a52eb3250edd",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "j7J",
+          "kind": "asserted",
+          "artifact": "39430fa2cfedb422",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "start_pose",
+      "witness": "b323070662fd92e6",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "twin_lights",
+      "witness": "20cb4d691684d2cd",
+      "links": [
+        {
+          "id": "9Sa",
+          "kind": "asserted",
+          "artifact": "b9c480371fa28158",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "TgM",
+          "kind": "asserted",
+          "artifact": "d481d146df061e28",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "warp",
+      "witness": "1024a133e12bacc5",
+      "links": [
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

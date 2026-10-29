@@ -1,0 +1,97 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_morning_log.test.mjs",
+  "entries": [
+    {
+      "name": "each find has a card with its JPEG crop, time and place, and a numbered mark on the map",
+      "witness": "5d058b7bf435406a",
+      "links": [
+        {
+          "id": "hKP",
+          "kind": "asserted",
+          "artifact": "55b8ffbbe340370b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "esc",
+      "witness": "6bd0ad06ae182601",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "nothing on the page moves by itself",
+      "witness": "90e52f8d413c91ab",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "7821345166712195",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "the map fits round the route and every find",
+      "witness": "582529e3ea751100",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "the page renders his prose, the title and every figure with its source",
+      "witness": "d1df8f388748783f",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "the page sends nothing, whatever it is given",
+      "witness": "cf7895c8adb3f029",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

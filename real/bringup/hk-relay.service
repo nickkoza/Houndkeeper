@@ -1,0 +1,22 @@
+# The cockpit relay, always on, so the project pages work with no robot or sim running (project-app [eTc]): bound to
+# the laptop's Tailscale address with its certificate and viewer login (phone-cockpit [rhP]); houndkeeper.project_stack
+# refuses any other address ([Dlx]). A systemd *user* unit template, not installed: @REPO@, @PYTHON@ (the DimOS venv's
+# python) and @DENO@ are filled in on install:
+#
+#   sed -e "s|@REPO@|$PWD|g" -e "s|@PYTHON@|$(cd ../dimos && pwd)/.venv/bin/python|g" \
+#       -e "s|@DENO@|$(command -v deno)|g" real/bringup/hk-relay.service > ~/.config/systemd/user/hk-relay.service
+#   (the same for hk-project.service), then: systemctl --user daemon-reload;
+#   systemctl --user enable --now hk-relay hk-project; loginctl enable-linger "$USER" (to run without a login)
+[Unit]
+Description=Houndkeeper: the cockpit relay on the tailnet
+After=network-online.target
+
+[Service]
+WorkingDirectory=@REPO@
+Environment=HK_DENO=@DENO@
+ExecStart=@PYTHON@ -m houndkeeper.project_stack relay
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=default.target

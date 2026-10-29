@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_camera_imperfect.py",
+  "entries": [
+    {
+      "name": "_edge_width",
+      "witness": "f48f734bf80589a6",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_level_camera",
+      "witness": "393861b4f2c3be4c",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_run",
+      "witness": "277c9588c5c44282",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_stripes",
+      "witness": "968fc6f338c8e058",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_still_camera_stays_sharp_but_noisy",
+      "witness": "c68a779b8512343b",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_turning_camera_blurs_at_night_as_its_exposure_says",
+      "witness": "3ff66879132ad0c7",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_battery_model_reads_the_robots_parameters",
+      "witness": "9e837fda1ef8c566",
+      "links": [
+        {
+          "id": "EkS",
+          "kind": "asserted",
+          "artifact": "1909eabc6663d9ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_cameras_own_processing_leaves_less_noise_and_blotchier",
+      "witness": "095e8256939d3fdd",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_cameras_own_processing_leaves_less_noise_and_blotchier.added",
+      "witness": "78c5f0b84732aede",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

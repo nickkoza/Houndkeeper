@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# The sim suite's entry: ./run <scenario> runs simsuite.py on DimOS's venv (README.md).
+HK=$(cd "$(dirname "$0")/../.." && pwd); WS=${HK_WORKSPACE:-$(dirname "$HK")}   # the workspace: decision [cy4]
+exec "${HK_DIMOS:-$WS/dimos}/.venv/bin/python" "$(dirname "$0")/simsuite.py" "$@"

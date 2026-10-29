@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_baseline_coverage.py",
+  "entries": [
+    {
+      "name": "test_the_broken_nights_on_disk_are_refused_and_says_how_much_they_saw",
+      "witness": "ef7102af794c88bd",
+      "links": [
+        {
+          "id": "NvG",
+          "kind": "asserted",
+          "artifact": "b6c0d0c7f2ef208f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_builder_applies_it_by_default",
+      "witness": "58f6170be583535a",
+      "links": [
+        {
+          "id": "NvG",
+          "kind": "asserted",
+          "artifact": "b6c0d0c7f2ef208f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_smallest_good_nights_on_disk_pass",
+      "witness": "9a5e136736cc3969",
+      "links": [
+        {
+          "id": "NvG",
+          "kind": "asserted",
+          "artifact": "b6c0d0c7f2ef208f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_too_little_floor_alone_is_refused_and_zero_turns_a_limit_off",
+      "witness": "765b23492da78bd2",
+      "links": [
+        {
+          "id": "NvG",
+          "kind": "asserted",
+          "artifact": "b6c0d0c7f2ef208f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

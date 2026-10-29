@@ -1,0 +1,115 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_release.py",
+  "entries": [
+    {
+      "name": "make",
+      "witness": "bc8bdfc64b8f46a4",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-02"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_dirty_releases_of_one_commit_get_different_numbers",
+      "witness": "1f7616f67350dce4",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_failing_release_rolls_back",
+      "witness": "4751b38fc717d3b9",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-02"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_good_release_becomes_current",
+      "witness": "51fcef394cedb9e8",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-02"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_one_activation_at_a_time",
+      "witness": "cabb72cb2ae30548",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_switch_is_atomic",
+      "witness": "9de088e578b6fc9d",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-02"
+        },
+        {
+          "id": "WHV",
+          "kind": "asserted",
+          "artifact": "9bab0fa6d28d4b79",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "test_the_running_release_is_not_activated_again",
+      "witness": "c4734e5af0fb8eab",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

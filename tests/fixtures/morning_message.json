@@ -1,0 +1,357 @@
+{
+ "v": 1,
+ "night": {
+  "dir": "data/runs/dimos_tidy/20261002_230000",
+  "recording": "20260929-230749-unitree-go2-mcp-server-houndkeeper-tidy",
+  "kind": "sim",
+  "date": "Tuesday 29 September 2026"
+ },
+ "title": "The night of Tuesday 29 September",
+ "prose": [
+  "Good morning. I set out at 11:08 pm and was done by 11:17 pm, 9 minutes in all, and walked 6 metres about the house.",
+  "Something on the floor caught my eye three times, and each time I went to see.",
+  "At one of those places there proved to be nothing at all, and I beg your pardon for the fuss.",
+  "A toy I put in the bin.",
+  "A cup I could find no way to take hold of; it is where it was.",
+  "The cup I went to at 11:14 pm gave me the most trouble: two minutes of it.",
+  "The night cost the battery 20 per cent of its charge; 80 per cent remains.",
+  "A picture of each is below, with the hour and the place.",
+  "I remain, as ever, your servant."
+ ],
+ "pictures_note": "",
+ "finds": [
+  {
+   "k": 1,
+   "what": "a toy",
+   "fate": "put_away",
+   "card": "Put in the bin.",
+   "clock": "11:08 pm",
+   "from_start_m": 1.1,
+   "x": 1.0,
+   "y": 0.5,
+   "jpg": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCADwAPADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k="
+  },
+  {
+   "k": 2,
+   "what": "a cup",
+   "fate": "no_grip",
+   "card": "No way to take hold of it. It is where it was.",
+   "clock": "11:14 pm",
+   "from_start_m": 3.2,
+   "x": 3.0,
+   "y": 1.0,
+   "jpg": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCADwAPADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k="
+  }
+ ],
+ "nothing": [
+  [
+   2.0,
+   -0.5
+  ]
+ ],
+ "route": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.06,
+   0.09
+  ],
+  [
+   0.12,
+   0.18
+  ],
+  [
+   0.18,
+   0.27
+  ],
+  [
+   0.24,
+   0.35
+  ],
+  [
+   0.3,
+   0.44
+  ],
+  [
+   0.37,
+   0.53
+  ],
+  [
+   0.44,
+   0.61
+  ],
+  [
+   0.51,
+   0.69
+  ],
+  [
+   0.58,
+   0.77
+  ],
+  [
+   0.66,
+   0.84
+  ],
+  [
+   0.75,
+   0.9
+  ],
+  [
+   0.84,
+   0.95
+  ],
+  [
+   0.94,
+   0.99
+  ],
+  [
+   1.04,
+   1.0
+  ],
+  [
+   1.14,
+   0.99
+  ],
+  [
+   1.24,
+   0.96
+  ],
+  [
+   1.33,
+   0.91
+  ],
+  [
+   1.42,
+   0.84
+  ],
+  [
+   1.5,
+   0.77
+  ],
+  [
+   1.58,
+   0.69
+  ],
+  [
+   1.65,
+   0.61
+  ],
+  [
+   1.72,
+   0.53
+  ],
+  [
+   1.79,
+   0.43
+  ],
+  [
+   1.85,
+   0.35
+  ],
+  [
+   1.91,
+   0.27
+  ],
+  [
+   1.97,
+   0.18
+  ],
+  [
+   2.04,
+   0.09
+  ],
+  [
+   2.1,
+   -0.0
+  ],
+  [
+   2.16,
+   -0.09
+  ],
+  [
+   2.22,
+   -0.18
+  ],
+  [
+   2.28,
+   -0.27
+  ],
+  [
+   2.34,
+   -0.35
+  ],
+  [
+   2.4,
+   -0.44
+  ],
+  [
+   2.47,
+   -0.53
+  ],
+  [
+   2.54,
+   -0.62
+  ],
+  [
+   2.61,
+   -0.69
+  ],
+  [
+   2.68,
+   -0.77
+  ],
+  [
+   2.76,
+   -0.84
+  ],
+  [
+   2.85,
+   -0.9
+  ],
+  [
+   2.94,
+   -0.95
+  ],
+  [
+   3.04,
+   -0.99
+  ],
+  [
+   3.14,
+   -1.0
+  ],
+  [
+   3.24,
+   -0.99
+  ],
+  [
+   3.34,
+   -0.96
+  ],
+  [
+   3.43,
+   -0.91
+  ],
+  [
+   3.52,
+   -0.84
+  ],
+  [
+   3.6,
+   -0.77
+  ],
+  [
+   3.68,
+   -0.69
+  ],
+  [
+   3.75,
+   -0.61
+  ],
+  [
+   3.82,
+   -0.53
+  ],
+  [
+   3.89,
+   -0.43
+  ],
+  [
+   3.95,
+   -0.35
+  ]
+ ],
+ "start": [
+  0.0,
+  0.0
+ ],
+ "figures": [
+  {
+   "label": "Began",
+   "text": "11:08 pm",
+   "source": "report.json"
+  },
+  {
+   "label": "Finished",
+   "text": "11:17 pm",
+   "source": "dimos.log"
+  },
+  {
+   "label": "Minutes",
+   "text": "9",
+   "source": "dimos.log"
+  },
+  {
+   "label": "Route waypoints reached",
+   "text": "4",
+   "source": "dimos.log"
+  },
+  {
+   "label": "Route waypoints planned",
+   "text": "four",
+   "source": "dimos.log"
+  },
+  {
+   "label": "Walked (m, odometry)",
+   "text": "6",
+   "source": "traj.csv"
+  },
+  {
+   "label": "Stops",
+   "text": "three",
+   "source": "report.json"
+  },
+  {
+   "label": "Stops for nothing (his own judgement)",
+   "text": "one",
+   "source": "report.json"
+  },
+  {
+   "label": "Finds by kind (his names)",
+   "text": "a toy 1, a cup 1",
+   "source": "report.json"
+  },
+  {
+   "label": "Put in the bin",
+   "text": "one",
+   "source": "report.json"
+  },
+  {
+   "label": "Pick attempts",
+   "text": "2",
+   "source": "report.json"
+  },
+  {
+   "label": "Parking error, median",
+   "text": "5.0 cm",
+   "source": "report.json"
+  },
+  {
+   "label": "Battery used (%)",
+   "text": "20",
+   "source": "energy.json"
+  },
+  {
+   "label": "Battery used (Wh)",
+   "text": "47",
+   "source": "energy.json"
+  },
+  {
+   "label": "Battery left (%)",
+   "text": "80",
+   "source": "energy.json"
+  },
+  {
+   "label": "Slowest stage",
+   "text": "taking hold, 4 min",
+   "source": "dimos.log"
+  },
+  {
+   "label": "Greatest tilt",
+   "text": "3.2 deg",
+   "source": "report.json"
+  }
+ ]
+}

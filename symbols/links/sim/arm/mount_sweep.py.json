@@ -1,0 +1,127 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/mount_sweep.py",
+  "entries": [
+    {
+      "name": "bin_room",
+      "witness": "cfab2568ac7889f7",
+      "links": [
+        {
+          "id": "ilX",
+          "kind": "asserted",
+          "artifact": "d81d8ea04c60c0a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "cam_blocked",
+      "witness": "668157fc21cdcf42",
+      "links": [
+        {
+          "id": "ilX",
+          "kind": "asserted",
+          "artifact": "d81d8ea04c60c0a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "dc5bf076c3c587ae",
+      "links": [
+        {
+          "id": "aYh",
+          "kind": "asserted",
+          "artifact": "1efef46629822226",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "Izu",
+          "kind": "asserted",
+          "artifact": "94e34a2e93225df1",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "mNm",
+          "kind": "asserted",
+          "artifact": "b790cdce6bc3f953",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "MWx",
+          "kind": "asserted",
+          "artifact": "493b8950b98a09ad",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "main.rank",
+      "witness": "7df790b300c774a2",
+      "links": [
+        {
+          "id": "aYh",
+          "kind": "asserted",
+          "artifact": "1efef46629822226",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "reach_area",
+      "witness": "7bf0e1dbe202ff14",
+      "links": [
+        {
+          "id": "ilX",
+          "kind": "asserted",
+          "artifact": "d81d8ea04c60c0a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "tipping",
+      "witness": "72c35724347ee8d6",
+      "links": [
+        {
+          "id": "EKu",
+          "kind": "asserted",
+          "artifact": "f047315271ed12d9",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "ilX",
+          "kind": "asserted",
+          "artifact": "d81d8ea04c60c0a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "upright",
+      "witness": "dbf666510bae5c68",
+      "links": [
+        {
+          "id": "28K",
+          "kind": "asserted",
+          "artifact": "3f32081c9880fd96",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "walk",
+      "witness": "0e7b147052825a4d",
+      "links": [
+        {
+          "id": "ilX",
+          "kind": "asserted",
+          "artifact": "d81d8ea04c60c0a6",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

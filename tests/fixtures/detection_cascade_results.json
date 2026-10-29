@@ -1,0 +1,1285 @@
+{
+ "tuning": {
+  "stage1": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 46.5,
+   "fp": {
+    "s71_t2_hr": 53,
+    "s76_t2_hr": 71,
+    "s76_t11_hr": 40,
+    "s70_t1_hr": 43,
+    "s70_t11_hr": 37,
+    "s96_t1_hr": 35
+   },
+   "floor": {
+    "carpet": [
+     21,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": [
+     "mattel_skip_bo_card_game"
+    ]
+   },
+   "kept_a_night": 84.2
+  },
+  "yoloe_pf_l": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 7.3,
+   "fp": {
+    "s71_t2_hr": 5,
+    "s76_t2_hr": 14,
+    "s76_t11_hr": 4,
+    "s70_t1_hr": 6,
+    "s70_t11_hr": 4,
+    "s96_t1_hr": 11
+   },
+   "floor": {
+    "carpet": [
+     21,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 19.8,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2073,
+   "ap": 0.843
+  },
+  "yoloe_pf": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 18.8,
+   "fp": {
+    "s71_t2_hr": 26,
+    "s76_t2_hr": 23,
+    "s76_t11_hr": 11,
+    "s70_t1_hr": 16,
+    "s70_t11_hr": 17,
+    "s96_t1_hr": 20
+   },
+   "floor": {
+    "carpet": [
+     21,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "triceratops",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 37.2,
+   "check": "yoloe_pf",
+   "threshold": 0.0605,
+   "ap": 0.78
+  },
+  "owlv2_so": {
+   "found": 46,
+   "n": 48,
+   "main": [
+    43,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 45.7,
+   "fp": {
+    "s71_t2_hr": 52,
+    "s76_t2_hr": 69,
+    "s76_t11_hr": 39,
+    "s70_t1_hr": 43,
+    "s70_t11_hr": 37,
+    "s96_t1_hr": 34
+   },
+   "floor": {
+    "carpet": [
+     22,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 84.2,
+   "check": "owlv2_so",
+   "threshold": 0.0,
+   "ap": 0.844
+  },
+  "owlv2_large_so": {
+   "found": 46,
+   "n": 48,
+   "main": [
+    43,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 46.0,
+   "fp": {
+    "s71_t2_hr": 53,
+    "s76_t2_hr": 69,
+    "s76_t11_hr": 39,
+    "s70_t1_hr": 43,
+    "s70_t11_hr": 38,
+    "s96_t1_hr": 34
+   },
+   "floor": {
+    "carpet": [
+     22,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 84.2,
+   "check": "owlv2_large_so",
+   "threshold": 0.0,
+   "ap": 0.851
+  },
+  "mv_votes": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 37.5,
+   "fp": {
+    "s71_t2_hr": 34,
+    "s76_t2_hr": 57,
+    "s76_t11_hr": 35,
+    "s70_t1_hr": 36,
+    "s70_t11_hr": 36,
+    "s96_t1_hr": 27
+   },
+   "floor": {
+    "carpet": [
+     22,
+     23
+    ],
+    "hard": [
+     17,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [
+     "nickelodeon_teenage_mutant_n"
+    ],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 68.8,
+   "check": "mv_votes",
+   "threshold": 0.08653846153846154,
+   "ap": 0.288
+  },
+  "mv_contrast": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 38.8,
+   "fp": {
+    "s71_t2_hr": 48,
+    "s76_t2_hr": 63,
+    "s76_t11_hr": 36,
+    "s70_t1_hr": 36,
+    "s70_t11_hr": 30,
+    "s96_t1_hr": 20
+   },
+   "floor": {
+    "carpet": [
+     21,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [
+     "lacing_sheep"
+    ],
+    "s70_t11_hr": [],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 70.3,
+   "check": "mv_contrast",
+   "threshold": 0.440827339887619,
+   "ap": 0.333
+  },
+  "yoloe_pf_l (lead: views by time)": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 7.8,
+   "fp": {
+    "s71_t2_hr": 5,
+    "s76_t2_hr": 12,
+    "s76_t11_hr": 7,
+    "s70_t1_hr": 5,
+    "s70_t11_hr": 4,
+    "s96_t1_hr": 14
+   },
+   "floor": {
+    "carpet": [
+     22,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     2,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t11_hr": [],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [],
+    "s96_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ]
+   },
+   "kept_a_night": 19.7,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2436,
+   "ap": 0.727
+  }
+ },
+ "fresh": {
+  "stage1": {
+   "found": 47,
+   "n": 48,
+   "main": [
+    43,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 47.3,
+   "fp": {
+    "s71_t11_hr": 57,
+    "s71_t1_hr": 61,
+    "s76_t1_hr": 32,
+    "s70_t2_hr": 44,
+    "s96_t2_hr": 46,
+    "s96_t11_hr": 44
+   },
+   "floor": {
+    "carpet": [
+     20,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [],
+    "s71_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 90.8
+  },
+  "yoloe_pf_l": {
+   "found": 41,
+   "n": 48,
+   "main": [
+    37,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 10.3,
+   "fp": {
+    "s71_t11_hr": 5,
+    "s71_t1_hr": 14,
+    "s76_t1_hr": 7,
+    "s70_t2_hr": 11,
+    "s96_t2_hr": 11,
+    "s96_t11_hr": 14
+   },
+   "floor": {
+    "carpet": [
+     17,
+     21
+    ],
+    "hard": [
+     16,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ],
+    "s71_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ],
+    "s70_t2_hr": [
+     "threshold_bead_cereal_bowl_w"
+    ],
+    "s96_t2_hr": [
+     "ballet_flat",
+     "schleich_lion_action_figure"
+    ],
+    "s96_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ]
+   },
+   "kept_a_night": 22.8,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2073,
+   "ap": 0.753
+  },
+  "yoloe_pf": {
+   "found": 43,
+   "n": 48,
+   "main": [
+    39,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 25.0,
+   "fp": {
+    "s71_t11_hr": 26,
+    "s71_t1_hr": 34,
+    "s76_t1_hr": 16,
+    "s70_t2_hr": 25,
+    "s96_t2_hr": 24,
+    "s96_t11_hr": 25
+   },
+   "floor": {
+    "carpet": [
+     17,
+     21
+    ],
+    "hard": [
+     18,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ],
+    "s71_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ],
+    "s70_t2_hr": [
+     "threshold_bead_cereal_bowl_w"
+    ],
+    "s96_t2_hr": [],
+    "s96_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ]
+   },
+   "kept_a_night": 45.3,
+   "check": "yoloe_pf",
+   "threshold": 0.0605,
+   "ap": 0.695
+  },
+  "owlv2_so": {
+   "found": 47,
+   "n": 48,
+   "main": [
+    43,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 47.5,
+   "fp": {
+    "s71_t11_hr": 58,
+    "s71_t1_hr": 61,
+    "s76_t1_hr": 33,
+    "s70_t2_hr": 43,
+    "s96_t2_hr": 46,
+    "s96_t11_hr": 44
+   },
+   "floor": {
+    "carpet": [
+     20,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [],
+    "s71_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 90.8,
+   "check": "owlv2_so",
+   "threshold": 0.0,
+   "ap": 0.693
+  },
+  "mv_votes": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    41,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 41.3,
+   "fp": {
+    "s71_t11_hr": 49,
+    "s71_t1_hr": 56,
+    "s76_t1_hr": 30,
+    "s70_t2_hr": 35,
+    "s96_t2_hr": 39,
+    "s96_t11_hr": 39
+   },
+   "floor": {
+    "carpet": [
+     19,
+     21
+    ],
+    "hard": [
+     18,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [],
+    "s71_t1_hr": [
+     "lacing_sheep",
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [
+     "dino_5"
+    ],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 79.0,
+   "check": "mv_votes",
+   "threshold": 0.08654,
+   "ap": 0.219
+  },
+  "mv_contrast": {
+   "found": 43,
+   "n": 48,
+   "main": [
+    39,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 41.5,
+   "fp": {
+    "s71_t11_hr": 52,
+    "s71_t1_hr": 56,
+    "s76_t1_hr": 31,
+    "s70_t2_hr": 43,
+    "s96_t2_hr": 31,
+    "s96_t11_hr": 36
+   },
+   "floor": {
+    "carpet": [
+     18,
+     21
+    ],
+    "hard": [
+     17,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ],
+    "s71_t1_hr": [
+     "lacing_sheep",
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [
+     "mens_gold_cup_asv_capetown_p"
+    ],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": [
+     "3m_vinyl_tape_green_1_x_36_y"
+    ]
+   },
+   "kept_a_night": 77.0,
+   "check": "mv_contrast",
+   "threshold": 0.4408,
+   "ap": 0.195
+  },
+  "yoloe_pf_l (lead: views by time)": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    42,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 10.5,
+   "fp": {
+    "s71_t11_hr": 9,
+    "s71_t1_hr": 8,
+    "s76_t1_hr": 3,
+    "s70_t2_hr": 11,
+    "s96_t2_hr": 13,
+    "s96_t11_hr": 19
+   },
+   "floor": {
+    "carpet": [
+     19,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "lego_1x1"
+    ],
+    "s71_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ],
+    "s76_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 24.5,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2436,
+   "ap": 0.711
+  }
+ },
+ "graph_tuning": {
+  "stage1": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    44,
+    44
+   ],
+   "tiny": [
+    1,
+    4
+   ],
+   "fp_per_night": 40.3,
+   "fp": {
+    "s71_t2_hr": 37,
+    "s76_t2_hr": 40,
+    "s76_t11_hr": 32,
+    "s70_t1_hr": 41,
+    "s70_t11_hr": 44,
+    "s96_t1_hr": 48
+   },
+   "floor": {
+    "carpet": [
+     23,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1"
+    ],
+    "s76_t11_hr": [
+     "lego_1x1"
+    ],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [
+     "lego_1x1"
+    ],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 82.0
+  },
+  "yoloe_pf_l": {
+   "found": 41,
+   "n": 48,
+   "main": [
+    40,
+    44
+   ],
+   "tiny": [
+    1,
+    4
+   ],
+   "fp_per_night": 8.7,
+   "fp": {
+    "s71_t2_hr": 5,
+    "s76_t2_hr": 8,
+    "s76_t11_hr": 3,
+    "s70_t1_hr": 8,
+    "s70_t11_hr": 12,
+    "s96_t1_hr": 16
+   },
+   "floor": {
+    "carpet": [
+     21,
+     23
+    ],
+    "hard": [
+     16,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t2_hr": [
+     "lego_1x1",
+     "dino_5"
+    ],
+    "s76_t11_hr": [
+     "lego_1x1",
+     "brick"
+    ],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [
+     "lego_1x1"
+    ],
+    "s96_t1_hr": [
+     "room_essentials_mug_white_ye"
+    ]
+   },
+   "kept_a_night": 20.5,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2073,
+   "ap": 0.716
+  }
+ },
+ "graph_tuning_lead": {
+  "stage1": {
+   "found": 45,
+   "n": 48,
+   "main": [
+    44,
+    44
+   ],
+   "tiny": [
+    1,
+    4
+   ],
+   "fp_per_night": 40.3,
+   "fp": {
+    "s71_t2_hr": 37,
+    "s76_t2_hr": 40,
+    "s76_t11_hr": 32,
+    "s70_t1_hr": 41,
+    "s70_t11_hr": 44,
+    "s96_t1_hr": 48
+   },
+   "floor": {
+    "carpet": [
+     23,
+     23
+    ],
+    "hard": [
+     18,
+     18
+    ],
+    "rug": [
+     3,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [],
+    "s76_t2_hr": [
+     "lego_1x1"
+    ],
+    "s76_t11_hr": [
+     "lego_1x1"
+    ],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [
+     "lego_1x1"
+    ],
+    "s96_t1_hr": []
+   },
+   "kept_a_night": 82.0
+  },
+  "yoloe_pf_l": {
+   "found": 42,
+   "n": 48,
+   "main": [
+    41,
+    44
+   ],
+   "tiny": [
+    1,
+    4
+   ],
+   "fp_per_night": 9.2,
+   "fp": {
+    "s71_t2_hr": 2,
+    "s76_t2_hr": 7,
+    "s76_t11_hr": 8,
+    "s70_t1_hr": 10,
+    "s70_t11_hr": 10,
+    "s96_t1_hr": 18
+   },
+   "floor": {
+    "carpet": [
+     22,
+     23
+    ],
+    "hard": [
+     17,
+     18
+    ],
+    "rug": [
+     2,
+     3
+    ]
+   },
+   "missed": {
+    "s71_t2_hr": [
+     "nintendo_mario_action_figure"
+    ],
+    "s76_t2_hr": [
+     "lego_1x1"
+    ],
+    "s76_t11_hr": [
+     "lego_1x1",
+     "sonny_school_bus"
+    ],
+    "s70_t1_hr": [],
+    "s70_t11_hr": [
+     "lego_1x1"
+    ],
+    "s96_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ]
+   },
+   "kept_a_night": 21.5,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2436,
+   "ap": 0.673
+  }
+ },
+ "graph_fresh": {
+  "stage1": {
+   "found": 48,
+   "n": 48,
+   "main": [
+    44,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 50.8,
+   "fp": {
+    "s71_t11_hr": 50,
+    "s71_t1_hr": 56,
+    "s76_t1_hr": 32,
+    "s70_t2_hr": 49,
+    "s96_t2_hr": 60,
+    "s96_t11_hr": 58
+   },
+   "floor": {
+    "carpet": [
+     21,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [],
+    "s71_t1_hr": [],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 93.2
+  },
+  "yoloe_pf_l": {
+   "found": 40,
+   "n": 48,
+   "main": [
+    37,
+    44
+   ],
+   "tiny": [
+    3,
+    4
+   ],
+   "fp_per_night": 12.0,
+   "fp": {
+    "s71_t11_hr": 7,
+    "s71_t1_hr": 9,
+    "s76_t1_hr": 10,
+    "s70_t2_hr": 13,
+    "s96_t2_hr": 15,
+    "s96_t11_hr": 18
+   },
+   "floor": {
+    "carpet": [
+     18,
+     21
+    ],
+    "hard": [
+     15,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "kid_icarus_uprising_nintendo"
+    ],
+    "s71_t1_hr": [],
+    "s76_t1_hr": [
+     "turboprop_airplane_with_pilo"
+    ],
+    "s70_t2_hr": [
+     "threshold_bead_cereal_bowl_w"
+    ],
+    "s96_t2_hr": [
+     "lego_1x1",
+     "schleich_lion_action_figure"
+    ],
+    "s96_t11_hr": [
+     "kid_icarus_uprising_nintendo",
+     "sonny_school_bus",
+     "3d_dollhouse_happy_brother"
+    ]
+   },
+   "kept_a_night": 24.7,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2073,
+   "ap": 0.721
+  }
+ },
+ "graph_fresh_lead": {
+  "stage1": {
+   "found": 48,
+   "n": 48,
+   "main": [
+    44,
+    44
+   ],
+   "tiny": [
+    4,
+    4
+   ],
+   "fp_per_night": 50.8,
+   "fp": {
+    "s71_t11_hr": 50,
+    "s71_t1_hr": 56,
+    "s76_t1_hr": 32,
+    "s70_t2_hr": 49,
+    "s96_t2_hr": 60,
+    "s96_t11_hr": 58
+   },
+   "floor": {
+    "carpet": [
+     21,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [],
+    "s71_t1_hr": [],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 93.2
+  },
+  "yoloe_pf_l": {
+   "found": 46,
+   "n": 48,
+   "main": [
+    44,
+    44
+   ],
+   "tiny": [
+    2,
+    4
+   ],
+   "fp_per_night": 11.8,
+   "fp": {
+    "s71_t11_hr": 8,
+    "s71_t1_hr": 7,
+    "s76_t1_hr": 7,
+    "s70_t2_hr": 11,
+    "s96_t2_hr": 17,
+    "s96_t11_hr": 21
+   },
+   "floor": {
+    "carpet": [
+     21,
+     21
+    ],
+    "hard": [
+     19,
+     19
+    ],
+    "rug": [
+     4,
+     4
+    ]
+   },
+   "missed": {
+    "s71_t11_hr": [
+     "lego_1x1"
+    ],
+    "s71_t1_hr": [],
+    "s76_t1_hr": [],
+    "s70_t2_hr": [
+     "lego_1x1"
+    ],
+    "s96_t2_hr": [],
+    "s96_t11_hr": []
+   },
+   "kept_a_night": 26.3,
+   "check": "yoloe_pf_l",
+   "threshold": 0.2436,
+   "ap": 0.758
+  }
+ },
+ "curves_tune": {
+  "stage1": {
+   "ap": 0.463,
+   "fp_at_88": 31.33,
+   "fp_at_93": 40.5,
+   "recall_at_1.3": 0.271,
+   "recall_at_4": 0.479
+  },
+  "yoloe_pf_l": {
+   "ap": 0.843,
+   "fp_at_88": 5.83,
+   "fp_at_93": 7.33,
+   "recall_at_1.3": 0.729,
+   "recall_at_4": 0.854
+  },
+  "yoloe_pf": {
+   "ap": 0.78,
+   "fp_at_88": 8.0,
+   "fp_at_93": 18.83,
+   "recall_at_1.3": 0.667,
+   "recall_at_4": 0.833
+  },
+  "owlv2_so": {
+   "ap": 0.844,
+   "fp_at_88": 3.33,
+   "fp_at_93": 45.67,
+   "recall_at_1.3": 0.792,
+   "recall_at_4": 0.896
+  },
+  "yoloe_pf_l (lead: views by time)": {
+   "ap": 0.727,
+   "fp_at_88": 6.0,
+   "fp_at_93": 7.83,
+   "recall_at_1.3": 0.562,
+   "recall_at_4": 0.833
+  }
+ },
+ "curves_fresh": {
+  "stage1": {
+   "ap": 0.422,
+   "fp_at_88": 33.17,
+   "fp_at_93": 41.5,
+   "recall_at_1.3": 0.188,
+   "recall_at_4": 0.438
+  },
+  "yoloe_pf_l": {
+   "ap": 0.753,
+   "fp_at_88": 18.67,
+   "fp_at_93": 46.67,
+   "recall_at_1.3": 0.75,
+   "recall_at_4": 0.833
+  },
+  "yoloe_pf": {
+   "ap": 0.695,
+   "fp_at_88": 21.0,
+   "fp_at_93": 46.67,
+   "recall_at_1.3": 0.646,
+   "recall_at_4": 0.729
+  },
+  "owlv2_so": {
+   "ap": 0.693,
+   "fp_at_88": 47.5,
+   "fp_at_93": 47.5,
+   "recall_at_1.3": 0.521,
+   "recall_at_4": 0.708
+  },
+  "yoloe_pf_l (lead: views by time)": {
+   "ap": 0.711,
+   "fp_at_88": 7.67,
+   "fp_at_93": 8.67,
+   "recall_at_1.3": 0.562,
+   "recall_at_4": 0.812
+  }
+ }
+}

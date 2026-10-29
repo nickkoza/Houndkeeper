@@ -1,0 +1,2 @@
+0 D list=robot-operators address=192.0.2.50 creation-time=2026-01-01 00:00:00 dynamic=yes
+

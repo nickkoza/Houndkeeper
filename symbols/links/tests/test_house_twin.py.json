@@ -1,0 +1,133 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_house_twin.py",
+  "entries": [
+    {
+      "name": "_floor",
+      "witness": "d1d02ba704c2e1b0",
+      "links": [
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_run_without_truth",
+      "witness": "eed5e13aa285eeb6",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_twin_from_a_procedural_house_with_its_truth_absent_loads_in_mujoco",
+      "witness": "9d26404a1de0df3e",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_twin_is_written_under_data_only",
+      "witness": "7529895b06355563",
+      "links": [
+        {
+          "id": "au3",
+          "kind": "asserted",
+          "artifact": "7554c540cdc3fda8",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_builder_refuses_to_open_sim_truth",
+      "witness": "4510fa0ece4916df",
+      "links": [
+        {
+          "id": "UdA",
+          "kind": "asserted",
+          "artifact": "9c9b166aad4e8693",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_floor_is_two_nights_registered_and_blended_without_a_seam",
+      "witness": "2ed8c9906bf7052e",
+      "links": [
+        {
+          "id": "POG",
+          "kind": "asserted",
+          "artifact": "036a12edfc7523f8",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_general_part_is_dimos_alone",
+      "witness": "6b4aad5ce016d3df",
+      "links": [
+        {
+          "id": "4TQ",
+          "kind": "asserted",
+          "artifact": "0dc3a52eb3250edd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_scorer_measures_footprint_and_faces",
+      "witness": "1a6604317bc4fd2d",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_scorer_measures_footprint_and_faces.twin",
+      "witness": "f60637b267a0b415",
+      "links": [
+        {
+          "id": "JLx",
+          "kind": "asserted",
+          "artifact": "a5af2e4629589a49",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_twin_is_lit_as_the_procedural_houses_are",
+      "witness": "103d2017fbd2566d",
+      "links": [
+        {
+          "id": "9Sa",
+          "kind": "asserted",
+          "artifact": "b9c480371fa28158",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "TgM",
+          "kind": "asserted",
+          "artifact": "d481d146df061e28",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

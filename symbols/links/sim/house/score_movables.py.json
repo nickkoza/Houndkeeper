@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/score_movables.py",
+  "entries": [
+    {
+      "name": "footprint",
+      "witness": "3286a88164d2203c",
+      "links": [
+        {
+          "id": "5se",
+          "kind": "asserted",
+          "artifact": "c1cf29eb89f6dff8",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

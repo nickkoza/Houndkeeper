@@ -1,0 +1,55 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/phase1_sweep.py",
+  "entries": [
+    {
+      "name": "detect",
+      "witness": "55f95c30c622732e",
+      "links": [
+        {
+          "id": "uxL",
+          "kind": "asserted",
+          "artifact": "baf9dd8a508368a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "detect_all",
+      "witness": "0350a518aaf113ec",
+      "links": [
+        {
+          "id": "uxL",
+          "kind": "asserted",
+          "artifact": "baf9dd8a508368a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "sweep",
+      "witness": "2a6e996929b899d2",
+      "links": [
+        {
+          "id": "uxL",
+          "kind": "asserted",
+          "artifact": "baf9dd8a508368a6",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "sweep.grab",
+      "witness": "18d0eedc88f6ce6b",
+      "links": [
+        {
+          "id": "uxL",
+          "kind": "asserted",
+          "artifact": "baf9dd8a508368a6",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

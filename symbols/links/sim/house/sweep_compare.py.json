@@ -1,0 +1,133 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/sweep_compare.py",
+  "entries": [
+    {
+      "name": "cell_of",
+      "witness": "60c9d12897ce5ea7",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "fcd5fa3a65a6ac94",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "map_route",
+      "witness": "d31bc6e26747e183",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "pI7",
+          "kind": "asserted",
+          "artifact": "cac9c2a8e7743d6f",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "path_dist",
+      "witness": "bc2010d259c83ef3",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "picture",
+      "witness": "6b703b8ee64dba94",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "6e66a67748ac9783",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth_floor",
+      "witness": "2697fc78cbe7e1b3",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth_route",
+      "witness": "b805f000febb81b3",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth_route.clearance",
+      "witness": "d51d24c6762dc68f",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "truth_route.open_up",
+      "witness": "50fdc23e01d01d05",
+      "links": [
+        {
+          "id": "HuM",
+          "kind": "asserted",
+          "artifact": "a885a7e25383850d",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

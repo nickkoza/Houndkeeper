@@ -1,0 +1,679 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_guard.py",
+  "entries": [
+    {
+      "name": "_Arm",
+      "witness": "7c59d52b72fa5731",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.__init__",
+      "witness": "0c4d6ea20014a143",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.read_joint_positions",
+      "witness": "dec265aee1f557d4",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.write_joint_positions",
+      "witness": "122c1f4bcfff5d1b",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.write_joint_velocities",
+      "witness": "20e8b4763175c863",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Arm.write_stop",
+      "witness": "2ba886fb8bd999b2",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Clock",
+      "witness": "fd726a4eea098ea0",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Clock.__call__",
+      "witness": "0a7a2d931a7a4c71",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_Clock.__init__",
+      "witness": "b7620803e2253df1",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_env",
+      "witness": "78197a78d7087527",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_guard",
+      "witness": "efe4c2afcee93b36",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_still",
+      "witness": "223ad04205fae3fb",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_stream",
+      "witness": "49daa249cd03c278",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_jump_faster_than_the_safe_speed_is_refused",
+      "witness": "2551b91dc336722e",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_sway_that_ends_where_it_began_is_not_still",
+      "witness": "8b39b401f5cf5cf8",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_toy_held_gets_the_measured_half_kilo_speed_not_the_fallback",
+      "witness": "f32bb264edb73a94",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "Yns",
+          "kind": "asserted",
+          "artifact": "6cce48e206e497c2",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_base_moving_with_the_arm_out_raises_the_alarm",
+      "witness": "f16d1ae562e2e86e",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_dimos_robot_refuses_a_whole_move_before_it_starts",
+      "witness": "28ffe359963dbec0",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_lying_still_the_arm_moves_out_and_back",
+      "witness": "9c17afddcb4dac92",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_no_command_gets_round_the_guard",
+      "witness": "55b6d17f33bd07d1",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_no_fresh_odometry_is_not_still",
+      "witness": "c78625a6dc0a5a39",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_posture_changes_only_with_the_arm_stowed_and_are_kept",
+      "witness": "ac1291cfbfc34953",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_reach_past_the_envelope_for_the_weight_held_is_refused",
+      "witness": "9ed93bf2ffff4bb5",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMO",
+          "kind": "asserted",
+          "artifact": "9a619534b91c17df",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_standing_only_the_standing_looks_measured_poses_empty",
+      "witness": "a749d74c0bb8a87f",
+      "links": [
+        {
+          "id": "BuG",
+          "kind": "asserted",
+          "artifact": "22422afb0a5a1f61",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_model_is_built_when_the_arm_is_attached_not_at_the_first_check",
+      "witness": "e258c68ad0166f32",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_model_is_built_when_the_arm_is_attached_not_at_the_first_check._K",
+      "witness": "a09d95b4fa430548",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_model_is_built_when_the_arm_is_attached_not_at_the_first_check._K.__init__",
+      "witness": "c67f4f757f37c407",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_model_is_built_when_the_arm_is_attached_not_at_the_first_check._K.reach_m",
+      "witness": "297d85ada640aec3",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_up_sweep_is_refused",
+      "witness": "69cd1955000ea128",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_robots_arm_model_measures_reach_from_the_mount",
+      "witness": "c9bbeb9eff536424",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_tidy_stops_the_base_when_the_arm_is_out",
+      "witness": "a950a3f60cdb1a90",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_unknown_or_changing_posture_refuses",
+      "witness": "a4ccc8888bd52577",
+      "links": [
+        {
+          "id": "FWp",
+          "kind": "asserted",
+          "artifact": "c925f658785b2d35",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_unmeasured_speed_falls_to_the_global_limit_and_is_said",
+      "witness": "3a5a9eef377ac98c",
+      "links": [
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "uMP",
+          "kind": "asserted",
+          "artifact": "7396256580fe1e3e",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_while_the_base_moves_the_arm_cannot_deploy",
+      "witness": "008466a6abbba573",
+      "links": [
+        {
+          "id": "G48",
+          "kind": "asserted",
+          "artifact": "756155737305cb1c",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_without_an_envelope_only_the_stow",
+      "witness": "f0b36bfe41c6b426",
+      "links": [
+        {
+          "id": "BPL",
+          "kind": "asserted",
+          "artifact": "ba4d5e75afed135e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "qpO",
+          "kind": "asserted",
+          "artifact": "27ad6d947d84073b",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

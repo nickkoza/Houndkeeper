@@ -1,0 +1,565 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_rebuild_and_power_cut.py",
+  "entries": [
+    {
+      "name": "_boot",
+      "witness": "2e5a9de8023a1287",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "_build",
+      "witness": "3f0c59bb928388bc",
+      "links": [
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_code",
+      "witness": "60645f38cb8aa2cf",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_debs",
+      "witness": "1bb403710c294523",
+      "links": [
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_repo",
+      "witness": "8a9c286a8d89767f",
+      "links": [
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "make",
+      "witness": "bc8bdfc64b8f46a4",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_card_is_refused_packages_that_differ_from_the_lock",
+      "witness": "e0664b0d18c58f5a",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_lock_names_every_deb_by_its_checksum_and_the_package_list_it_was_fetched_for",
+      "witness": "d4b4bedc9d0a9878",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_carries_a_manifest_it_is_checked_against",
+      "witness": "e83a1d04a9f112c3",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_is_on_disk_before_the_link_points_at_it",
+      "witness": "b4bf03308181a8d1",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_is_on_disk_before_the_link_points_at_it.fsync",
+      "witness": "7b10b2fb71b02d49",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_is_on_disk_before_the_link_points_at_it.replace",
+      "witness": "e3f48afe8e2701ce",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_release_that_passes_its_check_becomes_known_good",
+      "witness": "cf1383ececc4d102",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_time_source_that_is_not_one_address_is_refused",
+      "witness": "dcdb725fa2d054c9",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_an_activation_cut_short_is_undone_at_boot",
+      "witness": "72c5e3c732602ea1",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_profile_service_has_its_unit_and_restarts_when_it_dies",
+      "witness": "db3d1df1e7555ad1",
+      "links": [
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_first_boot_installs_the_time_source_and_the_card_passes_it",
+      "witness": "dd0752d19c83f5e2",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_recovery_leaves_a_host_without_a_known_good_release_alone",
+      "witness": "d23f796ad490d9d0",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_settings_are_on_disk_before_they_replace_the_old_ones",
+      "witness": "a9703b0e6888f6be",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_boot_undoes_a_cut_activation_with_the_known_good_releases_own_code",
+      "witness": "b21ba747ca56e71a",
+      "links": [
+        {
+          "id": "27n",
+          "kind": "asserted",
+          "artifact": "3a2c4e6f1350ca9e",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "izZ",
+          "kind": "asserted",
+          "artifact": "6b8ecc5758f8082b",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_card_and_the_fetch_go_through_the_lock",
+      "witness": "7925fc5e66148836",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_card_sets_the_time_source_and_never_a_public_one",
+      "witness": "003fcf11faa71462",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_reports_the_services_its_settings_name",
+      "witness": "cf2baa8ed1b7f623",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_reports_the_services_its_settings_name.host",
+      "witness": "60f88e055044d6e2",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_reports_the_services_its_settings_name.Server",
+      "witness": "6e5674ab3420ee1e",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_reports_the_services_its_settings_name.Server.__init__",
+      "witness": "431c7be7e307ac28",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_daemon_reports_the_services_its_settings_name.Server.serve_forever",
+      "witness": "fcefd78213310ba1",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_host_settings_name_the_profiles_services",
+      "witness": "c2616b481a22618d",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "BRx",
+          "kind": "asserted",
+          "artifact": "74efdcd530f91c78",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_says_whether_the_clock_is_synchronised",
+      "witness": "18bb01cdb69fc30f",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_says_whether_the_clock_is_synchronised.off",
+      "witness": "d964e9cc2b628b76",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_says_whether_the_clock_is_synchronised.run",
+      "witness": "067cddfe1e970870",
+      "links": [
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_repository_carries_the_lock_for_the_pinned_image_and_firstboots_packages",
+      "witness": "60feea48e6b858c5",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_two_builds_of_one_commit_are_the_same_file",
+      "witness": "154472ce5ac3f785",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

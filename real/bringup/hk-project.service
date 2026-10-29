@@ -1,0 +1,19 @@
+# The project service (project-app [eTc]): houndkeeper.project registered with the relay as "project", carrying the
+# project's pages (Last night, [RzM]) with no robot or sim running. Read only in this slice ([Dlx]). Reaches the relay
+# by its certificate's name on the tailnet, with the "project" robot key from real/local/relay-auth.json
+# (make_relay_auth.sh) put into its environment at start. A systemd *user* unit template, not installed: see
+# hk-relay.service for the install lines.
+[Unit]
+Description=Houndkeeper: the project service (the phone's project pages)
+After=hk-relay.service
+Wants=hk-relay.service
+
+[Service]
+WorkingDirectory=@REPO@
+ExecStart=@PYTHON@ -m houndkeeper.project_stack project
+Restart=on-failure
+RestartSec=15
+Nice=10
+
+[Install]
+WantedBy=default.target

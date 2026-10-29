@@ -1,0 +1,235 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_recordings.py",
+  "entries": [
+    {
+      "name": "fake_recording",
+      "witness": "e606bc90c7a196ff",
+      "links": [
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "rec",
+      "witness": "0e6866a3bca53247",
+      "links": [
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_real_recording_is_hashed_moved_into_the_store_and_starts_unscreened",
+      "witness": "29315281f8c3c441",
+      "links": [
+        {
+          "id": "5zg",
+          "kind": "asserted",
+          "artifact": "f8dcb60885b47a0f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "R1X",
+          "kind": "asserted",
+          "artifact": "8f38b1a6e578627b",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "u6u",
+          "kind": "asserted",
+          "artifact": "deae923fd2a334a0",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_session_records_with_the_battery_and_catalogs_what_it_wrote",
+      "witness": "e7cca97e09843be8",
+      "links": [
+        {
+          "id": "6xc",
+          "kind": "asserted",
+          "artifact": "aaf9acc528403a65",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_session_records_with_the_battery_and_catalogs_what_it_wrote.fake_run",
+      "witness": "fc16932cc100acd7",
+      "links": [
+        {
+          "id": "6xc",
+          "kind": "asserted",
+          "artifact": "aaf9acc528403a65",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_session_refuses_a_failed_or_stale_isolation_check_and_low_disk",
+      "witness": "4f18b096accdc778",
+      "links": [
+        {
+          "id": "6xc",
+          "kind": "asserted",
+          "artifact": "aaf9acc528403a65",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_sim_run_marked_by_its_script_stays_sim_whatever_it_streams",
+      "witness": "dde90369dde6e4f5",
+      "links": [
+        {
+          "id": "R1X",
+          "kind": "asserted",
+          "artifact": "8f38b1a6e578627b",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "YP8",
+          "kind": "asserted",
+          "artifact": "d44491a5c6505a6a",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_dimos_cloud_upload_points_nowhere_in_the_checkout",
+      "witness": "d69c25604ede8379",
+      "links": [
+        {
+          "id": "fya",
+          "kind": "asserted",
+          "artifact": "238c90b29d626005",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_ids_and_destinations_cannot_smuggle_commands_or_options",
+      "witness": "c986021ef99b1d16",
+      "links": [
+        {
+          "id": "fya",
+          "kind": "asserted",
+          "artifact": "238c90b29d626005",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_goes_outside_the_house",
+      "witness": "22f89d5e17641e82",
+      "links": [
+        {
+          "id": "fya",
+          "kind": "asserted",
+          "artifact": "238c90b29d626005",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_prune_lists_only_unreferenced_sim_recordings",
+      "witness": "92635658cdc25eea",
+      "links": [
+        {
+          "id": "B2O",
+          "kind": "asserted",
+          "artifact": "c240583d0399f20b",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YP8",
+          "kind": "asserted",
+          "artifact": "d44491a5c6505a6a",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_scan_catalogs_sim_recordings_with_their_streams_and_span",
+      "witness": "e23277fc5dc09480",
+      "links": [
+        {
+          "id": "5zg",
+          "kind": "asserted",
+          "artifact": "f8dcb60885b47a0f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "xOp",
+          "kind": "asserted",
+          "artifact": "99e93f8e20d3cf6c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_sync_also_copies_sim_recordings_tagged_keep",
+      "witness": "62190742f7c51e9e",
+      "links": [
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_sync_verifies_the_server_copy_and_only_then_allows_removing_the_laptops",
+      "witness": "7d938560b8105607",
+      "links": [
+        {
+          "id": "T9e",
+          "kind": "asserted",
+          "artifact": "e93e5f3e640998bc",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Zw9",
+          "kind": "asserted",
+          "artifact": "84c2180389d3da56",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_path_of_an_unscreened_real_recording_is_refused_unless_for_numbers_only",
+      "witness": "5ee36b0751cfc50d",
+      "links": [
+        {
+          "id": "R1X",
+          "kind": "asserted",
+          "artifact": "8f38b1a6e578627b",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

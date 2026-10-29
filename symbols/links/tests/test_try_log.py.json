@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_try_log.py",
+  "entries": [
+    {
+      "name": "_S",
+      "witness": "bb748c12011c0f5a",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_every_try_says_why_it_failed",
+      "witness": "bf9c09dce551a932",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "test_every_try_says_why_it_failed.fake",
+      "witness": "fec00d881179f616",
+      "links": [
+        {
+          "id": "bOu",
+          "kind": "asserted",
+          "artifact": "2d51f292a134bbc2",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

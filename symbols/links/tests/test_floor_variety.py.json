@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_variety.py",
+  "entries": [
+    {
+      "name": "test_the_variety_houses_cover_every_training_carpet_and_new_hard_floors",
+      "witness": "2aafdccd0d45943a",
+      "links": [
+        {
+          "id": "aj8",
+          "kind": "asserted",
+          "artifact": "4d7f2c0dba49a40e",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

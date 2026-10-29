@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_house_layout.py",
+  "entries": [
+    {
+      "name": "_reachable",
+      "witness": "ff42671badd9b0b9",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_every_open_cell_is_reachable_from_the_dock",
+      "witness": "270d1d05eb6e374d",
+      "links": [
+        {
+          "id": "qEP",
+          "kind": "asserted",
+          "artifact": "d1a9910ab90c03b5",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_new_houses_each_draw_their_own_plan_the_same_every_time",
+      "witness": "c9a87e941d00777b",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_house_seed_reaches_everything_that_reads_the_plan",
+      "witness": "b4acd83ef40c6882",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_houses_already_run_keep_their_plan",
+      "witness": "1cbf5217774f6a06",
+      "links": [
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/live_localize.py",
+  "entries": [
+    {
+      "name": "_xy",
+      "witness": "972b4b5f6eb416de",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FloorTrack",
+      "witness": "97427f07ab5ee0bf",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FloorTrack.__init__",
+      "witness": "2aa4f14c74704648",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FloorTrack.correction",
+      "witness": "f93cfaf24fd85054",
+      "links": [
+        {
+          "id": "fXD",
+          "kind": "asserted",
+          "artifact": "4b41784c93808d12",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed",
+      "witness": "a22f5ddd564a41e1",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.__getattr__",
+      "witness": "74f4b039757af382",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.__init__",
+      "witness": "4b89c31c87a60ee2",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.__setattr__",
+      "witness": "edc644e6980a4294",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.decide",
+      "witness": "a03b114fd1383816",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.frame",
+      "witness": "412d335dac0fe53f",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "WFI",
+          "kind": "asserted",
+          "artifact": "6510e926d6ad62e0",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.house_points",
+      "witness": "c67c42ab25dc46a4",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.keepout",
+      "witness": "713f160d4214075b",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "HouseFramed.to_house",
+      "witness": "1c3ca64ad57a9859",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer",
+      "witness": "14ad920c924b9cb0",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer.__init__",
+      "witness": "410b0928be7f0a24",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer._run",
+      "witness": "27d811481891c7f5",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer.close",
+      "witness": "c068a68c4c8d61f3",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer.correction",
+      "witness": "e63b1fc5c0df8fab",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer.odom",
+      "witness": "af77b718634e4616",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x9X",
+          "kind": "asserted",
+          "artifact": "54f38fd392a172cb",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LiveLocalizer.scan",
+      "witness": "1bb38bc0696987a2",
+      "links": [
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

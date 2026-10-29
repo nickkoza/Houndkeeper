@@ -1,0 +1,577 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/cockpit_data.py",
+  "entries": [
+    {
+      "name": "_finite",
+      "witness": "8f6e4d78900c6029",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_measure",
+      "witness": "f9326540c669e6f2",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_rate",
+      "witness": "c1093293948e116e",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "Buffers",
+      "witness": "50f62ed699727f69",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Buffers.__init__",
+      "witness": "f6db45e7ab229cc3",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Buffers.arrays",
+      "witness": "0894cef11f249faa",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Buffers.trim",
+      "witness": "96be6b47acdff743",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData",
+      "witness": "d9a74d1c16c5fad8",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData.__init__",
+      "witness": "16a34e6c98d3db75",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._conclude",
+      "witness": "3bacab35b57eaf11",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._on_battery",
+      "witness": "c2f7bcda040203c0",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._on_cmd",
+      "witness": "228ee65e65c5a2b4",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._on_image",
+      "witness": "c494d88771b9db28",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._on_odom",
+      "witness": "6b5d469d17596eba",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData._publish_loop",
+      "witness": "14ced22c2773e52d",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData.handle",
+      "witness": "322b4cfc89640b60",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData.link",
+      "witness": "c067046be8eba1be",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData.start",
+      "witness": "492eb36e9d04a210",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "CockpitData.stop",
+      "witness": "6544cffa5e4e5d19",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "current_values",
+      "witness": "0c44c735bb4c0e6d",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "finish",
+      "witness": "9608e47ebb938252",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "LinkStatus",
+      "witness": "f93ed1bf1dace4f8",
+      "links": [
+        {
+          "id": "F2q",
+          "kind": "asserted",
+          "artifact": "5923fd1cc64130b7",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "live_numbers",
+      "witness": "f9c16febaef00362",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "MindFeed",
+      "witness": "9f01d87c9b9ce5c9",
+      "links": [
+        {
+          "id": "B4u",
+          "kind": "asserted",
+          "artifact": "f5133b36f57402c2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Fho",
+          "kind": "asserted",
+          "artifact": "09d53dac1ec4e6b2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "MindFeed._on_json",
+      "witness": "eef5de68e89fe702",
+      "links": [
+        {
+          "id": "B4u",
+          "kind": "asserted",
+          "artifact": "f5133b36f57402c2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "BxF",
+          "kind": "asserted",
+          "artifact": "593964715597b81c",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Fho",
+          "kind": "asserted",
+          "artifact": "09d53dac1ec4e6b2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "MindFeed.start",
+      "witness": "58b4862d5d15a6bd",
+      "links": [
+        {
+          "id": "B4u",
+          "kind": "asserted",
+          "artifact": "f5133b36f57402c2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Fho",
+          "kind": "asserted",
+          "artifact": "09d53dac1ec4e6b2",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ULM",
+          "kind": "asserted",
+          "artifact": "9a33097323c925e5",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed",
+      "witness": "d634fa0fc12cfbd2",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed.__init__",
+      "witness": "3ca677e306a3f96b",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed._watch",
+      "witness": "ad2b7c4933985ce6",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed.check",
+      "witness": "365069e190953351",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed.root",
+      "witness": "0ffab724449a7b1c",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed.start",
+      "witness": "24edd7c2d954ee12",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "MorningLogFeed.stop",
+      "witness": "ed7819aeafdbf364",
+      "links": [
+        {
+          "id": "Ndt",
+          "kind": "asserted",
+          "artifact": "9f7542491f8a32df",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "noise_from_frames",
+      "witness": "361d426ea51b154d",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "Procedure",
+      "witness": "d9fabfa80ccfcf51",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "ProcedureState",
+      "witness": "6cf4514fc6a8bd4d",
+      "links": [
+        {
+          "id": "vRJ",
+          "kind": "asserted",
+          "artifact": "c2b5af3ce921d2ad",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

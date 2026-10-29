@@ -1,0 +1,295 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/baselines/floor_diag.py",
+  "entries": [
+    {
+      "name": "arm_of",
+      "witness": "c5f2a2247e427aec",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "causes",
+      "witness": "62d193163246f93d",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "context",
+      "witness": "bed9d8c6b6098571",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "fp_cause",
+      "witness": "bc12e4110858340d",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "4c59a1990e88efe2",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "nights_all",
+      "witness": "9de977f5afcd4571",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ms4",
+          "kind": "asserted",
+          "artifact": "f0a762119b1a0cf4",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "nights_hr",
+      "witness": "79c553e6c8b33d5f",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ms4",
+          "kind": "asserted",
+          "artifact": "f0a762119b1a0cf4",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "precision",
+      "witness": "b6667cb815aadba4",
+      "links": [
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "replay",
+      "witness": "7800407f3f49b79a",
+      "links": [
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "HGT",
+          "kind": "asserted",
+          "artifact": "e593eac6150627dd",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "reportable",
+      "witness": "06ac690a1897c89f",
+      "links": [
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "witness": "714c3b48e96dd513",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "subset_view",
+      "witness": "ea816dd41fefaf19",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "summarise",
+      "witness": "533b5e7e457e042c",
+      "links": [
+        {
+          "id": "80w",
+          "kind": "asserted",
+          "artifact": "f7c900b184c12fcb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "H9w",
+          "kind": "asserted",
+          "artifact": "1a0f18bb171b279a",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

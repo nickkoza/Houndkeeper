@@ -1,0 +1,150 @@
+{
+ "v": 1,
+ "t": 1000.0,
+ "stage": "look closer",
+ "step": "LOOK STANDING",
+ "note": "item 3: walking to park head-on",
+ "pose": [
+  0.0,
+  0.2,
+  1.571
+ ],
+ "goal": {
+  "x": 0.5,
+  "y": 1.2,
+  "kind": "find",
+  "why": "confirmed on approach at 1.1 m"
+ },
+ "route": {
+  "walked": [
+   [
+    0.0,
+    0.2
+   ]
+  ],
+  "plan": [
+   [
+    2.0,
+    0.0
+   ],
+   [
+    2.0,
+    2.0
+   ],
+   [
+    0.0,
+    2.0
+   ],
+   [
+    -2.0,
+    2.0
+   ]
+  ]
+ },
+ "cands": [
+  {
+   "id": "i3",
+   "x": 0.5,
+   "y": 1.2,
+   "r": 0.04,
+   "status": "looked at",
+   "conf": 0.67,
+   "why": "standing look: dinosaur (0.41) 12 cm from the flag",
+   "label": null
+  },
+  {
+   "id": "i2",
+   "x": 2.0,
+   "y": 1.0,
+   "r": 0.04,
+   "status": "ruled out",
+   "conf": 0.71,
+   "why": "review: not seen standing",
+   "label": null
+  },
+  {
+   "id": "i1",
+   "x": 1.0,
+   "y": 0.5,
+   "r": 0.04,
+   "status": "picked",
+   "conf": 0.82,
+   "why": "binned",
+   "label": "toy car"
+  },
+  {
+   "id": "s6",
+   "x": -2.0,
+   "y": -2.0,
+   "r": 0.04,
+   "status": "new",
+   "conf": 0.33,
+   "why": "unsure",
+   "label": null
+  },
+  {
+   "id": "s5",
+   "x": 3.0,
+   "y": -1.0,
+   "r": 0.04,
+   "status": "ruled out",
+   "conf": 0.33,
+   "why": "confirmed, too little for a stop (2 hits)",
+   "label": null
+  },
+  {
+   "id": "s4",
+   "x": -1.0,
+   "y": 2.0,
+   "r": 0.04,
+   "status": "ruled out",
+   "conf": 0.44,
+   "why": "the floor matches a few cm off",
+   "label": null
+  }
+ ],
+ "more": 0,
+ "arm": {
+  "state": "looking",
+  "item": null
+ },
+ "view": [
+  {
+   "id": "i3",
+   "ring": [
+    [
+     0.795,
+     0.34
+    ],
+    [
+     0.784,
+     0.331
+    ],
+    [
+     0.769,
+     0.327
+    ],
+    [
+     0.758,
+     0.329
+    ],
+    [
+     0.758,
+     0.336
+    ],
+    [
+     0.77,
+     0.346
+    ],
+    [
+     0.786,
+     0.351
+    ],
+    [
+     0.796,
+     0.348
+    ]
+   ]
+  }
+ ]
+}

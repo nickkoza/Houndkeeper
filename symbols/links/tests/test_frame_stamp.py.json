@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_frame_stamp.py",
+  "entries": [
+    {
+      "name": "test_a_frame_carries_the_time_of_its_state",
+      "witness": "6a1cabc5799156c4",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_connection_turns_frames_into_images_stamped_with_their_state",
+      "witness": "8ac166e3ca7a27e3",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_deadman_check.py",
+  "entries": [
+    {
+      "name": "check",
+      "witness": "347c4c031ca34f4c",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "odom",
+      "witness": "47977bcbe51a250c",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_check_reads_files",
+      "witness": "6bdd121e80052769",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_not_driving_fails",
+      "witness": "f8cad61cb2c39fd9",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_settling_back_after_the_stop_is_not_driving",
+      "witness": "c6bddf9fe5e94a8e",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_stops_in_time",
+      "witness": "f9315ade517f0498",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_stops_late_fails",
+      "witness": "09e0bf9dd28ce478",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

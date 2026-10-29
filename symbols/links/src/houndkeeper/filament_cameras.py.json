@@ -1,0 +1,523 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/filament_cameras.py",
+  "entries": [
+    {
+      "name": "_judge_lamps",
+      "witness": "21e91beb409182f3",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "check_lamps",
+      "witness": "93585650728da6ef",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "check_lamps.shot",
+      "witness": "3648caed06350f28",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "enabled",
+      "witness": "b4b5c4514e8bdf79",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras",
+      "witness": "7083f5d734115454",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras.__init__",
+      "witness": "c413ed36d8bab187",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._bounce",
+      "witness": "f15f57de62ac7987",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._build",
+      "witness": "0ea298eb7599936c",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "uyU",
+          "kind": "asserted",
+          "artifact": "89cf962bca1b4bcf",
+          "at": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._day",
+      "witness": "43f69bf88f9770a5",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._lights",
+      "witness": "ca2355c2cbf85dea",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._meter",
+      "witness": "7092e119ba784501",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._moving",
+      "witness": "26c0bfeb672107dc",
+      "links": [
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._optics",
+      "witness": "01264989c4699284",
+      "links": [
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras._shot",
+      "witness": "ba5eedac207e4195",
+      "links": [
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras.relit",
+      "witness": "88b3a4a273e940f0",
+      "links": [
+        {
+          "id": "eIH",
+          "kind": "asserted",
+          "artifact": "44b7850bf4d8d6c3",
+          "at": "2026-09-28"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras.render",
+      "witness": "b879e1a0530366eb",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras.render.expose",
+      "witness": "9e860817141ce77b",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "FilamentCameras.texture_changed",
+      "witness": "3d792d12113830da",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "make",
+      "witness": "3a75cce26a895679",
+      "links": [
+        {
+          "id": "7cU",
+          "kind": "asserted",
+          "artifact": "2684998199fd5b3a",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "CaM",
+          "kind": "asserted",
+          "artifact": "9ae248e41dcbbdd1",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "QMt",
+          "kind": "asserted",
+          "artifact": "fe972477329a4d64",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "mujofil_dir",
+      "witness": "ea4a26285d5967ba",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "841cf3c9628bcced",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "reset",
+      "witness": "4d2dec985de7228c",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "UQK",
+          "kind": "asserted",
+          "artifact": "aeded720d0e6c5f0",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "texture_changed",
+      "witness": "80836ae56560ece3",
+      "links": [
+        {
+          "id": "akm",
+          "kind": "asserted",
+          "artifact": "b08a8f93d5986ea4",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "use_chosen_mujofil",
+      "witness": "ebc5193dcd07cc97",
+      "links": [
+        {
+          "id": "3my",
+          "kind": "asserted",
+          "artifact": "a668d37361be32ee",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

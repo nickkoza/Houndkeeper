@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/browser/area_390.mjs",
+  "entries": [
+    {
+      "name": "audit",
+      "witness": "df5dd7356e8067cf",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "shot",
+      "witness": "84ac3aea3144e9d3",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

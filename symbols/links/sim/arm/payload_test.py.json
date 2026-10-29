@@ -1,0 +1,25 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/payload_test.py",
+  "entries": [
+    {
+      "name": "run",
+      "witness": "39eeed7e8f88aa54",
+      "links": [
+        {
+          "id": "2V3",
+          "kind": "asserted",
+          "artifact": "88e5192af5916c2a",
+          "at": "2026-09-27"
+        },
+        {
+          "id": "BlJ",
+          "kind": "asserted",
+          "artifact": "e9cc3a979c3cb731",
+          "at": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}

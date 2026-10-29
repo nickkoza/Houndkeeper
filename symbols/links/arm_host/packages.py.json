@@ -1,0 +1,133 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "arm_host/packages.py",
+  "entries": [
+    {
+      "name": "_sha",
+      "witness": "cbda54d5b10d413b",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "witness": "6a2d37979f5fb7b9",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "firstboot_pkgs",
+      "witness": "c6d48b5d81950908",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "image_file",
+      "witness": "4cf8bc1853257c40",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "lock",
+      "witness": "09720be11228712e",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "e0a8dac0f5c2cd20",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "versions",
+      "witness": "0e3bf86fdcf95ffd",
+      "links": [
+        {
+          "id": "iwZ",
+          "kind": "asserted",
+          "artifact": "5a1dba1425234457",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "UYK",
+          "kind": "asserted",
+          "artifact": "d2f5d7294601e174",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

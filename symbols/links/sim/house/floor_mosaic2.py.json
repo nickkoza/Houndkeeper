@@ -1,0 +1,337 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_mosaic2.py",
+  "entries": [
+    {
+      "name": "add_clock_args",
+      "witness": "72f2bad68db667a7",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "arr",
+      "witness": "a383075d128700c8",
+      "links": [
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "name": "baseline_refusal",
+      "witness": "224e5120a87de88d",
+      "links": [
+        {
+          "id": "NvG",
+          "kind": "asserted",
+          "artifact": "b6c0d0c7f2ef208f",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "clock_of",
+      "witness": "853ce0703383be92",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "frame_lags",
+      "witness": "26b1608ddb075461",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "lag_detail_from_turns",
+      "witness": "641fabd1da3ed424",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "uKM",
+          "kind": "asserted",
+          "artifact": "4437aa451bf92761",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "lag_from_turns",
+      "witness": "9c0fc604e66959b1",
+      "links": [
+        {
+          "id": "uKM",
+          "kind": "asserted",
+          "artifact": "4437aa451bf92761",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "f00d77cd53ac2d27",
+      "links": [
+        {
+          "id": "3Pv",
+          "kind": "asserted",
+          "artifact": "573262bd50fc877e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "4t7",
+          "kind": "asserted",
+          "artifact": "7a542498356326d8",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Epi",
+          "kind": "asserted",
+          "artifact": "221124e53282adaf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "evl",
+          "kind": "asserted",
+          "artifact": "4c13e44d5b606adb",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "JzW",
+          "kind": "asserted",
+          "artifact": "e46ac900fc7c0464",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kJ6",
+          "kind": "asserted",
+          "artifact": "c52e88992bfaf086",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Q9k",
+          "kind": "asserted",
+          "artifact": "b3c2312e2570b503",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "uKM",
+          "kind": "asserted",
+          "artifact": "4437aa451bf92761",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yFg",
+          "kind": "asserted",
+          "artifact": "29fbb75ccee48a0c",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "YuI",
+          "kind": "asserted",
+          "artifact": "7951aa39ac222256",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main.wrist_cam",
+      "witness": "bea087b44e6d10b4",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "picture_lag_fields",
+      "witness": "2b3b4ec15c0a8007",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "trimmed_mean",
+      "witness": "fe612b0ab8d84a6d",
+      "links": [
+        {
+          "id": "evl",
+          "kind": "asserted",
+          "artifact": "4c13e44d5b606adb",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "wrist_extrinsic",
+      "witness": "7091d848e67bd54e",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "wrist_intrinsics",
+      "witness": "b51b4082990cb080",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "wrist_robot_mask",
+      "witness": "741e138fe37d56a3",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

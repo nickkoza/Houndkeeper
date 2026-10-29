@@ -1,0 +1,151 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_recognizers.py",
+  "entries": [
+    {
+      "name": "camera",
+      "witness": "4a43541992921474",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_candidate_is_kept_by_its_best_verdict_and_kept_when_unseen",
+      "witness": "7007a60cefd870a4",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_detection_counts_only_where_it_holds_the_candidates_point",
+      "witness": "41b359f57cdb8b85",
+      "links": [
+        {
+          "id": "En1",
+          "kind": "asserted",
+          "artifact": "124c1c96fbe100a1",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_detection_counts_only_where_it_holds_the_candidates_point.Fake",
+      "witness": "423119c14417abbb",
+      "links": [
+        {
+          "id": "En1",
+          "kind": "asserted",
+          "artifact": "124c1c96fbe100a1",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_detection_counts_only_where_it_holds_the_candidates_point.Fake.detect",
+      "witness": "f1e006d99cd13300",
+      "links": [
+        {
+          "id": "En1",
+          "kind": "asserted",
+          "artifact": "124c1c96fbe100a1",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_sensitivity_reaches_the_replays_command_line",
+      "witness": "5e9e60b930b89bc9",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_candidates_keep_the_chosen_decisions_and_never_a_floor_sized_change",
+      "witness": "c3d620ca5846eeac",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_labels_naming_the_house_are_dropped_and_things_kept",
+      "witness": "e24cdbf9c937e67b",
+      "links": [
+        {
+          "id": "En1",
+          "kind": "asserted",
+          "artifact": "124c1c96fbe100a1",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_sensitivities_only_loosen_and_today_is_the_live_tidys",
+      "witness": "9c400bbe66cd55bd",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_crop_holds_the_point_and_stays_in_the_image",
+      "witness": "29d69ce34f2ab933",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_views_are_the_nearest_frames_that_see_the_point_apart_in_time",
+      "witness": "bc27038a7f988a86",
+      "links": [
+        {
+          "id": "3hK",
+          "kind": "asserted",
+          "artifact": "ca5f23d0657b1684",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

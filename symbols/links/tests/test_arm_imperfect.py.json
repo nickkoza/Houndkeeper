@@ -1,0 +1,85 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_imperfect.py",
+  "entries": [
+    {
+      "name": "_settled",
+      "witness": "a698763fb1de5084",
+      "links": [
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_walk_over_a_step",
+      "witness": "701f4338277e332f",
+      "links": [
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "_walk_over_a_step.from_file",
+      "witness": "4e34a1c13ee76f10",
+      "links": [
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_arm_starts_at_rest_and_stays_stable",
+      "witness": "9723738f03bafe57",
+      "links": [
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_encoders_do_not_see_where_the_wrist_camera_is",
+      "witness": "7b5d373d003b6253",
+      "links": [
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_robot_walks_over_the_carpet_edge_with_the_imperfect_arm",
+      "witness": "e5d0af7f28b47f0c",
+      "links": [
+        {
+          "id": "TF8",
+          "kind": "asserted",
+          "artifact": "b1c9f3c8dc9379cf",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "z7P",
+          "kind": "asserted",
+          "artifact": "c3c69573fb0865f2",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

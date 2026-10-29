@@ -1,0 +1,85 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/power_budget.py",
+  "entries": [
+    {
+      "name": "hold_walk",
+      "witness": "8787c599408e66c9",
+      "links": [
+        {
+          "id": "jlD",
+          "kind": "asserted",
+          "artifact": "205cd6cb779b7509",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "XrO",
+          "kind": "asserted",
+          "artifact": "79f1cae5519177a5",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "Meter",
+      "witness": "5603e4b0b420b73a",
+      "links": [
+        {
+          "id": "G7m",
+          "kind": "asserted",
+          "artifact": "ca89a2efa84f8ecd",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "Meter.__call__",
+      "witness": "d949d1780a94af81",
+      "links": [
+        {
+          "id": "G7m",
+          "kind": "asserted",
+          "artifact": "ca89a2efa84f8ecd",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "Meter.__init__",
+      "witness": "f98e264b3c81f2f9",
+      "links": [
+        {
+          "id": "G7m",
+          "kind": "asserted",
+          "artifact": "ca89a2efa84f8ecd",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "Meter.wh",
+      "witness": "99219e5f4a3f1c17",
+      "links": [
+        {
+          "id": "G7m",
+          "kind": "asserted",
+          "artifact": "ca89a2efa84f8ecd",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "pick",
+      "witness": "32a403b5cfcff992",
+      "links": [
+        {
+          "id": "G7m",
+          "kind": "asserted",
+          "artifact": "ca89a2efa84f8ecd",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

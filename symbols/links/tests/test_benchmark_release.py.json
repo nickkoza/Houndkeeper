@@ -1,0 +1,229 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_benchmark_release.py",
+  "entries": [
+    {
+      "name": "_strip",
+      "witness": "def7765b59b65ad3",
+      "links": [
+        {
+          "id": "h1X",
+          "kind": "asserted",
+          "artifact": "573046c6ee4da34f",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "fresh",
+      "witness": "c974ae7b66991385",
+      "links": [
+        {
+          "id": "h1X",
+          "kind": "asserted",
+          "artifact": "573046c6ee4da34f",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "small",
+      "witness": "d32c481eea169bee",
+      "links": [
+        {
+          "id": "pvP",
+          "kind": "asserted",
+          "artifact": "48a92a34d55e6edc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_house_and_its_nights_generated_twice_hash_the_same",
+      "witness": "07e223dc1d213177",
+      "links": [
+        {
+          "id": "e5I",
+          "kind": "asserted",
+          "artifact": "1cfc8f423611fdef",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "PiV",
+          "kind": "asserted",
+          "artifact": "0550d02ae09f6452",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_every_asset_the_code_uses_has_an_entry",
+      "witness": "439c07ffcde58183",
+      "links": [
+        {
+          "id": "h1X",
+          "kind": "asserted",
+          "artifact": "573046c6ee4da34f",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_export_carries_only_what_may_be_passed_on",
+      "witness": "bc7f4c1528266804",
+      "links": [
+        {
+          "id": "pvP",
+          "kind": "asserted",
+          "artifact": "48a92a34d55e6edc",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_export_carries_the_scoring",
+      "witness": "2084fafeb0104940",
+      "links": [
+        {
+          "id": "tYQ",
+          "kind": "asserted",
+          "artifact": "f05c64d0ed83d9a4",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_export_writes_a_datasheet",
+      "witness": "5922802eda64feab",
+      "links": [
+        {
+          "id": "9SZ",
+          "kind": "asserted",
+          "artifact": "28799c828e1bc964",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_hashes_ignore_the_folder_but_not_the_bytes",
+      "witness": "23b486df98d7d1f6",
+      "links": [
+        {
+          "id": "PiV",
+          "kind": "asserted",
+          "artifact": "0550d02ae09f6452",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_held_out_houses_are_never_released_or_generated",
+      "witness": "fc5b907c2302275a",
+      "links": [
+        {
+          "id": "w7W",
+          "kind": "asserted",
+          "artifact": "a90e5d50e595e09c",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_of_the_real_house_is_ever_exported",
+      "witness": "73144adf15028105",
+      "links": [
+        {
+          "id": "MXq",
+          "kind": "asserted",
+          "artifact": "cb15a1d73073abc2",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_redistributable_follows_the_licence_alone",
+      "witness": "04e456a40708a484",
+      "links": [
+        {
+          "id": "HQs",
+          "kind": "asserted",
+          "artifact": "2753ff961064eb68",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "kWd",
+          "kind": "asserted",
+          "artifact": "ffd45e6a93639b54",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_released_specs_are_versioned",
+      "witness": "3a69e16dfc84363d",
+      "links": [
+        {
+          "id": "e5I",
+          "kind": "asserted",
+          "artifact": "1cfc8f423611fdef",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_committed_manifest_matches_a_fresh_walk",
+      "witness": "1930b00c76574271",
+      "links": [
+        {
+          "id": "h1X",
+          "kind": "asserted",
+          "artifact": "573046c6ee4da34f",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_procedural_house_generated_twice_hashes_the_same",
+      "witness": "7f9e7c1d42b4a82e",
+      "links": [
+        {
+          "id": "PiV",
+          "kind": "asserted",
+          "artifact": "0550d02ae09f6452",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_release_holds_out_every_house_the_generator_does",
+      "witness": "8015262c97d27fbb",
+      "links": [
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "w7W",
+          "kind": "asserted",
+          "artifact": "a90e5d50e595e09c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_tooling_publishes_nothing",
+      "witness": "816ff803936c6725",
+      "links": [
+        {
+          "id": "5JR",
+          "kind": "asserted",
+          "artifact": "332a3282382d9978",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

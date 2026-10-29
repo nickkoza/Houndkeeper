@@ -1,0 +1,121 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/real_tidy.py",
+  "entries": [
+    {
+      "name": "best_view",
+      "witness": "c0305b38708010ac",
+      "links": [
+        {
+          "id": "hKP",
+          "kind": "asserted",
+          "artifact": "55b8ffbbe340370b",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "candidates",
+      "witness": "935d9ff886414284",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "LQs",
+          "kind": "asserted",
+          "artifact": "be71db9289029832",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "0d57fd623a72c442",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "night_dir",
+      "witness": "00d989cf1fe2f607",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "recording_times",
+      "witness": "00414be076104be4",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Lzt",
+          "kind": "asserted",
+          "artifact": "3c148310aed2e3cf",
+          "at": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

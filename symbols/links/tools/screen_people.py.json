@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tools/screen_people.py",
+  "entries": [
+    {
+      "name": "frames",
+      "witness": "5f68c192ba1f60f7",
+      "links": [
+        {
+          "id": "RrD",
+          "kind": "asserted",
+          "artifact": "2033b9a5ccd642c7",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "883b8ee444582351",
+      "links": [
+        {
+          "id": "jlr",
+          "kind": "asserted",
+          "artifact": "60d678b9331a4943",
+          "at": "2026-09-26"
+        },
+        {
+          "id": "RrD",
+          "kind": "asserted",
+          "artifact": "2033b9a5ccd642c7",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "people_in",
+      "witness": "3a7ffbcdadfea6bc",
+      "links": [
+        {
+          "id": "hKP",
+          "kind": "asserted",
+          "artifact": "55b8ffbbe340370b",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "R1X",
+          "kind": "asserted",
+          "artifact": "8f38b1a6e578627b",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "RrD",
+          "kind": "asserted",
+          "artifact": "2033b9a5ccd642c7",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "screen",
+      "witness": "aa1c64eae80f5886",
+      "links": [
+        {
+          "id": "RrD",
+          "kind": "asserted",
+          "artifact": "2033b9a5ccd642c7",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

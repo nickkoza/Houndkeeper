@@ -1,0 +1,277 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_lag_per_clock.py",
+  "entries": [
+    {
+      "name": "_calls",
+      "witness": "0b0db10a7cf28037",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_traj",
+      "witness": "a832eea97ec17e0d",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_write",
+      "witness": "667be7a2debf1109",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_clock_the_file_lacks_is_refused",
+      "witness": "8ff48186a72d183d",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recordings_clock_comes_from_its_path_file",
+      "witness": "73b7617fbc998f87",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recordings_clock_is_found_from_the_run_that_lists_it",
+      "witness": "2d090b18d3f81d8f",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_each_clock_has_its_own_lag",
+      "witness": "38e08d84b4727a9b",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_each_tool_places_frames_with_its_recordings_clock",
+      "witness": "c115366e42856482",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_storing_one_clock_keeps_the_others",
+      "witness": "e85295d5f967ec5a",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_calibration_refuses_a_recording_on_another_clock",
+      "witness": "e459825c7952defc",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_calibration_writes_its_own_clocks_entry",
+      "witness": "1740cec1eda15d6e",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_takes_the_robot_clocks_lag",
+      "witness": "7b9cf75b5608bc39",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_replay_takes_the_robot_clocks_lag",
+      "witness": "c57f178a248f2c9e",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_and_the_night_picture_pass_each_nights_clock",
+      "witness": "5ef5838c97bebd41",
+      "links": [
+        {
+          "id": "55G",
+          "kind": "asserted",
+          "artifact": "4f74d12314b682c7",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_widened_gate_keeps_a_robot_clock_estimate",
+      "witness": "f06c766ffd2ee693",
+      "links": [
+        {
+          "id": "gJq",
+          "kind": "asserted",
+          "artifact": "ba100d929e27a8e6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "gsJ",
+          "kind": "asserted",
+          "artifact": "cb912ab9b6460a57",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

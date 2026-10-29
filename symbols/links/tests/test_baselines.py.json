@@ -1,0 +1,277 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_baselines.py",
+  "entries": [
+    {
+      "name": "camera",
+      "witness": "1c2e8ae205c401fc",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_box_stands_on_its_bottom_centre",
+      "witness": "fb7d4eacbc0abafd",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_find_is_within_the_tidys_reach_and_the_rest_are_false_positives",
+      "witness": "f94363604e56ff9f",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_toy_the_walk_bumped_is_found_where_it_was_dropped_or_where_it_ended",
+      "witness": "5f31e352523b7d8a",
+      "links": [
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_even_pick",
+      "witness": "a745da26dad655e2",
+      "links": [
+        {
+          "id": "8VL",
+          "kind": "asserted",
+          "artifact": "8b015e0ea9031658",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "WD9",
+          "kind": "asserted",
+          "artifact": "612f2b244aadf076",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_floor_point_projects_back_to_its_pixel",
+      "witness": "9120524ba871d7a2",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_frontier_batches_and_answers_load",
+      "witness": "a2fd7546c5b3d123",
+      "links": [
+        {
+          "id": "DZr",
+          "kind": "asserted",
+          "artifact": "36cc64a13000bb40",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "L9V",
+          "kind": "asserted",
+          "artifact": "740a143eca805788",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_odometry_to_sim_frame_and_back",
+      "witness": "f13b9e0839d34806",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_one_thing_seen_in_several_frames_is_one_candidate",
+      "witness": "f4069dac6b0eefcb",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_pixels_at_or_above_the_horizon_and_beyond_reach_are_not_placed",
+      "witness": "b5a88c2738c6e842",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_principal_point_lands_straight_ahead_at_the_pitch_range",
+      "witness": "f46127daa556bb5a",
+      "links": [
+        {
+          "id": "o0E",
+          "kind": "asserted",
+          "artifact": "00a5afe82cd02857",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_reach_is_score_tidys",
+      "witness": "0170f922663e3cf2",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_tally_by_key_and_unknown_kinds",
+      "witness": "9a99657a4763e4a8",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "tWE",
+          "kind": "asserted",
+          "artifact": "0f270f91fde4500f",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_tiers_and_floor_kinds",
+      "witness": "7dfbdc82581f30cf",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "toy",
+      "witness": "e8c7924b025c6eb4",
+      "links": [
+        {
+          "id": "JQk",
+          "kind": "asserted",
+          "artifact": "a315287aa88823f6",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "oR6",
+          "kind": "asserted",
+          "artifact": "d723980cafe64110",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

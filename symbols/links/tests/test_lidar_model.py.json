@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_lidar_model.py",
+  "entries": [
+    {
+      "name": "_wall",
+      "witness": "bff54cbb9399ba25",
+      "links": [
+        {
+          "id": "JaG",
+          "kind": "asserted",
+          "artifact": "e9b8c787d5e1b7ff",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_dark_and_shiny_surfaces_return_little",
+      "witness": "9cfac3a456660266",
+      "links": [
+        {
+          "id": "JaG",
+          "kind": "asserted",
+          "artifact": "e9b8c787d5e1b7ff",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_each_return_knows_the_surface_it_came_from",
+      "witness": "79463d792de1d865",
+      "links": [
+        {
+          "id": "JaG",
+          "kind": "asserted",
+          "artifact": "e9b8c787d5e1b7ff",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_it_returns_the_l1s_points_a_second_with_its_noise",
+      "witness": "7eb01cf2d556f456",
+      "links": [
+        {
+          "id": "JaG",
+          "kind": "asserted",
+          "artifact": "e9b8c787d5e1b7ff",
+          "at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_nearer_than_its_minimum_range",
+      "witness": "3be1d5f043099b9f",
+      "links": [
+        {
+          "id": "JaG",
+          "kind": "asserted",
+          "artifact": "e9b8c787d5e1b7ff",
+          "at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

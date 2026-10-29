@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_look_aim.py",
+  "entries": [
+    {
+      "name": "test_the_find_sits_up_deg_above_the_image_centre",
+      "witness": "e1314817639ad180",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-28"
+        }
+      ]
+    }
+  ]
+}

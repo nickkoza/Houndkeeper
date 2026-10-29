@@ -1,0 +1,313 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_project.py",
+  "entries": [
+    {
+      "name": "_smoke_tools",
+      "witness": "0f0c64988d30fd44",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "FakeOut",
+      "witness": "12fe22bdded77cd8",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "FakeOut.__init__",
+      "witness": "467bb410ed1b1028",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "FakeOut.publish",
+      "witness": "ddee6948fd1b4777",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "feed",
+      "witness": "44dcbfdafb4d8234",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "findings",
+      "witness": "82b2695e6a0b5ca2",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "night",
+      "witness": "3b7d6001e7c06c64",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_run_that_never_got_going_says_so",
+      "witness": "413b837f2752fd01",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_hold_out_nights_and_nights_that_name_no_house_are_passed_over_unopened",
+      "witness": "f3f83505114de290",
+      "links": [
+        {
+          "id": "jnG",
+          "kind": "asserted",
+          "artifact": "ebb0c4b889dfdfc4",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_only_loopback_and_tailscale_addresses_are_allowed",
+      "witness": "c8b55769df9c2430",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_hold_out_list_is_the_registrys",
+      "witness": "e2da9f633f3461b7",
+      "links": [
+        {
+          "id": "jnG",
+          "kind": "asserted",
+          "artifact": "ebb0c4b889dfdfc4",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_message_has_each_night_its_numbers_with_sources_what_failed_its_morning_log_and_the_findings",
+      "witness": "ea1acc23ed125d95",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_message_keeps_within_its_bound_dropping_whole_texts_then_older_nights",
+      "witness": "695d1e0353cc0add",
+      "links": [
+        {
+          "id": "WkQ",
+          "kind": "asserted",
+          "artifact": "d0f59efdbdcfb766",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_page_at_phone_width_with_only_a_loopback_relay_and_the_project_service",
+      "witness": "8672de183d3cc3f4",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_pages_recorded_message_is_a_last_night_message",
+      "witness": "f51f6e4e39083824",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_the_projects_key_goes_into_its_environment_never_its_command_line",
+      "witness": "0af11a54043a7c24",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_relay_is_refused_on_a_house_address_and_off_loopback_without_its_certificate_and_auth",
+      "witness": "05bee99b61356fb9",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_service_needs_no_robot_stream_and_sends_nothing",
+      "witness": "def0d036d3ffd972",
+      "links": [
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "test_the_service_publishes_with_no_robot_again_each_look_and_anew_when_a_file_changes",
+      "witness": "c42cc5d9bc7fe888",
+      "links": [
+        {
+          "id": "E2e",
+          "kind": "asserted",
+          "artifact": "45aed28b7872493c",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_write_ups_are_the_research_folders_and_its_index_is_not_one",
+      "witness": "ba46895974e44cbb",
+      "links": [
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_with_no_night_and_no_findings_it_is_still_a_message",
+      "witness": "25982b4aa414c195",
+      "links": [
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "RzM",
+          "kind": "asserted",
+          "artifact": "96276153caa09824",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

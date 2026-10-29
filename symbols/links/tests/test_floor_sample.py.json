@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_floor_sample.py",
+  "entries": [
+    {
+      "name": "_ray_frame",
+      "witness": "70ab730b5ea31ecb",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_cell_spanning_many_pixels_reads_their_average",
+      "witness": "5a9429a0353596f9",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_floor_point_reads_the_pixel_its_ray_lands_on_at_every_level",
+      "witness": "55278e93e07c79d6",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_cells_span_fewer_pixels_further_away_and_at_a_graze",
+      "witness": "155b8f061a8c2510",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_wrist_cameras_centred_render_takes_the_same_convention",
+      "witness": "f8307163cd528085",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

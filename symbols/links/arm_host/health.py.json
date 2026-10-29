@@ -1,0 +1,133 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "arm_host/health.py",
+  "entries": [
+    {
+      "name": "core_clock_fixed",
+      "witness": "e039879955f94bbf",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "jAM",
+          "kind": "asserted",
+          "artifact": "260e73502d075e8e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "read_clock_synced",
+      "witness": "03420109816fa3c7",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "LSY",
+          "kind": "asserted",
+          "artifact": "1a3a320c314369ec",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "read_core_clock",
+      "witness": "85f8c61aeb3f88b6",
+      "links": [
+        {
+          "id": "GTG",
+          "kind": "asserted",
+          "artifact": "22998c3a2ae14b4e",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "jAM",
+          "kind": "asserted",
+          "artifact": "260e73502d075e8e",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "read_cpu_temp_c",
+      "witness": "5c76f8ecbd976f19",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "read_throttled",
+      "witness": "ef76597829b12619",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "report",
+      "witness": "67671bc9de6815ea",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "aVJ",
+          "kind": "asserted",
+          "artifact": "29de2895e00d82bf",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "service_states",
+      "witness": "60139fed984f8df1",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "name": "throttle_flags",
+      "witness": "ccc7a77c426f14e2",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-02"
+        }
+      ]
+    }
+  ]
+}

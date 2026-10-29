@@ -1,0 +1,91 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_area.test.mjs",
+  "entries": [
+    {
+      "name": "a tap is a point in the house's frame, and back",
+      "witness": "671040de1c8940c1",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "an area needs three corners; a wall is two taps; undo and remove",
+      "witness": "1ad81e9c2b903052",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "nothing on the page moves",
+      "witness": "9cc6e027cd6d8aec",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "f4fe49a24507f394",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "save sends the finished shapes, the change it replaces, and the confirmation",
+      "witness": "045777adcefd773c",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "the scene draws the areas, walls, the corners being placed and the dock",
+      "witness": "d2b6318c48fc955a",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "the warning is on the page in every state",
+      "witness": "1e105325d46ed589",
+      "links": [
+        {
+          "id": "HZO",
+          "kind": "asserted",
+          "artifact": "a97f7b0ef6bacbaa",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

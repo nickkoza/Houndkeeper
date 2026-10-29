@@ -1,0 +1,37 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/difficulty.py",
+  "entries": [
+    {
+      "name": "floor_rgb",
+      "witness": "13c814b96c17b220",
+      "links": [
+        {
+          "id": "D4v",
+          "kind": "asserted",
+          "artifact": "217a2d5302bf17ab",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "tier",
+      "witness": "dc14535dcdc3df3f",
+      "links": [
+        {
+          "id": "D4v",
+          "kind": "asserted",
+          "artifact": "217a2d5302bf17ab",
+          "at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

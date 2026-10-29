@@ -1,0 +1,181 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_near_grid.py",
+  "entries": [
+    {
+      "name": "_confirmer",
+      "witness": "000692354f0dc9d9",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "name": "_Layer",
+      "witness": "eae3fbdd65ba5289",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "_Layer.__init__",
+      "witness": "c843f323d1d4e316",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "_Layer.decide",
+      "witness": "c677d70beabf0744",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "_Layer.frame",
+      "witness": "de1bb2c3ab132e80",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "_Layer.keepout",
+      "witness": "f3322248f864ec3b",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "_spot",
+      "witness": "c11b3d68af9238a4",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "name": "test_a_1_cm_change_is_a_spot_on_the_5_mm_grid_and_measured_in_cm2",
+      "witness": "af1b5e7b155e414e",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "name": "test_a_finer_grid_divides_the_1_cm_grid",
+      "witness": "1844d97cd75de797",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "name": "test_a_near_find_beside_a_1_cm_find_is_that_find",
+      "witness": "c690a60fe8227b5c",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "name": "test_a_tidy_night_at_the_launch_setting_runs_the_near_grid",
+      "witness": "8b33b9c97956f16e",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "test_the_layers_judge_as_the_replay_pairs_them",
+      "witness": "f17439cd98890af2",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        },
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "test_the_live_tidy_judges_with_the_benchs_options",
+      "witness": "d1862dd0e6271da9",
+      "links": [
+        {
+          "id": "BW3",
+          "kind": "asserted",
+          "artifact": "7f1e01fed9dbcdd9",
+          "at": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "name": "test_views_carry_their_grid",
+      "witness": "60194ccec8b50dd8",
+      "links": [
+        {
+          "id": "Ot0",
+          "kind": "asserted",
+          "artifact": "4eadbe271d8f4639",
+          "at": "2026-10-08"
+        }
+      ]
+    }
+  ]
+}

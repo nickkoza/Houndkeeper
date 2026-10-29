@@ -1,0 +1,373 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_operating_area.py",
+  "entries": [
+    {
+      "name": "_clock",
+      "witness": "d1c18dce1a3dc64c",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "_feed",
+      "witness": "cd3ed6d42270f86d",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "_house",
+      "witness": "dd795736894a0933",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "_tidy",
+      "witness": "73bb2252401d8f30",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "_tidy.go",
+      "witness": "e758284e90497877",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_a_bad_area_is_refused_and_nothing_written",
+      "witness": "68f460949db43376",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_a_dock_outside_the_area_is_refused",
+      "witness": "1477d2a3cf8a0f39",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_a_pose_gap_that_ends_is_waited_out",
+      "witness": "ba00462a97ce34ec",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_a_pose_gap_that_ends_is_waited_out.sleep",
+      "witness": "d01b219e3b9ccfb8",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_a_save_needs_the_confirm_and_the_change_it_replaced",
+      "witness": "a28d5d452ebe7b8d",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_finds_outside_are_noted_not_pursued",
+      "witness": "0202851752b9b7ba",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_localization_lost_stops_and_reports",
+      "witness": "8ca60628c6b75f99",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_nearest_way_back_in_and_inside_with_an_inset",
+      "witness": "5eadfb57e089f267",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_no_area_is_none_and_a_broken_one_raises",
+      "witness": "fd550c214ff2609a",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_outside_he_goes_back_in_first_by_the_shortest_way",
+      "witness": "a518243928918c31",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_outside_with_no_way_back_he_stops",
+      "witness": "283e82ee1d0b02ce",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_published_in_the_odometry_frame_by_the_correction",
+      "witness": "1d180abb01eb9693",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_publisher_follows_the_file_and_the_correction",
+      "witness": "153d3dfe6869ea57",
+      "links": [
+        {
+          "id": "rLQ",
+          "kind": "asserted",
+          "artifact": "5d2df44b67cc8b92",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_saved_with_the_map_in_its_frame_and_each_change_logged",
+      "witness": "69d3173b12f2470a",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_sweep_route_plans_inside_the_area_only",
+      "witness": "72d5ad1291aad8a1",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_area_page_at_phone_width",
+      "witness": "424196a3061dc4d4",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "HZO",
+          "kind": "asserted",
+          "artifact": "a97f7b0ef6bacbaa",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_docs_carry_the_warning",
+      "witness": "c0377985e13463e7",
+      "links": [
+        {
+          "id": "HZO",
+          "kind": "asserted",
+          "artifact": "a97f7b0ef6bacbaa",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_message_carries_the_area_and_no_sensor_data",
+      "witness": "82663af0fc1a4c24",
+      "links": [
+        {
+          "id": "mvn",
+          "kind": "asserted",
+          "artifact": "a93dbc8959577700",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_morning_log_notes_what_was_seen_outside",
+      "witness": "1f110e39bff8921e",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_page_gets_the_house_map_the_area_its_changes_and_the_warning",
+      "witness": "7174c7d671df1ed0",
+      "links": [
+        {
+          "id": "daF",
+          "kind": "asserted",
+          "artifact": "3052f9005303144a",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "HZO",
+          "kind": "asserted",
+          "artifact": "a97f7b0ef6bacbaa",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_real_robot_refuses_to_start_without_an_area",
+      "witness": "54749e6e2e447996",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_route_and_the_flags_keep_inside",
+      "witness": "afb4f0ef1b2b6bed",
+      "links": [
+        {
+          "id": "OrO",
+          "kind": "asserted",
+          "artifact": "1626ad6f8f9c81e1",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "test_the_sim_runs_without_an_area_and_the_robot_with_one",
+      "witness": "d2c3d831457c680b",
+      "links": [
+        {
+          "id": "Qd5",
+          "kind": "asserted",
+          "artifact": "29c4e638cd533cdd",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_sample.py",
+  "entries": [
+    {
+      "name": "px_per_cell",
+      "witness": "bced3e958e334026",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "pyramid",
+      "witness": "49ec00376e865773",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "sample",
+      "witness": "aba1e76f7c77e566",
+      "links": [
+        {
+          "id": "AKY",
+          "kind": "asserted",
+          "artifact": "051ce00403d23489",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "lTq",
+          "kind": "asserted",
+          "artifact": "e485957cbb34e49f",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

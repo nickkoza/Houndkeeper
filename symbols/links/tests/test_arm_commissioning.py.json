@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_arm_commissioning.py",
+  "entries": [
+    {
+      "name": "_problems",
+      "witness": "000d1bce0183bcdb",
+      "links": [
+        {
+          "id": "g5J",
+          "kind": "asserted",
+          "artifact": "fc879070c5465a1f",
+          "at": "2026-10-18"
+        },
+        {
+          "id": "JYS",
+          "kind": "asserted",
+          "artifact": "97cb3dd3ccc75293",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "_rows",
+      "witness": "a132a0db9c738b15",
+      "links": [
+        {
+          "id": "JYS",
+          "kind": "asserted",
+          "artifact": "97cb3dd3ccc75293",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_a_raise_without_its_measurement_is_caught",
+      "witness": "ecf7b3ab591e086c",
+      "links": [
+        {
+          "id": "JYS",
+          "kind": "asserted",
+          "artifact": "97cb3dd3ccc75293",
+          "at": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "name": "test_the_shares_are_the_quarter_or_a_recorded_raise",
+      "witness": "e7f8ff4e70ad178a",
+      "links": [
+        {
+          "id": "JYS",
+          "kind": "asserted",
+          "artifact": "97cb3dd3ccc75293",
+          "at": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/project_stack.py",
+  "entries": [
+    {
+      "name": "allowed_host",
+      "witness": "b939c29c3c4a3d3c",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "0ed4d6cda668b8e4",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "project_argv",
+      "witness": "f6767c158ee69668",
+      "links": [
+        {
+          "id": "ehV",
+          "kind": "asserted",
+          "artifact": "1c49e2165974bd06",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "project_env",
+      "witness": "73b5aa2d4a85d38c",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "relay_argv",
+      "witness": "c08b1a8e4bf88d0e",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "Dlx",
+          "kind": "asserted",
+          "artifact": "fe683a284c7db866",
+          "at": "2026-10-05"
+        },
+        {
+          "id": "eTc",
+          "kind": "asserted",
+          "artifact": "ddece30efe1f0929",
+          "at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "tailnet",
+      "witness": "4528a03d46bb484e",
+      "links": [
+        {
+          "id": "0Us",
+          "kind": "asserted",
+          "artifact": "eda527e30d899ad0",
+          "at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}

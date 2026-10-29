@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_pet_bowls.py",
+  "entries": [
+    {
+      "name": "test_the_bowls_are_never_in_the_pick_pool",
+      "witness": "6beff7e7652ac1ce",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_bowls_are_nudged_between_nights_but_stay_by_the_kitchen",
+      "witness": "1af40122266b35a0",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "uCP",
+          "kind": "asserted",
+          "artifact": "11066828a03b1c0c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_nightly_runs_have_a_pet",
+      "witness": "0bd4ac926753abc9",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_sim_puts_tonights_bowls_in_the_house",
+      "witness": "d7f0c1cfd43cc9da",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

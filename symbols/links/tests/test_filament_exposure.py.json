@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_filament_exposure.py",
+  "entries": [
+    {
+      "name": "_room",
+      "witness": "cb663af9b88ef9b9",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_dark_room_does_not_blow_its_pale_patch_to_white",
+      "witness": "33756e63f816ffb3",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_cameras_share_a_renderer_but_expose_on_their_own",
+      "witness": "94969b61a34ff8c9",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_dim_and_bright_rooms_settle_near_mid_grey",
+      "witness": "b82872ef2268b9e5",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_exposure_follows_the_camera_into_a_darker_place",
+      "witness": "17bdc55f146a4805",
+      "links": [
+        {
+          "id": "Hsz",
+          "kind": "asserted",
+          "artifact": "e57b182ad8e8f199",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

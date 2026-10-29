@@ -1,0 +1,505 @@
+{
+ "made": "2026-10-03",
+ "by": "real/calibration/measure.py simref sim/house/runs/nights_s95 sim/house/runs/nights_s70 sim/house/runs/nights_s72 sim/house/runs/nights_s77",
+ "about": "The sim's side of the matched measurements ([esI], [KbT]): measure.py's analyses on existing sim nights. The gap report (measure.py gap) reads summary.<quantity>.median as the sim's value.",
+ "caveats": [
+  "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable: stream.*, lag and the lidar's per-second rates are per wall second; sim_speed is the sim seconds a wall second each night ran at",
+  "noise.*: effective noise after the sim's own noise reduction and JPEG, from the still spans at the dock at a night's start",
+  "odom.*: against the sim's own truth (traj.csv), one draw of odom_drift per night",
+  "wall.*: the demo room's east wall (house 95), the south outer wall by the dock elsewhere (sim_wall_box)"
+ ],
+ "params": {
+  "camera_imperfections": {
+   "value": {
+    "exposure_day_s": 0.004,
+    "exposure_max_s": 0.033,
+    "rolling_shutter_s": 0.02,
+    "shot_noise": 0.0003,
+    "read_noise": 0.004,
+    "jpeg_quality": 75,
+    "jpeg_low": 30,
+    "dip_per_min": 2,
+    "dip_s": 3.0,
+    "isp_noise_keep": 0.3,
+    "isp_noise_blur_px": 1.0
+   },
+   "source": "estimate"
+  },
+  "frame_delay_s": {
+   "value": {
+    "mean": 0.15,
+    "jitter": 0.03
+   },
+   "source": "estimate"
+  },
+  "lidar": {
+   "value": {
+    "points_per_s": 21600,
+    "range_sd": 0.02,
+    "min_range": 0.05
+   },
+   "source": "vendor"
+  },
+  "odom_delay_s": {
+   "value": {
+    "mean": 0.03,
+    "jitter": 0.01
+   },
+   "source": "estimate"
+  },
+  "odom_drift": {
+   "value": {
+    "scale_sd": 0.02,
+    "xy_sd": 0.005,
+    "yaw_sd_deg": 0.5,
+    "yaw_rate_sd_deg": 0.05,
+    "start_xy_sd": 0.02,
+    "start_yaw_sd_deg": 1.0
+   },
+   "source": "estimate"
+  },
+  "video_stream": {
+   "value": {
+    "drop": 0.03,
+    "stall_per_min": 2,
+    "stall_s": 0.6
+   },
+   "source": "estimate"
+  },
+  "walk_power_W": {
+   "value": 170,
+   "source": "estimate"
+  }
+ },
+ "recordings": [
+  {
+   "house": 95,
+   "night": 1,
+   "db": "../dimos/recordings/20261002-214714-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 21:47",
+   "traj": "data/runs/nights_s95/nights_s95_n1.traj.csv",
+   "wall_box": [
+    -2.6,
+    -2.3,
+    -0.8,
+    0.6,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.814,
+   "values": {
+    "stream.period_s": 0.0847,
+    "stream.drop": 0.2092,
+    "stream.stall_per_min": 2.35,
+    "stream.stall_s": 0.95,
+    "stream.minutes": 4.25,
+    "lag.frame_lag_vs_odom_s": 0.1,
+    "lag.correlation": 0.742,
+    "lidar.messages_per_s": 1.55,
+    "lidar.points_per_s": 9044,
+    "lidar.points_per_message": 5943,
+    "wall.returns_per_scan": 289.0,
+    "wall.range_sd": 0.0175,
+    "noise.read_noise": 0.01041,
+    "noise.shot_noise": 0.0,
+    "odom.walked_m": 52.67,
+    "odom.scale": -0.011,
+    "odom.xy_per_root_m": 0.028,
+    "odom.yaw_deg_per_root_m": 0.539
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 95,
+   "night": 2,
+   "db": "../dimos/recordings/20261002-215423-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 21:54",
+   "traj": "data/runs/nights_s95/nights_s95_n2.traj.csv",
+   "wall_box": [
+    -2.6,
+    -2.3,
+    -0.8,
+    0.6,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.838,
+   "values": {
+    "stream.period_s": 0.0818,
+    "stream.drop": 0.2214,
+    "stream.stall_per_min": 1.13,
+    "stream.stall_s": 0.48,
+    "stream.minutes": 3.53,
+    "lag.frame_lag_vs_odom_s": 0.125,
+    "lag.correlation": 0.795,
+    "lidar.messages_per_s": 1.59,
+    "lidar.points_per_s": 9116,
+    "lidar.points_per_message": 5781,
+    "wall.returns_per_scan": 367.0,
+    "wall.range_sd": 0.0167,
+    "noise.read_noise": 0.00873,
+    "noise.shot_noise": 0.0,
+    "odom.walked_m": 34.85,
+    "odom.scale": -0.0197,
+    "odom.xy_per_root_m": 0.0259,
+    "odom.yaw_deg_per_root_m": 0.66
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 70,
+   "night": 1,
+   "db": "../dimos/recordings/20261001-232147-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-01 23:21",
+   "traj": "data/runs/nights_s70/nights_s70_n1.traj.csv",
+   "wall_box": [
+    -7.5,
+    -5.0,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.806,
+   "values": {
+    "stream.period_s": 0.0872,
+    "stream.drop": 0.1841,
+    "stream.stall_per_min": 1.6,
+    "stream.stall_s": 0.79,
+    "stream.minutes": 7.49,
+    "lag.frame_lag_vs_odom_s": 0.13,
+    "lag.correlation": 0.803,
+    "lidar.messages_per_s": 1.54,
+    "lidar.points_per_s": 8181,
+    "lidar.points_per_message": 5302,
+    "wall.returns_per_scan": 240.0,
+    "wall.range_sd": 0.0197,
+    "noise.read_noise": 0.00833,
+    "noise.shot_noise": 6e-06,
+    "odom.walked_m": 88.29,
+    "odom.scale": -0.0005,
+    "odom.xy_per_root_m": 0.0259,
+    "odom.yaw_deg_per_root_m": 0.292
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 70,
+   "night": 2,
+   "db": "../dimos/recordings/20261001-233206-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-01 23:32",
+   "traj": "data/runs/nights_s70/nights_s70_n2.traj.csv",
+   "wall_box": [
+    -7.5,
+    -5.0,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.813,
+   "values": {
+    "stream.period_s": 0.0853,
+    "stream.drop": 0.1972,
+    "stream.stall_per_min": 1.79,
+    "stream.stall_s": 0.65,
+    "stream.minutes": 4.48,
+    "lag.frame_lag_vs_odom_s": 0.13,
+    "lag.correlation": 0.827,
+    "lidar.messages_per_s": 1.55,
+    "lidar.points_per_s": 8157,
+    "lidar.points_per_message": 5305,
+    "wall.returns_per_scan": 241.0,
+    "wall.range_sd": 0.019,
+    "noise.read_noise": 0.0143,
+    "noise.shot_noise": 0.0,
+    "odom.walked_m": 41.12,
+    "odom.scale": -0.0007,
+    "odom.xy_per_root_m": 0.0414,
+    "odom.yaw_deg_per_root_m": 0.525
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 72,
+   "night": 1,
+   "db": "../dimos/recordings/20261002-011338-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 01:13",
+   "traj": "data/runs/nights_s72/nights_s72_n1.traj.csv",
+   "wall_box": [
+    5.0,
+    7.5,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.793,
+   "values": {
+    "stream.period_s": 0.0892,
+    "stream.drop": 0.1699,
+    "stream.stall_per_min": 2.22,
+    "stream.stall_s": 0.76,
+    "stream.minutes": 6.32,
+    "lag.frame_lag_vs_odom_s": 0.135,
+    "lag.correlation": 0.822,
+    "lidar.messages_per_s": 1.51,
+    "lidar.points_per_s": 8109,
+    "lidar.points_per_message": 5336,
+    "wall.returns_per_scan": 128.0,
+    "wall.range_sd": 0.02,
+    "noise.read_noise": 0.00819,
+    "noise.shot_noise": 1e-05,
+    "odom.walked_m": 68.98,
+    "odom.scale": 0.015,
+    "odom.xy_per_root_m": 0.0803,
+    "odom.yaw_deg_per_root_m": 1.112
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 72,
+   "night": 2,
+   "db": "../dimos/recordings/20261002-012231-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 01:22",
+   "traj": "data/runs/nights_s72/nights_s72_n2.traj.csv",
+   "wall_box": [
+    5.0,
+    7.5,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.798,
+   "values": {
+    "stream.period_s": 0.0868,
+    "stream.drop": 0.1918,
+    "stream.stall_per_min": 2.73,
+    "stream.stall_s": 0.86,
+    "stream.minutes": 3.66,
+    "lag.frame_lag_vs_odom_s": 0.11,
+    "lag.correlation": 0.798,
+    "lidar.messages_per_s": 1.52,
+    "lidar.points_per_s": 8098,
+    "lidar.points_per_message": 5351,
+    "wall.returns_per_scan": 421.0,
+    "wall.range_sd": 0.0181,
+    "noise.read_noise": 0.00745,
+    "noise.shot_noise": 4e-06,
+    "odom.walked_m": 36.91,
+    "odom.scale": 0.0062,
+    "odom.xy_per_root_m": 0.0152,
+    "odom.yaw_deg_per_root_m": 0.417
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 77,
+   "night": 1,
+   "db": "../dimos/recordings/20261002-040110-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 04:01",
+   "traj": "data/runs/nights_s77/nights_s77_n1.traj.csv",
+   "wall_box": [
+    -7.5,
+    -5.0,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.806,
+   "values": {
+    "stream.period_s": 0.0864,
+    "stream.drop": 0.1883,
+    "stream.stall_per_min": 2.05,
+    "stream.stall_s": 0.91,
+    "stream.minutes": 6.33,
+    "lag.frame_lag_vs_odom_s": 0.12,
+    "lag.correlation": 0.798,
+    "lidar.messages_per_s": 1.54,
+    "lidar.points_per_s": 8348,
+    "lidar.points_per_message": 5344,
+    "wall.returns_per_scan": 336.0,
+    "wall.range_sd": 0.0174,
+    "noise.read_noise": 0.00636,
+    "noise.shot_noise": 4e-05,
+    "odom.walked_m": 67.17,
+    "odom.scale": 0.0243,
+    "odom.xy_per_root_m": 0.0392,
+    "odom.yaw_deg_per_root_m": 0.161
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  },
+  {
+   "house": 77,
+   "night": 2,
+   "db": "../dimos/recordings/20261002-041011-unitree-go2-agentic/memory.db",
+   "recorded": "2026-10-02 04:10",
+   "traj": "data/runs/nights_s77/nights_s77_n2.traj.csv",
+   "wall_box": [
+    -7.5,
+    -5.0,
+    -4.7,
+    -4.4,
+    0.35,
+    1.4
+   ],
+   "sim_speed": 0.826,
+   "values": {
+    "stream.period_s": 0.0847,
+    "stream.drop": 0.1974,
+    "stream.stall_per_min": 2.39,
+    "stream.stall_s": 0.75,
+    "stream.minutes": 3.34,
+    "lag.frame_lag_vs_odom_s": 0.135,
+    "lag.correlation": 0.819,
+    "lidar.messages_per_s": 1.57,
+    "lidar.points_per_s": 8428,
+    "lidar.points_per_message": 5300,
+    "wall.returns_per_scan": 550.0,
+    "wall.range_sd": 0.018,
+    "noise.read_noise": 0.01267,
+    "noise.shot_noise": 0.0,
+    "odom.walked_m": 35.08,
+    "odom.scale": -0.0135,
+    "odom.xy_per_root_m": 0.0382,
+    "odom.yaw_deg_per_root_m": 0.603
+   },
+   "skipped": {
+    "power": "no battery stream"
+   }
+  }
+ ],
+ "summary": {
+  "lag.correlation": {
+   "median": 0.8005,
+   "min": 0.742,
+   "max": 0.827,
+   "n": 8
+  },
+  "lag.frame_lag_vs_odom_s": {
+   "median": 0.1275,
+   "min": 0.1,
+   "max": 0.135,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "lidar.messages_per_s": {
+   "median": 1.545,
+   "min": 1.51,
+   "max": 1.59,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "lidar.points_per_message": {
+   "median": 5340.0,
+   "min": 5300.0,
+   "max": 5943.0,
+   "n": 8
+  },
+  "lidar.points_per_s": {
+   "median": 8264.5,
+   "min": 8098.0,
+   "max": 9116.0,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "noise.read_noise": {
+   "median": 0.00853,
+   "min": 0.00636,
+   "max": 0.0143,
+   "n": 8
+  },
+  "noise.shot_noise": {
+   "median": 2e-06,
+   "min": 0.0,
+   "max": 4e-05,
+   "n": 8
+  },
+  "odom.scale": {
+   "median": -0.0006,
+   "min": -0.0197,
+   "max": 0.0243,
+   "n": 8
+  },
+  "odom.walked_m": {
+   "median": 46.895,
+   "min": 34.85,
+   "max": 88.29,
+   "n": 8
+  },
+  "odom.xy_per_root_m": {
+   "median": 0.0331,
+   "min": 0.0152,
+   "max": 0.0803,
+   "n": 8
+  },
+  "odom.yaw_deg_per_root_m": {
+   "median": 0.532,
+   "min": 0.161,
+   "max": 1.112,
+   "n": 8
+  },
+  "stream.drop": {
+   "median": 0.1945,
+   "min": 0.1699,
+   "max": 0.2214,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "stream.minutes": {
+   "median": 4.365,
+   "min": 3.34,
+   "max": 7.49,
+   "n": 8
+  },
+  "stream.period_s": {
+   "median": 0.08585,
+   "min": 0.0818,
+   "max": 0.0892,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "stream.stall_per_min": {
+   "median": 2.135,
+   "min": 1.13,
+   "max": 2.73,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "stream.stall_s": {
+   "median": 0.775,
+   "min": 0.48,
+   "max": 0.95,
+   "n": 8,
+   "note": "sim frames and scans are stamped on the wall clock while the sim runs below real time: not comparable"
+  },
+  "wall.range_sd": {
+   "median": 0.01805,
+   "min": 0.0167,
+   "max": 0.02,
+   "n": 8
+  },
+  "wall.returns_per_scan": {
+   "median": 312.5,
+   "min": 128.0,
+   "max": 550.0,
+   "n": 8
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_held_out_items.py",
+  "entries": [
+    {
+      "name": "test_gripper_pool_is_training_items_that_fit_the_jaws",
+      "witness": "f582cbc47c7c82b9",
+      "links": [
+        {
+          "id": "DGv",
+          "kind": "asserted",
+          "artifact": "f7c09ca9f69d6660",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "nuQ",
+          "kind": "asserted",
+          "artifact": "b2b754d2aef04ee6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_house_nights_place_training_items_unless_judging",
+      "witness": "fda6e90f17f6f113",
+      "links": [
+        {
+          "id": "nuQ",
+          "kind": "asserted",
+          "artifact": "b2b754d2aef04ee6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_house_nights_place_training_items_unless_judging.placed",
+      "witness": "432fbabc90509446",
+      "links": [
+        {
+          "id": "nuQ",
+          "kind": "asserted",
+          "artifact": "b2b754d2aef04ee6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_training_and_held_out_items_are_disjoint_and_cover_the_library",
+      "witness": "0b3689c5364a375b",
+      "links": [
+        {
+          "id": "nuQ",
+          "kind": "asserted",
+          "artifact": "b2b754d2aef04ee6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "w8q",
+          "kind": "asserted",
+          "artifact": "e57164cde21e560c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

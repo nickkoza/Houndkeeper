@@ -1,0 +1,3 @@
+ipv6|forward|drop|0|Robot-Net: no IPv6 out
+ipv6|forward|drop|0|Robot-Net: no IPv6 in
+ipv6|input|drop|0|Robot-Net: no IPv6 to the router

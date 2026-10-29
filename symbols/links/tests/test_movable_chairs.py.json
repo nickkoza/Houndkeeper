@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_movable_chairs.py",
+  "entries": [
+    {
+      "name": "test_big_moves_happen_as_often_as_drawn",
+      "witness": "13af463f367ac4b8",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_chairs_stand_somewhere_else_each_night",
+      "witness": "c2d8c2c8acb7d215",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_no_two_chairs_ever_stand_on_each_other",
+      "witness": "55cf99724e3d04ce",
+      "links": [
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_nightly_runs_build_houses_with_moving_chairs",
+      "witness": "57cc0648ca5565d2",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_toys_are_placed_clear_of_tonights_chairs",
+      "witness": "c6b004054ed0afd3",
+      "links": [
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_one_object_per_scan.py",
+  "entries": [
+    {
+      "name": "test_every_scan_in_the_pool_is_one_object",
+      "witness": "34636faa071502f9",
+      "links": [
+        {
+          "id": "w8q",
+          "kind": "asserted",
+          "artifact": "e57164cde21e560c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_taxi_is_two_cars",
+      "witness": "ba79ac97fd307990",
+      "links": [
+        {
+          "id": "w8q",
+          "kind": "asserted",
+          "artifact": "e57164cde21e560c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

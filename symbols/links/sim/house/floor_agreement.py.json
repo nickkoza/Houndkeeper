@@ -1,0 +1,103 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/floor_agreement.py",
+  "entries": [
+    {
+      "name": "agreement",
+      "witness": "86be7aab4e558102",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "box",
+      "witness": "765c808a9240bd7d",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "footprint",
+      "witness": "9cf7c73f419cdf11",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "has_truth",
+      "witness": "d0ded30efa302ec4",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "3a1f5dfa65e3fcab",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "regions",
+      "witness": "f26d9f95f2e40a94",
+      "links": [
+        {
+          "id": "FHA",
+          "kind": "asserted",
+          "artifact": "9e24a0f33e730bcc",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "seed_of",
+      "witness": "5e578518ba52551d",
+      "links": [
+        {
+          "id": "V35",
+          "kind": "asserted",
+          "artifact": "1a8527e8f73705dd",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

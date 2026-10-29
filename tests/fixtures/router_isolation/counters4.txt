@@ -1,0 +1,9 @@
+ip|forward|accept|0|Robot-Net: operators into the robot network
+ip|forward|accept|0|Robot-Net: robot network to the operators
+ip|forward|log|1656|Robot-Net: log every attempt out
+ip|forward|drop|1656|Robot-Net: robot network goes nowhere else
+ip|forward|drop|0|Robot-Net: nothing else into the robot network
+ip|input|accept|2|Robot-Net: addresses
+ip|input|accept|1|Robot-Net: time
+ip|input|log|27|Robot-Net: log what it tries on the router
+ip|input|drop|28|Robot-Net: nothing else to the router

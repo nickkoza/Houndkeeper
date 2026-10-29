@@ -1,0 +1,211 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/arm_host/test_report_and_updates.py",
+  "entries": [
+    {
+      "name": "_pi",
+      "witness": "a26f90b300970e46",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Run",
+      "witness": "0808221ebd44fec1",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Run.__call__",
+      "witness": "e2faacdaa2fc2f60",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Run.__init__",
+      "witness": "95c5e5e38556d3a4",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Server",
+      "witness": "3123818e94bebeda",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Server.__init__",
+      "witness": "a2f40906562e40eb",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Server.serve_forever",
+      "witness": "813e7cbe8bc277d9",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Sock",
+      "witness": "2a67ea80af65f331",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Sock.__init__",
+      "witness": "a2f40906562e40eb",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "_Sock.sendto",
+      "witness": "8409cfc8d7317fe8",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_healthy_pi_reports_no_flags_and_a_missing_sensor_reports_none",
+      "witness": "cbea015b314b68ce",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_healthy_pi_reports_no_flags_and_a_missing_sensor_reports_none.off_the_pi",
+      "witness": "02a2fc747da42550",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_push_is_refused_unless_the_operator_confirms_the_robot_is_still_and_the_arm_stowed",
+      "witness": "d71433fbac28e5c9",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_nothing_on_the_host_updates_it_by_itself",
+      "witness": "034db639ab86a284",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_host_itself_refuses_an_update_while_the_arm_is_out",
+      "witness": "3a6c1594565755b5",
+      "links": [
+        {
+          "id": "871",
+          "kind": "asserted",
+          "artifact": "b66799568feb06be",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_carries_the_hosts_actual_values",
+      "witness": "8334ee49c59cb5e0",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_report_goes_to_the_laptop_at_least_once_a_second",
+      "witness": "0c8eb6f657b6326f",
+      "links": [
+        {
+          "id": "4WJ",
+          "kind": "asserted",
+          "artifact": "7832ee6ed9fe16f0",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

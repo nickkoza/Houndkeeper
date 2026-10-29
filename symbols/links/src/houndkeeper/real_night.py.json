@@ -1,0 +1,181 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/real_night.py",
+  "entries": [
+    {
+      "name": "_date",
+      "witness": "16b72368dfd404da",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "U4p",
+          "kind": "asserted",
+          "artifact": "33f8b956c6a8f503",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "baselines",
+      "witness": "dcbaccae22f099e1",
+      "links": [
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "house_problems",
+      "witness": "f61979de19a4dcce",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "40de617acc15449f",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "night_name",
+      "witness": "0d8d1fe4223483a6",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "nights_root",
+      "witness": "3b68ff695445bd77",
+      "links": [
+        {
+          "id": "oWO",
+          "kind": "asserted",
+          "artifact": "3bd24b24426ee826",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "preflight",
+      "witness": "91d9cb3f0934615e",
+      "links": [
+        {
+          "id": "6xc",
+          "kind": "asserted",
+          "artifact": "aaf9acc528403a65",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "stops_problems",
+      "witness": "f3061c821663e680",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "qDh",
+          "kind": "asserted",
+          "artifact": "f9f6a5e19cf08918",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "U4p",
+          "kind": "asserted",
+          "artifact": "33f8b956c6a8f503",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "tonight_dir",
+      "witness": "a133da8b01c73048",
+      "links": [
+        {
+          "id": "jFy",
+          "kind": "asserted",
+          "artifact": "f0c778f98fbdb2a6",
+          "at": "2026-10-15"
+        },
+        {
+          "id": "q66",
+          "kind": "asserted",
+          "artifact": "078367ffaf77e7a1",
+          "at": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

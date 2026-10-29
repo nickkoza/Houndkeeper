@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/dimos/effective_config.py",
+  "entries": [
+    {
+      "name": "costmap_problem",
+      "witness": "4639b055acdaa914",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "effective",
+      "witness": "7283a4b990c39b95",
+      "links": [
+        {
+          "id": "UvE",
+          "kind": "asserted",
+          "artifact": "b3c074bfff65c9f6",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/js/hk_review.test.mjs",
+  "entries": [
+    {
+      "name": "a flag's place is a window of the house map round it",
+      "witness": "89d5b33709b5b9e8",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "a judgement names every candidate in the flag; null takes it back",
+      "witness": "e780d9bc6f6326e7",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "nothing on the page moves",
+      "witness": "9cc6e027cd6d8aec",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "render",
+      "witness": "f6801183c648c940",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "the flags left to judge come first",
+      "witness": "b5bd18ba8a1c38c3",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "the headline: found, the flags judged and left, and final only when none is left",
+      "witness": "aa9df7be921f10d0",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "the page from a recorded message: the tuning note, each flag with its crop or why not, both verdicts",
+      "witness": "972e236e7e126683",
+      "links": [
+        {
+          "id": "71R",
+          "kind": "asserted",
+          "artifact": "dd79cb4a0296dc67",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "Vd3",
+          "kind": "asserted",
+          "artifact": "a67f710dc9a41df3",
+          "at": "2026-10-28"
+        },
+        {
+          "id": "wTj",
+          "kind": "asserted",
+          "artifact": "1941cafa68d864d6",
+          "at": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

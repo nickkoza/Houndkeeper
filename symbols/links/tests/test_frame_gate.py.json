@@ -1,0 +1,223 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_frame_gate.py",
+  "entries": [
+    {
+      "name": "_shape",
+      "witness": "14ed09191dcf5312",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "about_dock",
+      "witness": "ab6182bffa906ebf",
+      "links": [
+        {
+          "id": "UpK",
+          "kind": "asserted",
+          "artifact": "5514c545922191bf",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "se2",
+      "witness": "6fb448c9fca1ed7d",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_dock_turned_or_moved_is_refused",
+      "witness": "bd4cde0e99b3a500",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_a_frame_turned_about_the_dock_is_still_refused_by_its_move",
+      "witness": "84d18fc54095acec",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-14"
+        },
+        {
+          "id": "UpK",
+          "kind": "asserted",
+          "artifact": "5514c545922191bf",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_houses_own_pose_graph_settings_are_used_and_stamped",
+      "witness": "67c6f6c524911d85",
+      "links": [
+        {
+          "id": "myl",
+          "kind": "asserted",
+          "artifact": "576d72e5c46d4b44",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_a_long_night_drifted_past_a_metre_far_from_the_dock_passes",
+      "witness": "d61853679eeb518b",
+      "links": [
+        {
+          "id": "UpK",
+          "kind": "asserted",
+          "artifact": "5514c545922191bf",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_a_night_that_folds_mid_way_is_refused",
+      "witness": "b53054b689d00661",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_every_working_house_passes",
+      "witness": "12b2a9de4a092c48",
+      "links": [
+        {
+          "id": "myl",
+          "kind": "asserted",
+          "artifact": "576d72e5c46d4b44",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_house_72s_broken_stitch_is_refused",
+      "witness": "f68b2e3e4650f14e",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_house_76s_1280_night_passes_and_its_planted_turns_are_refused",
+      "witness": "8bbc6303d82a30a8",
+      "links": [
+        {
+          "id": "UpK",
+          "kind": "asserted",
+          "artifact": "5514c545922191bf",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "test_identity_and_drift_within_the_limits_pass",
+      "witness": "84465af560c2ea7b",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_cli_refuses_with_a_nonzero_exit_and_writes_nothing",
+      "witness": "26bbccf850555f4e",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "test_the_move_is_measured_at_the_robot_not_the_raw_translation",
+      "witness": "1021e42c53220229",
+      "links": [
+        {
+          "id": "myl",
+          "kind": "asserted",
+          "artifact": "576d72e5c46d4b44",
+          "at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "name": "test_the_stitch_runs_the_gate_through_the_build_helper_and_stops",
+      "witness": "3b45ab77cb6220fd",
+      "links": [
+        {
+          "id": "SdA",
+          "kind": "asserted",
+          "artifact": "00b7530081151a8d",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "walk",
+      "witness": "83677b6f7e9847b9",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "write_shape",
+      "witness": "199b98b7879123ce",
+      "links": [
+        {
+          "id": "Tu2",
+          "kind": "asserted",
+          "artifact": "906bb77c61eee550",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_battery_module.py",
+  "entries": [
+    {
+      "name": "test_a_low_state_message_becomes_a_battery_sample",
+      "witness": "9936eebab1ff2e9f",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_a_recording_keeps_the_battery_stream",
+      "witness": "1052c36688c513f6",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "test_the_go2_connection_answers_the_modules_low_state_ref",
+      "witness": "b00d4e651d9e0ca0",
+      "links": [
+        {
+          "id": "4hm",
+          "kind": "asserted",
+          "artifact": "9e0008917a176d52",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

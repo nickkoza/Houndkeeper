@@ -1,0 +1,1375 @@
+{
+  "$schema": "https://calm.finos.org/release/1.2/meta/calm.json",
+  "metadata": {
+    "id": "ds9",
+    "name": "Houndkeeper",
+    "description": "Components and boundaries of Houndkeeper: a Go2 Air carrying a Maker Arm, running on DimOS, that keeps a house floor clear at night. Components without a source-path live outside this repository (in the DimOS fork, on the robot, or as hardware), or are planned and have no code yet.",
+    "observed": "2026-09-24; DimOS fork at a7492431f (upstream main 6043c7371), MuJoCo 3.10.0"
+  },
+  "nodes": [
+    {
+      "unique-id": "house-network",
+      "node-type": "network",
+      "name": "House network",
+      "description": "The trust boundary. Everything seen in the house (camera frames, recordings, photos, demonstrations, datasets) stays on machines inside it. The robot's segment cannot reach the internet. What may cross outward: geometry, telemetry, logs, metrics, code, text with no house data, and footage deliberately chosen for publication."
+    },
+    {
+      "unique-id": "internet",
+      "node-type": "network",
+      "name": "Internet",
+      "description": "Outside the house. Reached only from the development machines, for code, model downloads, upstream pull requests and text-only hosted models."
+    },
+    {
+      "unique-id": "go2-air",
+      "node-type": "system",
+      "name": "Unitree Go2 Air",
+      "description": "The robot base: legs, head lidar and camera, battery, Unitree's own walking controller. Firmware pinned; no update taken unplanned."
+    },
+    {
+      "unique-id": "maker-arm",
+      "node-type": "system",
+      "name": "Maker Arm",
+      "description": "MakerMods 6-joint arm with a parallel gripper and wrist camera, mounted on the robot's back at the position given by robot-parameters. RobStride RS02 motors on joints 2-3, RS00 elsewhere."
+    },
+    {
+      "unique-id": "jaw-pads",
+      "node-type": "system",
+      "name": "Jaw pads",
+      "description": "TPU pads that slip over the Maker Arm's two fingertips, generated from the finger's CAD with a shared printability check; the same shape is the pads' collision model in the sims.",
+      "source-path": [
+        "cad/gripper_pads",
+        "cad/printcheck.py"
+      ]
+    },
+    {
+      "unique-id": "leader-arm",
+      "node-type": "system",
+      "name": "Leader arm",
+      "description": "MakerMods leader arm for teleoperating the Maker Arm to record demonstrations."
+    },
+    {
+      "unique-id": "dev-laptop",
+      "node-type": "system",
+      "name": "Development laptop",
+      "description": "RTX 2070 laptop: runs the sims, the local VLM and training. All compute is local; no cloud GPUs."
+    },
+    {
+      "unique-id": "r720-server",
+      "node-type": "system",
+      "name": "R720 server",
+      "description": "House server: long sim runs and storage of recordings and datasets."
+    },
+    {
+      "unique-id": "dimos",
+      "node-type": "system",
+      "name": "DimOS",
+      "description": "Dimensional's robot OS, used through this project's fork (github.com/dimensionalOS/dimos). Capabilities are DimOS modules and skills; changes that belong in DimOS go upstream."
+    },
+    {
+      "unique-id": "dimos-nav-mapping",
+      "node-type": "service",
+      "name": "DimOS navigation and mapping",
+      "description": "DimOS's mapping, localisation, costmap and navigation for the base. Upstream code, used unchanged except for patches kept as files in this repository."
+    },
+    {
+      "unique-id": "dimos-streams",
+      "node-type": "service",
+      "name": "DimOS streams",
+      "description": "DimOS's typed streams between modules: camera images, lidar, odometry, commands."
+    },
+    {
+      "unique-id": "dimos-arm-interface",
+      "node-type": "service",
+      "name": "DimOS arm interface",
+      "description": "DimOS's manipulator adapter protocol and registry (dimos/hardware/manipulators). Every arm DimOS drives is an adapter listed in the registry and implementing this protocol.",
+      "interfaces": [
+        {
+          "unique-id": "manipulator-adapter-protocol",
+          "description": "The ManipulatorAdapter protocol, as of the fork at a7492431f: connect and disconnect; activate and deactivate; info, DOF and joint limits; control mode; read joint positions, velocities and efforts (gripper as the last joint entry, in the adapter's own gripper unit); write joint positions and velocities; stop; enable and read enabled; read error and clear errors; optional Cartesian position and force-torque."
+        }
+      ]
+    },
+    {
+      "unique-id": "maker-arm-adapter",
+      "node-type": "service",
+      "name": "Maker Arm adapter",
+      "description": "Planned. The Maker Arm as a DimOS manipulator adapter, in the DimOS fork, offered upstream. Talks to the arm through MakerMods' maker-arm-sdk. The same adapter code drives the simulated arm.",
+      "interfaces": [
+        {
+          "unique-id": "maker-arm-joint-positions",
+          "description": "Read joint positions of all six joints and the gripper."
+        },
+        {
+          "unique-id": "maker-arm-joint-commands",
+          "description": "Write joint position targets for the six joints."
+        },
+        {
+          "unique-id": "maker-arm-gripper",
+          "description": "Open and close the gripper, as the last joint entry of positions and commands."
+        },
+        {
+          "unique-id": "maker-arm-enable",
+          "description": "Enable and disable the motors, and read whether they are enabled."
+        }
+      ]
+    },
+    {
+      "unique-id": "dimos-mujoco-sim",
+      "node-type": "service",
+      "name": "DimOS MuJoCo sim",
+      "description": "DimOS's simulator: a MuJoCo process standing in for the robot, publishing the same streams as the real robot. Its Go2 is a Go1 body and walking policy (see the Go1 stand-in waymark).",
+      "interfaces": [
+        {
+          "unique-id": "robot-clock",
+          "description": "The robot's clock (dimos.utils.clock, a fork addition offered upstream): the sim publishes a clock that advances with sim time (DIMOS_SIM_CLOCK), holds every injected delay on it and stamps every message on it; modules on the robot's side read time through clock.now, sleep and wait, which are the wall clock on the real robot."
+        }
+      ]
+    },
+    {
+      "unique-id": "legged-manipulator-sim",
+      "node-type": "service",
+      "name": "Legged manipulator sim",
+      "description": "Planned. An extension of DimOS's MuJoCo sim, in the DimOS fork and offered upstream: a walking robot carrying an arm. The dog's walking controller sees only its own legs; posture commands (stand, crouch, lie) switch it to a posture controller.",
+      "interfaces": [
+        {
+          "unique-id": "sim-arm-joints",
+          "description": "The simulated arm's joints and gripper, exposed as a manipulator adapter through dimos-arm-interface."
+        },
+        {
+          "unique-id": "sim-wrist-camera",
+          "description": "The simulated wrist camera, published as a DimOS camera stream like the head camera."
+        },
+        {
+          "unique-id": "sim-posture-command",
+          "description": "Stand, crouch and lie down."
+        }
+      ]
+    },
+    {
+      "unique-id": "floor-overlay-module",
+      "node-type": "service",
+      "name": "Floor overlay module",
+      "description": "Houndkeeper's DimOS module that projects head-camera frames onto the floor and compares tonight's floor picture with the stored one to flag what is new.",
+      "source-path": [
+        "src/houndkeeper/floor_overlay_module.py",
+        "src/houndkeeper/__init__.py"
+      ]
+    },
+    {
+      "unique-id": "look-closer-skill",
+      "node-type": "service",
+      "name": "Look-closer skill",
+      "description": "Planned DimOS skill: at a stop, uses the wrist camera to re-locate a find, measure its grip width and direction, and have the local VLM name it. Prototyped in standalone-arm-sim."
+    },
+    {
+      "unique-id": "pick-skill",
+      "node-type": "service",
+      "name": "Pick skill",
+      "description": "Planned DimOS skill: grasp, lift, carry to the bin on the back, stow. Scripted grasp first; a trained policy through dimos-policy-runner when it scores better. Prototyped in standalone-arm-sim."
+    },
+    {
+      "unique-id": "grasp-proposers",
+      "node-type": "service",
+      "name": "Grasp proposers",
+      "description": "Behind one interface, the pick's choice of grasp: from the look-closer's result (its looks, item masks, stereo heights, camera poses) to grasps best first in DimOS's grasp message (GraspCandidateArray), with each grasp's grip width and how far the pick may adapt it. Houndkeeper's own proposer (the default) works from the look as it is; DimOS's point-cloud proposers (HeuristicGraspModule, GraspGenX) through an adapter that builds the cloud from the look. Chosen by configuration."
+    },
+    {
+      "unique-id": "dimos-grasp-generators",
+      "node-type": "service",
+      "name": "DimOS grasp generators",
+      "description": "Upstream DimOS modules implementing its GraspGenSpec (an object's point cloud in, scored grasp poses out): HeuristicGraspModule, and GraspGenX in its own isolated environment."
+    },
+    {
+      "unique-id": "local-vlm",
+      "node-type": "service",
+      "name": "Local VLM",
+      "description": "A small vision-language model (Moondream, through DimOS's wrapper) running on the development laptop's GPU. It only ever sees one wrist-camera crop and never leaves the house network."
+    },
+    {
+      "unique-id": "dimos-recorder",
+      "node-type": "service",
+      "name": "DimOS recorder and dataset tools",
+      "description": "DimOS's recording format and its demonstration recorder and dataset preparation (to LeRobot datasets)."
+    },
+    {
+      "unique-id": "dimos-policy-runner",
+      "node-type": "service",
+      "name": "DimOS policy runner",
+      "description": "DimOS's module that runs a trained LeRobot policy on the robot."
+    },
+    {
+      "unique-id": "robot-parameters",
+      "node-type": "data-asset",
+      "name": "Robot parameters",
+      "description": "The one place a physical number lives, each labelled vendor, measured, sim, estimate or unknown with its source. Read through houndkeeper.params.get('group.name'); an unknown value raises rather than being guessed. Also where the workspace is: the sibling checkouts beside this repository (houndkeeper.workspace).",
+      "source-path": [
+        "params/robot.yaml",
+        "src/houndkeeper/params.py",
+        "src/houndkeeper/workspace.py"
+      ],
+      "interfaces": [
+        {
+          "unique-id": "robot-parameters-get",
+          "description": "get('group.name') returns the value; raises when the value is unknown."
+        }
+      ]
+    },
+    {
+      "unique-id": "standalone-arm-sim",
+      "node-type": "service",
+      "name": "Standalone arm sims",
+      "description": "Fast MuJoCo test loops outside DimOS for single controls: the Go1 stand-in with the Maker Arm, postures, grasp, tip, walk, reach, power and mount scenarios, and the standalone vertical slice. Viewer on by default.",
+      "source-path": "sim/arm"
+    },
+    {
+      "unique-id": "house-nights-sim",
+      "node-type": "service",
+      "name": "House nights sim",
+      "description": "Many simulated nights in one house on DimOS's sim, with changing litter, stains and furniture, scoring the floor comparison.",
+      "source-path": [
+        "sim/house",
+        "tools/import_glb.py"
+      ]
+    },
+    {
+      "unique-id": "sim-harness",
+      "node-type": "service",
+      "name": "Sim harness",
+      "description": "Runs a named scenario with one command, opens the viewer unless told not to, and appends the result with the code version to the results history.",
+      "source-path": "sim/suite"
+    },
+    {
+      "unique-id": "training-pipeline",
+      "node-type": "service",
+      "name": "Training pipeline",
+      "description": "Planned. Records demonstrations (scripted sim grasps, leader-arm teleoperation), builds datasets and trains picking policies on the development laptop. Data stays in the house.",
+      "source-path": "training"
+    },
+    {
+      "unique-id": "real-data-replay",
+      "node-type": "service",
+      "name": "Real data replay and calibration",
+      "description": "Runs recordings through the perception code, and holds the procedures that measure robot parameters on the real hardware.",
+      "source-path": [
+        "tools/screen_people.py",
+        "real",
+        "src/houndkeeper/battery_module.py",
+        "src/houndkeeper/recordings.py",
+        "src/houndkeeper/real_night.py"
+      ]
+    },
+    {
+      "unique-id": "cad-export",
+      "node-type": "service",
+      "name": "CAD reference export",
+      "description": "Exports the Go2 and the Maker Arm, and the arm on the robot at the mount position from robot-parameters, as millimetre STL files for designing the printed mount; caches Unitree's own Go2 CAD (STEP) as light meshes and a hole index, kept out of git.",
+      "source-path": [
+        "tools/export_models.py",
+        "tools/go2_step_cache.py",
+        "models"
+      ]
+    },
+    {
+      "unique-id": "printed-mount",
+      "node-type": "system",
+      "name": "Printed mount",
+      "description": "The parametric parts that put the arm, its host and the bin on the robot's back (adapter, removable module, bench plate, bin, hat seat), generated in build123d from robot-parameters and the reference models, with their print files, load cases for the finite-element analysis, and the mass, stiffness, magnet and clearance estimates.",
+      "source-path": "cad/mount"
+    },
+    {
+      "unique-id": "project-map",
+      "node-type": "service",
+      "name": "Project map",
+      "description": "Makes the project map with the Railyard Method's map command, notes named as dated, and checks the page for addresses and anything from real/.env or real/local/ before it is kept.",
+      "source-path": "tools/project_map.py"
+    },
+    {
+      "unique-id": "openai-text-api",
+      "node-type": "service",
+      "name": "Hosted text model",
+      "description": "Optional. A hosted language model used for text that carries no house data. Never sent images or recordings."
+    },
+    {
+      "unique-id": "arm-host",
+      "node-type": "system",
+      "name": "On-robot arm computer",
+      "description": "In work (2 Oct 2026). First hardware: a Raspberry Pi 3 Model B (already on hand): 1 GB RAM, hardware H.264 encoder, 2.4 GHz-only Wi-Fi. Upgrade path if it falls short: a Raspberry Pi 4 with 2 GB (list price $55 since February 2026, per Raspberry Pi's price announcements; 4 GB and up rose far more). A small computer riding on the robot, powered from the Air's pack through a 5 V buck converter. It is the Maker Arm's CAN host (USB CAN adapter; the SDK drives the arm over CAN) and runs the Maker Arm adapter locally so a lost network link stops the arm on the spot. It captures the wrist camera and streams it over the house Wi-Fi to the development laptop, where the heavy models run. Needed because the Go2 Air has no user compute and the arm and camera are USB devices that must be within cable reach. Before the arm arrives it is also the robot's voice, ears and eyes: a Bluetooth speaker, a USB microphone and WS2812 eye lights (the Go2 Air has no speaker or microphone).",
+      "source-path": "arm_host"
+    },
+    {
+      "unique-id": "wrist-camera",
+      "node-type": "system",
+      "name": "Wrist camera",
+      "description": "USB camera on the Maker Arm's wrist bracket. Placement may change after a camera-placement sweep in sim."
+    },
+    {
+      "unique-id": "tidy-module",
+      "node-type": "service",
+      "name": "Tidy module",
+      "description": "Houndkeeper's DimOS module (houndkeeper.tidy) that runs the tidy loop: finds items with the head camera, parks beside each with DimOS navigation, lies down through the Go2 connection's postures, looks closer and picks through the shared pick routine, driving the arm through DimOS's arm interface and a kinematic copy of the robot, every arm and posture command through one arm guard (still, down, inside the tip-safety envelope). Provides the look-closer and pick skills. Keeps to the operating area: stores it with the map, publishes it to DimOS's costmap layer as keep-out zones and virtual walls, and serves the cockpit's Area page.",
+      "source-path": [
+        "src/houndkeeper/tidy_module.py",
+        "src/houndkeeper/lens.py",
+        "src/houndkeeper/localize.py",
+        "src/houndkeeper/rec_poses.py",
+        "src/houndkeeper/live_localize.py",
+        "src/houndkeeper/calibrate.py",
+        "src/houndkeeper/floor_register.py",
+        "src/houndkeeper/floor_relief.py",
+        "src/houndkeeper/dimos_robot.py",
+        "src/houndkeeper/mind.py",
+        "src/houndkeeper/hud_state.py",
+        "src/houndkeeper/operating_area.py",
+        "src/houndkeeper/operating_area_module.py", "src/houndkeeper/candidate_check.py",
+        "src/houndkeeper/arm_guard.py"
+      ]
+    },
+    {
+      "unique-id": "dimos-sim-harness",
+      "node-type": "service",
+      "name": "Houndkeeper on DimOS's sim",
+      "description": "The model hook DimOS's sim calls to mount the Maker Arm (the same definition the standalone sims use) and place library items, the environment it needs, and the run and scoring scripts for tidy runs on DimOS. It also renders the robot's head and wrist cameras through Filament (mujofil, rebuilt for DimOS's MuJoCo), for DimOS's sim and the standalone arm sims.",
+      "source-path": [
+        "sim/dimos",
+        "src/houndkeeper/filament_cameras.py",
+        "src/houndkeeper/camera_imperfect.py",
+        "src/houndkeeper/gpu_share.py",
+        "src/houndkeeper/sim_hook.py"
+      ]
+    },
+    {
+      "unique-id": "robot-segment",
+      "node-type": "network",
+      "name": "Robot segment",
+      "description": "Inside the house network: the robot, the arm host and the laptop on a small router with no upstream (dog-first-boot [MTv], decision [ZaY]). No route to the internet; the laptop joins by cable and never forwards to its own internet link."
+    },
+    {
+      "unique-id": "phone-cockpit",
+      "node-type": "service",
+      "name": "Phone cockpit",
+      "description": "DimOS's Cockpit laid out for a phone (phone-cockpit [Swt]): video and touch driving with the deadman stop, and houndkeeper's own Procedures and Status pages as Cockpit extensions loaded from the relay's --extensions-dir. The robot-side CockpitData module runs the calibration procedures live and publishes the robot's status; the relay runs on the laptop, reached over Tailscale. The butler's morning log (morning-log [uoW]) is written from a finished night's own outputs into the night's directory, its crops only from recordings the catalog clears.",
+      "source-path": [
+        "src/houndkeeper/cockpit_data.py",
+        "src/houndkeeper/phone_cockpit.py",
+        "src/houndkeeper/morning_log.py",
+        "cockpit",
+        "src/houndkeeper/morning_score.py", "src/houndkeeper/night_scoring.py"
+      ]
+    },
+    {
+      "unique-id": "project",
+      "node-type": "service",
+      "name": "Project service",
+      "description": "The project on the phone (project-app [C3p]): an always-on houndkeeper blueprint on the laptop that registers with the cockpit relay as the participant \"project\", beside the robot, and carries only the project's pages (Last night [RzM]; Marks and Review, a real night scored from the phone, sim-to-real [oWO]; Cockpit extensions in cockpit/extensions/), so they work with no robot or sim running ([eTc]). Last night is read only; the scoring pages write only marks and judgements beside the real night, logged. Its launcher binds the relay only to loopback or the laptop's Tailscale address ([Dlx]).",
+      "source-path": [
+        "src/houndkeeper/project.py",
+        "src/houndkeeper/project_stack.py"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "unique-id": "house-contains",
+      "description": "Inside the house network boundary.",
+      "relationship-type": {
+        "deployed-in": {
+          "container": "house-network",
+          "nodes": [
+            "go2-air",
+            "maker-arm",
+            "leader-arm",
+            "dev-laptop",
+            "r720-server",
+            "local-vlm",
+            "arm-host",
+            "wrist-camera",
+            "jaw-pads",
+            "robot-segment"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "laptop-runs",
+      "description": "Runs on the development laptop.",
+      "relationship-type": {
+        "deployed-in": {
+          "container": "dev-laptop",
+          "nodes": [
+            "sim-harness",
+            "standalone-arm-sim",
+            "house-nights-sim",
+            "training-pipeline",
+            "cad-export",
+            "project-map",
+            "real-data-replay",
+            "dimos-sim-harness",
+            "phone-cockpit",
+            "project",
+            "printed-mount"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "dimos-contains",
+      "description": "DimOS modules and services, upstream and Houndkeeper's own.",
+      "relationship-type": {
+        "composed-of": {
+          "container": "dimos",
+          "nodes": [
+            "dimos-nav-mapping",
+            "dimos-streams",
+            "dimos-arm-interface",
+            "maker-arm-adapter",
+            "dimos-mujoco-sim",
+            "legged-manipulator-sim",
+            "floor-overlay-module",
+            "look-closer-skill",
+            "pick-skill",
+            "dimos-recorder",
+            "dimos-policy-runner",
+            "tidy-module",
+            "dimos-grasp-generators"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "dimos-drives-go2",
+      "description": "DimOS drives the base and receives its lidar, camera and odometry, over the robot's own network segment (the robot segment, [MTv]).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos"
+          },
+          "destination": {
+            "node": "go2-air"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-interface-uses-adapter",
+      "description": "The arm interface drives the Maker Arm through its adapter.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-arm-interface"
+          },
+          "destination": {
+            "node": "maker-arm-adapter",
+            "interfaces": [
+              "maker-arm-joint-positions",
+              "maker-arm-joint-commands",
+              "maker-arm-gripper",
+              "maker-arm-enable"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "adapter-drives-arm",
+      "description": "The adapter, running on the on-robot arm computer, talks to the arm's motors over CAN through maker-arm-sdk.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "maker-arm-adapter"
+          },
+          "destination": {
+            "node": "maker-arm"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "legged-sim-extends-sim",
+      "description": "The legged manipulator sim runs inside DimOS's MuJoCo sim process.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "legged-manipulator-sim"
+          },
+          "destination": {
+            "node": "dimos-mujoco-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "legged-sim-arm",
+      "description": "The simulated arm is driven through DimOS's arm interface, like a real arm.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-arm-interface"
+          },
+          "destination": {
+            "node": "legged-manipulator-sim",
+            "interfaces": [
+              "sim-arm-joints"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "legged-sim-camera",
+      "description": "The simulated wrist camera is a DimOS camera stream.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "legged-manipulator-sim",
+            "interfaces": [
+              "sim-wrist-camera"
+            ]
+          },
+          "destination": {
+            "node": "dimos-streams"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "overlay-reads-map",
+      "description": "The floor overlay reads camera frames, odometry and the map.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "floor-overlay-module"
+          },
+          "destination": {
+            "node": "dimos-streams"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "look-closer-uses-vlm",
+      "description": "Look closer sends one wrist-camera crop at a time to the local VLM, inside the house network.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "look-closer-skill"
+          },
+          "destination": {
+            "node": "local-vlm"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "look-closer-uses-arm",
+      "description": "Look closer points the wrist camera with the arm and reads its stream.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "look-closer-skill"
+          },
+          "destination": {
+            "node": "dimos-arm-interface"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "pick-uses-arm",
+      "description": "The pick skill moves the arm through the arm interface, inside the tip-safety envelope.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "pick-skill"
+          },
+          "destination": {
+            "node": "dimos-arm-interface"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "pick-uses-policy",
+      "description": "The pick skill runs a trained policy when one scores better than the scripted grasp.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "pick-skill"
+          },
+          "destination": {
+            "node": "dimos-policy-runner"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "training-records",
+      "description": "Training records demonstrations and builds datasets with DimOS's recorder and dataset tools.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "training-pipeline"
+          },
+          "destination": {
+            "node": "dimos-recorder"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "training-leader-arm",
+      "description": "Leader-arm teleoperation drives the Maker Arm while demonstrations are recorded.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "training-pipeline"
+          },
+          "destination": {
+            "node": "leader-arm"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "training-policy",
+      "description": "Trained policies are run by DimOS's policy runner.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "training-pipeline"
+          },
+          "destination": {
+            "node": "dimos-policy-runner"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "harness-runs-arm-sims",
+      "description": "The harness runs the standalone arm scenarios.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "sim-harness"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "harness-runs-house",
+      "description": "The harness runs the house nights.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "sim-harness"
+          },
+          "destination": {
+            "node": "house-nights-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "harness-runs-legged-sim",
+      "description": "Planned: the harness runs the full slice on DimOS through the legged manipulator sim.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "sim-harness"
+          },
+          "destination": {
+            "node": "legged-manipulator-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-sims-read-params",
+      "description": "The arm sims take physical parameters from robot-parameters.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "standalone-arm-sim"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "project-finds-workspace",
+      "description": "The project service finds the DimOS checkout through the workspace (houndkeeper.workspace).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "project"
+          },
+          "destination": {
+            "node": "robot-parameters"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "training-finds-workspace",
+      "description": "The training pipeline finds the DimOS checkout through the workspace (houndkeeper.workspace).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "training-pipeline"
+          },
+          "destination": {
+            "node": "robot-parameters"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "cad-reads-params",
+      "description": "The CAD export places the arm at the mount position from robot-parameters.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "cad-export"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "calibration-writes-params",
+      "description": "Measurement procedures on the real robot update robot-parameters.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "real-data-replay"
+          },
+          "destination": {
+            "node": "robot-parameters"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-sims-use-vlm",
+      "description": "The standalone slice names finds with the local VLM.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "standalone-arm-sim"
+          },
+          "destination": {
+            "node": "local-vlm"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-sims-use-dimos-sim",
+      "description": "The standalone arm sims build on DimOS's MuJoCo robot model and walking policy.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "standalone-arm-sim"
+          },
+          "destination": {
+            "node": "dimos-mujoco-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-runs-dimos",
+      "description": "House nights run DimOS's sim, navigation and mapping, and the floor overlay.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "dimos-mujoco-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-overlay",
+      "description": "House nights score the floor overlay's flags.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "floor-overlay-module"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-nav",
+      "description": "House nights drive the sweep with DimOS's navigation and mapping.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "dimos-nav-mapping"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "laptop-to-internet",
+      "description": "The only outward crossing: from the development machines, for code, model downloads, upstream pull requests and text with no house data. No image, recording or dataset crosses it.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dev-laptop"
+          },
+          "destination": {
+            "node": "internet"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "text-model-via-internet",
+      "description": "A hosted text model, reached over the internet, for text with no house data only.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dev-laptop"
+          },
+          "destination": {
+            "node": "openai-text-api"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-host-runs-adapter",
+      "description": "The Maker Arm adapter runs on the on-robot arm computer.",
+      "relationship-type": {
+        "deployed-in": {
+          "container": "arm-host",
+          "nodes": [
+            "maker-arm-adapter"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "arm-host-camera",
+      "description": "USB: the wrist camera is captured by the on-robot arm computer.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "arm-host"
+          },
+          "destination": {
+            "node": "wrist-camera"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-host-streams",
+      "description": "Wi-Fi inside the house network: wrist images and arm state go to DimOS on the laptop, arm commands come back. Never leaves the house network.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "arm-host"
+          },
+          "destination": {
+            "node": "dev-laptop"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-provides-skills",
+      "description": "The tidy module provides the look-closer and pick skills.",
+      "relationship-type": {
+        "composed-of": {
+          "container": "tidy-module",
+          "nodes": [
+            "look-closer-skill",
+            "pick-skill",
+            "grasp-proposers"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-nav",
+      "description": "The tidy module sweeps and parks with DimOS navigation, and marks the finds it knows about as keep-out in DimOS's costmap.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "dimos-nav-mapping"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-arm",
+      "description": "The tidy module drives the arm through DimOS's arm interface.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "dimos-arm-interface"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-streams",
+      "description": "The tidy module reads odometry and the head and arm camera streams, and commands posture and velocity through the Go2 connection.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "dimos-streams"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "hook-mounts-arm",
+      "description": "DimOS's sim calls the hook to mount the arm and place items before compiling the scene.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-mujoco-sim"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "hook-reads-params",
+      "description": "The hook mounts the arm where robot-parameters says.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-sim-harness"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "maker-arm-has-pads",
+      "description": "The pads are fitted to the arm's gripper fingers.",
+      "relationship-type": {
+        "composed-of": {
+          "container": "maker-arm",
+          "nodes": [
+            "jaw-pads"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "harness-builds-house",
+      "description": "The hook builds the night's house scene (make_house).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-sim-harness"
+          },
+          "destination": {
+            "node": "house-nights-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "harness-uses-arm-sim",
+      "description": "The hook mounts the arm, draws the HUD and places library items with the standalone sims' own definitions (go1_arm, hud, items, floors).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-sim-harness"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "harness-uses-camera-model",
+      "description": "The hook's cameras use the robot's own lens and camera-imperfection models, so the sim delivers frames as the real cameras would.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "dimos-sim-harness"
+          },
+          "destination": {
+            "node": "tidy-module"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-renders-with-harness",
+      "description": "The house benches render with the same Filament cameras the DimOS sim uses.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-reads-params",
+      "description": "The house tools read robot-parameters (camera mount, lens).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-uses-detection",
+      "description": "The house benches run the look-closer detection code (wrist_refine).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "house-sim-uses-robot-code",
+      "description": "The house benches run the robot's own localization, floor registration and camera code on recorded nights.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "house-nights-sim"
+          },
+          "destination": {
+            "node": "tidy-module"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "replay-uses-gpu-share",
+      "description": "Replay tools share the GPU with a running night through the harness's GPU gate.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "real-data-replay"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "replay-uses-floor-comparison",
+      "description": "Real photo pairs run through the house sim's floor-comparison code.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "real-data-replay"
+          },
+          "destination": {
+            "node": "house-nights-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "replay-uses-lag-gate",
+      "description": "Day one's lag measurement holds its estimate to the robot's own frame-lag gate in the camera calibration.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "real-data-replay"
+          },
+          "destination": {
+            "node": "tidy-module"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "replay-uses-detection",
+      "description": "Real photos run through the look-closer detection code (wrist_refine).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "real-data-replay"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-sim-renders-with-harness",
+      "description": "The standalone arm sims render with the same Filament cameras.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "standalone-arm-sim"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "arm-sim-uses-floor-comparison",
+      "description": "The Phase 1 sweep runs the house sim's floor-comparison code.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "standalone-arm-sim"
+          },
+          "destination": {
+            "node": "house-nights-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-harness",
+      "description": "The tidy module reads the sim's environment switches and HUD file (sim only; the real robot must not need it).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-confirm-stream",
+      "description": "The tidy module confirms finds on approach with the house sim's confirm-stream code (to move under the robot's own code before real hardware).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "house-nights-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-reads-params",
+      "description": "The tidy module reads robot-parameters.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "tidy-uses-arm-code",
+      "description": "The tidy module runs the arm's look, pick and posture code shared with the standalone sims (pick, wrist_refine, standing_look, legs, vslice, cluster_stops).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "tidy-module"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "training-uses-arm-sim",
+      "description": "The training pipeline records demonstrations in the standalone arm sim (go1_arm).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "training-pipeline"
+          },
+          "destination": {
+            "node": "standalone-arm-sim"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "pick-uses-grasp-proposers",
+      "description": "The pick asks the configured grasp proposer for grasps and runs the first the arm can reach.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "pick-skill"
+          },
+          "destination": {
+            "node": "grasp-proposers"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "grasp-proposers-use-dimos-generators",
+      "description": "The point-cloud adapter calls DimOS's grasp generators through GraspGenSpec.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "grasp-proposers"
+          },
+          "destination": {
+            "node": "dimos-grasp-generators"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "segment-contains",
+      "description": "On the robot segment: the robot, its arm host, and the laptop by cable ([MTv]).",
+      "relationship-type": {
+        "deployed-in": {
+          "container": "robot-segment",
+          "nodes": [
+            "go2-air",
+            "arm-host",
+            "dev-laptop"
+          ]
+        }
+      }
+    },
+    {
+      "unique-id": "phone-cockpit-runs-calibration",
+      "description": "The phone cockpit runs the calibration analyses (measure.py) live on the robot's streams, the battery's among them, and writes measured parameters on the user's confirm.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "phone-cockpit"
+          },
+          "destination": {
+            "node": "real-data-replay"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "phone-cockpit-frame-lag",
+      "description": "The phone cockpit's turning procedure uses the frame-lag estimator (calibrate.py); its Mind page reads the tidy module's mind summary (mind.py: the schema and its bound).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "phone-cockpit"
+          },
+          "destination": {
+            "node": "tidy-module"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "project-uses-cockpit",
+      "description": "The project service's page is a phone-cockpit extension; it reads the nights' morning logs in the shape morning_log.py writes (its figures' labels).",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "project"
+          },
+          "destination": {
+            "node": "phone-cockpit"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "project-reads-run-speed",
+      "description": "The project service reads a night's sim speed through the harness's run_speed.py when the night has no score.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "project"
+          },
+          "destination": {
+            "node": "dimos-sim-harness"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "mount-reads-params",
+      "description": "The mount's dimensions come from robot-parameters: the arm's position, masses and reach, the back's mounting holes, the arm base's bolt pattern.",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "printed-mount"
+          },
+          "destination": {
+            "node": "robot-parameters",
+            "interfaces": [
+              "robot-parameters-get"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

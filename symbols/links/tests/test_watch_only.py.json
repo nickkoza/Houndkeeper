@@ -1,0 +1,73 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_watch_only.py",
+  "entries": [
+    {
+      "name": "_robot",
+      "witness": "5b05767ceccc1f22",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_only_spots_with_enough_evidence_are_stopped_for",
+      "witness": "ffbd9276a110b3a7",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_only_spots_worth_a_stop_are_kept_out",
+      "witness": "a97d291c5902b5e9",
+      "links": [
+        {
+          "id": "6Pn",
+          "kind": "asserted",
+          "artifact": "f702596d44f9a23f",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "tmq",
+          "kind": "asserted",
+          "artifact": "d9c79f40a21b1d3c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_tidy_stops_for_a_find",
+      "witness": "e97bab51e0de81e8",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "test_watch_only_walks_on_to_the_waypoint",
+      "witness": "829e298d6100255f",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}

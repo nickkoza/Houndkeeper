@@ -1,0 +1,163 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "real/bringup/robot_logs.py",
+  "entries": [
+    {
+      "name": "_dnsmasq_exe",
+      "witness": "fefbff21ac1e77be",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "dnsmasq_args",
+      "witness": "97c01f8ea6f9141f",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "dnsmasq_window_args",
+      "witness": "fe25e69e7c3c8b07",
+      "links": [
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "2c37bbcd6bced342",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "read_env",
+      "witness": "5c4f31ce26f747b6",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "run_dns",
+      "witness": "98254e93c9babfa9",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "run_dns_window",
+      "witness": "5f3af54ea0cea7c3",
+      "links": [
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "run_syslog",
+      "witness": "74d364e44467010e",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "witness": "61788063c86dee51",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "syslog_line",
+      "witness": "6bd65faac3444271",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "syslog_sockets",
+      "witness": "223fd9b0d90241cb",
+      "links": [
+        {
+          "id": "VVJ",
+          "kind": "asserted",
+          "artifact": "e8ce7469e95c0cbf",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "window_settings",
+      "witness": "d0442b1fc5195ca3",
+      "links": [
+        {
+          "id": "zAo",
+          "kind": "asserted",
+          "artifact": "8dd3f6c137ae77dc",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

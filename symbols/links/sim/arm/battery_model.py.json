@@ -1,0 +1,67 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/battery_model.py",
+  "entries": [
+    {
+      "name": "max_area",
+      "witness": "b1bb14b1dcd8a914",
+      "links": [
+        {
+          "id": "jlD",
+          "kind": "asserted",
+          "artifact": "205cd6cb779b7509",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "night",
+      "witness": "ccca945e06607898",
+      "links": [
+        {
+          "id": "EkS",
+          "kind": "asserted",
+          "artifact": "1909eabc6663d9ee",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "jlD",
+          "kind": "asserted",
+          "artifact": "205cd6cb779b7509",
+          "at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "Params",
+      "witness": "3e4d1c5b78377a4e",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "EkS",
+          "kind": "asserted",
+          "artifact": "1909eabc6663d9ee",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "J7G",
+          "kind": "asserted",
+          "artifact": "13a44bc97d6cc49d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "ysG",
+          "kind": "asserted",
+          "artifact": "7f8874e182c0831b",
+          "at": "2026-09-30"
+        }
+      ]
+    }
+  ]
+}

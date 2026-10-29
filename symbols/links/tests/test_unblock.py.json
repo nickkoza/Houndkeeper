@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_unblock.py",
+  "entries": [
+    {
+      "name": "_robot",
+      "witness": "a7714912a103aa99",
+      "links": [
+        {
+          "id": "tmq",
+          "kind": "asserted",
+          "artifact": "d9c79f40a21b1d3c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_a_find_cleared_by_the_standing_look_stops_being_kept_out",
+      "witness": "a0bf8fae6a2a6865",
+      "links": [
+        {
+          "id": "QDc",
+          "kind": "asserted",
+          "artifact": "cfb5822c24d4d8b7",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "tmq",
+          "kind": "asserted",
+          "artifact": "d9c79f40a21b1d3c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_blockers_are_the_nearest_unsettled_spots",
+      "witness": "af8348cb8c5c5dec",
+      "links": [
+        {
+          "id": "tmq",
+          "kind": "asserted",
+          "artifact": "d9c79f40a21b1d3c",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_settled_spots_stop_blocking",
+      "witness": "83499f57574a93fe",
+      "links": [
+        {
+          "id": "tmq",
+          "kind": "asserted",
+          "artifact": "d9c79f40a21b1d3c",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/stereo_eval.py",
+  "entries": [
+    {
+      "name": "binned",
+      "witness": "3de1f7320bdd1ca2",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "heights",
+      "witness": "cf4083eb76c9c835",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "ec678b29963b19f4",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "standing",
+      "witness": "ca4fe03c98ecdfa8",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

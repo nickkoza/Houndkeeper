@@ -1,0 +1,139 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/house/movables.py",
+  "entries": [
+    {
+      "name": "chairs",
+      "witness": "9c63e7309cafece4",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "footprint_cells",
+      "witness": "58aeffd107c70fe4",
+      "links": [
+        {
+          "id": "cIk",
+          "kind": "asserted",
+          "artifact": "782f07899081d2c0",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "lot_box",
+      "witness": "77a1dd00941d5aca",
+      "links": [
+        {
+          "id": "A7G",
+          "kind": "asserted",
+          "artifact": "bc4d22f9ae29a175",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ejh",
+          "kind": "asserted",
+          "artifact": "197bf6c1e79e598e",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "place",
+      "witness": "0a537978e96bde91",
+      "links": [
+        {
+          "id": "cIk",
+          "kind": "asserted",
+          "artifact": "782f07899081d2c0",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "TJu",
+          "kind": "asserted",
+          "artifact": "5fe36bf97365b878",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "taken_cells",
+      "witness": "3549c98dd8bf5cd1",
+      "links": [
+        {
+          "id": "cIk",
+          "kind": "asserted",
+          "artifact": "782f07899081d2c0",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "xml",
+      "witness": "c4e2d956c96d9386",
+      "links": [
+        {
+          "id": "cIk",
+          "kind": "asserted",
+          "artifact": "782f07899081d2c0",
+          "at": "2026-09-30"
+        },
+        {
+          "id": "jmf",
+          "kind": "asserted",
+          "artifact": "c99f7da2ef31281d",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "yyJ",
+          "kind": "asserted",
+          "artifact": "b7dca4396a092323",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

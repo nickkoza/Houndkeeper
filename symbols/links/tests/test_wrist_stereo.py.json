@@ -1,0 +1,79 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_wrist_stereo.py",
+  "entries": [
+    {
+      "name": "test_a_boxed_part_grows_to_the_standing_item_and_a_whole_box_stays",
+      "witness": "8daff0ca3849c35d",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_an_item_never_seen_whole_is_too_big_when_even_its_seen_part_wont_fit",
+      "witness": "3d61e9493a7f8a1e",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "TBu",
+          "kind": "asserted",
+          "artifact": "58c3d9e8f25866eb",
+          "at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "name": "test_close_looks_are_framed_for_the_camera_fitted",
+      "witness": "be33f65d4f50d5f2",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_fingers_need_floor_beside_a_part",
+      "witness": "50248fb2f2b5cd98",
+      "links": [
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_heights_work_on_a_live_look_with_no_truth",
+      "witness": "a98108dde4748bcf",
+      "links": [
+        {
+          "id": "A8K",
+          "kind": "asserted",
+          "artifact": "620a248e7902ecf6",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "GMs",
+          "kind": "asserted",
+          "artifact": "986704964c957e39",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

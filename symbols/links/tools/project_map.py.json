@@ -1,0 +1,217 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tools/project_map.py",
+  "entries": [
+    {
+      "name": "check_and_keep",
+      "witness": "70d84a28e2ca5e42",
+      "links": [
+        {
+          "id": "EZt",
+          "kind": "asserted",
+          "artifact": "54635414607da53c",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "data_text",
+      "witness": "0f9aa5faf62ec840",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "data_text.walk",
+      "witness": "788bc817dba7806b",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "env_values",
+      "witness": "ac2183bb7f024f69",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "ignored",
+      "witness": "8623a9c1f4003e71",
+      "links": [
+        {
+          "id": "Nlv",
+          "kind": "asserted",
+          "artifact": "8d11e2058bb652d3",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "leaks",
+      "witness": "13229ac3eef90e49",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "leaks.hit",
+      "witness": "5f8ad3f2087e6e74",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "local_lines",
+      "witness": "897f851564ae0d17",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "witness": "84382fb64fc85dbf",
+      "links": [
+        {
+          "id": "r5B",
+          "kind": "asserted",
+          "artifact": "c99b59373d4b3790",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "make",
+      "witness": "ab8362715ed50553",
+      "links": [
+        {
+          "id": "6nG",
+          "kind": "asserted",
+          "artifact": "433961c5c83f4072",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "Nlv",
+          "kind": "asserted",
+          "artifact": "8d11e2058bb652d3",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "r5B",
+          "kind": "asserted",
+          "artifact": "c99b59373d4b3790",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "method_dir",
+      "witness": "40f836a8d5fbdf29",
+      "links": [
+        {
+          "id": "r5B",
+          "kind": "asserted",
+          "artifact": "c99b59373d4b3790",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "ZMl",
+          "kind": "asserted",
+          "artifact": "0e9cba660d036e12",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "own_words",
+      "witness": "ddaa1604278d6c7d",
+      "links": [
+        {
+          "id": "EZt",
+          "kind": "asserted",
+          "artifact": "54635414607da53c",
+          "at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "name": "published",
+      "witness": "be2a4ed584d5159d",
+      "links": [
+        {
+          "id": "NiP",
+          "kind": "asserted",
+          "artifact": "76ff1b4a927e43ac",
+          "at": "2026-10-03"
+        },
+        {
+          "id": "QCx",
+          "kind": "asserted",
+          "artifact": "3ce6381b3a733a15",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

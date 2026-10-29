@@ -1,0 +1,61 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "tests/test_scored_beside.py",
+  "entries": [
+    {
+      "name": "test_the_pose_ablation_moves_the_pose_onto_the_true_path",
+      "witness": "583bf8dc18ab695b",
+      "links": [
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "KkQ",
+          "kind": "asserted",
+          "artifact": "e1d67ecf27731a4a",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_replays_scorer_finds_an_item_a_confirmed_spot_reaches",
+      "witness": "1e77b4874f17f6d7",
+      "links": [
+        {
+          "id": "d8d",
+          "kind": "asserted",
+          "artifact": "70f69a96399a9f8d",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "QDc",
+          "kind": "asserted",
+          "artifact": "cfb5822c24d4d8b7",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "test_the_robots_tools_offer_no_truth_option",
+      "witness": "dd7af8e1284d8610",
+      "links": [
+        {
+          "id": "1B2",
+          "kind": "asserted",
+          "artifact": "4718ba87e48877bc",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "bpL",
+          "kind": "asserted",
+          "artifact": "9074fc2f7f80c4e5",
+          "at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

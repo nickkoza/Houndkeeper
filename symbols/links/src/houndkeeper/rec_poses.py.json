@@ -1,0 +1,175 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "src/houndkeeper/rec_poses.py",
+  "entries": [
+    {
+      "name": "RecordedPoses",
+      "witness": "ccdc17fa878037c8",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.__call__",
+      "witness": "43757db77083c804",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.__init__",
+      "witness": "eedb05471f0a0765",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.at",
+      "witness": "4d361db44a0f0106",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.first",
+      "witness": "fd396e0bf889aa4f",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.mount",
+      "witness": "6f84acba6d3388d7",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "RecordedPoses.samples",
+      "witness": "7986e0ea750d4755",
+      "links": [
+        {
+          "id": "929",
+          "kind": "asserted",
+          "artifact": "f5fc7e71122ddfac",
+          "at": "2026-10-04"
+        },
+        {
+          "id": "Feg",
+          "kind": "asserted",
+          "artifact": "3d6196fb5f666236",
+          "at": "2026-10-29"
+        },
+        {
+          "id": "x5h",
+          "kind": "asserted",
+          "artifact": "599aa4d5dc7e6d75",
+          "at": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "real/tests/cockpit_silence.mjs",
+  "entries": [
+    {
+      "name": "now",
+      "witness": "e22efb8717663dd4",
+      "links": [
+        {
+          "id": "Mj2",
+          "kind": "asserted",
+          "artifact": "234cdb4a4c63ceeb",
+          "at": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

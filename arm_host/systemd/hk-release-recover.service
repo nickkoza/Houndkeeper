@@ -1,0 +1,28 @@
+# At boot, before the daemon: an activation a power cut interrupted is undone, the known-good release made current
+# again, by that release's own code ([27n], decision [izZ]). Once per boot: a restart of the daemon does not rerun it.
+# Root's: it switches links in root's tree. Safe because only root ever writes that tree, and its Python is isolated
+# (-I: no environment, no current directory, no user site) and runs from it ([CIu], decision [ZyY]).
+[Unit]
+Description=Houndkeeper arm host: undo an activation cut short
+Before=hk-hostd.service
+ConditionPathIsSymbolicLink=/opt/houndkeeper/known-good
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/python3 -I -B /opt/houndkeeper/known-good/arm_host/release.py recover
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/opt/houndkeeper
+ProtectHome=yes
+PrivateTmp=yes
+PrivateNetwork=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+
+[Install]
+WantedBy=multi-user.target

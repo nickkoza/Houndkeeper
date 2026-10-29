@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/cluster_stops.py",
+  "entries": [
+    {
+      "name": "front_offset",
+      "witness": "3a93adfa2f8d5d88",
+      "links": [
+        {
+          "id": "A2c",
+          "kind": "asserted",
+          "artifact": "a82d0c5d229aed7d",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "OG0",
+          "kind": "asserted",
+          "artifact": "326c1c457088c2b4",
+          "at": "2026-09-25"
+        },
+        {
+          "id": "S7o",
+          "kind": "asserted",
+          "artifact": "8e0489e8a7750477",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

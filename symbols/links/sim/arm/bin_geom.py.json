@@ -1,0 +1,31 @@
+{
+  "format": "railyard-links",
+  "formatVersion": "0.1.0",
+  "path": "sim/arm/bin_geom.py",
+  "entries": [
+    {
+      "name": "footprint_fits",
+      "witness": "a193ca276ce534ae",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "name": "in_bin",
+      "witness": "b755d7daff46993b",
+      "links": [
+        {
+          "id": "QyZ",
+          "kind": "asserted",
+          "artifact": "12e58a6e714095cd",
+          "at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}
